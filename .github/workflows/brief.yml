@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "research-brief-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for d in preview state archive; do [ -d "$d" ] && git add "$d"; done
+          for d in preview state archive recipe.html; do [ -e "$d" ] && git add "$d"; done
           if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
           git commit -m "Brief run ($MODE, $(date -u +%Y-%m-%d))"
           git push

@@ -11,9 +11,10 @@ from . import classify as cls
 from .config import ARCHIVE_DIR, PREVIEW_DIR, Config, load_config
 from .models import Article
 from .openalex import OpenAlex, fill_abstracts, to_article
+from .recipe import write_recipe
 from .render import build_context, nice_date, render
 from .resolve import resolve_all
-from .select import apply_cap, mark_editors_picks
+from .select import apply_cap, is_watch, mark_editors_picks
 from .send import send
 from .state import Seen
 
@@ -63,20 +64,28 @@ def build_followed(cfg: Config, resolved: dict) -> Followed:
     return f
 
 
-def collect(cfg: Config, oa: OpenAlex, f: Followed, since: str, until: str) -> dict[str, Article]:
+def collect(cfg: Config, oa: OpenAlex, f: Followed, since: str, until: str,
+            counts: dict | None = None) -> dict[str, Article]:
+    """Fetch the window's works. `counts` gets the new works each source added and the skips."""
     raw: dict[str, dict] = {}
+    counts = counts if counts is not None else {}
 
     def add(works: list[dict]):
         for w in works:
             raw.setdefault(w["id"], w)
 
     add(oa.works_by("primary_location.source.id", list(f.sources), since, until))
+    counts["journals"] = len(raw)
     log.info("Journals: %d works", len(raw))
     add(oa.works_by("authorships.author.id", list(f.authors), since, until))
+    counts["scholars"] = len(raw) - counts["journals"]
     log.info("+ scholars: %d works", len(raw))
+    n = len(raw)
     if f.institutions:
         add(oa.works_by("authorships.institutions.lineage", list(f.institutions), since, until))
         log.info("+ followed institutions: %d works", len(raw))
+    counts["institutions"] = len(raw) - n
+    n = len(raw)
     pp = cfg.settings.get("preprints") or {}
     if pp.get("enabled", True) and f.preprint_servers and f.preprint_institutions:
         extra = [f"primary_location.source.id:{'|'.join(f.preprint_servers)}"]
@@ -85,15 +94,20 @@ def collect(cfg: Config, oa: OpenAlex, f: Followed, since: str, until: str) -> d
         add(oa.works_by("authorships.institutions.lineage", f.preprint_institutions, since, until,
                         extra=extra, max_results=4000))
         log.info("+ preprints: %d works", len(raw))
+    counts["preprints"] = len(raw) - n
 
     articles: dict[str, Article] = {}
+    counts["raw"], counts["skipped_type"], counts["unmatched"] = len(raw), 0, 0
     for w in raw.values():
         if w.get("type") in SKIP_TYPES or not w.get("display_name"):
+            counts["skipped_type"] += 1
             continue
         a = to_article(w)
         tag(a, f)
         if a.journal_hit or a.scholar_hit or a.is_preprint or a.topic:
             articles[a.id] = a
+        else:
+            counts["unmatched"] += 1
     return articles
 
 
@@ -137,7 +151,8 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
 
     resolved = resolve_all(cfg, oa)
     f = build_followed(cfg, resolved)
-    found = collect(cfg, oa, f, since, until)
+    counts: dict = {}
+    found = collect(cfg, oa, f, since, until, counts)
 
     seen = Seen()
     fresh = [a for a in found.values() if seen.is_new(a)]
@@ -146,7 +161,7 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
     screened = [a for a in fresh if a.id not in passed_ids]
 
     fill_abstracts(passed)
-    cls.classify(passed, cfg, use_ai=(s.get("ai") or {}).get("enabled", True))
+    methods = cls.classify(passed, cfg, use_ai=(s.get("ai") or {}).get("enabled", True))
     kept = [a for a in passed if a.keep]
     screened += [a for a in passed if not a.keep]
 
@@ -165,11 +180,12 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
     context = build_context(cfg, selected, overflow, quiet, stats, today, test=(mode == "test"))
     html, text = render(context)
 
+    report = run_report(cfg, mode, since, until, stats, counts, methods, fresh, passed, kept, selected, overflow)
     PREVIEW_DIR.mkdir(exist_ok=True)
     (PREVIEW_DIR / "latest.html").write_text(html, encoding="utf-8")
     (PREVIEW_DIR / "latest.txt").write_text(text, encoding="utf-8")
-    (PREVIEW_DIR / "run.json").write_text(json.dumps({"mode": mode, "since": since, "until": until, **stats},
-                                                     indent=1), encoding="utf-8")
+    (PREVIEW_DIR / "run.json").write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
+    write_recipe(cfg, resolved, report)
     log.info("Stats: %s", stats)
 
     subject = (s.get("email") or {}).get("subject", "Research Brief: {date}").format(date=nice_date(until))
@@ -182,3 +198,54 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
         ARCHIVE_DIR.mkdir(exist_ok=True)
         (ARCHIVE_DIR / f"{until}.html").write_text(html, encoding="utf-8")
     return stats
+
+
+def section_of(a: Article) -> str:
+    if a.top_priority:
+        return "Top priority"
+    if is_watch(a):
+        return "Scholar watch"
+    return "Topic"
+
+
+def reason(a: Article, cfg: Config) -> str:
+    """Plain-language reason a paper is in the brief (shown in recipe.html)."""
+    who = ", ".join(a.scholar_names)
+    topic = cfg.topic_names.get(a.topic, a.topic or "")
+    if a.top_priority:
+        why = f"Followed scholar ({who}) in a followed venue."
+    elif is_watch(a):
+        why = f"Work by a followed scholar ({who}) outside the venue list."
+    elif a.is_preprint:
+        why = f"Preprint from a listed institution, filed under {topic}."
+    else:
+        why = f"Published in a followed venue, filed under {topic}."
+    if a.needs_filter:
+        why += " Passed the social-science filter."
+    return why
+
+
+def run_report(cfg, mode, since, until, stats, counts, methods, fresh, passed, kept, selected, overflow) -> dict:
+    def tally(items, key):
+        out: dict[str, int] = {}
+        for a in items:
+            out[key(a)] = out.get(key(a), 0) + 1
+        return out
+
+    def row(a: Article) -> dict:
+        return {"title": a.title, "url": a.url, "venue": a.venue or "Preprint", "date": a.date,
+                "topic": cfg.topic_names.get(a.topic, a.topic), "preprint": a.is_preprint,
+                "section": section_of(a), "scholars": a.scholar_names, "relevance": a.relevance,
+                "pick": a.editors_pick, "summary": a.summary, "reason": reason(a, cfg)}
+
+    topic = lambda a: cfg.topic_names.get(a.topic, a.topic or "None")  # noqa: E731
+    return {
+        "mode": mode, "since": since, "until": until, "generated": date.today().isoformat(), **stats,
+        "sources": counts, "classified_by": methods,
+        "needs_filter": sum(a.needs_filter for a in fresh),
+        "preprints_found": sum(a.is_preprint for a in fresh),
+        "kept_by_topic": tally(kept, topic), "kept_by_section": tally(kept, section_of),
+        "shown_by_topic": tally(selected, topic), "shown_by_section": tally(selected, section_of),
+        "selected": [row(a) for a in selected],
+        "cut_top": [row(a) for a in overflow[:10]],
+    }

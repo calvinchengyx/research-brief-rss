@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Research Brief Recipe</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column with wide tables and the diagram allowed to scroll on their own. */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --ink: #18212c; --muted: #596574; --rule: #dbe0e7;
+  --accent: #0e5d78; --accent-soft: #e3eff4;
+  --css: #0e6f8a; --comm: #a8620e; --cl: #6b4fb0; --warn: #9a5b00; --warn-soft: #fbf0dc;
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f141a; --surface: #161d26; --ink: #e5eaf0; --muted: #9ba7b6; --rule: #2a3542;
+    --accent: #62b6d2; --accent-soft: #15303b;
+    --css: #5cb8d1; --comm: #e0a35a; --cl: #a78bea; --warn: #e6b45c; --warn-soft: #33291a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f141a; --surface: #161d26; --ink: #e5eaf0; --muted: #9ba7b6; --rule: #2a3542;
+  --accent: #62b6d2; --accent-soft: #15303b;
+  --css: #5cb8d1; --comm: #e0a35a; --cl: #a78bea; --warn: #e6b45c; --warn-soft: #33291a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+main { max-width: 980px; margin: 0 auto; padding-block: 40px 72px; display: grid; gap: 56px; }
+.prose { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.2; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 2.8rem); }
+h2 { font-size: 1.65rem; }
+h3 { font-size: 1.2rem; }
+p { margin: 0; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { display: grid; gap: 18px; min-width: 0; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.1rem; color: var(--ink); }
+.muted { color: var(--muted); }
+.small { font-size: 0.875rem; }
+.mono { font-family: var(--mono); font-size: 0.85em; }
+header { display: grid; gap: 14px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1px; background: var(--rule);
+  border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.fact { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px; min-width: 0; }
+.fact b { font: 600 1.5rem/1.2 var(--display); font-variant-numeric: tabular-nums; }
+.fact span { font-size: 0.85rem; color: var(--muted); }
+.scroll { overflow-x: auto; min-width: 0; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--rule); }
+th { font: 500 0.72rem/1.3 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tag { display: inline-block; font: 500 0.72rem/1.4 var(--mono); padding: 1px 7px; border-radius: 3px;
+  background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.tag.warn { background: var(--warn-soft); color: var(--warn); }
+.topic { display: flex; align-items: center; gap: 10px; }
+.swatch { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.t-css { background: var(--css); } .t-comm { background: var(--comm); } .t-cl { background: var(--cl); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+.chips li { font-size: 0.82rem; padding: 3px 9px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); }
+.chips li.inexact { border-color: var(--warn); }
+dl.rules { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 10px 20px; margin: 0; }
+dl.rules dt { font-weight: 600; }
+dl.rules dd { margin: 0; }
+pre.prompt { margin: 0; padding: 16px; font: 400 0.8rem/1.55 var(--mono); white-space: pre-wrap; word-break: break-word;
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; }
+.diagram { padding: 12px; }
+.diagram svg { display: block; width: 100%; min-width: 760px; height: auto; }
+.funnel { display: grid; gap: 10px; }
+.bar { display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 1fr) 4.5rem; gap: 12px; align-items: center; font-size: 0.9rem; }
+.track { height: 14px; background: var(--accent-soft); border-radius: 2px; overflow: hidden; }
+.fill { height: 100%; background: var(--accent); min-width: 2px; }
+.bar .n { text-align: right; font: 500 0.9rem var(--mono); font-variant-numeric: tabular-nums; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+.why { font-size: 0.85rem; color: var(--muted); }
+.pick { font: 500 0.7rem var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; }
+ul.notes { margin: 0; padding-left: 1.2rem; display: grid; gap: 8px; max-width: 72ch; }
+footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85rem; color: var(--muted); }
+@media (max-width: 560px) {
+  .bar { grid-template-columns: minmax(0, 1fr) 4rem; }
+  .bar .track { grid-column: 1 / -1; grid-row: 2; }
+  dl.rules { grid-template-columns: minmax(0, 1fr); gap: 2px 0; }
+  dl.rules dd { margin-bottom: 10px; }
+}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="eyebrow">Calvin Research Brief · how it is made</p>
+  <h1>Research Brief Recipe</h1>
+  <p class="lede prose">Every Monday at 06:00 UTC a GitHub Action collects new research from the venues and scholars below, screens it with an AI model, picks at most {{ s.max_articles }} papers and emails them to {{ n_recipients }} recipients. This page lists every ingredient and shows what the latest run did with them.</p>
+  <p class="small muted">Generated {{ generated }} from the {{ report.mode }} run covering {{ window }}. Rebuilt automatically on every run.</p>
+  <div class="facts">
+    <div class="fact"><b>{{ n_journals }}</b><span>journals and conferences</span></div>
+    <div class="fact"><b>{{ n_scholars }}</b><span>scholars, labs and groups</span></div>
+    <div class="fact"><b>{{ n_members|num }}</b><span>coauthors and lab members found</span></div>
+    <div class="fact"><b>{{ universities|length + institutes|length + companies|length }}</b><span>institutions for preprints</span></div>
+    <div class="fact"><b>{{ report.shown }} of {{ report.found|num }}</b><span>papers shown, latest run</span></div>
+  </div>
+</header>
+
+<section id="journals">
+  <p class="eyebrow">Ingredient 1</p>
+  <h2>Journals and conferences</h2>
+  <p class="prose">Each venue belongs to one topic. Venues marked <span class="tag">filter</span> publish far beyond the social sciences (Nature, Science, NeurIPS and similar), so their papers must also pass the social-science check. The OpenAlex column shows which source record each name was matched to.</p>
+  {% for g in journals %}
+  <h3 class="topic"><span class="swatch t-{{ g.id }}"></span>{{ g.topic }} <span class="muted small">({{ g.rows|length }})</span></h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Venue</th><th>Type</th><th>ISSN</th><th>Filter</th><th>OpenAlex record</th></tr></thead>
+    <tbody>
+    {% for j in g.rows %}
+      <tr><td>{{ j.name }}</td><td>{{ j.kind }}</td><td class="mono">{{ j.issn }}</td>
+        <td>{% if j.filter %}<span class="tag">filter</span>{% endif %}</td>
+        <td class="small">{% for id in j.ids %}<a href="https://openalex.org/{{ id }}">{{ id }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+          {% if not j.ids %}<span class="tag warn">not found</span>{% elif not j.exact %} <span class="muted">matched as {{ j.matched|join(', ') }}</span>{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endfor %}
+</section>
+
+<section id="scholars">
+  <p class="eyebrow">Ingredient 2</p>
+  <h2>Scholars</h2>
+  <p class="prose">A paper by anyone below is followed wherever it appears. For "coauthors" entries, everyone who wrote at least one paper with that person in the last {{ s.coauthor_years }} years is followed too; for "lab" entries, frequent collaborators are. Their papers have to pass the social-science check, while papers by the named people themselves do not. Group lists are rebuilt every {{ s.expand_every_days }} days. <code class="mono">state/following.md</code> in the repository lists every member by name.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Name</th><th>Follows</th><th>Topic</th><th>Matched to</th><th class="num">Members</th></tr></thead>
+    <tbody>
+    {% for sc in scholars %}
+      <tr><td>{{ sc.name }}</td><td>{{ sc.type }}</td><td>{{ sc.topic }}</td>
+        <td class="small">{% if sc.id %}<a href="https://openalex.org/{{ sc.id }}">{{ sc.matched }}</a>{% if sc.institution %}<span class="muted">, {{ sc.institution }}</span>{% endif %}{% if sc.alternatives %} <span class="tag warn" title="Other OpenAlex profiles share this name">{{ sc.alternatives }} namesakes</span>{% endif %}{% else %}<span class="tag warn">not found</span>{% endif %}</td>
+        <td class="num">{{ sc.members or "" }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section id="preprints">
+  <p class="eyebrow">Ingredient 3</p>
+  <h2>Preprints</h2>
+  <p class="prose">Preprints are scanned for {{ pp.topics|map('upper')|join(' and ') }} topics only. To keep the number manageable, a preprint is considered only if at least one author is at an institution below and the paper is in one of these OpenAlex fields: {{ fields|join(', ') }}. Preprints by followed scholars are always considered and rank above other preprints. Names with an amber outline matched an OpenAlex record under a different name; hover to see it.</p>
+  <dl class="rules">
+    <dt>Preprint servers</dt>
+    <dd>{% for sv in servers %}{{ sv.name }}{% if not loop.last %}, {% endif %}{% endfor %}</dd>
+  </dl>
+  {% for label, rows in [("Universities (roughly the QS top 100)", universities), ("Research institutes", institutes), ("Companies and AI labs", companies)] %}
+  <h3>{{ label }} <span class="muted small">({{ rows|length }})</span></h3>
+  <ul class="chips">
+    {% for r in rows %}<li{% if not r.exact %} class="inexact" title="Matched as {{ r.matched or 'nothing' }}"{% endif %}>{{ r.name }}</li>{% endfor %}
+  </ul>
+  {% endfor %}
+</section>
+
+<section id="sources">
+  <p class="eyebrow">Ingredient 4</p>
+  <h2>Data sources and tools</h2>
+  <dl class="rules">
+    <dt>OpenAlex</dt><dd>The only search index. It supplies venues, author profiles, institutions, the papers themselves and most abstracts. Free, with an API key stored as a GitHub secret.</dd>
+    <dt>Semantic Scholar</dt><dd>Fills in abstracts that OpenAlex lacks, best effort.</dd>
+    <dt>Anthropic API</dt><dd>Runs the AI filter and writes the one-line summaries.</dd>
+    <dt>Brevo</dt><dd>Sends the email, one message per recipient.</dd>
+    <dt>GitHub Actions</dt><dd>Runs everything on a schedule and saves the issue, this page and the list of papers already sent back to the repository.</dd>
+    <dt>Editable files</dt><dd><code class="mono">config/journals.yaml</code>, <code class="mono">scholars.yaml</code>, <code class="mono">institutions.yaml</code>, <code class="mono">topics.yaml</code>, <code class="mono">recipients.yaml</code> and <code class="mono">settings.yaml</code>.</dd>
+  </dl>
+</section>
+
+<section id="model">
+  <p class="eyebrow">Ingredient 5</p>
+  <h2>AI model</h2>
+  <dl class="rules">
+    <dt>Model</dt><dd><code class="mono">{{ ai.model }}</code> (Claude Haiku 5.5), effort <code class="mono">{{ ai.effort }}</code>, {{ ai.batch_size }} papers per request.</dd>
+    <dt>What it decides</dt><dd>For each paper: keep or drop, which topic, relevance to the research interests from 0 to 10, and a one-sentence summary. It reads only the title, venue and abstract.</dd>
+    <dt>Cache</dt><dd>Each answer is saved in <code class="mono">state/classified.json</code> for 60 days, so a paper is never screened twice.</dd>
+    <dt>Editor's picks</dt><dd>The {{ ai.editors_picks }} shown papers with the highest relevance, if it is at least 6.</dd>
+    <dt>If the API fails</dt><dd>A keyword filter takes over and the email still goes out, without summaries.</dd>
+    <dt>Cost</dt><dd>About $0.15 to $0.25 per run.</dd>
+  </dl>
+  <h3>The exact instructions the model receives</h3>
+  <pre class="prompt">{{ prompt }}</pre>
+  <p class="small muted">Papers marked FILTER come from wide venues, from coauthors or lab members, or are preprints. PREPRINT marks preprints.</p>
+</section>
+
+<section id="workflow">
+  <p class="eyebrow">Method</p>
+  <h2>Workflow</h2>
+  <p class="prose">Counts in the diagram are from the latest run.</p>
+  <div class="scroll diagram">
+    <svg viewBox="0 0 1000 420" role="img" aria-label="Workflow from config files through OpenAlex, filtering, the AI model, selection and email">
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--muted)"></path>
+        </marker>
+      </defs>
+      <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12">
+        {% for label in ["journals.yaml · " ~ n_journals, "scholars.yaml · " ~ n_scholars, "institutions.yaml · " ~ (universities|length + institutes|length + companies|length), "topics + settings.yaml"] %}
+        <rect x="{{ 20 + loop.index0 * 245 }}" y="12" width="225" height="44" rx="22" fill="var(--accent-soft)" stroke="var(--accent)"></rect>
+        <text x="{{ 132 + loop.index0 * 245 }}" y="39" text-anchor="middle" fill="var(--accent)">{{ label }}</text>
+        {% endfor %}
+      </g>
+      <path d="M132 56 V104" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
+      {% set steps = [
+        ("1", "Resolve names", "names → OpenAlex IDs", "cached, refreshed monthly"),
+        ("2", "Fetch new work", (r.sources.raw or r.found)|num ~ " works, " ~ s.lookback_days ~ " days", "venues, people, preprints"),
+        ("3", "Clean up", "drop " ~ ((r.sources.skipped_type or 0) + (r.sources.unmatched or 0))|num ~ " non-research", (r.found - r.new)|num ~ " already sent"),
+        ("4", "Quick check", "field or keyword match", r.after_prefilter|num ~ " go to the AI"),
+        ("5", "AI filter", "Claude Haiku 5.5", "kept " ~ r.kept|num ~ " papers"),
+        ("6", "Pick " ~ s.max_articles, "priority, scholar watch,", "then topics 1, 3, 2"),
+        ("7", "Render", "Nature e-alert layout", "HTML and plain text"),
+        ("8", "Send", "Brevo, Mondays 06:00 UTC", "sent papers remembered"),
+      ] %}
+      {% for n, title, l1, l2 in steps %}
+        {% set row = 0 if loop.index0 < 4 else 1 %}
+        {% set x = 20 + (loop.index0 % 4) * 245 %}
+        {% set y = 110 + row * 170 %}
+        <rect x="{{ x }}" y="{{ y }}" width="225" height="110" rx="6" fill="var(--surface)" stroke="{{ 'var(--accent)' if n == '5' else 'var(--rule)' }}" stroke-width="{{ 2 if n == '5' else 1 }}"></rect>
+        <text x="{{ x + 16 }}" y="{{ y + 26 }}" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP {{ n }}</text>
+        <text x="{{ x + 16 }}" y="{{ y + 50 }}" font-family="Newsreader, Georgia, serif" font-size="19" font-weight="600" fill="var(--ink)">{{ title }}</text>
+        <text x="{{ x + 16 }}" y="{{ y + 74 }}" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">{{ l1 }}</text>
+        <text x="{{ x + 16 }}" y="{{ y + 93 }}" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">{{ l2 }}</text>
+        {% if loop.index0 % 4 != 3 %}
+        <path d="M{{ x + 227 }} {{ y + 55 }} H{{ x + 243 }}" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
+        {% endif %}
+      {% endfor %}
+      <path d="M867 220 V250 H132 V274" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
+    </svg>
+  </div>
+  <h3>How the {{ s.max_articles }} papers are chosen</h3>
+  <dl class="rules">
+    <dt>Top priority</dt><dd>A followed scholar publishing in a followed venue. Always shown first.</dd>
+    <dt>Scholar watch</dt><dd>Followed scholars' work in other venues, including their preprints. At most {{ s.scholar_watch.max }}.</dd>
+    <dt>Topics</dt><dd>The remaining places go to topics in the order {{ s.topic_priority|map('upper')|join(', ') }}. {% for t, q in s.topic_quota.items() %}{{ t|upper }} gets {{ q.min }} to {{ q.max }}{% if not loop.last %} and {% endif %}{% endfor %}, so the first topic cannot take every place.</dd>
+    <dt>Order within a group</dt><dd>Papers in followed venues come before preprints; followed scholars' preprints come before other preprints; then higher relevance first.</dd>
+    <dt>Never repeated</dt><dd>A paper sent once is never sent again. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
+    <dt>Also this week</dt><dd>Up to {{ s.overflow_max }} papers that missed the cut appear as one-line links at the end of the email.</dd>
+  </dl>
+</section>
+
+<section id="appendix">
+  <p class="eyebrow">Appendix</p>
+  <h2>The latest run in numbers</h2>
+  <p class="prose">{{ report.mode|capitalize }} run for {{ window }}. Each bar is drawn to the same scale.</p>
+  <div class="funnel">
+    {% for st in stages %}
+    <div class="bar"><span>{{ st.label }}</span><div class="track"><div class="fill" style="width: {{ '%.2f'|format(st.pct) }}%"></div></div><span class="n">{{ st.n|num }}</span></div>
+    {% endfor %}
+  </div>
+
+  <div class="two">
+    <div class="scroll"><table>
+      <thead><tr><th>Where works came from</th><th class="num">Works</th></tr></thead>
+      <tbody>
+        <tr><td>Followed venues</td><td class="num">{{ (r.sources.journals or 0)|num }}</td></tr>
+        <tr><td>Followed scholars, other venues</td><td class="num">{{ (r.sources.scholars or 0)|num }}</td></tr>
+        <tr><td>Followed institutions (MIT Media Lab)</td><td class="num">{{ (r.sources.institutions or 0)|num }}</td></tr>
+        <tr><td>Preprints from listed institutions</td><td class="num">{{ (r.sources.preprints or 0)|num }}</td></tr>
+        <tr><td>Removed: not research (editorials, errata, datasets…)</td><td class="num">{{ (r.sources.skipped_type or 0)|num }}</td></tr>
+        <tr><td>Removed: matched no list</td><td class="num">{{ (r.sources.unmatched or 0)|num }}</td></tr>
+      </tbody>
+    </table></div>
+    <div class="scroll"><table>
+      <thead><tr><th>How papers were screened</th><th class="num">Papers</th></tr></thead>
+      <tbody>
+        <tr><td>Needed the social-science check</td><td class="num">{{ r.needs_filter|num }}</td></tr>
+        <tr><td>Screened by {{ r.classified_by.model or "AI" }} this run</td><td class="num">{{ r.classified_by.ai|num }}</td></tr>
+        <tr><td>Reused from the cache</td><td class="num">{{ r.classified_by.cached|num }}</td></tr>
+        <tr><td>Keyword filter (AI unavailable)</td><td class="num">{{ r.classified_by.keywords|num }}</td></tr>
+        <tr><td>Dropped by the AI (off-topic or not research)</td><td class="num">{{ (r.after_prefilter - r.kept)|num }}</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Group</th><th class="num">Kept</th><th class="num">Shown</th></tr></thead>
+    <tbody>
+      {% for g in ["Top priority", "Scholar watch"] %}
+      <tr><td>{{ g }}</td><td class="num">{{ r.kept_by_section.get(g, 0)|num }}</td><td class="num">{{ r.shown_by_section.get(g, 0) }}</td></tr>
+      {% endfor %}
+      {% for t in cfg.topics %}
+      {% set sel = r.selected|selectattr('section', 'equalto', 'Topic')|selectattr('topic', 'equalto', t.name)|list|length %}
+      <tr><td><span class="topic"><span class="swatch t-{{ t.id }}"></span>{{ t.name }}, all groups</span></td><td class="num">{{ r.kept_by_topic.get(t.name, 0)|num }}</td><td class="num">{{ r.shown_by_topic.get(t.name, 0) }} <span class="muted">({{ sel }} in its own section)</span></td></tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+
+  <h3>What was picked and why</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Paper</th><th>Group</th><th class="num">Relevance</th></tr></thead>
+    <tbody>
+    {% for a in r.selected %}
+      <tr><td>{% if a.pick %}<span class="pick">Editor's pick</span><br>{% endif %}<a href="{{ a.url }}">{{ a.title }}</a><br><span class="small muted">{{ a.venue }} · {{ a.date }}</span>
+        <div class="why">{{ a.reason }}{% if a.summary %} {{ a.summary }}{% endif %}</div></td>
+        <td class="small">{{ a.section }}{% if a.section == "Topic" %}<br><span class="muted">{{ a.topic }}</span>{% endif %}</td>
+        <td class="num">{{ '%.0f'|format(a.relevance) }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+
+  {% if r.cut_top %}
+  <h3>Closest misses</h3>
+  <p class="prose small muted">The first {{ r.cut_top|length }} of {{ r.cut|num }} kept papers that did not fit in the {{ s.max_articles }} places, in ranking order.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Paper</th><th>Group</th><th class="num">Relevance</th></tr></thead>
+    <tbody>
+    {% for a in r.cut_top %}
+      <tr><td><a href="{{ a.url }}">{{ a.title }}</a><br><span class="small muted">{{ a.venue }} · {{ a.date }}</span></td>
+        <td class="small">{{ a.section }}{% if a.section == "Topic" %}<br><span class="muted">{{ a.topic }}</span>{% endif %}</td>
+        <td class="num">{{ '%.0f'|format(a.relevance) }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+
+  <h3>Known limitations</h3>
+  <ul class="notes">
+    <li>Scholars are matched by name. OpenAlex sometimes merges two people with the same name, so a few followed profiles and their coauthor lists include strangers. Each entry flagged with namesakes is worth a look in <code class="mono">state/following.md</code>.</li>
+    <li>Coauthor lists can be broad: one large paper adds every author on it. Their papers still have to pass the social-science check.</li>
+    <li>The university list is roughly the QS top 100, typed from memory rather than copied from the official ranking.</li>
+    <li>Haiku is more lenient than Sonnet. For the same 10 days, Haiku kept 454 of 1,176 papers; Sonnet, run a few hours earlier, kept 335 of 1,132. A longer list of kept papers mostly lengthens the closest misses, since only 20 are shown.</li>
+    <li>Some papers have no abstract in OpenAlex or Semantic Scholar, so the model judges them on the title and venue alone.</li>
+    <li>OpenAlex indexes papers 1 to 5 days after publication. The {{ s.lookback_days }}-day window and the no-repeat rule cover that lag.</li>
+    <li>Relevance scores come from the model and are not calibrated; they decide order within a group, not whether a group gets places.</li>
+  </ul>
+</section>
+
+<footer>Source: <code class="mono">brief/</code> in the research-brief-rss repository. This page is rebuilt by <code class="mono">brief/recipe.py</code> on every run.</footer>
+</main>
+</body>
+</html>
