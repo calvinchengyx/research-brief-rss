@@ -182,7 +182,7 @@ def test_send_records_and_never_repeats(sandbox, monkeypatch):
     sent = []
     monkeypatch.setattr(pipeline, "send", lambda to, subject, html, text, s: sent.append((to, subject)))
     pipeline.run("send", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
-    assert sent and sent[0][0] == ["owencheng1992930@gmail.com"]
+    assert sent and sent[0][0] == pipeline.load_config().recipients
     seen = json.loads((sandbox / "seen.json").read_text())
     assert len(seen["sent"]) >= 4
     stats = pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())

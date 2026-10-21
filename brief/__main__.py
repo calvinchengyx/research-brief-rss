@@ -9,8 +9,8 @@ from .pipeline import run
 def main() -> None:
     p = argparse.ArgumentParser(description="Build (and optionally email) the weekly research brief.")
     p.add_argument("--mode", choices=["preview", "test", "send"], default="preview",
-                   help="preview: write preview/latest.html only; test: also email the first recipient; "
-                        "send: email everyone and remember what was sent")
+                   help="preview: write preview/latest.html only; test: email everyone with a [TEST] subject "
+                        "and record nothing; send: email everyone and remember what was sent")
     p.add_argument("--since", help="start date YYYY-MM-DD (default: today minus lookback_days)")
     p.add_argument("--until", help="end date YYYY-MM-DD (default: today)")
     args = p.parse_args()

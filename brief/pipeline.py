@@ -174,7 +174,7 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
 
     subject = (s.get("email") or {}).get("subject", "Research Brief: {date}").format(date=nice_date(until))
     if mode == "test":
-        send(cfg.recipients[:1], f"[TEST] {subject}", html, text, s)
+        send(cfg.recipients, f"[TEST] {subject}", html, text, s)
     elif mode == "send":
         send(cfg.recipients, subject, html, text, s)
         seen.record(selected + overflow, screened)

@@ -12,7 +12,7 @@ Everything runs on GitHub Actions (`.github/workflows/brief.yml`):
 |-----|--------------|
 | Any pull request | Builds a preview issue and commits it to `preview/latest.html` on that branch. No email. |
 | Actions tab → *Research brief* → *Run workflow* → `preview` | Same, on the chosen branch. |
-| … → `test` | Builds the issue and emails **only the first recipient**, subject starts with `[TEST]`. |
+| … → `test` | Builds the issue and emails everyone in `config/recipients.yaml` with a `[TEST]` subject. Nothing is recorded, so the articles appear again in the first real issue. |
 | … → `send` | Emails everyone in `config/recipients.yaml`, archives the issue in `archive/`, and records sent articles in `state/seen.json` so they are never repeated. |
 | Monday 06:00 UTC schedule | `send`. Commented out in the workflow until approved. |
 

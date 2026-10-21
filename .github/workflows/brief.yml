@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "preview = no email, test = email first recipient only, send = email everyone"
+        description: "preview = no email, test = email everyone with a [TEST] subject, send = real issue"
         type: choice
         options: [preview, test, send]
         default: preview
