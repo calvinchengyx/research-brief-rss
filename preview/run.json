@@ -1,14 +1,14 @@
 {
- "mode": "test",
+ "mode": "preview",
  "since": "2026-10-11",
  "until": "2026-10-21",
  "window": "11 October 2026 to 21 October 2026",
  "shown": 20,
  "priority": 4,
- "cut": 953,
+ "cut": 434,
  "found": 2590,
  "new": 2590,
  "after_prefilter": 1176,
- "kept": 973,
+ "kept": 454,
  "openalex_calls": 25
 }
