@@ -390,9 +390,11 @@ On by default (I approved it). It can be switched off in `settings.yaml`:
 | OpenAlex, Crossref, Semantic Scholar, RSS | Free |
 | GitHub Actions (≈3–5 min per run, private repo has 2,000 free min/month) | Free |
 | Brevo free tier | Free |
-| Claude Haiku 5.5 filter, summaries and Editor's picks (≈1,000 abstracts in a busy week at $0.10/$0.50 per million tokens) | ≈ $0.05–0.15 |
+| Claude filter, summaries and Editor's picks. A 10‑day window had about 1,100 papers after the prefilter, which is about 57 requests of 20 papers, roughly 750k input and 150k output tokens (thinking included) | Haiku 5.5: ≈ $0.15–0.25 per run. Sonnet 5.5: ≈ $3–4 per run |
 | Reruns and previews (answers cached in `state/classified.json`, so a paper is only screened once) | ≈ $0 |
-| **Total** | **$0 with keyword filter only; well under $1/month with the Claude filter** |
+| **Total** | **$0 with keyword filter only; about $1/month with Haiku 5.5; about $12–16/month with Sonnet 5.5** |
+
+The first estimate here ($2–3/month) was too low: it assumed 300–800 papers a week and left out thinking tokens and repeated preview runs, which had no cache at the time.
 
 To cap spend, set a monthly limit in the Claude Console under Settings → Limits. If the limit is hit, the run falls back to the keyword filter instead of failing.
 
