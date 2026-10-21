@@ -386,7 +386,7 @@
    ],
    "exact": true
   },
-  "{\"Accountability and Transparency\": null, \"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Conference on Fairness\", \"topic\": \"cl\"}": {
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Conference on Fairness, Accountability and Transparency\", \"topic\": \"cl\"}": {
    "ids": [
     "S4363608463"
    ],
@@ -395,7 +395,7 @@
    ],
    "exact": true
   },
-  "{\"Ethics\": null, \"and Society\": null, \"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"AAAI/ACM Conference on AI\", \"topic\": \"cl\"}": {
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"AAAI/ACM Conference on AI, Ethics, and Society\", \"topic\": \"cl\"}": {
    "ids": [
     "S5407048695"
    ],
@@ -503,12 +503,12 @@
    ],
    "exact": true
   },
-  "{\"Communication & Society\": null, \"name\": \"Information\", \"topic\": \"comm\"}": {
+  "{\"name\": \"Information, Communication & Society\", \"topic\": \"comm\"}": {
    "ids": [
-    "S4210219776"
+    "S70010600"
    ],
    "matched": [
-    "Information"
+    "Information Communication & Society"
    ],
    "exact": true
   },
@@ -990,7 +990,7 @@
    ],
    "exact": true
   },
-  "Conference on Fairness": {
+  "Conference on Fairness, Accountability and Transparency": {
    "ids": [
     "S4363608463"
    ],
@@ -999,7 +999,7 @@
    ],
    "exact": true
   },
-  "AAAI/ACM Conference on AI": {
+  "AAAI/ACM Conference on AI, Ethics, and Society": {
    "ids": [
     "S5407048695"
    ],
@@ -1107,12 +1107,12 @@
    ],
    "exact": true
   },
-  "Information": {
+  "Information, Communication & Society": {
    "ids": [
-    "S4210219776"
+    "S70010600"
    ],
    "matched": [
-    "Information"
+    "Information Communication & Society"
    ],
    "exact": true
   },
@@ -1407,6 +1407,3985 @@
    "id": "I27837315",
    "matched": "University of Michigan",
    "exact": true
+  },
+  "\"Hong Kong University of Science and Technology\"": {
+   "id": "I200769079",
+   "matched": "Hong Kong University of Science and Technology",
+   "exact": true
+  },
+  "\"Kyoto University\"": {
+   "id": "I22299242",
+   "matched": "Kyoto University",
+   "exact": true
+  },
+  "\"Shanghai Jiao Tong University\"": {
+   "id": "I183067930",
+   "matched": "Shanghai Jiao Tong University",
+   "exact": true
+  },
+  "\"New York University\"": {
+   "id": "I57206974",
+   "matched": "New York University",
+   "exact": true
+  },
+  "\"University of Edinburgh\"": {
+   "id": "I98677209",
+   "matched": "University of Edinburgh",
+   "exact": true
+  },
+  "\"London School of Economics and Political Science\"": {
+   "id": "I909854389",
+   "matched": "London School of Economics and Political Science",
+   "exact": true
+  },
+  "\"Institut Polytechnique de Paris\"": {
+   "id": "I4210145102",
+   "matched": "Institut Polytechnique de Paris",
+   "exact": true
+  },
+  "\"University of Queensland\"": {
+   "id": "I165143802",
+   "matched": "The University of Queensland",
+   "exact": false
+  },
+  "\"Korea Advanced Institute of Science and Technology\"": {
+   "id": "I157485424",
+   "matched": "Korea Advanced Institute of Science and Technology",
+   "exact": true
+  },
+  "\"Northwestern University\"": {
+   "id": "I111979921",
+   "matched": "Northwestern University",
+   "exact": true
+  },
+  "\"University of British Columbia\"": {
+   "id": "I141945490",
+   "matched": "University of British Columbia",
+   "exact": true
+  },
+  "\"University of Manchester\"": {
+   "id": "I28407311",
+   "matched": "University of Manchester",
+   "exact": true
+  },
+  "\"Sorbonne Université\"": {
+   "id": "I39804081",
+   "matched": "Sorbonne Université",
+   "exact": true
+  },
+  "\"Delft University of Technology\"": {
+   "id": "I98358874",
+   "matched": "Delft University of Technology",
+   "exact": true
+  },
+  "\"Carnegie Mellon University\"": {
+   "id": "I74973139",
+   "matched": "Carnegie Mellon University",
+   "exact": true
+  },
+  "\"Hong Kong Polytechnic University\"": {
+   "id": "I14243506",
+   "matched": "Hong Kong Polytechnic University",
+   "exact": true
+  },
+  "\"Duke University\"": {
+   "id": "I170897317",
+   "matched": "Duke University",
+   "exact": true
+  },
+  "\"KU Leuven\"": {
+   "id": "I99464096",
+   "matched": "KU Leuven",
+   "exact": true
+  },
+  "\"Ludwig-Maximilians-Universität München\"": {
+   "id": "I8204097",
+   "matched": "Ludwig-Maximilians-Universität München",
+   "exact": true
+  },
+  "\"City University of Hong Kong\"": {
+   "id": "I168719708",
+   "matched": "City University of Hong Kong",
+   "exact": true
+  },
+  "\"Yonsei University\"": {
+   "id": "I193775966",
+   "matched": "Yonsei University",
+   "exact": true
+  },
+  "\"University of California, San Diego\"": {
+   "id": "I36258959",
+   "matched": "University of California San Diego",
+   "exact": true
+  },
+  "\"University of Auckland\"": {
+   "id": "I154130895",
+   "matched": "University of Auckland",
+   "exact": true
+  },
+  "\"Korea University\"": {
+   "id": "I197347611",
+   "matched": "Korea University",
+   "exact": true
+  },
+  "\"Heidelberg University\"": {
+   "id": "I223822909",
+   "matched": "Heidelberg University",
+   "exact": true
+  },
+  "\"University of Bristol\"": {
+   "id": "I36234482",
+   "matched": "University of Bristol",
+   "exact": true
+  },
+  "\"University of Amsterdam\"": {
+   "id": "I887064364",
+   "matched": "University of Amsterdam",
+   "exact": true
+  },
+  "\"Lund University\"": {
+   "id": "I187531555",
+   "matched": "Lund University",
+   "exact": true
+  },
+  "\"The University of Texas at Austin\"": {
+   "id": "I86519309",
+   "matched": "The University of Texas at Austin",
+   "exact": true
+  },
+  "\"University of Warwick\"": {
+   "id": "I39555362",
+   "matched": "University of Warwick",
+   "exact": true
+  },
+  "\"National Taiwan University\"": {
+   "id": "I16733864",
+   "matched": "National Taiwan University",
+   "exact": true
+  },
+  "\"Université Paris-Saclay\"": {
+   "id": "I277688954",
+   "matched": "Université Paris-Saclay",
+   "exact": true
+  },
+  "\"Brown University\"": {
+   "id": "I27804330",
+   "matched": "Brown University",
+   "exact": true
+  },
+  "\"Pohang University of Science and Technology\"": {
+   "id": "I123900574",
+   "matched": "Pohang University of Science and Technology",
+   "exact": true
+  },
+  "\"University of Illinois Urbana-Champaign\"": {
+   "id": "I157725225",
+   "matched": "University of Illinois Urbana-Champaign",
+   "exact": true
+  },
+  "\"University of Washington\"": {
+   "id": "I201448701",
+   "matched": "University of Washington",
+   "exact": true
+  },
+  "\"KTH Royal Institute of Technology\"": {
+   "id": "I86987016",
+   "matched": "KTH Royal Institute of Technology",
+   "exact": true
+  },
+  "\"University of Copenhagen\"": {
+   "id": "I124055696",
+   "matched": "University of Copenhagen",
+   "exact": true
+  },
+  "\"Georgia Institute of Technology\"": {
+   "id": "I130701444",
+   "matched": "Georgia Institute of Technology",
+   "exact": true
+  },
+  "\"Trinity College Dublin\"": {
+   "id": "I205274468",
+   "matched": "Trinity College Dublin",
+   "exact": true
+  },
+  "\"University of Glasgow\"": {
+   "id": "I7882870",
+   "matched": "University of Glasgow",
+   "exact": true
+  },
+  "\"University of Zurich\"": {
+   "id": "I202697423",
+   "matched": "University of Zurich",
+   "exact": true
+  },
+  "\"University of Birmingham\"": {
+   "id": "I79619799",
+   "matched": "University of Birmingham",
+   "exact": true
+  },
+  "\"University of Leeds\"": {
+   "id": "I130828816",
+   "matched": "University of Leeds",
+   "exact": true
+  },
+  "\"Durham University\"": {
+   "id": "I190082696",
+   "matched": "Durham University",
+   "exact": true
+  },
+  "\"University of Southampton\"": {
+   "id": "I43439940",
+   "matched": "University of Southampton",
+   "exact": true
+  },
+  "\"University of Western Australia\"": {
+   "id": "I177877127",
+   "matched": "The University of Western Australia",
+   "exact": false
+  },
+  "\"University of Adelaide\"": {
+   "id": "I5681781",
+   "matched": "The University of Adelaide",
+   "exact": false
+  },
+  "\"Sungkyunkwan University\"": {
+   "id": "I848706",
+   "matched": "Sungkyunkwan University",
+   "exact": true
+  },
+  "\"Institute of Science Tokyo\"": {
+   "id": "I4400009020",
+   "matched": "Institute of Science Tokyo",
+   "exact": true
+  },
+  "\"Osaka University\"": {
+   "id": "I98285908",
+   "matched": "The University of Osaka",
+   "exact": false
+  },
+  "\"Tohoku University\"": {
+   "id": "I201537933",
+   "matched": "Tohoku University",
+   "exact": true
+  },
+  "\"Purdue University\"": {
+   "id": "I219193219",
+   "matched": "Purdue University West Lafayette",
+   "exact": false
+  },
+  "\"University of California, Davis\"": {
+   "id": "I84218800",
+   "matched": "University of California, Davis",
+   "exact": true
+  },
+  "\"Boston University\"": {
+   "id": "I111088046",
+   "matched": "Boston University",
+   "exact": true
+  },
+  "\"University of Sheffield\"": {
+   "id": "I91136226",
+   "matched": "University of Sheffield",
+   "exact": true
+  },
+  "\"University of Nottingham\"": {
+   "id": "I142263535",
+   "matched": "University of Nottingham",
+   "exact": true
+  },
+  "\"Universidade de São Paulo\"": {
+   "id": "I17974374",
+   "matched": "Universidade de São Paulo",
+   "exact": true
+  },
+  "\"Nanjing University\"": {
+   "id": "I881766915",
+   "matched": "Nanjing University",
+   "exact": true
+  },
+  "\"University of Science and Technology of China\"": {
+   "id": "I126520041",
+   "matched": "University of Science and Technology of China",
+   "exact": true
+  },
+  "\"University of Miami\"": {
+   "id": "I145608581",
+   "matched": "University of Miami",
+   "exact": true
+  },
+  "\"Max Planck Society\"": {
+   "id": "I149899117",
+   "matched": "Max Planck Society",
+   "exact": true
+  },
+  "\"GESIS – Leibniz Institute for the Social Sciences\"": {
+   "id": "I4210101898",
+   "matched": "GESIS - Leibniz Institute for the Social Sciences",
+   "exact": true
+  },
+  "\"Santa Fe Institute\"": {
+   "id": "I1308548392",
+   "matched": "Santa Fe Institute",
+   "exact": true
+  },
+  "\"Anthropic\"": {
+   "id": "I4387930290",
+   "matched": "Anthropic (United States)",
+   "exact": false
+  },
+  "\"OpenAI\"": {
+   "id": "I4210161460",
+   "matched": "OpenAI (United States)",
+   "exact": false
+  },
+  "\"Google DeepMind\"": {
+   "id": "I4210090411",
+   "matched": "Google DeepMind (United Kingdom)",
+   "exact": false
+  },
+  "\"Google\"": {
+   "id": "I1291425158",
+   "matched": "Google (United States)",
+   "exact": false
+  },
+  "\"Meta\"": {
+   "id": "I4210114444",
+   "matched": "Meta (United States)",
+   "exact": false
+  },
+  "\"Microsoft Research\"": {
+   "id": "I4210113369",
+   "matched": "Microsoft Research Asia (China)",
+   "exact": false
+  },
+  "\"DeepSeek\"": {
+   "id": "I4405257960",
+   "matched": "DeepSeek (China)",
+   "exact": false
+  },
+  "\"Alibaba Group\"": {
+   "id": "I45928872",
+   "matched": "Alibaba Group (China)",
+   "exact": false
+  },
+  "\"Moonshot AI\"": {
+   "id": "I4405260227",
+   "matched": "Moonshot AI (China)",
+   "exact": false
+  },
+  "\"Zhipu AI\"": {
+   "id": "I4401726915",
+   "matched": "Zhipu AI (China)",
+   "exact": false
+  },
+  "\"Mistral AI\"": {
+   "id": "I4390039361",
+   "matched": "Mistral AI (France)",
+   "exact": false
+  },
+  "\"Allen Institute for Artificial Intelligence\"": {
+   "id": "I4210156221",
+   "matched": "Allen Institute for Artificial Intelligence",
+   "exact": true
+  },
+  "\"Apple\"": {
+   "id": "I4210153776",
+   "matched": "Apple (United States)",
+   "exact": false
+  },
+  "\"NVIDIA\"": {
+   "id": "I4210127875",
+   "matched": "Nvidia (United States)",
+   "exact": false
+  },
+  "\"IBM Research\"": {
+   "id": "I4210114115",
+   "matched": "IBM Research - Thomas J. Watson Research Center",
+   "exact": false
+  },
+  "\"Hugging Face\"": {
+   "id": "I4387154989",
+   "matched": "Hugging Face",
+   "exact": true
+  },
+  "\"ByteDance\"": {
+   "id": "I4405256866",
+   "matched": "ByteDance (China)",
+   "exact": false
+  },
+  "\"Tencent\"": {
+   "id": "I2250653659",
+   "matched": "Tencent (China)",
+   "exact": false
+  },
+  "\"Baidu\"": {
+   "id": "I98301712",
+   "matched": "Baidu (China)",
+   "exact": false
   }
- }
+ },
+ "institutions": {
+  "Massachusetts Institute of Technology": {
+   "id": "I63966007",
+   "matched": "Massachusetts Institute of Technology",
+   "exact": true
+  },
+  "Imperial College London": {
+   "id": "I47508984",
+   "matched": "Imperial College London",
+   "exact": true
+  },
+  "Stanford University": {
+   "id": "I97018004",
+   "matched": "Stanford University",
+   "exact": true
+  },
+  "University of Oxford": {
+   "id": "I40120149",
+   "matched": "University of Oxford",
+   "exact": true
+  },
+  "Harvard University": {
+   "id": "I136199984",
+   "matched": "Harvard University",
+   "exact": true
+  },
+  "University of Cambridge": {
+   "id": "I241749",
+   "matched": "University of Cambridge",
+   "exact": true
+  },
+  "ETH Zurich": {
+   "id": "I35440088",
+   "matched": "ETH Zurich",
+   "exact": true
+  },
+  "National University of Singapore": {
+   "id": "I165932596",
+   "matched": "National University of Singapore",
+   "exact": true
+  },
+  "University College London": {
+   "id": "I45129253",
+   "matched": "University College London",
+   "exact": true
+  },
+  "California Institute of Technology": {
+   "id": "I122411786",
+   "matched": "California Institute of Technology",
+   "exact": true
+  },
+  "University of Hong Kong": {
+   "id": "I889458895",
+   "matched": "University of Hong Kong",
+   "exact": true
+  },
+  "Nanyang Technological University": {
+   "id": "I172675005",
+   "matched": "Nanyang Technological University",
+   "exact": true
+  },
+  "University of Chicago": {
+   "id": "I40347166",
+   "matched": "University of Chicago",
+   "exact": true
+  },
+  "Peking University": {
+   "id": "I20231570",
+   "matched": "Peking University",
+   "exact": true
+  },
+  "University of Pennsylvania": {
+   "id": "I79576946",
+   "matched": "University of Pennsylvania",
+   "exact": true
+  },
+  "Cornell University": {
+   "id": "I205783295",
+   "matched": "Cornell University",
+   "exact": true
+  },
+  "Tsinghua University": {
+   "id": "I99065089",
+   "matched": "Tsinghua University",
+   "exact": true
+  },
+  "University of California, Berkeley": {
+   "id": "I95457486",
+   "matched": "University of California, Berkeley",
+   "exact": true
+  },
+  "University of Melbourne": {
+   "id": "I165779595",
+   "matched": "The University of Melbourne",
+   "exact": false
+  },
+  "UNSW Sydney": {
+   "id": "I31746571",
+   "matched": "UNSW Sydney",
+   "exact": true
+  },
+  "Yale University": {
+   "id": "I32971472",
+   "matched": "Yale University",
+   "exact": true
+  },
+  "École Polytechnique Fédérale de Lausanne": {
+   "id": "I5124864",
+   "matched": "École Polytechnique Fédérale de Lausanne",
+   "exact": true
+  },
+  "Technical University of Munich": {
+   "id": "I62916508",
+   "matched": "Technical University of Munich",
+   "exact": true
+  },
+  "Johns Hopkins University": {
+   "id": "I145311948",
+   "matched": "Johns Hopkins University",
+   "exact": true
+  },
+  "Princeton University": {
+   "id": "I20089843",
+   "matched": "Princeton University",
+   "exact": true
+  },
+  "University of Sydney": {
+   "id": "I129604602",
+   "matched": "The University of Sydney",
+   "exact": false
+  },
+  "McGill University": {
+   "id": "I5023651",
+   "matched": "McGill University",
+   "exact": true
+  },
+  "Université PSL": {
+   "id": "I2746051580",
+   "matched": "Université Paris Sciences et Lettres",
+   "exact": false
+  },
+  "Fudan University": {
+   "id": "I24943067",
+   "matched": "Fudan University",
+   "exact": true
+  },
+  "King's College London": {
+   "id": "I183935753",
+   "matched": "King's College London",
+   "exact": true
+  },
+  "Australian National University": {
+   "id": "I118347636",
+   "matched": "Australian National University",
+   "exact": true
+  },
+  "University of Tokyo": {
+   "id": "I74801974",
+   "matched": "The University of Tokyo",
+   "exact": false
+  },
+  "Columbia University": {
+   "id": "I78577930",
+   "matched": "Columbia University",
+   "exact": true
+  },
+  "Chinese University of Hong Kong": {
+   "id": "I177725633",
+   "matched": "Chinese University of Hong Kong",
+   "exact": true
+  },
+  "University of Toronto": {
+   "id": "I185261750",
+   "matched": "University of Toronto",
+   "exact": true
+  },
+  "Monash University": {
+   "id": "I56590836",
+   "matched": "Monash University",
+   "exact": true
+  },
+  "Zhejiang University": {
+   "id": "I76130692",
+   "matched": "Zhejiang University",
+   "exact": true
+  },
+  "University of California, Los Angeles": {
+   "id": "I161318765",
+   "matched": "University of California, Los Angeles",
+   "exact": true
+  },
+  "Seoul National University": {
+   "id": "I139264467",
+   "matched": "Seoul National University",
+   "exact": true
+  },
+  "University of Michigan": {
+   "id": "I27837315",
+   "matched": "University of Michigan",
+   "exact": true
+  },
+  "Hong Kong University of Science and Technology": {
+   "id": "I200769079",
+   "matched": "Hong Kong University of Science and Technology",
+   "exact": true
+  },
+  "Kyoto University": {
+   "id": "I22299242",
+   "matched": "Kyoto University",
+   "exact": true
+  },
+  "Shanghai Jiao Tong University": {
+   "id": "I183067930",
+   "matched": "Shanghai Jiao Tong University",
+   "exact": true
+  },
+  "New York University": {
+   "id": "I57206974",
+   "matched": "New York University",
+   "exact": true
+  },
+  "University of Edinburgh": {
+   "id": "I98677209",
+   "matched": "University of Edinburgh",
+   "exact": true
+  },
+  "London School of Economics and Political Science": {
+   "id": "I909854389",
+   "matched": "London School of Economics and Political Science",
+   "exact": true
+  },
+  "Institut Polytechnique de Paris": {
+   "id": "I4210145102",
+   "matched": "Institut Polytechnique de Paris",
+   "exact": true
+  },
+  "University of Queensland": {
+   "id": "I165143802",
+   "matched": "The University of Queensland",
+   "exact": false
+  },
+  "Korea Advanced Institute of Science and Technology": {
+   "id": "I157485424",
+   "matched": "Korea Advanced Institute of Science and Technology",
+   "exact": true
+  },
+  "Northwestern University": {
+   "id": "I111979921",
+   "matched": "Northwestern University",
+   "exact": true
+  },
+  "University of British Columbia": {
+   "id": "I141945490",
+   "matched": "University of British Columbia",
+   "exact": true
+  },
+  "University of Manchester": {
+   "id": "I28407311",
+   "matched": "University of Manchester",
+   "exact": true
+  },
+  "Sorbonne Université": {
+   "id": "I39804081",
+   "matched": "Sorbonne Université",
+   "exact": true
+  },
+  "Delft University of Technology": {
+   "id": "I98358874",
+   "matched": "Delft University of Technology",
+   "exact": true
+  },
+  "Carnegie Mellon University": {
+   "id": "I74973139",
+   "matched": "Carnegie Mellon University",
+   "exact": true
+  },
+  "Hong Kong Polytechnic University": {
+   "id": "I14243506",
+   "matched": "Hong Kong Polytechnic University",
+   "exact": true
+  },
+  "Duke University": {
+   "id": "I170897317",
+   "matched": "Duke University",
+   "exact": true
+  },
+  "KU Leuven": {
+   "id": "I99464096",
+   "matched": "KU Leuven",
+   "exact": true
+  },
+  "Ludwig-Maximilians-Universität München": {
+   "id": "I8204097",
+   "matched": "Ludwig-Maximilians-Universität München",
+   "exact": true
+  },
+  "City University of Hong Kong": {
+   "id": "I168719708",
+   "matched": "City University of Hong Kong",
+   "exact": true
+  },
+  "Yonsei University": {
+   "id": "I193775966",
+   "matched": "Yonsei University",
+   "exact": true
+  },
+  "University of California, San Diego": {
+   "id": "I36258959",
+   "matched": "University of California San Diego",
+   "exact": true
+  },
+  "University of Auckland": {
+   "id": "I154130895",
+   "matched": "University of Auckland",
+   "exact": true
+  },
+  "Korea University": {
+   "id": "I197347611",
+   "matched": "Korea University",
+   "exact": true
+  },
+  "Heidelberg University": {
+   "id": "I223822909",
+   "matched": "Heidelberg University",
+   "exact": true
+  },
+  "University of Bristol": {
+   "id": "I36234482",
+   "matched": "University of Bristol",
+   "exact": true
+  },
+  "University of Amsterdam": {
+   "id": "I887064364",
+   "matched": "University of Amsterdam",
+   "exact": true
+  },
+  "Lund University": {
+   "id": "I187531555",
+   "matched": "Lund University",
+   "exact": true
+  },
+  "The University of Texas at Austin": {
+   "id": "I86519309",
+   "matched": "The University of Texas at Austin",
+   "exact": true
+  },
+  "University of Warwick": {
+   "id": "I39555362",
+   "matched": "University of Warwick",
+   "exact": true
+  },
+  "National Taiwan University": {
+   "id": "I16733864",
+   "matched": "National Taiwan University",
+   "exact": true
+  },
+  "Université Paris-Saclay": {
+   "id": "I277688954",
+   "matched": "Université Paris-Saclay",
+   "exact": true
+  },
+  "Brown University": {
+   "id": "I27804330",
+   "matched": "Brown University",
+   "exact": true
+  },
+  "Pohang University of Science and Technology": {
+   "id": "I123900574",
+   "matched": "Pohang University of Science and Technology",
+   "exact": true
+  },
+  "University of Illinois Urbana-Champaign": {
+   "id": "I157725225",
+   "matched": "University of Illinois Urbana-Champaign",
+   "exact": true
+  },
+  "University of Washington": {
+   "id": "I201448701",
+   "matched": "University of Washington",
+   "exact": true
+  },
+  "KTH Royal Institute of Technology": {
+   "id": "I86987016",
+   "matched": "KTH Royal Institute of Technology",
+   "exact": true
+  },
+  "University of Copenhagen": {
+   "id": "I124055696",
+   "matched": "University of Copenhagen",
+   "exact": true
+  },
+  "Georgia Institute of Technology": {
+   "id": "I130701444",
+   "matched": "Georgia Institute of Technology",
+   "exact": true
+  },
+  "Trinity College Dublin": {
+   "id": "I205274468",
+   "matched": "Trinity College Dublin",
+   "exact": true
+  },
+  "University of Glasgow": {
+   "id": "I7882870",
+   "matched": "University of Glasgow",
+   "exact": true
+  },
+  "University of Zurich": {
+   "id": "I202697423",
+   "matched": "University of Zurich",
+   "exact": true
+  },
+  "University of Birmingham": {
+   "id": "I79619799",
+   "matched": "University of Birmingham",
+   "exact": true
+  },
+  "University of Leeds": {
+   "id": "I130828816",
+   "matched": "University of Leeds",
+   "exact": true
+  },
+  "Durham University": {
+   "id": "I190082696",
+   "matched": "Durham University",
+   "exact": true
+  },
+  "University of Southampton": {
+   "id": "I43439940",
+   "matched": "University of Southampton",
+   "exact": true
+  },
+  "University of Western Australia": {
+   "id": "I177877127",
+   "matched": "The University of Western Australia",
+   "exact": false
+  },
+  "University of Adelaide": {
+   "id": "I5681781",
+   "matched": "The University of Adelaide",
+   "exact": false
+  },
+  "Sungkyunkwan University": {
+   "id": "I848706",
+   "matched": "Sungkyunkwan University",
+   "exact": true
+  },
+  "Institute of Science Tokyo": {
+   "id": "I4400009020",
+   "matched": "Institute of Science Tokyo",
+   "exact": true
+  },
+  "Osaka University": {
+   "id": "I98285908",
+   "matched": "The University of Osaka",
+   "exact": false
+  },
+  "Tohoku University": {
+   "id": "I201537933",
+   "matched": "Tohoku University",
+   "exact": true
+  },
+  "Purdue University": {
+   "id": "I219193219",
+   "matched": "Purdue University West Lafayette",
+   "exact": false
+  },
+  "University of California, Davis": {
+   "id": "I84218800",
+   "matched": "University of California, Davis",
+   "exact": true
+  },
+  "Boston University": {
+   "id": "I111088046",
+   "matched": "Boston University",
+   "exact": true
+  },
+  "University of Sheffield": {
+   "id": "I91136226",
+   "matched": "University of Sheffield",
+   "exact": true
+  },
+  "University of Nottingham": {
+   "id": "I142263535",
+   "matched": "University of Nottingham",
+   "exact": true
+  },
+  "Universidade de São Paulo": {
+   "id": "I17974374",
+   "matched": "Universidade de São Paulo",
+   "exact": true
+  },
+  "Nanjing University": {
+   "id": "I881766915",
+   "matched": "Nanjing University",
+   "exact": true
+  },
+  "University of Science and Technology of China": {
+   "id": "I126520041",
+   "matched": "University of Science and Technology of China",
+   "exact": true
+  },
+  "University of Miami": {
+   "id": "I145608581",
+   "matched": "University of Miami",
+   "exact": true
+  },
+  "Max Planck Society": {
+   "id": "I149899117",
+   "matched": "Max Planck Society",
+   "exact": true
+  },
+  "GESIS – Leibniz Institute for the Social Sciences": {
+   "id": "I4210101898",
+   "matched": "GESIS - Leibniz Institute for the Social Sciences",
+   "exact": true
+  },
+  "Santa Fe Institute": {
+   "id": "I1308548392",
+   "matched": "Santa Fe Institute",
+   "exact": true
+  },
+  "Anthropic": {
+   "id": "I4387930290",
+   "matched": "Anthropic (United States)",
+   "exact": false
+  },
+  "OpenAI": {
+   "id": "I4210161460",
+   "matched": "OpenAI (United States)",
+   "exact": false
+  },
+  "Google DeepMind": {
+   "id": "I4210090411",
+   "matched": "Google DeepMind (United Kingdom)",
+   "exact": false
+  },
+  "Google": {
+   "id": "I1291425158",
+   "matched": "Google (United States)",
+   "exact": false
+  },
+  "Meta": {
+   "id": "I4210114444",
+   "matched": "Meta (United States)",
+   "exact": false
+  },
+  "Microsoft Research": {
+   "id": "I4210113369",
+   "matched": "Microsoft Research Asia (China)",
+   "exact": false
+  },
+  "DeepSeek": {
+   "id": "I4405257960",
+   "matched": "DeepSeek (China)",
+   "exact": false
+  },
+  "Alibaba Group": {
+   "id": "I45928872",
+   "matched": "Alibaba Group (China)",
+   "exact": false
+  },
+  "Moonshot AI": {
+   "id": "I4405260227",
+   "matched": "Moonshot AI (China)",
+   "exact": false
+  },
+  "Zhipu AI": {
+   "id": "I4401726915",
+   "matched": "Zhipu AI (China)",
+   "exact": false
+  },
+  "Mistral AI": {
+   "id": "I4390039361",
+   "matched": "Mistral AI (France)",
+   "exact": false
+  },
+  "Allen Institute for Artificial Intelligence": {
+   "id": "I4210156221",
+   "matched": "Allen Institute for Artificial Intelligence",
+   "exact": true
+  },
+  "Apple": {
+   "id": "I4210153776",
+   "matched": "Apple (United States)",
+   "exact": false
+  },
+  "NVIDIA": {
+   "id": "I4210127875",
+   "matched": "Nvidia (United States)",
+   "exact": false
+  },
+  "IBM Research": {
+   "id": "I4210114115",
+   "matched": "IBM Research - Thomas J. Watson Research Center",
+   "exact": false
+  },
+  "Hugging Face": {
+   "id": "I4387154989",
+   "matched": "Hugging Face",
+   "exact": true
+  },
+  "ByteDance": {
+   "id": "I4405256866",
+   "matched": "ByteDance (China)",
+   "exact": false
+  },
+  "Tencent": {
+   "id": "I2250653659",
+   "matched": "Tencent (China)",
+   "exact": false
+  },
+  "Baidu": {
+   "id": "I98301712",
+   "matched": "Baidu (China)",
+   "exact": false
+  }
+ },
+ "servers_by_entry": {
+  "\"arXiv\"": {
+   "ids": [
+    "S4306400194",
+    "S4404677083",
+    "S4210233203"
+   ],
+   "matched": [
+    "arXiv (Cornell University)",
+    "AI-EDU arxiv.",
+    "IACAPAP ArXiv"
+   ]
+  },
+  "\"SSRN\"": {
+   "ids": [
+    "S4210172589"
+   ],
+   "matched": [
+    "SSRN Electronic Journal"
+   ]
+  },
+  "\"PsyArXiv\"": {
+   "ids": [
+    "S4306401687",
+    "S3005725775"
+   ],
+   "matched": [
+    "PsyArXiv (OSF Preprints)",
+    "PsyArXiv"
+   ]
+  },
+  "\"SocArXiv\"": {
+   "ids": [
+    "S4306401238",
+    "S3006283864"
+   ],
+   "matched": [
+    "SocArXiv (OSF Preprints)",
+    "SocArXiv"
+   ]
+  },
+  "\"OSF Preprints\"": {
+   "ids": [
+    "S4306401127",
+    "S4306401238",
+    "S4306400047",
+    "S4306401687",
+    "S4306402219"
+   ],
+   "matched": [
+    "OSF Preprints (OSF Preprints)",
+    "SocArXiv (OSF Preprints)",
+    "Arabixiv (OSF Preprints)",
+    "PsyArXiv (OSF Preprints)",
+    "AfricArXiv (OSF Preprints)"
+   ]
+  }
+ },
+ "servers": {
+  "arXiv": {
+   "ids": [
+    "S4306400194",
+    "S4404677083",
+    "S4210233203"
+   ],
+   "matched": [
+    "arXiv (Cornell University)",
+    "AI-EDU arxiv.",
+    "IACAPAP ArXiv"
+   ]
+  },
+  "SSRN": {
+   "ids": [
+    "S4210172589"
+   ],
+   "matched": [
+    "SSRN Electronic Journal"
+   ]
+  },
+  "PsyArXiv": {
+   "ids": [
+    "S4306401687",
+    "S3005725775"
+   ],
+   "matched": [
+    "PsyArXiv (OSF Preprints)",
+    "PsyArXiv"
+   ]
+  },
+  "SocArXiv": {
+   "ids": [
+    "S4306401238",
+    "S3006283864"
+   ],
+   "matched": [
+    "SocArXiv (OSF Preprints)",
+    "SocArXiv"
+   ]
+  },
+  "OSF Preprints": {
+   "ids": [
+    "S4306401127",
+    "S4306401238",
+    "S4306400047",
+    "S4306401687",
+    "S4306402219"
+   ],
+   "matched": [
+    "OSF Preprints (OSF Preprints)",
+    "SocArXiv (OSF Preprints)",
+    "Arabixiv (OSF Preprints)",
+    "PsyArXiv (OSF Preprints)",
+    "AfricArXiv (OSF Preprints)"
+   ]
+  }
+ },
+ "preprint_fields": [
+  "33",
+  "32",
+  "17",
+  "20",
+  "12",
+  "18"
+ ],
+ "scholars_by_entry": {
+  "{\"min_joint_papers\": 1, \"name\": \"Calvin Yixiang Cheng\", \"topic\": \"css\", \"type\": \"coauthors\"}": {
+   "id": "A5041649856",
+   "matched": "Calvin Yixiang Cheng",
+   "institution": "University of Oxford",
+   "works_count": 14,
+   "orcid": "https://orcid.org/0000-0003-4897-3293",
+   "pinned": false,
+   "alternatives": [],
+   "type": "coauthors",
+   "members": [
+    {
+     "id": "A5029882049",
+     "name": "Scott A. Hale",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5093115684",
+     "name": "Dorian Quelle",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5022621796",
+     "name": "Lin Cai",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5026955772",
+     "name": "Diyi Liu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5059565490",
+     "name": "Jing Yu Su",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5018986925",
+     "name": "Alexandre Bovet",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5100664350",
+     "name": "Weiyu Zhang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5002971597",
+     "name": "Wanjiang Jacob Zhang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5012106458",
+     "name": "Qiyue Zhang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5014389194",
+     "name": "Jing Zeng",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5052577716",
+     "name": "Kecheng Fang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5111342845",
+     "name": "Diyi Liu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5034429034",
+     "name": "Shuhang Yang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5064235409",
+     "name": "Jing Su",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5053521378",
+     "name": "Zhiwei Liu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5133601138",
+     "name": "Yangyang Yu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5130636247",
+     "name": "Yupeng Cao",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5135913428",
+     "name": "Yuechen Jiang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5130642612",
+     "name": "Haohang Li",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5045282669",
+     "name": "Zhuoran Lu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5135961419",
+     "name": "Yuyan Wang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5135940130",
+     "name": "Yixiang Zheng",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5134196056",
+     "name": "Xiaorui Guo",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5077976343",
+     "name": "Sophia Ananiadou",
+     "joint_papers": 1
+    }
+   ]
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Mohsen Mosleh\", \"topic\": \"css\"}": {
+   "id": "A5052536455",
+   "matched": "Mohsen Mosleh",
+   "institution": "University of Oxford",
+   "works_count": 136,
+   "orcid": "https://orcid.org/0000-0001-7313-5035",
+   "pinned": false,
+   "alternatives": [
+    "Mohsen Mosleh (Howard University, A5103871004)",
+    "Mohammad Mohsen Mosleh (Inje University, A5064136743)",
+    "Mosleh Mohammed Mosleh Alhazmi, Hanin Khalid Muhammed Shafi, Mazen Mayouf Mousa Alzahrani, Malak Ahmed Abdulali Alharbi, Rayan Ali Mohammed Alzahrani, Bandar Abdul Mohsen Al-Harbi, Abdulrahman Hamdi Alammari (no affiliation, A5155262689)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Scott A. Hale\", \"topic\": \"css\"}": {
+   "id": "A5029882049",
+   "matched": "Scott A. Hale",
+   "institution": "University of Oxford",
+   "works_count": 159,
+   "orcid": "https://orcid.org/0000-0002-6894-4951",
+   "pinned": false,
+   "alternatives": [
+    "Jonathan A. Zimmerman (no affiliation, A5016977102)",
+    "Scott A. Hale (no affiliation, A5152638486)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"name\": \"Andreu Casas\", \"topic\": \"comm\"}": {
+   "id": "A5023229681",
+   "matched": "Andreu Casas",
+   "institution": "Royal Holloway University of London",
+   "works_count": 174,
+   "orcid": "https://orcid.org/0000-0001-6974-3652",
+   "pinned": false,
+   "alternatives": [
+    "Gustavo Casas Andreu (no affiliation, A5113497671)",
+    "Gustavo Casas-Andreu (no affiliation, A5012682615)",
+    "Marina Andreu Casas (Universitat Jaume I, A5031904749)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Kobi Hackenburg\", \"topic\": \"css\"}": {
+   "id": "A5068726494",
+   "matched": "Kobi Hackenburg",
+   "institution": "University of Oxford",
+   "works_count": 43,
+   "orcid": "https://orcid.org/0000-0003-2071-1726",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Paul Röttger\", \"topic\": \"cl\"}": {
+   "id": "A5050023117",
+   "matched": "Paul Röttger",
+   "institution": "University of Oxford",
+   "works_count": 103,
+   "orcid": "https://orcid.org/0009-0008-7115-6893",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Manuel Tonneau\", \"topic\": \"cl\"}": {
+   "id": "A5003730904",
+   "matched": "Manuel Tonneau",
+   "institution": "World Bank",
+   "works_count": 40,
+   "orcid": "https://orcid.org/0009-0008-4954-3133",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Hannah Rose Kirk\", \"topic\": \"cl\"}": {
+   "id": "A5051050719",
+   "matched": "Hannah Rose Kirk",
+   "institution": "University of Oxford",
+   "works_count": 57,
+   "orcid": "https://orcid.org/0000-0002-7419-5993",
+   "pinned": false,
+   "alternatives": [
+    "Hannah Rose Kirk (no affiliation, A5098821006)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Christopher Summerfield\", \"topic\": \"css\"}": {
+   "id": "A5031878516",
+   "matched": "Christopher Summerfield",
+   "institution": "University of Oxford",
+   "works_count": 282,
+   "orcid": "https://orcid.org/0000-0002-2941-2653",
+   "pinned": false,
+   "alternatives": [
+    "Jacques Pesnot Lerousseau (Inserm, A5024142225)",
+    "Christopher Summerfield (no affiliation, A5146930332)",
+    "Summerfield Christopher (no affiliation, A5067919157)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Lujain Ibrahim\", \"topic\": \"cl\"}": {
+   "id": "A5088109643",
+   "matched": "Lujain Ibrahim",
+   "institution": "University of Oxford",
+   "works_count": 35,
+   "orcid": "https://orcid.org/0000-0002-0395-784X",
+   "pinned": false,
+   "alternatives": [
+    "Reham I. Alagal (Princess Nourah bint Abdulrahman University, A5035179116)",
+    "Lujain Ibrahim N. Aldosari (King Khalid University, A5017654471)",
+    "Lujain Alzahrani (Umm al-Qura University, A5056944714)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"University of Washington\", \"name\": \"Kate Starbird\", \"topic\": \"css\"}": {
+   "id": "A5045494255",
+   "matched": "Kate Starbird",
+   "institution": "University of Washington",
+   "works_count": 157,
+   "orcid": "https://orcid.org/0000-0003-1661-4608",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"University of Washington\", \"name\": \"Emma S. Spiro\", \"topic\": \"css\"}": {
+   "id": "A5053945884",
+   "matched": "Emma S. Spiro",
+   "institution": "University of Washington",
+   "works_count": 107,
+   "orcid": "https://orcid.org/0000-0002-6792-3390",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"University of Washington\", \"name\": \"Jevin D. West\", \"topic\": \"css\"}": {
+   "id": "A5046879461",
+   "matched": "Jevin D. West",
+   "institution": "University of Washington",
+   "works_count": 147,
+   "orcid": "https://orcid.org/0000-0002-4118-0322",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"University of Washington\", \"name\": \"Ryan Calo\", \"topic\": \"css\"}": {
+   "id": "A5070609145",
+   "matched": "Ryan Calo",
+   "institution": "University of Washington",
+   "works_count": 105,
+   "orcid": "https://orcid.org/0000-0001-5727-4481",
+   "pinned": false,
+   "alternatives": [
+    "Jan Whittington (University of Washington, A5050736585)",
+    "Ivan Evtimov (no affiliation, A5024013900)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Harvard\", \"name\": \"Naomi Oreskes\", \"topic\": \"comm\"}": {
+   "id": "A5080059506",
+   "matched": "Наоми Орескес",
+   "institution": "Harvard University",
+   "works_count": 294,
+   "orcid": "https://orcid.org/0000-0001-6122-9843",
+   "pinned": false,
+   "alternatives": [
+    "Naomi Oreskes (Harvard University, A5093779648)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Miami\", \"name\": \"Geoffrey Supran\", \"topic\": \"comm\"}": {
+   "id": "A5034628072",
+   "matched": "Geoffrey J. Supran",
+   "institution": "University of Miami",
+   "works_count": 29,
+   "orcid": "https://orcid.org/0000-0002-3846-1633",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Oxford\", \"name\": \"Benjamin Franta\", \"topic\": \"comm\"}": {
+   "id": "A5081395376",
+   "matched": "Benjamin Franta",
+   "institution": "University of Oxford",
+   "works_count": 48,
+   "orcid": "https://orcid.org/0000-0001-6110-4725",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"name\": \"Erik M. Conway\", \"topic\": \"comm\"}": {
+   "id": "A5087747538",
+   "matched": "Lars F. Voss",
+   "institution": "Lawrence Livermore National Laboratory",
+   "works_count": 168,
+   "orcid": "https://orcid.org/0000-0002-6349-8219",
+   "pinned": false,
+   "alternatives": [
+    "Erik M. Conway (Purdue University West Lafayette, A5012901654)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"name\": \"MIT Media Lab\", \"topic\": \"css\", \"type\": \"institution\"}": {
+   "id": "I4405268810",
+   "matched": "MIT Media Lab",
+   "exact": true,
+   "type": "institution"
+  },
+  "{\"hint\": \"Massachusetts Institute of Technology\", \"name\": \"David G. Rand\", \"topic\": \"css\", \"type\": \"group\"}": {
+   "id": "A5056499434",
+   "matched": "David Gertler Rand",
+   "institution": "Cornell University",
+   "works_count": 811,
+   "orcid": "https://orcid.org/0000-0001-8975-2783",
+   "pinned": false,
+   "alternatives": [
+    "Margaret E Stewart Roberts (University of California San Diego, A5098792133)",
+    "David G. Rand (Cornell University, A5101904505)",
+    "Jay J. Van Bavel and David G. Rand (no affiliation, A5005893622)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5054913386",
+     "name": "Adam J. Berinsky",
+     "joint_papers": 36
+    },
+    {
+     "id": "A5052536455",
+     "name": "Mohsen Mosleh",
+     "joint_papers": 25
+    },
+    {
+     "id": "A5082698243",
+     "name": "Cameron Martel",
+     "joint_papers": 20
+    },
+    {
+     "id": "A5015843011",
+     "name": "Reed Orchinik",
+     "joint_papers": 19
+    },
+    {
+     "id": "A5076651767",
+     "name": "Ziv G. Epstein",
+     "joint_papers": 15
+    },
+    {
+     "id": "A5022754313",
+     "name": "Hause Lin",
+     "joint_papers": 13
+    },
+    {
+     "id": "A5041499491",
+     "name": "Michael Nicholas Stagnaro",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5034490805",
+     "name": "Rahul Bhui",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5020533147",
+     "name": "Gordon Pennycook",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5021501103",
+     "name": "Antonio A. Arechar",
+     "joint_papers": 10
+    },
+    {
+     "id": "A5055631608",
+     "name": "Thomas H. Costello",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5026721037",
+     "name": "Jennifer Nancy Lee Allen",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5080265907",
+     "name": "Dean Eckles",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5031982402",
+     "name": "Erez Yoeli",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5012327209",
+     "name": "Ben M Tappin",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5052168303",
+     "name": "Chloe E. Wittenberg",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5110578651",
+     "name": "Jackson G. Lu",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5083444453",
+     "name": "Nathaniel Sirlin",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5063947761",
+     "name": "Qi Yang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5111350665",
+     "name": "Ashley Blum",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5053847761",
+     "name": "Yunhao Zhang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5023775697",
+     "name": "Brian Guay",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5058989081",
+     "name": "Joshua P. White",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5089035496",
+     "name": "Gabrielle Péloquin-Skulski",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5019181126",
+     "name": "Venya Bhardwaj",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5014466973",
+     "name": "Robb Willer",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "{\"hint\": \"Massachusetts Institute of Technology\", \"name\": \"Jennifer Allen\", \"topic\": \"css\"}": {
+   "id": "A5026721037",
+   "matched": "Jennifer Nancy Lee Allen",
+   "institution": null,
+   "works_count": 49,
+   "orcid": "https://orcid.org/0000-0002-9827-9147",
+   "pinned": false,
+   "alternatives": [
+    "Mark B. Allen (Durham University, A5019299931)",
+    "Jennifer A. Pacheco (Northwestern University, A5007540286)",
+    "Jennifer Dacey Allen (Tufts University, A5027729234)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Massachusetts Institute of Technology\", \"name\": \"Cameron Martel\", \"topic\": \"css\"}": {
+   "id": "A5082698243",
+   "matched": "Cameron Martel",
+   "institution": "Johns Hopkins University",
+   "works_count": 69,
+   "orcid": "https://orcid.org/0000-0003-3181-4309",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Stanford\", \"name\": \"Diyi Yang\", \"topic\": \"cl\", \"type\": \"group\"}": {
+   "id": "A5089413311",
+   "matched": "Diyi Yang",
+   "institution": "Agency for Science, Technology and Research",
+   "works_count": 489,
+   "orcid": "https://orcid.org/0000-0003-1220-3983",
+   "pinned": false,
+   "alternatives": [
+    "Diyi Yang (Chinese Academy of Meteorological Sciences, A5062647745)",
+    "Diyi Yang (Chinese Academy of Meteorological Sciences, A5146829664)",
+    "Diyi Yang (no affiliation, A5130618489)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5002621773",
+     "name": "Caleb Ziems",
+     "joint_papers": 19
+    },
+    {
+     "id": "A5044691513",
+     "name": "Omar Shaikh",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5076189854",
+     "name": "Michael S. Bernstein",
+     "joint_papers": 8
+    },
+    {
+     "id": "A5103325921",
+     "name": "Yutong Zhang",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5119181519",
+     "name": "Dora Zhao",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5044588650",
+     "name": "Jiaao Chen",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5042601761",
+     "name": "Christopher Potts",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5102986685",
+     "name": "Jiaao Chen",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5073196753",
+     "name": "Ryan Louie",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5012939002",
+     "name": "Myra Cheng",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5087088138",
+     "name": "Dan Jurafsky",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5014466973",
+     "name": "Robb Willer",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5101369671",
+     "name": "Wenna Qin",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5091266570",
+     "name": "Sanmi Koyejo",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5052171928",
+     "name": "Dorottya Demszky",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5079039372",
+     "name": "johannes Christopher Eichstaedt",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5056142478",
+     "name": "Srijan Kumar",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5072925582",
+     "name": "Amy S. Bruckman",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5046006076",
+     "name": "Christopher D. Manning",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5062440568",
+     "name": "Matthias Gerstgrasser",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5036004533",
+     "name": "Yanzhe Zhang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5101495322",
+     "name": "Jingfeng Yang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5045528962",
+     "name": "Jeffrey T. Hancock",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5086210329",
+     "name": "Julia Kruk",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5069105490",
+     "name": "Nick Haber",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5101479345",
+     "name": "Michelle S. Lam",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5104179255",
+     "name": "Azure Zhou",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5043962579",
+     "name": "David B. Grusky",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5066346880",
+     "name": "Yijia Shao",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5052649262",
+     "name": "Vishakh Padmakumar",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5055489351",
+     "name": "William Held",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5036713669",
+     "name": "Scott Freitas",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5020153026",
+     "name": "Duen Horng Chau",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5033829606",
+     "name": "Sandeep Soni",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5076286335",
+     "name": "Weixin Liang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5102822963",
+     "name": "Zhengxuan Wu",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5054544938",
+     "name": "Haley Lepp",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101255771",
+     "name": "Wenlong Ji",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5102733250",
+     "name": "Siyu He",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5064652614",
+     "name": "Zhi Huang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5005779176",
+     "name": "James Zou",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5100777469",
+     "name": "Hongxin Zhang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5029052900",
+     "name": "Yi‐Chia Wang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5067621853",
+     "name": "Alon Y. Halevy",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5084989076",
+     "name": "Emma Brunskill",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5015518638",
+     "name": "Tatsunori Hashimoto",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101897622",
+     "name": "John C. Mitchell",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5002296599",
+     "name": "Rohit Sridhar",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5022683477",
+     "name": "Minzhi Li",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5093278370",
+     "name": "Ashna Khetan",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101210510",
+     "name": "Weiyan Shi",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5084649058",
+     "name": "Robert E. Kraut",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101336165",
+     "name": "Chenglei Si",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5065590661",
+     "name": "Camille Harris",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5047488128",
+     "name": "Jiaao Chen",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5100399461",
+     "name": "Mu Li",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5099111166",
+     "name": "Michela Marchini",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5042050067",
+     "name": "David Muchlinski",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5100677991",
+     "name": "Yanchen Liu",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5017132290",
+     "name": "Anjiang Wei",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "{\"hint\": \"Stanford\", \"name\": \"Jennifer Pan\", \"topic\": \"css\", \"type\": \"coauthors\"}": {
+   "id": "A5077795637",
+   "matched": "Jennifer Pan",
+   "institution": "NYU Langone Health",
+   "works_count": 425,
+   "orcid": "https://orcid.org/0000-0002-4818-0122",
+   "pinned": false,
+   "alternatives": [
+    "Yiqing Xu (Stanford University, A5110304506)",
+    "Jennifer Yi-Jiun Pan (Stanford University, A5071854137)",
+    "Stephen J. Bauer (Sandia National Laboratories, A5001601410)"
+   ],
+   "type": "coauthors",
+   "members": [
+    {
+     "id": "A5033090175",
+     "name": "Neil A. Malhotra",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5069987310",
+     "name": "Hunt Allcott",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5008542297",
+     "name": "Matthew Aaron Gentzkow",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5010924288",
+     "name": "Brendan J Nyhan",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5044652655",
+     "name": "Magdalena Wojcieszak",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5009926823",
+     "name": "Annie Franco",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5078651528",
+     "name": "Winter Mason",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5048165961",
+     "name": "Andrew M. Guess",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5029728860",
+     "name": "Adriana Crespo-Tenorio",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5073459923",
+     "name": "Deen Freelon",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5064437896",
+     "name": "Sandra González‐Bailón",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5023895896",
+     "name": "Devra Coren Moehler",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5029959450",
+     "name": "Jaime E. Settle",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5024312485",
+     "name": "Emily A. Thorson",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5008452854",
+     "name": "Rebekah Tromble",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5041707588",
+     "name": "Chad Kiewiet de Jonge",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5072046918",
+     "name": "Joshua Aaron Tucker",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5072556033",
+     "name": "Carlos Velasco Rivera",
+     "joint_papers": 13
+    },
+    {
+     "id": "A5041082292",
+     "name": "Arjun S. Wilkins",
+     "joint_papers": 13
+    },
+    {
+     "id": "A5010601798",
+     "name": "Pablo Barberá",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5068626480",
+     "name": "Natalie Jomini Stroud",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5016727592",
+     "name": "Taylor Brown",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5063445465",
+     "name": "Drew Dimmery",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5041794322",
+     "name": "Young Mie Kim",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5013670125",
+     "name": "David M. J. Lazer",
+     "joint_papers": 9
+    },
+    {
+     "id": "A5032446414",
+     "name": "Yingdan Lu",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5110304506",
+     "name": "Yiqing Xu",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5038679032",
+     "name": "Daniel Robert Thomas",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5012968863",
+     "name": "Sameer Nair-Desai",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5052315912",
+     "name": "Edward H. Kennedy",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5007885685",
+     "name": "Shanto Iyengar",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5111194438",
+     "name": "Juan Carlos Cisneros",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5097927709",
+     "name": "Benjamin Wittenbrink",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5100346621",
+     "name": "Yingjie Fan",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5111065956",
+     "name": "Beixian Xiong",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5108542568",
+     "name": "David Lazer",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5101352502",
+     "name": "Ana Carolina Paixao de Queiroz",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5097955564",
+     "name": "Saam Zahedian",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5084607886",
+     "name": "Ruth E. Appel",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5013492061",
+     "name": "Tongtong Zhang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5022597090",
+     "name": "Annie Y. Chen",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5069120214",
+     "name": "Kunwoo Park",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5000684736",
+     "name": "Jungseock Joo",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5082742221",
+     "name": "Margaret E. Roberts",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5040584821",
+     "name": "Jaymee Sheng",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5091584427",
+     "name": "Jillian Fisher",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5039166924",
+     "name": "Shangbin Feng",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5109237734",
+     "name": "Thomas Richardson",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5102992157",
+     "name": "Yejin Choi",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5062910836",
+     "name": "Yulia Tsvetkov",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5076852435",
+     "name": "Katharina Reinecke",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5091916582",
+     "name": "Xu Xu",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5092113818",
+     "name": "Matt DeButts",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5055759603",
+     "name": "Roee Levy",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5054298829",
+     "name": "Natasha Dumas",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5117236571",
+     "name": "Talia Stroud",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5014610119",
+     "name": "Alexandra Arons Siegel",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5077992052",
+     "name": "Yamil Ricardo Velez",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "{\"hint\": \"Northwestern\", \"name\": \"William J. Brady\", \"topic\": \"css\"}": {
+   "id": "A5059840649",
+   "matched": "William J. Brady",
+   "institution": "Northwestern University",
+   "works_count": 632,
+   "orcid": "https://orcid.org/0000-0002-3030-5521",
+   "pinned": false,
+   "alternatives": [
+    "Jon F. Ihlefeld (University of Virginia, A5050339711)",
+    "William J. Brady (Northwestern University, A5052195406)",
+    "Charles R. Bryan (Sandia National Laboratories, A5070313333)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Northwestern\", \"name\": \"Yingdan Lu\", \"topic\": \"comm\"}": {
+   "id": "A5032446414",
+   "matched": "Yingdan Lu",
+   "institution": "Northwestern University",
+   "works_count": 63,
+   "orcid": "https://orcid.org/0000-0002-9955-6070",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "{\"hint\": \"Cambridge\", \"name\": \"Sander van der Linden\", \"topic\": \"css\", \"type\": \"group\"}": {
+   "id": "A5073961643",
+   "matched": "Sander van der Linden",
+   "institution": "University of Cambridge",
+   "works_count": 449,
+   "orcid": "https://orcid.org/0000-0002-0269-1744",
+   "pinned": false,
+   "alternatives": [
+    "Anne Marthe van der Bles (Arq Psychotrauma Expert Group, A5064469452)",
+    "Sander van der Linden (University of Cambridge, A5126120517)",
+    "John Cook (The University of Melbourne, A5085938112)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5048293280",
+     "name": "Jon Roozenbeek",
+     "joint_papers": 67
+    },
+    {
+     "id": "A5092356216",
+     "name": "Yara Kyrychenko",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5007263620",
+     "name": "Ramit Debnath",
+     "joint_papers": 8
+    },
+    {
+     "id": "A5028651649",
+     "name": "Rakoen Maertens",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5025472918",
+     "name": "Claudia R. Schneider",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5012369964",
+     "name": "Cecilie S. Traberg",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5000298510",
+     "name": "Mikey Biddlestone",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5063660018",
+     "name": "Trisha Harjani",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5053802889",
+     "name": "Ronita Bardhan",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5041878323",
+     "name": "Melisa Basol",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5061935602",
+     "name": "Steve Rathje",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5070926854",
+     "name": "Kai Ruggeri",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5009412011",
+     "name": "John Richard Kerr",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5025481361",
+     "name": "Alexandra L. J. Freeman",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5032347625",
+     "name": "Charlotte Anna Kukowski",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5036682401",
+     "name": "Jacob B. Rode",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5004152647",
+     "name": "James Kunling He",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5083331071",
+     "name": "Flávio Azevedo",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5055444532",
+     "name": "Jay Joseph Van Bavel",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5077568257",
+     "name": "Jon S. Simons",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5113675673",
+     "name": "David J. Spiegelhalter",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5092472532",
+     "name": "Miriam Remshard",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5120655089",
+     "name": "Neil Ilan Lavie-Driver",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5108929373",
+     "name": "Tianzhu Qin",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5093777981",
+     "name": "Lottie Buttle",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5104148637",
+     "name": "Debra Lindsay",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5098957821",
+     "name": "Rachel O'Boyle",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "{\"hint\": \"Zurich\", \"name\": \"Mike S. Schäfer\", \"topic\": \"comm\", \"type\": \"group\"}": {
+   "id": "A5057083232",
+   "matched": "Mike Steffen Schäfer",
+   "institution": "Zurich University of Applied Sciences in Business Administration",
+   "works_count": 312,
+   "orcid": "https://orcid.org/0000-0002-0847-7503",
+   "pinned": false,
+   "alternatives": [
+    "Mike S. Schäfer (no affiliation, A5113478735)",
+    "Mike S Schäfer (no affiliation, A5155715657)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5026081374",
+     "name": "Niels G. Mede",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5049079591",
+     "name": "Daniela Mahl",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5015924522",
+     "name": "Silke Fürst",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5014389194",
+     "name": "Jing Zeng",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5054740786",
+     "name": "Daniel Vogler",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5064427230",
+     "name": "Isabel Sörensen",
+     "joint_papers": 10
+    },
+    {
+     "id": "A5022676015",
+     "name": "Sophia Charlotte Volk",
+     "joint_papers": 8
+    },
+    {
+     "id": "A5104214939",
+     "name": "Xiaoyue Yan",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5051023243",
+     "name": "Viktoria Cologna",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5027330614",
+     "name": "Saba Rebecca Brause",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5016254666",
+     "name": "Sabrina Heike Kessler",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5071760700",
+     "name": "Mark Eisenegger",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5080059506",
+     "name": "Наоми Орескес",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5035409906",
+     "name": "Thomas N. Friemel",
+     "joint_papers": 2
+    }
+   ]
+  }
+ },
+ "scholars": {
+  "Calvin Yixiang Cheng": {
+   "id": "A5041649856",
+   "matched": "Calvin Yixiang Cheng",
+   "institution": "University of Oxford",
+   "works_count": 14,
+   "orcid": "https://orcid.org/0000-0003-4897-3293",
+   "pinned": false,
+   "alternatives": [],
+   "type": "coauthors",
+   "members": [
+    {
+     "id": "A5029882049",
+     "name": "Scott A. Hale",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5093115684",
+     "name": "Dorian Quelle",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5022621796",
+     "name": "Lin Cai",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5026955772",
+     "name": "Diyi Liu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5059565490",
+     "name": "Jing Yu Su",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5018986925",
+     "name": "Alexandre Bovet",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5100664350",
+     "name": "Weiyu Zhang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5002971597",
+     "name": "Wanjiang Jacob Zhang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5012106458",
+     "name": "Qiyue Zhang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5014389194",
+     "name": "Jing Zeng",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5052577716",
+     "name": "Kecheng Fang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5111342845",
+     "name": "Diyi Liu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5034429034",
+     "name": "Shuhang Yang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5064235409",
+     "name": "Jing Su",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5053521378",
+     "name": "Zhiwei Liu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5133601138",
+     "name": "Yangyang Yu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5130636247",
+     "name": "Yupeng Cao",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5135913428",
+     "name": "Yuechen Jiang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5130642612",
+     "name": "Haohang Li",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5045282669",
+     "name": "Zhuoran Lu",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5135961419",
+     "name": "Yuyan Wang",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5135940130",
+     "name": "Yixiang Zheng",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5134196056",
+     "name": "Xiaorui Guo",
+     "joint_papers": 1
+    },
+    {
+     "id": "A5077976343",
+     "name": "Sophia Ananiadou",
+     "joint_papers": 1
+    }
+   ]
+  },
+  "Mohsen Mosleh": {
+   "id": "A5052536455",
+   "matched": "Mohsen Mosleh",
+   "institution": "University of Oxford",
+   "works_count": 136,
+   "orcid": "https://orcid.org/0000-0001-7313-5035",
+   "pinned": false,
+   "alternatives": [
+    "Mohsen Mosleh (Howard University, A5103871004)",
+    "Mohammad Mohsen Mosleh (Inje University, A5064136743)",
+    "Mosleh Mohammed Mosleh Alhazmi, Hanin Khalid Muhammed Shafi, Mazen Mayouf Mousa Alzahrani, Malak Ahmed Abdulali Alharbi, Rayan Ali Mohammed Alzahrani, Bandar Abdul Mohsen Al-Harbi, Abdulrahman Hamdi Alammari (no affiliation, A5155262689)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Scott A. Hale": {
+   "id": "A5029882049",
+   "matched": "Scott A. Hale",
+   "institution": "University of Oxford",
+   "works_count": 159,
+   "orcid": "https://orcid.org/0000-0002-6894-4951",
+   "pinned": false,
+   "alternatives": [
+    "Jonathan A. Zimmerman (no affiliation, A5016977102)",
+    "Scott A. Hale (no affiliation, A5152638486)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Andreu Casas": {
+   "id": "A5023229681",
+   "matched": "Andreu Casas",
+   "institution": "Royal Holloway University of London",
+   "works_count": 174,
+   "orcid": "https://orcid.org/0000-0001-6974-3652",
+   "pinned": false,
+   "alternatives": [
+    "Gustavo Casas Andreu (no affiliation, A5113497671)",
+    "Gustavo Casas-Andreu (no affiliation, A5012682615)",
+    "Marina Andreu Casas (Universitat Jaume I, A5031904749)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Kobi Hackenburg": {
+   "id": "A5068726494",
+   "matched": "Kobi Hackenburg",
+   "institution": "University of Oxford",
+   "works_count": 43,
+   "orcid": "https://orcid.org/0000-0003-2071-1726",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Paul Röttger": {
+   "id": "A5050023117",
+   "matched": "Paul Röttger",
+   "institution": "University of Oxford",
+   "works_count": 103,
+   "orcid": "https://orcid.org/0009-0008-7115-6893",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Manuel Tonneau": {
+   "id": "A5003730904",
+   "matched": "Manuel Tonneau",
+   "institution": "World Bank",
+   "works_count": 40,
+   "orcid": "https://orcid.org/0009-0008-4954-3133",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Hannah Rose Kirk": {
+   "id": "A5051050719",
+   "matched": "Hannah Rose Kirk",
+   "institution": "University of Oxford",
+   "works_count": 57,
+   "orcid": "https://orcid.org/0000-0002-7419-5993",
+   "pinned": false,
+   "alternatives": [
+    "Hannah Rose Kirk (no affiliation, A5098821006)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Christopher Summerfield": {
+   "id": "A5031878516",
+   "matched": "Christopher Summerfield",
+   "institution": "University of Oxford",
+   "works_count": 282,
+   "orcid": "https://orcid.org/0000-0002-2941-2653",
+   "pinned": false,
+   "alternatives": [
+    "Jacques Pesnot Lerousseau (Inserm, A5024142225)",
+    "Christopher Summerfield (no affiliation, A5146930332)",
+    "Summerfield Christopher (no affiliation, A5067919157)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Lujain Ibrahim": {
+   "id": "A5088109643",
+   "matched": "Lujain Ibrahim",
+   "institution": "University of Oxford",
+   "works_count": 35,
+   "orcid": "https://orcid.org/0000-0002-0395-784X",
+   "pinned": false,
+   "alternatives": [
+    "Reham I. Alagal (Princess Nourah bint Abdulrahman University, A5035179116)",
+    "Lujain Ibrahim N. Aldosari (King Khalid University, A5017654471)",
+    "Lujain Alzahrani (Umm al-Qura University, A5056944714)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Kate Starbird": {
+   "id": "A5045494255",
+   "matched": "Kate Starbird",
+   "institution": "University of Washington",
+   "works_count": 157,
+   "orcid": "https://orcid.org/0000-0003-1661-4608",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Emma S. Spiro": {
+   "id": "A5053945884",
+   "matched": "Emma S. Spiro",
+   "institution": "University of Washington",
+   "works_count": 107,
+   "orcid": "https://orcid.org/0000-0002-6792-3390",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Jevin D. West": {
+   "id": "A5046879461",
+   "matched": "Jevin D. West",
+   "institution": "University of Washington",
+   "works_count": 147,
+   "orcid": "https://orcid.org/0000-0002-4118-0322",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Ryan Calo": {
+   "id": "A5070609145",
+   "matched": "Ryan Calo",
+   "institution": "University of Washington",
+   "works_count": 105,
+   "orcid": "https://orcid.org/0000-0001-5727-4481",
+   "pinned": false,
+   "alternatives": [
+    "Jan Whittington (University of Washington, A5050736585)",
+    "Ivan Evtimov (no affiliation, A5024013900)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Naomi Oreskes": {
+   "id": "A5080059506",
+   "matched": "Наоми Орескес",
+   "institution": "Harvard University",
+   "works_count": 294,
+   "orcid": "https://orcid.org/0000-0001-6122-9843",
+   "pinned": false,
+   "alternatives": [
+    "Naomi Oreskes (Harvard University, A5093779648)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Geoffrey Supran": {
+   "id": "A5034628072",
+   "matched": "Geoffrey J. Supran",
+   "institution": "University of Miami",
+   "works_count": 29,
+   "orcid": "https://orcid.org/0000-0002-3846-1633",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Benjamin Franta": {
+   "id": "A5081395376",
+   "matched": "Benjamin Franta",
+   "institution": "University of Oxford",
+   "works_count": 48,
+   "orcid": "https://orcid.org/0000-0001-6110-4725",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Erik M. Conway": {
+   "id": "A5087747538",
+   "matched": "Lars F. Voss",
+   "institution": "Lawrence Livermore National Laboratory",
+   "works_count": 168,
+   "orcid": "https://orcid.org/0000-0002-6349-8219",
+   "pinned": false,
+   "alternatives": [
+    "Erik M. Conway (Purdue University West Lafayette, A5012901654)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "MIT Media Lab": {
+   "id": "I4405268810",
+   "matched": "MIT Media Lab",
+   "exact": true,
+   "type": "institution"
+  },
+  "David G. Rand": {
+   "id": "A5056499434",
+   "matched": "David Gertler Rand",
+   "institution": "Cornell University",
+   "works_count": 811,
+   "orcid": "https://orcid.org/0000-0001-8975-2783",
+   "pinned": false,
+   "alternatives": [
+    "Margaret E Stewart Roberts (University of California San Diego, A5098792133)",
+    "David G. Rand (Cornell University, A5101904505)",
+    "Jay J. Van Bavel and David G. Rand (no affiliation, A5005893622)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5054913386",
+     "name": "Adam J. Berinsky",
+     "joint_papers": 36
+    },
+    {
+     "id": "A5052536455",
+     "name": "Mohsen Mosleh",
+     "joint_papers": 25
+    },
+    {
+     "id": "A5082698243",
+     "name": "Cameron Martel",
+     "joint_papers": 20
+    },
+    {
+     "id": "A5015843011",
+     "name": "Reed Orchinik",
+     "joint_papers": 19
+    },
+    {
+     "id": "A5076651767",
+     "name": "Ziv G. Epstein",
+     "joint_papers": 15
+    },
+    {
+     "id": "A5022754313",
+     "name": "Hause Lin",
+     "joint_papers": 13
+    },
+    {
+     "id": "A5041499491",
+     "name": "Michael Nicholas Stagnaro",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5034490805",
+     "name": "Rahul Bhui",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5020533147",
+     "name": "Gordon Pennycook",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5021501103",
+     "name": "Antonio A. Arechar",
+     "joint_papers": 10
+    },
+    {
+     "id": "A5055631608",
+     "name": "Thomas H. Costello",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5026721037",
+     "name": "Jennifer Nancy Lee Allen",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5080265907",
+     "name": "Dean Eckles",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5031982402",
+     "name": "Erez Yoeli",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5012327209",
+     "name": "Ben M Tappin",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5052168303",
+     "name": "Chloe E. Wittenberg",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5110578651",
+     "name": "Jackson G. Lu",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5083444453",
+     "name": "Nathaniel Sirlin",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5063947761",
+     "name": "Qi Yang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5111350665",
+     "name": "Ashley Blum",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5053847761",
+     "name": "Yunhao Zhang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5023775697",
+     "name": "Brian Guay",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5058989081",
+     "name": "Joshua P. White",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5089035496",
+     "name": "Gabrielle Péloquin-Skulski",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5019181126",
+     "name": "Venya Bhardwaj",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5014466973",
+     "name": "Robb Willer",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "Jennifer Allen": {
+   "id": "A5026721037",
+   "matched": "Jennifer Nancy Lee Allen",
+   "institution": null,
+   "works_count": 49,
+   "orcid": "https://orcid.org/0000-0002-9827-9147",
+   "pinned": false,
+   "alternatives": [
+    "Mark B. Allen (Durham University, A5019299931)",
+    "Jennifer A. Pacheco (Northwestern University, A5007540286)",
+    "Jennifer Dacey Allen (Tufts University, A5027729234)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Cameron Martel": {
+   "id": "A5082698243",
+   "matched": "Cameron Martel",
+   "institution": "Johns Hopkins University",
+   "works_count": 69,
+   "orcid": "https://orcid.org/0000-0003-3181-4309",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Diyi Yang": {
+   "id": "A5089413311",
+   "matched": "Diyi Yang",
+   "institution": "Agency for Science, Technology and Research",
+   "works_count": 489,
+   "orcid": "https://orcid.org/0000-0003-1220-3983",
+   "pinned": false,
+   "alternatives": [
+    "Diyi Yang (Chinese Academy of Meteorological Sciences, A5062647745)",
+    "Diyi Yang (Chinese Academy of Meteorological Sciences, A5146829664)",
+    "Diyi Yang (no affiliation, A5130618489)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5002621773",
+     "name": "Caleb Ziems",
+     "joint_papers": 19
+    },
+    {
+     "id": "A5044691513",
+     "name": "Omar Shaikh",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5076189854",
+     "name": "Michael S. Bernstein",
+     "joint_papers": 8
+    },
+    {
+     "id": "A5103325921",
+     "name": "Yutong Zhang",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5119181519",
+     "name": "Dora Zhao",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5044588650",
+     "name": "Jiaao Chen",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5042601761",
+     "name": "Christopher Potts",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5102986685",
+     "name": "Jiaao Chen",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5073196753",
+     "name": "Ryan Louie",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5012939002",
+     "name": "Myra Cheng",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5087088138",
+     "name": "Dan Jurafsky",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5014466973",
+     "name": "Robb Willer",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5101369671",
+     "name": "Wenna Qin",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5091266570",
+     "name": "Sanmi Koyejo",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5052171928",
+     "name": "Dorottya Demszky",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5079039372",
+     "name": "johannes Christopher Eichstaedt",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5056142478",
+     "name": "Srijan Kumar",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5072925582",
+     "name": "Amy S. Bruckman",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5046006076",
+     "name": "Christopher D. Manning",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5062440568",
+     "name": "Matthias Gerstgrasser",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5036004533",
+     "name": "Yanzhe Zhang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5101495322",
+     "name": "Jingfeng Yang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5045528962",
+     "name": "Jeffrey T. Hancock",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5086210329",
+     "name": "Julia Kruk",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5069105490",
+     "name": "Nick Haber",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5101479345",
+     "name": "Michelle S. Lam",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5104179255",
+     "name": "Azure Zhou",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5043962579",
+     "name": "David B. Grusky",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5066346880",
+     "name": "Yijia Shao",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5052649262",
+     "name": "Vishakh Padmakumar",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5055489351",
+     "name": "William Held",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5036713669",
+     "name": "Scott Freitas",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5020153026",
+     "name": "Duen Horng Chau",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5033829606",
+     "name": "Sandeep Soni",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5076286335",
+     "name": "Weixin Liang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5102822963",
+     "name": "Zhengxuan Wu",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5054544938",
+     "name": "Haley Lepp",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101255771",
+     "name": "Wenlong Ji",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5102733250",
+     "name": "Siyu He",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5064652614",
+     "name": "Zhi Huang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5005779176",
+     "name": "James Zou",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5100777469",
+     "name": "Hongxin Zhang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5029052900",
+     "name": "Yi‐Chia Wang",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5067621853",
+     "name": "Alon Y. Halevy",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5084989076",
+     "name": "Emma Brunskill",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5015518638",
+     "name": "Tatsunori Hashimoto",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101897622",
+     "name": "John C. Mitchell",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5002296599",
+     "name": "Rohit Sridhar",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5022683477",
+     "name": "Minzhi Li",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5093278370",
+     "name": "Ashna Khetan",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101210510",
+     "name": "Weiyan Shi",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5084649058",
+     "name": "Robert E. Kraut",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5101336165",
+     "name": "Chenglei Si",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5065590661",
+     "name": "Camille Harris",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5047488128",
+     "name": "Jiaao Chen",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5100399461",
+     "name": "Mu Li",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5099111166",
+     "name": "Michela Marchini",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5042050067",
+     "name": "David Muchlinski",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5100677991",
+     "name": "Yanchen Liu",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5017132290",
+     "name": "Anjiang Wei",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "Jennifer Pan": {
+   "id": "A5077795637",
+   "matched": "Jennifer Pan",
+   "institution": "NYU Langone Health",
+   "works_count": 425,
+   "orcid": "https://orcid.org/0000-0002-4818-0122",
+   "pinned": false,
+   "alternatives": [
+    "Yiqing Xu (Stanford University, A5110304506)",
+    "Jennifer Yi-Jiun Pan (Stanford University, A5071854137)",
+    "Stephen J. Bauer (Sandia National Laboratories, A5001601410)"
+   ],
+   "type": "coauthors",
+   "members": [
+    {
+     "id": "A5033090175",
+     "name": "Neil A. Malhotra",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5069987310",
+     "name": "Hunt Allcott",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5008542297",
+     "name": "Matthew Aaron Gentzkow",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5010924288",
+     "name": "Brendan J Nyhan",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5044652655",
+     "name": "Magdalena Wojcieszak",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5009926823",
+     "name": "Annie Franco",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5078651528",
+     "name": "Winter Mason",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5048165961",
+     "name": "Andrew M. Guess",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5029728860",
+     "name": "Adriana Crespo-Tenorio",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5073459923",
+     "name": "Deen Freelon",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5064437896",
+     "name": "Sandra González‐Bailón",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5023895896",
+     "name": "Devra Coren Moehler",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5029959450",
+     "name": "Jaime E. Settle",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5024312485",
+     "name": "Emily A. Thorson",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5008452854",
+     "name": "Rebekah Tromble",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5041707588",
+     "name": "Chad Kiewiet de Jonge",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5072046918",
+     "name": "Joshua Aaron Tucker",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5072556033",
+     "name": "Carlos Velasco Rivera",
+     "joint_papers": 13
+    },
+    {
+     "id": "A5041082292",
+     "name": "Arjun S. Wilkins",
+     "joint_papers": 13
+    },
+    {
+     "id": "A5010601798",
+     "name": "Pablo Barberá",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5068626480",
+     "name": "Natalie Jomini Stroud",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5016727592",
+     "name": "Taylor Brown",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5063445465",
+     "name": "Drew Dimmery",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5041794322",
+     "name": "Young Mie Kim",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5013670125",
+     "name": "David M. J. Lazer",
+     "joint_papers": 9
+    },
+    {
+     "id": "A5032446414",
+     "name": "Yingdan Lu",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5110304506",
+     "name": "Yiqing Xu",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5038679032",
+     "name": "Daniel Robert Thomas",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5012968863",
+     "name": "Sameer Nair-Desai",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5052315912",
+     "name": "Edward H. Kennedy",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5007885685",
+     "name": "Shanto Iyengar",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5111194438",
+     "name": "Juan Carlos Cisneros",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5097927709",
+     "name": "Benjamin Wittenbrink",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5100346621",
+     "name": "Yingjie Fan",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5111065956",
+     "name": "Beixian Xiong",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5108542568",
+     "name": "David Lazer",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5101352502",
+     "name": "Ana Carolina Paixao de Queiroz",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5097955564",
+     "name": "Saam Zahedian",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5084607886",
+     "name": "Ruth E. Appel",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5013492061",
+     "name": "Tongtong Zhang",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5022597090",
+     "name": "Annie Y. Chen",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5069120214",
+     "name": "Kunwoo Park",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5000684736",
+     "name": "Jungseock Joo",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5082742221",
+     "name": "Margaret E. Roberts",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5040584821",
+     "name": "Jaymee Sheng",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5091584427",
+     "name": "Jillian Fisher",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5039166924",
+     "name": "Shangbin Feng",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5109237734",
+     "name": "Thomas Richardson",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5102992157",
+     "name": "Yejin Choi",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5062910836",
+     "name": "Yulia Tsvetkov",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5076852435",
+     "name": "Katharina Reinecke",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5091916582",
+     "name": "Xu Xu",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5092113818",
+     "name": "Matt DeButts",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5055759603",
+     "name": "Roee Levy",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5054298829",
+     "name": "Natasha Dumas",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5117236571",
+     "name": "Talia Stroud",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5014610119",
+     "name": "Alexandra Arons Siegel",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5077992052",
+     "name": "Yamil Ricardo Velez",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "William J. Brady": {
+   "id": "A5059840649",
+   "matched": "William J. Brady",
+   "institution": "Northwestern University",
+   "works_count": 632,
+   "orcid": "https://orcid.org/0000-0002-3030-5521",
+   "pinned": false,
+   "alternatives": [
+    "Jon F. Ihlefeld (University of Virginia, A5050339711)",
+    "William J. Brady (Northwestern University, A5052195406)",
+    "Charles R. Bryan (Sandia National Laboratories, A5070313333)"
+   ],
+   "type": "person",
+   "members": []
+  },
+  "Yingdan Lu": {
+   "id": "A5032446414",
+   "matched": "Yingdan Lu",
+   "institution": "Northwestern University",
+   "works_count": 63,
+   "orcid": "https://orcid.org/0000-0002-9955-6070",
+   "pinned": false,
+   "alternatives": [],
+   "type": "person",
+   "members": []
+  },
+  "Sander van der Linden": {
+   "id": "A5073961643",
+   "matched": "Sander van der Linden",
+   "institution": "University of Cambridge",
+   "works_count": 449,
+   "orcid": "https://orcid.org/0000-0002-0269-1744",
+   "pinned": false,
+   "alternatives": [
+    "Anne Marthe van der Bles (Arq Psychotrauma Expert Group, A5064469452)",
+    "Sander van der Linden (University of Cambridge, A5126120517)",
+    "John Cook (The University of Melbourne, A5085938112)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5048293280",
+     "name": "Jon Roozenbeek",
+     "joint_papers": 67
+    },
+    {
+     "id": "A5092356216",
+     "name": "Yara Kyrychenko",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5007263620",
+     "name": "Ramit Debnath",
+     "joint_papers": 8
+    },
+    {
+     "id": "A5028651649",
+     "name": "Rakoen Maertens",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5025472918",
+     "name": "Claudia R. Schneider",
+     "joint_papers": 7
+    },
+    {
+     "id": "A5012369964",
+     "name": "Cecilie S. Traberg",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5000298510",
+     "name": "Mikey Biddlestone",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5063660018",
+     "name": "Trisha Harjani",
+     "joint_papers": 6
+    },
+    {
+     "id": "A5053802889",
+     "name": "Ronita Bardhan",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5041878323",
+     "name": "Melisa Basol",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5061935602",
+     "name": "Steve Rathje",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5070926854",
+     "name": "Kai Ruggeri",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5009412011",
+     "name": "John Richard Kerr",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5025481361",
+     "name": "Alexandra L. J. Freeman",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5032347625",
+     "name": "Charlotte Anna Kukowski",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5036682401",
+     "name": "Jacob B. Rode",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5004152647",
+     "name": "James Kunling He",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5083331071",
+     "name": "Flávio Azevedo",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5055444532",
+     "name": "Jay Joseph Van Bavel",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5077568257",
+     "name": "Jon S. Simons",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5113675673",
+     "name": "David J. Spiegelhalter",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5092472532",
+     "name": "Miriam Remshard",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5120655089",
+     "name": "Neil Ilan Lavie-Driver",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5108929373",
+     "name": "Tianzhu Qin",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5093777981",
+     "name": "Lottie Buttle",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5104148637",
+     "name": "Debra Lindsay",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5098957821",
+     "name": "Rachel O'Boyle",
+     "joint_papers": 2
+    }
+   ]
+  },
+  "Mike S. Schäfer": {
+   "id": "A5057083232",
+   "matched": "Mike Steffen Schäfer",
+   "institution": "Zurich University of Applied Sciences in Business Administration",
+   "works_count": 312,
+   "orcid": "https://orcid.org/0000-0002-0847-7503",
+   "pinned": false,
+   "alternatives": [
+    "Mike S. Schäfer (no affiliation, A5113478735)",
+    "Mike S Schäfer (no affiliation, A5155715657)"
+   ],
+   "type": "group",
+   "members": [
+    {
+     "id": "A5026081374",
+     "name": "Niels G. Mede",
+     "joint_papers": 16
+    },
+    {
+     "id": "A5049079591",
+     "name": "Daniela Mahl",
+     "joint_papers": 14
+    },
+    {
+     "id": "A5015924522",
+     "name": "Silke Fürst",
+     "joint_papers": 12
+    },
+    {
+     "id": "A5014389194",
+     "name": "Jing Zeng",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5054740786",
+     "name": "Daniel Vogler",
+     "joint_papers": 11
+    },
+    {
+     "id": "A5064427230",
+     "name": "Isabel Sörensen",
+     "joint_papers": 10
+    },
+    {
+     "id": "A5022676015",
+     "name": "Sophia Charlotte Volk",
+     "joint_papers": 8
+    },
+    {
+     "id": "A5104214939",
+     "name": "Xiaoyue Yan",
+     "joint_papers": 5
+    },
+    {
+     "id": "A5051023243",
+     "name": "Viktoria Cologna",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5027330614",
+     "name": "Saba Rebecca Brause",
+     "joint_papers": 4
+    },
+    {
+     "id": "A5016254666",
+     "name": "Sabrina Heike Kessler",
+     "joint_papers": 3
+    },
+    {
+     "id": "A5071760700",
+     "name": "Mark Eisenegger",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5080059506",
+     "name": "Наоми Орескес",
+     "joint_papers": 2
+    },
+    {
+     "id": "A5035409906",
+     "name": "Thomas N. Friemel",
+     "joint_papers": 2
+    }
+   ]
+  }
+ },
+ "expanded_on": "2026-10-21"
 }

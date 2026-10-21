@@ -1,0 +1,257 @@
+# What the brief is following
+
+Generated 2026-10-21 from config/. Fix a wrong match by adding `issn:` (journals) or `openalex:` (scholars) to the entry.
+
+## Journals and conferences
+
+- **Nature** → Nature
+- **Nature Human Behaviour** → Nature Human Behaviour
+- **Nature Communications** → Nature Communications
+- **Journal of Computational Social Science** → Journal of Computational Social Science
+- **Proceedings of the National Academy of Sciences** → Proceedings of the National Academy of Sciences
+- **PNAS Nexus** → PNAS Nexus
+- **Science** → Science
+- **Science Advances** → Science Advances
+- **Nature Aging** → Nature Aging
+- **Nature Cities** → Nature Cities
+- **Nature Climate Change** → Nature Climate Change
+- **Nature Computational Science** → Nature Computational Science
+- **Nature Ecology & Evolution** → Nature Ecology & Evolution
+- **Nature Energy** → Nature Energy
+- **Nature Food** → Nature Food
+- **Nature Health** → Nature Health
+- **Nature Machine Intelligence** → Nature Machine Intelligence
+- **Nature Medicine** → Nature Medicine
+- **Nature Mental Health** → Nature Mental Health
+- **Nature Neuroscience** → Nature Neuroscience
+- **Nature Sustainability** → Nature Sustainability
+- **Nature Water** → Nature Water
+- **Communications Psychology** → Communications Psychology
+- **Communications Earth & Environment** → Communications Earth & Environment
+- **npj Complexity** → npj Complexity
+- **npj Climate Action** → npj Climate Action
+- **npj Science of Learning** → npj Science of Learning
+- **npj Digital Medicine** → npj Digital Medicine
+- **Annual Meeting of the Association for Computational Linguistics** → Annual Meeting of the Association for Computational Linguistics (ACL); Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo); Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW)
+- **Conference on Empirical Methods in Natural Language Processing** → Conference on Empirical Methods in Natural Language Processing (EMNLP); Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP); Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)
+- **Neural Information Processing Systems** → neural information processing systems; LatinX in AI at Neural Information Processing Systems Conference (LXAI)
+- **North American Chapter of the Association for Computational Linguistics** → Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT); North American Chapter of the Association for Computational Linguistics
+- **Findings of the Association for Computational Linguistics** → Findings of the Association for Computational Linguistics: NAACL; Findings of the Association for Computational Linguistics: ACL 2022; Findings of the Association for Computational Linguistics: EACL
+- **Transactions of the Association for Computational Linguistics** → Transactions of the Association for Computational Linguistics
+- **Computational Linguistics** → Computational Linguistics
+- **Proceedings of the International AAAI Conference on Web and Social Media** → Proceedings of the International AAAI Conference on Web and Social Media
+- **Proceedings of the ACM on Human-Computer Interaction** → Proceedings of the ACM on Human-Computer Interaction
+- **The Web Conference** → The Web Conference (WWW); Companion Proceedings of the The Web Conference 2018
+- **EPJ Data Science** → EPJ Data Science
+- **Conference on Human Factors in Computing Systems** → ACM SIGCHI Conference on Human Factors in Computing Systems (CHI); CHI Conference on Human Factors in Computing Systems; Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA); CHI Conference on Human Factors in Computing Systems Extended Abstracts; ACM Conference on Human Factors in Computing Systems (CHI)
+- **Conference on Fairness, Accountability and Transparency** → ACM Conference on Fairness, Accountability, and Transparency (FAccT)
+- **AAAI/ACM Conference on AI, Ethics, and Society** → Proceedings of the AAAI/ACM Conference on AI Ethics and Society
+- **ACM Web Science Conference** → ACM Web Science Conference (WebSci)
+- **Journal of the Association for Information Science and Technology** → Journal of the Association for Information Science and Technology
+- **Information Processing & Management** → Information Processing & Management
+- **Journal of Communication** → Journal of Communication
+- **New Media & Society** → New Media & Society
+- **Social Media + Society** → Social Media + Society
+- **Big Data & Society** → Big Data & Society
+- **Communication Research** → Communication Research
+- **Human Communication Research** → Human Communication Research
+- **Political Communication** → Political Communication
+- **Journal of Computer-Mediated Communication** → Journal of Computer-Mediated Communication
+- **Information, Communication & Society** → Information Communication & Society
+- **Digital Journalism** → Digital Journalism
+- **Communication Methods and Measures** → Communication Methods and Measures
+- **The International Journal of Press/Politics** → The International Journal of Press/Politics
+- **Communication Monographs** → Communication Monographs
+- **Public Understanding of Science** → Public Understanding of Science
+- **Science Communication** → Science Communication
+- **Journal of Science Communication** → Journal of Science Communication
+- **Feminist Media Studies** → Feminist Media Studies
+- **Chinese Journal of Communication** → Chinese Journal of Communication
+- **Harvard Kennedy School Misinformation Review** → Harvard Kennedy School Misinformation Review
+
+## Scholars
+
+- **Calvin Yixiang Cheng** → Calvin Yixiang Cheng, University of Oxford (A5041649856, 14 works)
+  - 24 coauthors followed: Scott A. Hale (5), Dorian Quelle (4), Lin Cai (2), Diyi Liu (1), Jing Yu Su (1), Alexandre Bovet (1), Weiyu Zhang (1), Wanjiang Jacob Zhang (1), Qiyue Zhang (1), Jing Zeng (1), Kecheng Fang (1), Diyi Liu (1), Shuhang Yang (1), Jing Su (1), Zhiwei Liu (1), Yangyang Yu (1), Yupeng Cao (1), Yuechen Jiang (1), Haohang Li (1), Zhuoran Lu (1), Yuyan Wang (1), Yixiang Zheng (1), Xiaorui Guo (1), Sophia Ananiadou (1)
+- **Mohsen Mosleh** → Mohsen Mosleh, University of Oxford (A5052536455, 136 works)
+  - other people with this name: Mohsen Mosleh (Howard University, A5103871004); Mohammad Mohsen Mosleh (Inje University, A5064136743); Mosleh Mohammed Mosleh Alhazmi, Hanin Khalid Muhammed Shafi, Mazen Mayouf Mousa Alzahrani, Malak Ahmed Abdulali Alharbi, Rayan Ali Mohammed Alzahrani, Bandar Abdul Mohsen Al-Harbi, Abdulrahman Hamdi Alammari (no affiliation, A5155262689)
+- **Scott A. Hale** → Scott A. Hale, University of Oxford (A5029882049, 159 works)
+  - other people with this name: Jonathan A. Zimmerman (no affiliation, A5016977102); Scott A. Hale (no affiliation, A5152638486)
+- **Andreu Casas** → Andreu Casas, Royal Holloway University of London (A5023229681, 174 works)
+  - other people with this name: Gustavo Casas Andreu (no affiliation, A5113497671); Gustavo Casas-Andreu (no affiliation, A5012682615); Marina Andreu Casas (Universitat Jaume I, A5031904749)
+- **Kobi Hackenburg** → Kobi Hackenburg, University of Oxford (A5068726494, 43 works)
+- **Paul Röttger** → Paul Röttger, University of Oxford (A5050023117, 103 works)
+- **Manuel Tonneau** → Manuel Tonneau, World Bank (A5003730904, 40 works)
+- **Hannah Rose Kirk** → Hannah Rose Kirk, University of Oxford (A5051050719, 57 works)
+  - other people with this name: Hannah Rose Kirk (no affiliation, A5098821006)
+- **Christopher Summerfield** → Christopher Summerfield, University of Oxford (A5031878516, 282 works)
+  - other people with this name: Jacques Pesnot Lerousseau (Inserm, A5024142225); Christopher Summerfield (no affiliation, A5146930332); Summerfield Christopher (no affiliation, A5067919157)
+- **Lujain Ibrahim** → Lujain Ibrahim, University of Oxford (A5088109643, 35 works)
+  - other people with this name: Reham I. Alagal (Princess Nourah bint Abdulrahman University, A5035179116); Lujain Ibrahim N. Aldosari (King Khalid University, A5017654471); Lujain Alzahrani (Umm al-Qura University, A5056944714)
+- **Kate Starbird** → Kate Starbird, University of Washington (A5045494255, 157 works)
+- **Emma S. Spiro** → Emma S. Spiro, University of Washington (A5053945884, 107 works)
+- **Jevin D. West** → Jevin D. West, University of Washington (A5046879461, 147 works)
+- **Ryan Calo** → Ryan Calo, University of Washington (A5070609145, 105 works)
+  - other people with this name: Jan Whittington (University of Washington, A5050736585); Ivan Evtimov (no affiliation, A5024013900)
+- **Naomi Oreskes** → Наоми Орескес, Harvard University (A5080059506, 294 works)
+  - other people with this name: Naomi Oreskes (Harvard University, A5093779648)
+- **Geoffrey Supran** → Geoffrey J. Supran, University of Miami (A5034628072, 29 works)
+- **Benjamin Franta** → Benjamin Franta, University of Oxford (A5081395376, 48 works)
+- **Erik M. Conway** → Lars F. Voss, Lawrence Livermore National Laboratory (A5087747538, 168 works)
+  - other people with this name: Erik M. Conway (Purdue University West Lafayette, A5012901654)
+- **MIT Media Lab** (institution) → MIT Media Lab (I4405268810)
+- **David G. Rand** → David Gertler Rand, Cornell University (A5056499434, 811 works)
+  - other people with this name: Margaret E Stewart Roberts (University of California San Diego, A5098792133); David G. Rand (Cornell University, A5101904505); Jay J. Van Bavel and David G. Rand (no affiliation, A5005893622)
+  - 26 lab members followed: Adam J. Berinsky (36), Mohsen Mosleh (25), Cameron Martel (20), Reed Orchinik (19), Ziv G. Epstein (15), Hause Lin (13), Michael Nicholas Stagnaro (12), Rahul Bhui (12), Gordon Pennycook (11), Antonio A. Arechar (10), Thomas H. Costello (7), Jennifer Nancy Lee Allen (7), Dean Eckles (6), Erez Yoeli (5), Ben M Tappin (5), Chloe E. Wittenberg (4), Jackson G. Lu (3), Nathaniel Sirlin (3), Qi Yang (3), Ashley Blum (3), Yunhao Zhang (2), Brian Guay (2), Joshua P. White (2), Gabrielle Péloquin-Skulski (2), Venya Bhardwaj (2), Robb Willer (2)
+- **Jennifer Allen** → Jennifer Nancy Lee Allen, no affiliation (A5026721037, 49 works)
+  - other people with this name: Mark B. Allen (Durham University, A5019299931); Jennifer A. Pacheco (Northwestern University, A5007540286); Jennifer Dacey Allen (Tufts University, A5027729234)
+- **Cameron Martel** → Cameron Martel, Johns Hopkins University (A5082698243, 69 works)
+- **Diyi Yang** → Diyi Yang, Agency for Science, Technology and Research (A5089413311, 489 works)
+  - other people with this name: Diyi Yang (Chinese Academy of Meteorological Sciences, A5062647745); Diyi Yang (Chinese Academy of Meteorological Sciences, A5146829664); Diyi Yang (no affiliation, A5130618489)
+  - 60 lab members followed: Caleb Ziems (19), Omar Shaikh (12), Michael S. Bernstein (8), Yutong Zhang (6), Dora Zhao (6), Jiaao Chen (5), Christopher Potts (5), Jiaao Chen (4), Ryan Louie (4), Myra Cheng (4), Dan Jurafsky (4), Robb Willer (4), Wenna Qin (4), Sanmi Koyejo (4), Dorottya Demszky (3), johannes Christopher Eichstaedt (3), Srijan Kumar (3), Amy S. Bruckman (3), Christopher D. Manning (3), Matthias Gerstgrasser (3), Yanzhe Zhang (3), Jingfeng Yang (3), Jeffrey T. Hancock (3), Julia Kruk (3), Nick Haber (3), Michelle S. Lam (3), Azure Zhou (3), David B. Grusky (3), Yijia Shao (3), Vishakh Padmakumar (3), William Held (3), Scott Freitas (2), Duen Horng Chau (2), Sandeep Soni (2), Weixin Liang (2), Zhengxuan Wu (2), Haley Lepp (2), Wenlong Ji (2), Siyu He (2), Zhi Huang (2), James Zou (2), Hongxin Zhang (2), Yi‐Chia Wang (2), Alon Y. Halevy (2), Emma Brunskill (2), Tatsunori Hashimoto (2), John C. Mitchell (2), Rohit Sridhar (2), Minzhi Li (2), Ashna Khetan (2), Weiyan Shi (2), Robert E. Kraut (2), Chenglei Si (2), Camille Harris (2), Jiaao Chen (2), Mu Li (2), Michela Marchini (2), David Muchlinski (2), Yanchen Liu (2), Anjiang Wei (2)
+- **Jennifer Pan** → Jennifer Pan, NYU Langone Health (A5077795637, 425 works)
+  - other people with this name: Yiqing Xu (Stanford University, A5110304506); Jennifer Yi-Jiun Pan (Stanford University, A5071854137); Stephen J. Bauer (Sandia National Laboratories, A5001601410)
+  - 58 coauthors followed: Neil A. Malhotra (16), Hunt Allcott (16), Matthew Aaron Gentzkow (16), Brendan J Nyhan (16), Magdalena Wojcieszak (16), Annie Franco (16), Winter Mason (16), Andrew M. Guess (14), Adriana Crespo-Tenorio (14), Deen Freelon (14), Sandra González‐Bailón (14), Devra Coren Moehler (14), Jaime E. Settle (14), Emily A. Thorson (14), Rebekah Tromble (14), Chad Kiewiet de Jonge (14), Joshua Aaron Tucker (14), Carlos Velasco Rivera (13), Arjun S. Wilkins (13), Pablo Barberá (12), Natalie Jomini Stroud (12), Taylor Brown (11), Drew Dimmery (11), Young Mie Kim (11), David M. J. Lazer (9), Yingdan Lu (7), Yiqing Xu (7), Daniel Robert Thomas (6), Sameer Nair-Desai (6), Edward H. Kennedy (5), Shanto Iyengar (5), Juan Carlos Cisneros (5), Benjamin Wittenbrink (5), Yingjie Fan (5), Beixian Xiong (4), David Lazer (4), Ana Carolina Paixao de Queiroz (3), Saam Zahedian (3), Ruth E. Appel (3), Tongtong Zhang (3), Annie Y. Chen (2), Kunwoo Park (2), Jungseock Joo (2), Margaret E. Roberts (2), Jaymee Sheng (2), Jillian Fisher (2), Shangbin Feng (2), Thomas Richardson (2), Yejin Choi (2), Yulia Tsvetkov (2), Katharina Reinecke (2), Xu Xu (2), Matt DeButts (2), Roee Levy (2), Natasha Dumas (2), Talia Stroud (2), Alexandra Arons Siegel (2), Yamil Ricardo Velez (2)
+- **William J. Brady** → William J. Brady, Northwestern University (A5059840649, 632 works)
+  - other people with this name: Jon F. Ihlefeld (University of Virginia, A5050339711); William J. Brady (Northwestern University, A5052195406); Charles R. Bryan (Sandia National Laboratories, A5070313333)
+- **Yingdan Lu** → Yingdan Lu, Northwestern University (A5032446414, 63 works)
+- **Sander van der Linden** → Sander van der Linden, University of Cambridge (A5073961643, 449 works)
+  - other people with this name: Anne Marthe van der Bles (Arq Psychotrauma Expert Group, A5064469452); Sander van der Linden (University of Cambridge, A5126120517); John Cook (The University of Melbourne, A5085938112)
+  - 27 lab members followed: Jon Roozenbeek (67), Yara Kyrychenko (12), Ramit Debnath (8), Rakoen Maertens (7), Claudia R. Schneider (7), Cecilie S. Traberg (6), Mikey Biddlestone (6), Trisha Harjani (6), Ronita Bardhan (5), Melisa Basol (5), Steve Rathje (4), Kai Ruggeri (4), John Richard Kerr (4), Alexandra L. J. Freeman (4), Charlotte Anna Kukowski (4), Jacob B. Rode (4), James Kunling He (3), Flávio Azevedo (2), Jay Joseph Van Bavel (2), Jon S. Simons (2), David J. Spiegelhalter (2), Miriam Remshard (2), Neil Ilan Lavie-Driver (2), Tianzhu Qin (2), Lottie Buttle (2), Debra Lindsay (2), Rachel O'Boyle (2)
+- **Mike S. Schäfer** → Mike Steffen Schäfer, Zurich University of Applied Sciences in Business Administration (A5057083232, 312 works)
+  - other people with this name: Mike S. Schäfer (no affiliation, A5113478735); Mike S Schäfer (no affiliation, A5155715657)
+  - 14 lab members followed: Niels G. Mede (16), Daniela Mahl (14), Silke Fürst (12), Jing Zeng (11), Daniel Vogler (11), Isabel Sörensen (10), Sophia Charlotte Volk (8), Xiaoyue Yan (5), Viktoria Cologna (4), Saba Rebecca Brause (4), Sabrina Heike Kessler (3), Mark Eisenegger (2), Наоми Орескес (2), Thomas N. Friemel (2)
+
+## Preprint servers
+
+- **arXiv** → arXiv (Cornell University); AI-EDU arxiv.; IACAPAP ArXiv
+- **SSRN** → SSRN Electronic Journal
+- **PsyArXiv** → PsyArXiv (OSF Preprints); PsyArXiv
+- **SocArXiv** → SocArXiv (OSF Preprints); SocArXiv
+- **OSF Preprints** → OSF Preprints (OSF Preprints); SocArXiv (OSF Preprints); Arabixiv (OSF Preprints); PsyArXiv (OSF Preprints); AfricArXiv (OSF Preprints)
+
+## Institutions (preprint filter)
+
+- Massachusetts Institute of Technology → Massachusetts Institute of Technology
+- Imperial College London → Imperial College London
+- Stanford University → Stanford University
+- University of Oxford → University of Oxford
+- Harvard University → Harvard University
+- University of Cambridge → University of Cambridge
+- ETH Zurich → ETH Zurich
+- National University of Singapore → National University of Singapore
+- University College London → University College London
+- California Institute of Technology → California Institute of Technology
+- University of Hong Kong → University of Hong Kong
+- Nanyang Technological University → Nanyang Technological University
+- University of Chicago → University of Chicago
+- Peking University → Peking University
+- University of Pennsylvania → University of Pennsylvania
+- Cornell University → Cornell University
+- Tsinghua University → Tsinghua University
+- University of California, Berkeley → University of California, Berkeley
+- University of Melbourne → The University of Melbourne (closest match, please check)
+- UNSW Sydney → UNSW Sydney
+- Yale University → Yale University
+- École Polytechnique Fédérale de Lausanne → École Polytechnique Fédérale de Lausanne
+- Technical University of Munich → Technical University of Munich
+- Johns Hopkins University → Johns Hopkins University
+- Princeton University → Princeton University
+- University of Sydney → The University of Sydney (closest match, please check)
+- McGill University → McGill University
+- Université PSL → Université Paris Sciences et Lettres (closest match, please check)
+- Fudan University → Fudan University
+- King's College London → King's College London
+- Australian National University → Australian National University
+- University of Tokyo → The University of Tokyo (closest match, please check)
+- Columbia University → Columbia University
+- Chinese University of Hong Kong → Chinese University of Hong Kong
+- University of Toronto → University of Toronto
+- Monash University → Monash University
+- Zhejiang University → Zhejiang University
+- University of California, Los Angeles → University of California, Los Angeles
+- Seoul National University → Seoul National University
+- University of Michigan → University of Michigan
+- Hong Kong University of Science and Technology → Hong Kong University of Science and Technology
+- Kyoto University → Kyoto University
+- Shanghai Jiao Tong University → Shanghai Jiao Tong University
+- New York University → New York University
+- University of Edinburgh → University of Edinburgh
+- London School of Economics and Political Science → London School of Economics and Political Science
+- Institut Polytechnique de Paris → Institut Polytechnique de Paris
+- University of Queensland → The University of Queensland (closest match, please check)
+- Korea Advanced Institute of Science and Technology → Korea Advanced Institute of Science and Technology
+- Northwestern University → Northwestern University
+- University of British Columbia → University of British Columbia
+- University of Manchester → University of Manchester
+- Sorbonne Université → Sorbonne Université
+- Delft University of Technology → Delft University of Technology
+- Carnegie Mellon University → Carnegie Mellon University
+- Hong Kong Polytechnic University → Hong Kong Polytechnic University
+- Duke University → Duke University
+- KU Leuven → KU Leuven
+- Ludwig-Maximilians-Universität München → Ludwig-Maximilians-Universität München
+- City University of Hong Kong → City University of Hong Kong
+- Yonsei University → Yonsei University
+- University of California, San Diego → University of California San Diego
+- University of Auckland → University of Auckland
+- Korea University → Korea University
+- Heidelberg University → Heidelberg University
+- University of Bristol → University of Bristol
+- University of Amsterdam → University of Amsterdam
+- Lund University → Lund University
+- The University of Texas at Austin → The University of Texas at Austin
+- University of Warwick → University of Warwick
+- National Taiwan University → National Taiwan University
+- Université Paris-Saclay → Université Paris-Saclay
+- Brown University → Brown University
+- Pohang University of Science and Technology → Pohang University of Science and Technology
+- University of Illinois Urbana-Champaign → University of Illinois Urbana-Champaign
+- University of Washington → University of Washington
+- KTH Royal Institute of Technology → KTH Royal Institute of Technology
+- University of Copenhagen → University of Copenhagen
+- Georgia Institute of Technology → Georgia Institute of Technology
+- Trinity College Dublin → Trinity College Dublin
+- University of Glasgow → University of Glasgow
+- University of Zurich → University of Zurich
+- University of Birmingham → University of Birmingham
+- University of Leeds → University of Leeds
+- Durham University → Durham University
+- University of Southampton → University of Southampton
+- University of Western Australia → The University of Western Australia (closest match, please check)
+- University of Adelaide → The University of Adelaide (closest match, please check)
+- Sungkyunkwan University → Sungkyunkwan University
+- Institute of Science Tokyo → Institute of Science Tokyo
+- Osaka University → The University of Osaka (closest match, please check)
+- Tohoku University → Tohoku University
+- Purdue University → Purdue University West Lafayette (closest match, please check)
+- University of California, Davis → University of California, Davis
+- Boston University → Boston University
+- University of Sheffield → University of Sheffield
+- University of Nottingham → University of Nottingham
+- Universidade de São Paulo → Universidade de São Paulo
+- Nanjing University → Nanjing University
+- University of Science and Technology of China → University of Science and Technology of China
+- University of Miami → University of Miami
+- Max Planck Society → Max Planck Society
+- GESIS – Leibniz Institute for the Social Sciences → GESIS - Leibniz Institute for the Social Sciences
+- Santa Fe Institute → Santa Fe Institute
+- Anthropic → Anthropic (United States) (closest match, please check)
+- OpenAI → OpenAI (United States) (closest match, please check)
+- Google DeepMind → Google DeepMind (United Kingdom) (closest match, please check)
+- Google → Google (United States) (closest match, please check)
+- Meta → Meta (United States) (closest match, please check)
+- Microsoft Research → Microsoft Research Asia (China) (closest match, please check)
+- DeepSeek → DeepSeek (China) (closest match, please check)
+- Alibaba Group → Alibaba Group (China) (closest match, please check)
+- Moonshot AI → Moonshot AI (China) (closest match, please check)
+- Zhipu AI → Zhipu AI (China) (closest match, please check)
+- Mistral AI → Mistral AI (France) (closest match, please check)
+- Allen Institute for Artificial Intelligence → Allen Institute for Artificial Intelligence
+- Apple → Apple (United States) (closest match, please check)
+- NVIDIA → Nvidia (United States) (closest match, please check)
+- IBM Research → IBM Research - Thomas J. Watson Research Center (closest match, please check)
+- Hugging Face → Hugging Face
+- ByteDance → ByteDance (China) (closest match, please check)
+- Tencent → Tencent (China) (closest match, please check)
+- Baidu → Baidu (China) (closest match, please check)

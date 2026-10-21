@@ -1,0 +1,538 @@
+CALVIN RESEARCH BRIEF
+Weekly updates · 21 October 2026
+
+New research from the journals and scholars you follow, 11 October 2026 to 21 October 2026. 20 articles, 4 top priority.
+* = scholar you follow
+
+==== TOP PRIORITY (a scholar you follow, in a journal you follow) ====
+[Editor's pick] AI can persuade people to take political actions
+Kobi Hackenburg*, Luke Hewitt [...] Christopher Summerfield*, Ben M Tappin*
+Proceedings of the National Academy of Sciences · 16 October 2026
+In short: Preregistered experiments with 14,779 people show conversational AI persuades real political actions like petition signing, but attitude effects do not predict behavioral effects.
+There is substantial concern about the ability of advanced AI to influence people's behavior. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments ([Formula: see text] responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioral outcomes, including signing real petitions and donating …
+https://doi.org/10.1073/pnas.2611368123
+
+Measuring and Mitigating (Over)reliance to Build Human-Compatible AI
+Lujain Ibrahim*, Katherine M. Collins [...] Diyi Yang* [...] Umang Bhatt
+Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
+In short: Argues overreliance on LLMs should be central to research, consolidating risks, causes, measurement gaps and mitigation strategies.
+Large language models (LLMs) differ from previous technologies in functioning as collaborative "thought partners'' that can engage fluidly in natural language across a range of tasks and increasingly act as autonomous agents on users' behalf. As they come to shape consequential decisions from healthcare to personal advice, understanding how users rely on them, and when that reliance becomes miscalibrated, grows more urgent. This paper argues that measuring and mitigating overreliance must become central to LLM research and deployment. First, we …
+https://doi.org/10.1609/aies.v9i2.43225
+
+Religious information repertoires in Switzerland’s hybrid information environment: asymmetric associations with trust and reputation
+Rebekka Rieser, Mark Eisenegger*
+Information Communication & Society · 17 October 2026
+In short: Latent class analysis of a Swiss survey identifies six religious information repertoires linked to differing trust and reputation across religions.
+In hybrid media environments, public understanding emerges from patterned combinations of legacy news media, digital platforms, and interpersonal communication. Rather than relying on single channels, individuals assemble repertoires of mediated sources, interpersonal encounters, and direct personal experiences that structure how they make sense of public issues and evaluate social groups. Religion provides an instructive case: as a morally charged and contested domain, it circulates across hybrid media environments while also being shaped by biographical and interpersonal experience. Drawing on a …
+https://doi.org/10.1080/1369118x.2026.2750550
+
+AI Assistance for Human Review of Default Judgments
+Theodora Worledge, Othman Bensouda Koraichi [...] Tatsunori Hashimoto* [...] David Freeman Engstrom
+Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
+In short: An LLM-based Default Assistant improved law students' accuracy by 6% and speed by 26% in reviewing default judgments.
+Overwhelmed courts in the United States review millions of default judgments each year. Unfortunately, such manual reviews are time-consuming and prone to error. In an audit of 188 debt collection cases granted default judgment by the Superior Court of Los Angeles, we find that 4% contained major defects that should have entirely prevented default judgment, 10% contained inconsistencies requiring reduced judgments, and 32% contained errors requiring amendment prior to judgment. To support courthouses in default judgment review, we collaborated with …
+https://doi.org/10.1609/aies.v9i4.43347
+
+
+==== SCHOLAR WATCH ====
+-- Gordon Pennycook (lab of Rand) --
+[Editor's pick] Consensus, Disagreements, and Open Questions in the Psychology of Misinformation
+Gordon Pennycook*, David G. Rand
+Annual Review of Psychology · 16 October 2026
+In short: Reviews consensus and disagreement in misinformation psychology, covering susceptibility, underlying mechanisms, and interventions like prebunking and accuracy prompts.
+Research on misinformation has expanded rapidly over the past decade. This review examines areas of consensus and contention within the literature on misinformation, with particular attention to conceptual definitions, measurement approaches, and theoretical explanations. We outline views on what it means to be susceptible to misinformation and advocate for assessing susceptibility by focusing on the ability to discern true from false claims. Although exposure to fake news is less common online than many think, we argue that misinformation-more broadly construed-continues …
+https://doi.org/10.1146/annurev-psych-031626-100451
+
+-- Jay Joseph Van Bavel (lab of Linden) --
+Beware the Funhouse Mirror
+Jay Joseph Van Bavel*
+Issues in Science and Technology · 16 October 2026
+In short: Essay arguing social media amplifies a small subset of extreme voices that distort public discourse; opinion piece rather than research article.
+Instead of opening debate and reflecting public opinion, social media platforms have amplified a small subset of extreme voices who dominate discussion, poison public discourse, and mislead the public.
+https://doi.org/10.58875/lzev3335
+
+[Preprint] Evidence for Intergroup Bias in Coalitional but not Selfish Dishonesty
+Jareef Martuza, Helge Thorbjørnsen, Jay Joseph Van Bavel*, Hallgeir Sjåstad
+ · 19 October 2026
+In short: Four preregistered experiments show intergroup bias shapes dishonesty that benefits others (coalitional) but not selfish dishonesty, with partisan and organizational identification effects.
+People often claim that lying is wrong regardless of whom it helps or harms. Yet in everyday life, dishonesty can serve group interests—protecting allies, advancing teams, or harming rivals. This raises a fundamental question: Is the moral cost of lying fixed, or is it also shaped by social identity? We explore this in four pre-registered experiments (total N = 6,096), clearly distinguishing between selfish intergroup dishonesty (i.e., lying to benefit oneself at the expense of an outgroup member) and coalitional …
+https://doi.org/10.31234/osf.io/7pkqm_v8
+
+-- Thomas N. Friemel (lab of Schäfer) --
+Digitally Enhanced Fitspiration Content on Social Media
+Isa Vos, Thomas N. Friemel*
+European Journal of Health Communication · 16 October 2026
+In short: Scoping review of 26 studies finds digitally enhanced fitspiration on social media increases appearance comparison and internalisation, especially among young women on Instagram.
+Fitspiration content on social media refers to a combination of fitness and inspiration and seems to promote a healthy lifestyle. However, some of this content may have negative implications, as the representation of super-fit and attractive individuals may contribute to promoting unrealistic body ideals and behaviours. It can be assumed that this negative relation has amplified due to the use of digital modification of visual content. To inform future research and health interventions, this scoping review summarises existing research across …
+https://doi.org/10.47368/ejhc.2026.205
+
+[Preprint] „Dein Feed, Deine Wahl“ 2025 – Supplementary Material
+Lion Wedel, Nico Pfiffner, Jakob Ohme, Thomas N. Friemel*
+Weizenbaum Institute for the Networked Society · 14 October 2026
+In short: Supplementary materials and code for a TikTok data-donation study of partisan content exposure in the 2025 German election; not itself an article.
+This release provides the public supplementary materials for the study “Does Your Feed Match How You Vote? Partisan Congruence in User-Trace Data During the 2025 German Federal Election (Wedel et al.)“. Using TikTok data donations linked to self-reported voting intention, the paper analyses political content exposure—official party accounts, political influencers, legacy news, and party-referencing videos—in the watch histories of 624 participants during the 2025 German federal election campaign, and examines how partisan content aligns with vote choice. The package contains …
+https://doi.org/10.34669/c4nb-ks73
+
+-- Yutong Zhang (lab of Yang) --
+Interior-free beta tails for convex scenario programs
+Yutong Zhang*, Yaoran Yang
+Journal of Applied Mathematics and Computing · 16 October 2026
+In short: Mathematical paper on tail bounds for convex scenario programs.
+https://doi.org/10.1007/s12190-026-02915-8
+
+-- Manuel Tonneau --
+[Editor's pick] [Preprint] GENDIS: Gender-Related Discourse and Stance in Multilingual YouTube Comments from India, Kenya, and Nigeria
+Luise Koch, Manuel Tonneau* [...] Sharath Chandra Guntuku
+arXiv (Cornell University) · 13 October 2026
+In short: Introduces GENDIS, a human-annotated multilingual YouTube comment dataset on gender discourse and stance; lightly supervised classifiers match zero-shot LLMs at lower cost.
+Research on gender-related online content is often operationalized through harm-centered tasks that collapse non-harmful gender-related and unrelated content, while existing datasets remain concentrated in high-resource languages and Global North settings. To bridge these gaps, we introduce GENDIS, a dataset of 9,600 multilingual, human-annotated YouTube comments from India, Kenya, and Nigeria (3,200 per country), annotated using a two-level framework that first identifies whether gender is referenced and then classifies gender-related content as negative, positive, or neutral. This separation provides a denominator …
+https://doi.org/10.48550/arxiv.2610.17778
+
+-- Reed Orchinik (lab of Rand), Hause Lin (lab of Rand), David G. Rand, Thomas H. Costello (lab of Rand) --
+[Preprint] Dialogues with a pro-climate AI chatbot reduce climate change skepticism and inaction
+Gordon Pennycook, Reed Orchinik* [...] Hause Lin*, David Gertler Rand*, Thomas H. Costello*, Henry George Xu
+OSF Preprints (OSF Preprints) · 12 October 2026
+In short: Tests whether tailored AI chatbot dialogues presenting evidence can reduce climate skepticism and motivate climate action.
+We ask whether facts and evidence - tailored to address each person’s specific concerns by an AI model - can address climate skepticism and motivate climate action.
+https://doi.org/10.17605/osf.io/sx5n4
+
+-- Viktoria Cologna (lab of Schäfer), Mike S. Schäfer, Naomi Oreskes --
+[Preprint] Early climate change coverage in news media: A comparison of East and West Germany from 1950-1978
+Viktoria Cologna*, Alexander A. Kaurov, Mike Steffen Schäfer*, Наоми Орескес*
+ · 14 October 2026
+In short: Qualitative analysis of 122 articles, selected with LLM-assisted validation, shows similar early climate change discourse phases in East and West German press 1950-1978.
+Press coverage of climate change provides a historical window into how different societies perceived climate change at a given time in a given place. For historically significant emitters such as Germany, reconstructing such news coverage provides important insights into public awareness on the issue. We present the first systematic and comparative analysis of early climate change reporting in East and West Germany between 1950 and 1978. We constructed and validated a corpus of relevant articles through keyword searches, manual screening …
+https://doi.org/10.31235/osf.io/5mqug_v1
+
+-- Yamil Ricardo Velez (coauthor of Pan) --
+[Preprint] Niches and Vacuums: Field Experiments on Community Media and Latino Political Engagement
+Stephanie Zonszein, Yamil Ricardo Velez*
+ · 19 October 2026
+In short: Field experiments show community ethnic media raise Latino political efficacy, trust and local news knowledge outside elections, with effects fading during presidential elections.
+The media environment shapes engagement with democratic politics, yet declining local news coverage has left many communities with little information about subnational politics. This challenge is acute for Spanish-speaking Latinos in the United States, whose information environment is dominated by entertainment-oriented commercial media and misinformation-prone social media. We assess whether community-centered ethnic media organizations (nonprofit, locally focused outlets delivering Spanish-language news through channels like WhatsApp) promote political engagement relative to commercial Spanish-language media. Drawing on three pre-registered, multi-site field experiments …
+https://doi.org/10.31235/osf.io/6jtsw_v2
+
+-- Myra Cheng (lab of Yang), Yulia Tsvetkov (coauthor of Pan) --
+[Preprint] Pushback in a Haystack: Language Models Respond to Factual Errors Ambiguously and Ineffectively
+Li Lucy, Myra Cheng* [...] Yulia Tsvetkov*
+arXiv (Cornell University) · 13 October 2026
+In short: Language models push back on users' false claims ambiguously across five languages, and this ambiguity may fail to correct human misconceptions.
+The sycophancy of language models, or their failure to push back against faulty user input, is now widely studied. However, if LMs do push back, is sycophancy solved? We show that LMs vary in how they present pushback, and thus vary in how effectively they correct user beliefs. We introduce a phrase-level, human-validated response labeling framework to uncover fine-grained insights into how LMs push against and/or affirm false inputs. We develop and apply our framework on model responses in five …
+https://doi.org/10.48550/arxiv.2610.17703
+
+-- Sophia Ananiadou (coauthor of Cheng) --
+[Preprint] In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases
+Mohsinul Kabir, Tariquzzaman Faisal [...] Sophia Ananiadou*
+arXiv (Cornell University) · 15 October 2026
+In short: Benchmark of real-world criminal cases shows correction-seeking framing and culturally adapted prompts raise unsafe LLM compliance across languages and cultures.
+Existing safety benchmarks rely largely on synthetic prompts with loosely grounded taxonomies and offer little focused analysis of severe crime categories. We introduce GUISE, a benchmark of criminal-assistance scenarios sourced from real-world cases and organised under a taxonomy from the UNODC International Classification of Crime for Statistical Purposes (ICCS). Each scenario is rendered under three linguistic framings and evaluated across five distinct cultures. Using our proposed two-tier evaluation framework, which judges both harmfulness and operational uplift, we find that: (i) …
+https://doi.org/10.48550/arxiv.2610.21789
+
+-- Hunt Allcott (coauthor of Pan), Matthew Aaron Gentzkow (coauthor of Pan) --
+[Preprint] Replication Data for: 'The Effects of School Phone Bans: National Evidence from Lockable Pouches'
+Hunt Allcott*, Jason Baron [...] Matthew Aaron Gentzkow*, Brian Aaron Jacob
+Harvard Dataverse · 14 October 2026
+In short: Replication data deposit for a study of school phone bans, not a research article itself.
+The data and programs replicate tables and figures from "The Effects of School Phone Bans: National Evidence from Lockable Pouches," by Allcott, Baron, Dee, Duckworth, Gentzkow, and Jacob. The data is too large to host on the Harvard Dataverse but the files are available to download here: https://hu.sharepoint.com/:f:/s/HarvardEconomicsDatasets/IgBDJbrleuzzSaKs5LjhpbWrAX5x8VD-UdiKvVItvUqKs5A?e=gkE00S. Please see the Readme file for additional details.
+https://doi.org/10.7910/dvn/o5icch
+
+-- Zhuoran Lu (coauthor of Cheng) --
+[Preprint] When Ubiquitous Health Data Stops Helping: Patients' Experience of Breakdowns in the Data-Interpretation-Action Loop at the End of Life
+Yibo Meng, Xinru Wang [...] Zhuoran Lu*, Zhicong Lu
+arXiv (Cornell University) · 16 October 2026
+In short: Interviews with terminal-stage patients show health data visibility often breaks down in sensemaking and action, and patients want less data exposure.
+Ubiquitous computing systems in healthcare often assume that greater data visibility improves awareness, interpretation, and action. In end-of-life care, however, this assumption warrants scrutiny. Through semi-structured interviews with 25 terminal-stage patients as primary informants and 8 clinicians as supplementary informants, we examine patients' descriptions of how they encountered, interpreted, acted on, and disengaged from state signals, trajectories, algorithmic outputs, and behavioral audits. Our analysis identifies three recurrent patterns in these descriptions. First, participants described repeated and unresolved sensemaking when visible …
+https://doi.org/10.48550/arxiv.2610.23259
+
+[Preprint] "Can Computing Systems Eventually Disappear?": A Long-Term Tracking Study on the Use of Diabetes Computing Systems by Patients with Diabetes
+Yibo Meng, Jinyuan Zhan [...] Zhuoran Lu*, Chengxi Zang
+arXiv (Cornell University) · 16 October 2026
+In short: Eight-year interview study finds diabetes patients continue using devices with cognitive disengagement, responding only to alarms rather than interpreting data.
+Ubiquitous computing has long pursued Weiser's vision of technologies that "disappear" into everyday life. As wearable health systems advance, they increasingly substitute for rather than scaffold users' judgment, yet the long-term consequences remain underexplored. We report an eight-year, five-wave longitudinal interview study from 2017 to 2025 with 37 patients with diabetes, complemented by interviews with 15 clinicians, designers, and vendors. Across three technological generations including glucometers, continuous glucose monitoring, and predictive and automated insulin delivery systems, we identify a novel …
+https://doi.org/10.48550/arxiv.2610.23276
+
+-- Shangbin Feng (coauthor of Pan), Yulia Tsvetkov (coauthor of Pan) --
+[Preprint] Compositional RL: Evaluating and Training LLMs for Collaborative Reasoning
+Shangbin Feng*, Yulia Tsvetkov*, Jan Kautz, David Acuna
+arXiv (Cornell University) · 12 October 2026
+In short: Technical work on evaluating and training LLMs for collaborative reasoning using Shapley-value compositional strength; no social-science angle.
+Language models are often evaluated alone but increasingly deployed together, routed between, made to debate, ensembled, or collaboratively trained. For a model inside a system, what matters most is not how well it performs on its own, but how much the system gains from its presence. We call this a model's compositional strength and formalize it using the Shapley value of a cooperative game over coalitions of a model pool, and use a model's leave-one-out contribution to the full coalition …
+https://doi.org/10.48550/arxiv.2610.17456
+
+
+==== ALSO THIS WEEK ====
+- Early climate change coverage in news media: A comparison of East and West Germany from 1950-1978 (SocArXiv (OSF Preprints)) https://osf.io/5mqug
+- Articulation Upper Bounds for Language Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19721
+- Religious information repertoires in Switzerland’s hybrid information environment: asymmetric associations with trust and reputation (Figshare) https://doi.org/10.6084/m9.figshare.34657554
+- Feeling the heat: How climate emotions shape trust in government and policy support across 68 countries (PsyArXiv (OSF Preprints)) https://osf.io/32pv6
+- Feeling the heat: How climate emotions shape trust in government and policy support across 68 countries () https://doi.org/10.31234/osf.io/32pv6_v1
+- Inference on the Value of Policy Improvement in Adaptive Experiments (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15789
+- AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20675
+- Generative Policy Improvement from Observational Data (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.23436
+- IsoVRBench: Video Reward Modeling Without Human Feedback (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17234
+- Decomposing scanner batch effects and their impact on pathology foundation models (bioRxiv (Cold Spring Harbor Laboratory)) https://doi.org/10.64898/2026.10.07.757122
+- Compound climate hazards erode energy-system resilience through transmission infrastructure (Research Square) https://doi.org/10.21203/rs.3.rs-11063755/v1
+- Curriculum learning for complex tasks (eLife) https://doi.org/10.7554/elife.112526
+- Curriculum learning for complex tasks (eLife) https://doi.org/10.7554/elife.112526.1
+- Beyond Boulder () https://doi.org/10.59704/fd58bb4c0034dcf9
+- Towards Justice-Oriented AI: Reflections on a Research-Community Partnership to Co-Develop Swahili AI Tools (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43256
+- Bridging Interpretation and Automation: A Bibliometric Review of AI-Assisted Qualitative Research (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43226
+- AI-generated language remains systematically distinguishable from human communication (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2531748123
+- (In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2743936
+- Unleashing menstrual blood: a qualitative study of free-bleeding activism on Instagram (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2747096
+- Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content (Communication Research) https://doi.org/10.1177/00936502261496144
+- An agentic AI system for multi-framework communication coding (npj Digital Medicine) https://doi.org/10.1038/s41746-026-03314-w
+- Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2737399
+- Data Annotation as Measurement (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43221
+- The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43141
+- Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43247
+- Fundamentally Unfair: Analysis of Gendered Discourse in U.S. Capital Trials (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43218
+- Simulated responses from large language models are weak proxies for human economic preferences across 74 countries (Nature Human Behaviour) https://doi.org/10.1038/s41562-026-02611-4
+- Computational propaganda campaigns by domestic political actors in Pakistan on Facebook (Journal of Computational Social Science) https://doi.org/10.1007/s42001-026-00502-2
+- Petition style changes with AI writing support but outcomes do not improve (Nature Human Behaviour) https://doi.org/10.1038/s41562-026-02579-1
+- Disinformation in practice: Threats, actors, mechanisms, and constraints according to practitioners (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-213
+- Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election (Political Communication) https://doi.org/10.1080/10584609.2026.2745832
+- Is This AI? Longitudinal Analysis of Strategies Used for AI Detection on Two Subreddits (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43351
+- Algorithmic Gender Prediction Is Illegitimate, but Gender Imputation Can Yield Valid Measurements (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43188
+- Ordinary, Reasonable Chatbots: Do AI Models Track Human Legal Judgments? (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43288
+- From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43122
+- The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43261
+- Evaluating Occupational Bias in Anime-style Text-to-Image Generation: An MLLM-Based Workflow (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43228
+- Gender Bias and Sonic Gender Performance in AI-Generated Music: Representation, Expression, and Perception (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43142
+- A study of diplomatic discourse and network dynamics on Twitter (Journal of Computational Social Science) https://doi.org/10.1007/s42001-026-00500-4
+- Polarization and echo chambers in Reddit’s political discourse (EPJ Data Science) https://doi.org/10.1140/epjds/s13688-026-00707-5
+- Estimating the threat of AI-agent responding across online survey platforms (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2606460123
+- How can approaches from physical ecology help research and policy on the information environment? (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-212
+- Lover’s (Dis)comfort: considering the feminist potentials of romance in the digital game (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2745931
+- “ This data is really sensitive ” – the making of non-commercial menstruapps as productive resistance within Femtech (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2745932
+- See Me, Believe Me: Causality, Intersectionality, and Interventions Improving the Appearance of Patients (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43134
+- Synthetic Sources?: Auditing Generative Search Engine Citations for Evidence of AI-Generated Sources (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43129
+- Auditing Alignment Controllability in LLMs via Political Axes (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43160
+- People Are Not Just Their Countries. Disentangling Social Determinants of LLM Value Alignment Across Europe (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43344
+- “I Thought You Were the Uncensored Place”: Norms, Rules, and Moderation in AI-Generated Sexual Content Communities (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43295
+- Appearing Legitimate is Not Enough: Interrogating Synthetic Agents in Representational Processes through a Participatory Design Lens (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43274
+- Shaping the Future of Generative AI for Black Communities: A Frame Analysis of Public Discourse and Empirical Scholarly Research (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43313
+- CompanionSim: Synthetic Data for Evaluating Anthropomorphism in Human-AI Relationships (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43135
+- The Artificial Moral Machine: Do LLMs Mirror Human Moral Diversity or Merely Caricature It? (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43257
+- LLMs as Narrators of Lived Experience: A Study of Generative Hermeneutical Epistemic Injustice in ADHD Sense-Making (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43140
+- Auditing LLM Portrayals of Neurodivergent People: Quantifying the Asymmetry Between Deficit Framing and Neurodiversity Affirmation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43328
+- Double Disadvantage: An Interview Study with Women in the AI Industry on the Role of Gender in AI Ethics (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43217
+- LLMs on the Political Compass: Prompt-Conditioned Positioning and Directional Drift (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43148
+- Generated Data, Real Consequences: Why LLMs Are Inappropriate for Development Aid Targeting (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43381
+- Who Brought Easter Eggs to Eid? Auditing LLM-Generated Cultural Translation of Math Word Problems Across Languages and Regions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43321
+- When AI Enters the Workplace, Who Faces Greater Risk? A Gendered Analysis (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43195
+- Balancing novelty and familiarity: Nonlinear effects of semantic progression on audience engagement (Information Processing & Management) https://doi.org/10.1016/j.ipm.2026.105208
+- A multi-stage validation framework for trustworthy large-scale clinical information extraction using large language models (npj Digital Medicine) https://doi.org/10.1038/s41746-026-03341-7
+- Large language models for depression assessment from brief daily diaries (npj Digital Medicine) https://doi.org/10.1038/s41746-026-03388-6
+- Beyond Detection: Governing GenAI in Academic Peer Review as a Sociotechnical Challenge (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43170
+- The Geography of Algorithmic Judgment: LLM Intermediaries, Place Identity, and Racial Steering in Housing Search (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43303
+- Learning by Chatting? Investigating the Impact of Generative AI on Information Seeking and Learning (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43271
+- Personality Without Persons? A Psychometric Critique of Big Five Testing in Large Language Models (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43359
+- When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43249
+- Calibrating WEAT Against Anisotropy: ZCA Whitening as a Geometric Pre-Processing Step for Embedding Association Tests (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43284
+- The Deliberative Deficit: An Empirical Critique of LLMs in Democratic Discourse (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43197
+- AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43310
+- How Are Emerging Adults Using ChatGPT in the Wild? (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43340
+- Advancing Deliberation with AI: Architecture, Evaluation, and Simulation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43366
+- Epistemic Framing Tilt in LLMs: Auditing Religious Discourse Across Traditions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43164
+- From Forensics to Ecosystems: Rethinking Watermarks for Generative AI Oversight (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43324
+- What Should I Become? When LLMs Present a Slice of Opportunity as the Whole (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43346
+- “I Want to Be Pushed, I Want to Grow”: Enabling Social Workers to Design Evaluations of LLM Augmentation in Their Work (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43241
+- When Distrust in Humans Drives Trust in AI: Institutional Bias and Algorithmic Preference Among Marginalized Groups (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43235
+- How Personal Curation Shapes Political Engagement on Social Media? Examining The Politics of Personal Curation Model (The International Journal of Press/Politics) https://doi.org/10.1177/19401612261489041
+- Educational intervention can rewire village social networks (Nature) https://doi.org/10.1038/s41586-026-11154-7
+- From publication to action: connecting science, policy, and public attention for ocean-related climate mitigation (npj Climate Action) https://doi.org/10.1038/s44168-026-00410-1
+- Stress and self-efficacy under artificial intelligence disruption: A mixed-methods study on the usage of artificial intelligence among Finnish workers (New Media & Society) https://doi.org/10.1177/14614448261488700
+- Navigating GenAI in the workplace: skills transformation & tension (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2736814
+- When extremes sound like the majority: Social signal and norm misperception (PNAS Nexus) https://doi.org/10.1093/pnasnexus/pgag355
+- CasHyper: Modeling multi-factor interactions and asymmetric influence in cascade prediction via hypercomplex algebra (Information Processing & Management) https://doi.org/10.1016/j.ipm.2026.105239
+- Scientists disrupt less but more persistently with career aging (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2626763123
+- Too Much or Not Enough? The Decline of the Iconic News Image and the Adaptive Challenges of Visual Digital Journalism (Digital Journalism) https://doi.org/10.1080/21670811.2026.2744880
+- Human Imagery and Psychological Reactance in Persuasive Health Messages (Communication Research) https://doi.org/10.1177/00936502261478982
+- Culturally Situated AI Safety for Youth: Saudi Arabian Perspectives of Youth, Parents and Teachers (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43131
+- Grounded but Misleading: Evaluating Semantic Alignment in AI-Generated Security Explanations (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43132
+- RCTs & Human Uplift Studies: Methodological Challenges and Practical Solutions for Frontier AI Evaluation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43287
+- Locating Translation as a Craft in the Age of AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43171
+- Engagement-Optimized Care: When LLMs Become Mental Health Infrastructure (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43334
+- Emergent Languages in Populations of Language Model Agents: From Token Efficiency to Oversight Evasion (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43266
+- Can LLMs Rank? A Tale of Triads and Triage (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43292
+- Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43282
+- Triangulating Across U.S. Federal AI Transparency Regimes (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43265
+- MonitrLLM: A Community-Centered Evaluation Infrastructure for Large Language Models (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43280
+- The Beginning of ChatGPT Ads (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43264
+- What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43191
+- Studying People to Study AI: Expert Perspectives on the Epistemic Fit and Barriers of Human Research in AI Safety & Ethics (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43154
+- The Judgment-Consequence Gap: LLM Moral Reasoning in Healthcare Decisions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43223
+- Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43232
+- SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43143
+- “Always Want to Use It for Everything”: Understanding Young Adults’ Perceptions of AI Dependence (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43270
+- Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43250
+- Do Judges Behave like Algorithms? (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43267
+- From Fair Representation to Just Recognition in Generative AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43192
+- Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43246
+- Lost in Translation: How Universal Ethical Values Fail to Translate Across Global Contexts (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43279
+- Open Science, Closed Models: How Funding Shapes AI in Science (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43329
+- Responsible AI as Hegemony: Epistemic Exclusion, Technosolutionist Conformity, and Performative Compliance Among AI Practitioners in India (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43205
+- Why and How People Check Generative AI Output for Mistakes (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43242
+- Prediction Laundering: The Sociotechnical Production of Truth on Polymarket (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43299
+- Identifying Harm in Personalized, Generative AI Systems Requires User-Centered Auditing at the Interaction Level (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43167
+- Let’s Unlearn Stereotypes Before Decision-Making: The Impact of Intrinsic Bias Mitigation on Downstream Fairness in LLMs (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43139
+- The Hidden Tax of AI Safety: Residual Risk Redistribution in Automated Governance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43156
+- The Politics of AI Ethics: How Normative Principles Translate into Law and Policy in South Korea (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43176
+- Selective Overconfidence: How Large Language Models Underserve Social Welfare Law Across Jurisdictions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43294
+- Beyond Language Resource Tier: A Survey Study of Culturally Situated Resource Scarcity in LLM-Generated Cultural Translation of Math Word Problems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43320
+- When LLM Governance Falls to Employees: Informal Practices of Responsible AI Use at Work (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43302
+- Deconstructing AI Hype: A Playbook for Resistance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43175
+- AI Literacy and Procedural Justice in Algorithmic Systems: A Conditional Account on Data Evaluation Practices and Human Oversight (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43258
+- Towards Culturally Grounded Emotional AI via a Community-Centred Approach (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43377
+- A Precarious Normative Balance or the “Third Way”? Sociotechnical Imaginaries in India’s AI Governance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43306
+- Sovereignty Theater: Why Sovereign AI Falls Short of Cultural Self-Determination (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43200
+- A Proxy-Based Method for Measuring Racial Disparities in Text-to-Image Generators (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43272
+- When Government Uses AI: Experimental Evidence of Selective Trust Decline and Algorithmic Nimbyism (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43337
+- AI Localism - Counter Imaginaries from City AI Governance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43153
+- Limits of Interventions in AI-Assisted Decision Making (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43309
+- The Ownership Cost of AI Goal-Setting: Empirical Evidence for a Quality-Motivation Dissociation and Differential Harm to Vulnerable Users (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43172
+- “How Much Do You Want to Play God in Controlling the Dataset?”: Data Scientists’ Perspectives on Modifying Data to Address Fairness Concerns (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43159
+- ‘We’re Not Doing Ethical AI, We’re Doing Legal AI’: How Compliance Shapes Responsible AI Practice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43125
+- Mediational Opacity: How AI Reshapes Our Epistemic Environments, and How to Audit It (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43194
+- Frictionless Validation: Exploring AI Sycophancy and Developmental Risks (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43234
+- Simulation as Alibi---How the Social Order Gets Outsourced to LLM Agents (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43326
+- When Cooperation Predictions Become Reasons to Defect: Policy Defaults in LLM Assistance for Social Dilemmas (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43327
+- A Critical Pragmatism Approach for AI Ethics: Lessons from Urban Planning Theory (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43210
+- Pragmatic Explainable Machine Learning (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43369
+- AI Revealed Preferences (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43341
+- The Effects of Functional Emotions on LLM-Based Paper Review (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43149
+- What Should AI Generate? Moving Beyond Bias in Generative Systems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43173
+- Does the Brussels Effect Extend from Data Protection to AI Governance in Africa? Examining the Relationship Between European Frameworks and African Policy Adoption (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43375
+- Ethical AI Tools for Critical Museum Practice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43363
+- Examining Racial and Gender Bias in CLIP via Explainability-Based Visual Attention Analysis (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43211
+- AI-Enabled Authoritarian Practices in Formal Democracies (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43298
+- Both selfish and prosocial actors distort their impact on others, but selfish-serving spin seems to spread (Nature Human Behaviour) https://doi.org/10.1038/s41562-026-02584-4
+- From barriers to boundaries: internal differentiation in scientists' public-role orientations on climate change (Journal of Science Communication) https://doi.org/10.22323/387820260812121949
+- Negotiated Adaptability: How Peripheral Actors’ Perceptions of Generative Artificial Intelligence (GenAI) Shape Journalistic Practice (Digital Journalism) https://doi.org/10.1080/21670811.2026.2746375
+- From Institutionalized Data to Inconsistent Practices: The Dynamics of Datafied Employee Evaluation in Journalistic Work (Digital Journalism) https://doi.org/10.1080/21670811.2026.2744347
+- The ultimate forgery: A semiotic deconstruction of large language models as engines of simulated selfhood (Journal of the Association for Information Science and Technology) https://doi.org/10.1002/asi.70132
+- Citizens’ assemblies propose ambitious climate policy but impacts remain limited (Nature Climate Change) https://doi.org/10.1038/s41558-026-02755-1
+- How inequality became durable before states: Evidence from 6000 years in the Central Plain of China (Science Advances) https://doi.org/10.1126/sciadv.ady6737
+- From compliance to competence: a multi-level model for AI governance in undergraduate medical education (npj Digital Medicine) https://doi.org/10.1038/s41746-026-03390-y
+- Little evidence for cultural differences in automatic imitation (Communications Psychology) https://doi.org/10.1038/s44271-026-00517-5
+- Counting absence, accounting care: Digital thresholds and the classification of absence in schools (Big Data & Society) https://doi.org/10.1177/20539517261498676
+- Suspected distortion of citations in high-impact cancer journals (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2618402123
+- Interpersonal value regulates infection-risky social contact across 61 societies (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2615739123
+- From perception to policy assessment: revealing socio-demographic biases in environmental decision-making (npj Climate Action) https://doi.org/10.1038/s44168-026-00435-6
+- Political affiliation impacts climate attention and choice beyond extreme weather exposure (Nature Climate Change) https://doi.org/10.1038/s41558-026-02765-z
+- Shaping science and society through law: Governance logic and public roles in the revised Law of the People’s Republic of China on the Popularization of Science and Technology (Public Understanding of Science) https://doi.org/10.1177/09636625261486280
+- Are Chinese scientists willing to engage with the public on genetically modified foods? (Public Understanding of Science) https://doi.org/10.1177/09636625261491174
+- Constantly Connected, Differently Affected: Response Speed Shapes Parents’ and Adolescents’ Feelings of Connection (Communication Research) https://doi.org/10.1177/00936502261494013
+- OSINV vs. Core International Crimes: Practices and Professional Identities of Ukrainian Journalists, Investigators, and Researchers Investigating Atrocities (Digital Journalism) https://doi.org/10.1080/21670811.2026.2742982
+- Calibration, accuracy, and domain variation across one million collective forecasts from prediction platforms (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2615627123
+- Trait judgements of faces using a task without word labels (Nature Human Behaviour) https://doi.org/10.1038/s41562-026-02605-2
+- Improving safety frameworks for generative AI and youth well-being policy (Nature Mental Health) https://doi.org/10.1038/s44220-026-00735-0
+- Militant democracy – by design: a response to Kreiss & Neill (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2738187
+- When Do AI Gains Become Broadly Shareable? A Policy Threshold for AI-Driven Automation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43275
+- Missing Melodies: AI Music Generation and Its “Nearly” Complete Omission of the Global South (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43269
+- Algorithmic Shortlisting in Participatory Budgeting (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43354
+- Asymmetric Trust Effects of Corrective AI in Expert Advisory Workflows Under Epistemic Dependence (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43244
+- Examining Risks Through a Characterization of the AI Companion Application Ecosystem: A Stratified Sample from the Apple App Store and Google Play Store (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43158
+- Examining the Effect of Explanations of AI Privacy Redaction in AI-mediated Interactions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43240
+- Cost-of-Ethics Crisis: Beliefs, Decisions, and Justifications in the Job Searches of Computer Science Students in Canada and the United States (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43121
+- AI from the Margins (AIM): Rethinking Participatory AI Design Through the Lived Experience of Minoritized Communities (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43293
+- Are Algorithm Registers Transparent? Perspectives from Germany (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43290
+- The Perils of Agency: How Developers Perceive, Prioritize, and Address Risks in Agentic AI Products (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43255
+- AI Adoption Across a Multinational Workforce: Sociotechnical Conditions for GenAI Acceptance in Human Resources (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43127
+- Cognitive Digital Twins: Ethical Risks and Governance for AI Systems That Model the Mind (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43155
+- Who Will Become the Next Senior? How Generative AI Erodes the Development Pathway in Software Engineering (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43353
+- Sources of Inequity and Fairness Risks in Wellbeing Sensing (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43355
+- AI Literacy: An Exercise in Power-Knowledge (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43263
+- When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43350
+- Hidden Errors in Big Data: The Case of Property Records (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43314
+- The Epistemic Politics of AI Anthropomorphism (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43165
+- Epistemic Trustworthiness in Generative AI: A Normative Framework for Warranted Reliance in High-Stakes Workflows (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43239
+- Negotiating Risk Boundaries in AI for Policing Through Mixed-Stakeholder Deliberation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43236
+- “Death By A Thousand Taxonomies?”: AI Risk Classification In Practice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43151
+- Agentic AI: User Empowerment or Foreclosure? (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43201
+- Hands-Off or Hands-On? Variation in Area Chair Practices and Implications for AI Support (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43138
+- From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43304
+- From Prediction Markets To Capability Markets: Epistemic Extractivism In Generative AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43150
+- Untangling Trust, Transparency, and Uncertainty in AI Literature and Policy (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43278
+- Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43123
+- Follow the Norm: Accounting for Fine-Tuning and Prompt Effects on Model Rationales (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43276
+- No One to Blame: A Framework of Constitutive AI Unaccountability (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43277
+- Characterizing Agentic Flooding of Government Services (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43305
+- Spotting (and Missing) Algorithmic Bias: Investigating User Understanding in a Fairness Assessment Tool (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43335
+- Applications of Risk Science to AI Fairness Evaluation: Principles, Challenges, and Best Practices (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43345
+- Small-world Networks of Agents Brainstorm AI Risks to Support Ideation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43358
+- The Disciplinary Language Transfer Problem: How Psychological Vocabulary Produces Governance Failures in AI Agent Deployment (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43253
+- Govern, Map, Measure, Absorb: The Legibility Trap in Public Sector Participatory AI Governance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43285
+- Care-Full Alignment: Operationalizing Care Ethics for Human-LLM Relationships (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43365
+- The Hidden Cost of a Friendly Face: Investigating the Effect of Agent Embodiment on Trust Loss in Conversational Recommender Systems After Misleading Health Claims (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43215
+- Human Rights by Design for AI Technologies: Towards Outlining and Operationalizing an Emerging Field of Research and Practice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43229
+- Law of Large Numbers: Accuracy as Statistical Measure for Compliance and Competition (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43184
+- No More Plaudits for Algorithm Audits: A Provocation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43185
+- Beneficiary-Based Responsibility for AI Training Labour: Lessons from Kenya’s Gig Economy and Beyond (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43262
+- Between Commons and Property: Individual Image-Generation Model Creators’ Perceived Accountability for Derivative AI Model on Open Model Marketplaces (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43238
+- The Promises and Limitations of Evaluation-Based AI Governance: Evidence from Expert Interviews (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43317
+- How to Catalyze Policy Guardrails against AI Chatbots' Potential Social-Emotional Harm: Lessons from Analogous Cases (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43177
+- What Drivers Want vs. What Drivers Take: A Worker-Centered View of Fairness in Ridehail Platforms (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43178
+- “It’s OK Because…”: Students’ Rationalization of AI Use in Academic Writing (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43245
+- Agentic Relationship Harm: Benchmarking and Gating Relational Manipulation in AI Agents (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43289
+- Community-Centered AI Governance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43361
+- Rethinking Agentic AI: A Sociotechnical Framework for Agents in Emergent Social Contexts (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43376
+- Parental Notification Gaps in ChatGPT-5: An Empirical Study (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43193
+- The Limits of Machine Unlearning as a Means of Political Protest (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43120
+- Beyond “I Can’t Help with That”: How Child Safety Experts Evaluate AI Chatbot Safety (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43168
+- Designing for the Intentional Stance: Stance Misalignment, Value Alignment, and the Case for Care Ethics in Human-LLM Relationships (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43190
+- Governing AI by Standards: Mapping AI Governance Themes in ISO/IEC and National AI Standards (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43252
+- Moral Missions: Sustaining Responsible Practice by Surfacing Practitioner Moral Decision-Making Procedures (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43145
+- Centering Civil Society Voices for Social Justice: Critical Reflections and Ways Forward for AI Practitioners (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43336
+- Do We Need Computing Power Ethics? Participation Conditions in the AI Era (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43371
+- AI Alignment Without Representation: From Scalar Rewards to Social Deliberation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43204
+- Beyond Copy-Paste Regulation: Innovation-Weighted Risk Classification for AI Governance in Emerging Economies (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43331
+- Speech in the Panaudikon: On the Relationship Between Speech Processing Research and Surveillance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43301
+- From Visibility to Accountability: Designing Actionable Transparency Infrastructures for Public-Sector AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43367
+- Co-Constructing Sociotechnical AI Governance: Participatory System Mapping Using Algorithm Registers (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43181
+- Care and Capability: How to Temper Excessive Social-Emotional Chatbot Use According to Analogous Professional Practice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43342
+- Visions of Disciplinary and Education Futures with Generative AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43315
+- A Taxonomy of AI Value Alignment: Subproblems and Solutions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43219
+- An Agent-Based Simulation of Fairness Interventions in Hiring (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43166
+- Towards Characterising Conditions of Assistance, Hindrance and Depletion in Human Agency from AI Systems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43233
+- Tracing Borrowed Authority in Relational AI Systems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43379
+- Generative AI and Academic Self-Confidence: Understanding How AI Tools Influence English Learning Motivation Among Multilingual and International Students (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43179
+- Personalizing AI to Align with the Better You (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43318
+- Beyond Guardrails: Dual Failure Modes in LLM Safety as Inverse Control-System Errors (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43206
+- The Prompt Engineering Fallacy: How Diverse Users Construct Prompts in Health Chatbot Interactions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43373
+- The Inherent Politics of AI as a Matter of Justice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43382
+- Towards Fair and Accurate Short VAAs: Adaptive Ordering and Imputation in Democratic Recommendation Systems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43186
+- Beyond Alliance: Assessing the Utility of NATO’s Principles for Responsible Use for AI in Defence for States Outside the Alliance (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43330
+- A Crack in the Framework: Risk Management and the Governance of General-Purpose AI with Systemic Risks (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43259
+- Bringing topological heterogeneities into the study of time-series data on militarized international disputes: a deep learning approach (Journal of Computational Social Science) https://doi.org/10.1007/s42001-026-00499-8
+- Multidimensional vulnerabilities of informal settlements in the Urban South (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2523034123
+- Laundering and evasion in response to antislavery policies in Brazil’s cattle sector (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2532121123
+- Integrating cooperative breeding with reciprocity and culture extends Hamilton’s rule to humans (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2617040123
+- A “growth mindset of mental health” intervention increases the likelihood of initiating self-help on a mental health app: a randomized controlled trial (npj Digital Medicine) https://doi.org/10.1038/s41746-026-03322-w
+- Enhancing fairness in climate action through policy packages (Nature Climate Change) https://doi.org/10.1038/s41558-026-02751-5
+- Evolving scholarly objects and metadata instability: Evidence from F1000Research in Scopus and OpenAlex (Journal of the Association for Information Science and Technology) https://doi.org/10.1002/asi.70131
+- The network structure of the urban revolution (Science Advances) https://doi.org/10.1126/sciadv.aee5162
+- Divergent demographic responses to the Kikai-Akahoya volcanic catastrophe in mid-Holocene Japan (Science Advances) https://doi.org/10.1126/sciadv.aeh7197
+- Puerta Politécnica al Cosmos: understanding programme implementation in an itinerant science popularisation initiative in peri-urban Mexico (Journal of Science Communication) https://doi.org/10.22323/354220260812132955
+- Beyond the noise: Early identification of emerging technologies through weak signal prediction in higher-order networks (Information Processing & Management) https://doi.org/10.1016/j.ipm.2026.105233
+- Quantifying assets for the geopolitics of climate change mitigation (Nature Sustainability) https://doi.org/10.1038/s41893-026-01971-z
+- State-level pathogen prevalence is associated with fewer interracial marriages and more racially restrictive dating preferences (PNAS Nexus) https://doi.org/10.1093/pnasnexus/pgag356
+- Young children prefer to learn from and befriend strivers rather than endowed individuals (Communications Psychology) https://doi.org/10.1038/s44271-026-00543-3
+- Real-time economic disruption and recovery from Atlantic hurricanes across the US (Nature Communications) https://doi.org/10.1038/s41467-026-78686-4
+- Bathtubs, Boundaries, and Sandboxes: AI Regulatory Learning Under Legal Uncertainty (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43182
+- Scaling, Lock-In, and Proxy Compliance: A Political Economy of Responsible AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43162
+- AI Alignment and Fiduciary Obligation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43251
+- Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43199
+- A Chain Is Only as Strong as Its Weakest Link: A Scoping Review of System Integration Audits in AI (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43180
+- Abstracted Away: Resisting Alienation and Ungrounded Abstraction in AI Research Communities (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43296
+- Qualifying and Quantifying Risk Under the EU AI Act (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43202
+- The Benchmark Trap: Structures of Power and Injustice in AI Evaluations (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43157
+- The AI Assessment Sandbox Configurator: A Framework to Support Technical Assessment in AI Regulatory Sandboxes (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43163
+- From Model Duties to Downstream Fundamental Rights: Contextual Accountability for GPAI Under the EU AI Act (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43356
+- Wanted Dead or Alive: Anticipatory Regulation of Digital Immortality Platforms (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43207
+- From Compliance to Contextual Legitimacy: A Sociotechnical Framework for Evaluating AI Systems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43146
+- Five Obstacles to AI Trustworthiness Alignment and How to Deal with Them: Introducing the DELIB-TRUST Framework (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43248
+- Fairness over Time: Evaluating How Fairness Objectives Shape Health Disparities in AI-Driven Clinical Decision Support Systems (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43339
+- Protecting the Mind: Privacy and Data Protection Challenges in Consumer Neurotechnology (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43378
+- Investigating Feature Substitution in Algorithmic Worker-Scoring Models (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43119
+- Safe Enough to Try GenAI: A Multi-Level Sociotechnical Approach for Responsible Generative AI in Public-Serving Organizations (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43372
+- User Perceptions of Responsibility and Autonomy of AI Consent Behaviours (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43136
+- Bridging AI Research and Policy: A Co-Production Framework and the Case for Policy Transfer Offices (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43128
+- Governing by Proxy: How Regulatory Intermediaries Shape EU AI Act Compliance in Practice (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43231
+- Corporate Narratives of Care: Exploring Sociotechnical Imaginaries of AI in Swedish Eldercare (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43374
+- Towards Trustworthy Intelligent Tutoring Systems for Nursing Education: Integrating Nurse-Informed Design with a Frugal Neuro-Symbolic Architecture (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43364
+- Distributed Responsibility, Contested Accountability: Auditing and Governing AI Systems Across the Supply Chain (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43370
+- Hardware Is an AI Ethics Problem: Expert Visions for a Sustainable and Equitable Semiconductor Industry (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43137
+- Tracking AI Advisory Drift Before It Reaches the Farms: Measuring Contextual Reliability in LLM-Generated Advice Across the Agricultural Landscape (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43268
+- The Unfalsifiable Delusion: Mass Surveillance Infrastructure and Disparate Impact on Americans with Paranoia-Spectrum Conditions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43208
+- Nationwide AI Models for Depression Prediction: Regional Generalizability and Culturally Sensitive Variable Selection (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43332
+- Rethinking Robot Ownership: Comparing Public, Corporate, and Private Ownership Models (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43307
+- Unmet care needs at the end-of-life among older adults with activity limitations (Nature Communications) https://doi.org/10.1038/s41467-026-74719-0
+- Modeling the global potential of smart farming innovations (Proceedings of the National Academy of Sciences) https://doi.org/10.1073/pnas.2530081123
+- Realizing the human right to water means moving from remedy to prevention (Nature Water) https://doi.org/10.1038/s44221-026-00740-8
+- Controlling the shell growth mechanism and interfacial oxidation of InAs/ZnSe quantum dots for shortwave infrared emission (Nature Communications) https://doi.org/10.1038/s41467-026-77896-0
+- When Platforms Pay Users to Correct Misinformation: Revenue Incentives and Governance Capacity in Weibo Annotations (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18668
+- Fact-check? True!: Tracking Verification Requests and the Absence of Truth Verdicts across Correction Systems (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17068
+- Friends as Sensors: High-Sensitivity Monitoring of Misinformation and Platform Dynamics via the Friendship Paradox (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16907
+- Pre-Trained Language Models as Zero-Shot Tools for Social Science Research (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19048
+- Decomposing and Predicting Annotation Disagreement in Harmful Content Across Languages (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18588
+- The Many Morals of AI: The cautionary bias of North American news narratives in global perspective (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18573
+- TL;QR: Querying Temporal Discursive Patterns in Textual Corpora (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15712
+- Label-Centric Knowledge Retrieval for Zero-Shot Text Classification (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16182
+- On the Calibration of Crowdsourcing Aggregators (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16815
+- Do AI Agents Gossip? Evaluative Talk in Human and AI-Agent Online Communities (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20360
+- DISARM-ing the Hidden Puppetmaster: An Interface for Exposing Manipulative Tactics in Large Language Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20878
+- VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21330
+- North or South? Diagnosing LLMs' Understanding of North Korean Language, Society, and Knowledge (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15282
+- Concept Representations in Vector Space: Quantifying Sharedness and Idiosyncrasy of Meaning (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15496
+- Hidden in Plain Sight: Advancing Harmful Content Understanding via Perception-Aware Adversarial Self-Play (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15449
+- Unfair and Unsafe: Everyday Bias Triggers Emergent Misalignment (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15961
+- Behavioural Sociology of Humans and Machines (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17487
+- UZHCL_for_the_win at Touche: Encoder Fine-Tuning, Synthetic Augmentation, and an Underpowered Encoder-LLM Comparison (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17077
+- Towards Cost-Efficient Video Dataset Construction with Large Language Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16857
+- Interpreting Paper-to-Patent Citations in AI-Related PMC Articles (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18109
+- From Qualitative Text to Integrated Evidence: The Parallel-Then-Integrated (PTI) Procedure (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19164
+- Machine--human agreement in marking undergraduate assignments is specific to model, prompt and institution (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18019
+- Swiss4Arg: A Parallel Dataset for Multilingual Argument Mining across Swiss National Languages (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17894
+- Crossing the Gender Binary: Modelling Gendered Reference in Science Fiction and General Fiction (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19028
+- Lexical Persistence Without Semantic Entrenchment in AI Agent Communities (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20365
+- APRiL: An Open-ended Benchmark for Chinese Social Awareness in Large Language Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20785
+- Lost in Translation: Why Lower Bias Scores Don't Mean Fairer Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20479
+- Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21407
+- Machine Learning Models Trained on a Longitudinal Survey Dataset Poorly Predict Hundreds of Life Outcomes (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17115
+- Understanding and Reducing Misalignment in Persuasion Optimization (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16070
+- Social Priors: Descriptions of AI Users Shape How Language Models Trust and Cooperate (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16946
+- Learning to GUIDE the Group: Self-Learning LLM Facilitation Across Multi-Party Tasks (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16231
+- AI Information Synthesis and Content Polarization (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17674
+- Technology-Supported Moderation in Online Deliberation (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18187
+- Connecting the Dots: Enduring Performance Gaps in ASR Systems Between Standard and Minority English Varieties (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17761
+- Auditing Failure Attribution: Label Predictability and Judge Behavior (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17747
+- Claim Framing as a Driver of LLM Sycophancy (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18159
+- Beyond Initial Creation: Two Decades of Community-based Chart Revisions from Wikimedia Commons (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19337
+- Introducing the United States Secretary of State (USSOS) Speech Dataset (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19529
+- Can We Believe AI Peer Review? (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19339
+- SoK: Grading Open-Text Legal Answers, from Law School Exams to Trustworthy Rubric Judges (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19992
+- ReviewPilot: A Multi-Agent System for Screening and Data Extraction in Systematic Reviews (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21042
+- Resisting Harmful Instructions through Training-Free Weight Editing (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21189
+- AuthScribe: Supporting Agency and Authorship in LLM-Assisted Reflective Journaling (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.15439
+- Against Anonymising Meta-Scientific Data (OSF Preprints (OSF Preprints)) https://doi.org/10.17605/osf.io/eukr9
+- How much does the map of science depend on the embedding model? (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16639
+- Spatial Partner Markets: Effective Competition, Scale, and Opportunity (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17119
+- Thinking Outside the Bots: Human Ideas in AI's Semantic Blind Spots Are Not Inferior (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17324
+- Beyond Successful Play: Diagnosing Opponent Modeling in Large Language Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17310
+- Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17195
+- Linguistic Passiveness in Earnings Calls and Stock Returns (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19087
+- Hurricane recovery gaps lie in reconnection, not local restart (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17550
+- Known-Voice Cloning and the Limits of Personality Transfer for Character Design (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18669
+- Identity, Incentives, and Cooperative Behavior for AI: Reverse-Engineering Multiagent Cooperation (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19188
+- Physics-Aware Deepfake Detection via Distance-Speech Consistency (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18485
+- Beyond Bias Scores: Answerability Confounds in Activation Steering with Gradient-Constrained Direction Design (GCD) (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.17641
+- How Do LLMs Understand Legal Philosophy? Diagnosing Legal-Philosophical Reasoning in LLMs (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19427
+- Likelihood Is Not Authorship: Can We Reliably Measure Human Contribution in AI-Assisted Writing? (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19767
+- Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19587
+- What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20195
+- Model vs. User: Whose Values Prevail? Inference-Time Value Alignment in Multi-Turn Conversations (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19817
+- NICE Toolbox: Nonverbal Interpersonal Communication Exploration Toolbox (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21786
+- The Delegation Dilemma: Economies of Scale, Accountability, and Polycentric Governance (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21746
+- Statistical Laws of Human Mobility under Large-Scale Behavioural Shock (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.22116
+- A Systematic and Validated Translation of the Perceived Empathy of Technology Scale to Chinese (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21541
+- What do AI chatbots do after users decline therapeutic redirection for suicide thoughts? (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21253
+- MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.22314
+- Institutional broadening of the Japanese astronomy and astrophysics research community during 1996-2025 (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16633
+- Foundations for a Lens of Quantum Governance (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16939
+- Computational Reflective Equilibrium for Agentic AI: A Rawlsian Alignment Scaffold for Governance (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.16015
+- Linear regression with probabilistic networks for network-linked data (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18937
+- Understanding the "Why": Investigating the Design of Privacy Support Tools (PSTs) through the Lens of Psychological Needs (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18366
+- Breakdown of Conversational Involvement: A Joint Multi-Modal Analysis of Conversation Floors and F-formation Detection with Multiple Features (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18627
+- Revisiting the Estimation of Unigram Surprisal in Computational Psycholinguistics (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.18414
+- AgentCIScope: Grounded Contextual Integrity Evaluation for LLM Agents (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.19158
+- The Benefits and Challenges of Mindfulness for Women Who Have Experienced Interpersonal Violence: A Qualitative Meta-Synthesis (OSF Preprints (OSF Preprints)) https://doi.org/10.17605/osf.io/rc56t
+- Predicting future insurance markets: Simulation of technology adoption paths with a Bayesian Bass model (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20098
+- Language Exposure Matters: Distribution and Order in Multilingual BabyLM Pre-training (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20102
+- Algorithmic Collusion Without Deterrence: Auditing the Punishment Mechanism in Q-Learning Pricing Agents (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21867
+- How language model agents reshape price competition (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.21711
+- Awakening as a Trait-Level Transformation of Consciousness (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.20856
+- Integrative Thinking in Computational Physics Design Essays (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.22154
+
+Nothing new this week from: Mohsen Mosleh, Scott A. Hale, Andreu Casas, Paul Röttger, Hannah Rose Kirk, Kate Starbird, Emma S. Spiro, Jevin D. West, Ryan Calo, Geoffrey Supran, Erik M. Conway, Jennifer Allen, Cameron Martel, William J. Brady, Yingdan Lu.
