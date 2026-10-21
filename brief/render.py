@@ -45,7 +45,8 @@ def build_context(cfg: Config, selected: list[Article], overflow: list[Article],
 
     def view(a: Article) -> dict:
         return {
-            "title": a.title, "url": a.url, "venue": a.venue, "date": nice_date(a.date),
+            "title": a.title, "url": a.url, "venue": a.venue or ("Preprint" if a.is_preprint else ""),
+            "date": nice_date(a.date),
             "authors": author_line(a), "abstract": short_abstract(a.abstract, words),
             "summary": a.summary, "preprint": a.is_preprint, "pick": a.editors_pick,
             "now_published": a.now_published, "scholars": a.scholar_names,
@@ -73,7 +74,8 @@ def build_context(cfg: Config, selected: list[Article], overflow: list[Article],
         "watch": [{"scholar": k, "articles": v} for k, v in watch.items()],
         "quiet": scholars_quiet,
         "picks": [view(a) for a in selected if a.editors_pick],
-        "overflow": [view(a) for a in overflow] if cfg.settings.get("overflow_footer", True) else [],
+        "overflow": [view(a) for a in overflow[:int(cfg.settings.get("overflow_max", 15))]]
+        if cfg.settings.get("overflow_footer", True) else [],
     }
 
 

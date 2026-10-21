@@ -49,10 +49,10 @@ def keyword_match(a: Article, keywords: list[str]) -> bool:
 
 
 def prefilter(articles: list[Article], keywords: list[str]) -> list[Article]:
-    """Cheap first pass for filtered venues and preprints. Followed scholars always pass."""
+    """Cheap first pass for filtered venues, preprints and coauthors' work."""
     out = []
     for a in articles:
-        if a.scholar_hit or not a.needs_filter or a.research_field in SOCIAL_FIELDS or keyword_match(a, keywords):
+        if not a.needs_filter or a.research_field in SOCIAL_FIELDS or keyword_match(a, keywords):
             out.append(a)
     return out
 
@@ -73,7 +73,7 @@ def _classify_keywords(articles: list[Article], cfg, keywords: list[str]) -> Non
     interests = " ".join(cfg.settings.get("research_interests") or []).lower().split()
     interest_words = {w for w in interests if len(w) > 4}
     for a in articles:
-        if a.needs_filter and not a.scholar_hit:
+        if a.needs_filter:
             a.keep = keyword_match(a, keywords)
         text = f"{a.title} {a.abstract}".lower()
         a.relevance = min(10.0, float(sum(w in text for w in interest_words)))
@@ -94,12 +94,12 @@ def _classify_ai(articles: list[Article], cfg) -> None:
         "You screen new research papers for a weekly newsletter read by a computational social "
         "scientist.\n\nTheir research interests:\n" + interests + "\n\nNewsletter topics:\n" + topics +
         "\n\nFor each paper return:\n"
-        "- keep: only matters when the paper is marked FILTER. true if it is a research article "
-        "(not news, editorial, correction or comment) about society, human behaviour, social media, "
-        "communication, politics, psychology, science and the public, or the social uses and impacts "
-        "of AI and language technology. false for pure natural science, medicine, or purely technical "
-        "ML/NLP work with no social-science angle. For papers not marked FILTER, return true unless "
-        "it is not a research article.\n"
+        "- keep: false if it is not a research article or review (news, editorial, comment, "
+        "correction, dataset, data or code deposit, supplementary material). For papers marked FILTER, "
+        "also false unless it is about society, human behaviour, social media, communication, "
+        "politics, psychology, science and the public, or the social uses and impacts of AI and "
+        "language technology; false for pure natural science, medicine, mathematics, or purely "
+        "technical ML/NLP work with no social-science angle. Otherwise true.\n"
         f"- topic: one of {', '.join(t['id'] for t in cfg.topics)}. For preprints choose only from "
         f"{', '.join(preprint_topics)}.\n"
         "- relevance: 0-10, how close the paper is to the reader's research interests.\n"
@@ -110,7 +110,7 @@ def _classify_ai(articles: list[Article], cfg) -> None:
     for start in range(0, len(articles), batch_size):
         batch = articles[start:start + batch_size]
         papers = "\n\n".join(
-            f"<paper id=\"{a.id}\"{' FILTER' if a.needs_filter and not a.scholar_hit else ''}"
+            f"<paper id=\"{a.id}\"{' FILTER' if a.needs_filter else ''}"
             f"{' PREPRINT' if a.is_preprint else ''}>\nTitle: {a.title}\nVenue: {a.venue}\n"
             f"Abstract: {a.abstract[:2500] or '(none)'}\n</paper>"
             for a in batch)
@@ -138,10 +138,7 @@ def _classify_ai(articles: list[Article], cfg) -> None:
             a = by_id.get(r["id"])
             if not a:
                 continue
-            if a.needs_filter and not a.scholar_hit:
-                a.keep = bool(r["keep"])
-            elif not r["keep"] and not a.scholar_hit:
-                a.keep = False  # news item / correction in a listed journal
+            a.keep = bool(r["keep"])
             a.relevance = float(max(0, min(10, r["relevance"])))
             a.summary = r["summary"].strip()
             if not a.topic:

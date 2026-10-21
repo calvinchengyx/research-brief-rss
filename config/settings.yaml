@@ -8,7 +8,9 @@ topic_priority: [css, comm, cl]
 topic_quota:
   comm: {min: 3, max: 5}
   cl: {min: 3, max: 5}
+scholar_watch: {max: 5}      # followed scholars' work outside the listed journals
 overflow_footer: true        # "Also this week": cut articles as one-line links
+overflow_max: 15             # longest that footer gets
 
 abstract_words: 80           # abstract length shown in the email
 

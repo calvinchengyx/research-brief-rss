@@ -19,7 +19,8 @@ from .state import Seen
 
 log = logging.getLogger(__name__)
 
-SKIP_TYPES = {"erratum", "paratext", "retraction", "editorial", "letter", "peer-review", "other"}
+SKIP_TYPES = {"erratum", "paratext", "retraction", "editorial", "letter", "peer-review", "other", "dataset",
+              "supplementary-materials", "software", "grant", "standard"}
 
 
 @dataclass
@@ -27,6 +28,7 @@ class Followed:
     """Lookup tables built from state/resolved.json."""
     sources: dict[str, dict] = field(default_factory=dict)       # source id -> journals.yaml entry
     authors: dict[str, tuple[str, str]] = field(default_factory=dict)  # author id -> (label, topic)
+    anchor_ids: set[str] = field(default_factory=set)  # people named in scholars.yaml
     institutions: dict[str, tuple[str, str]] = field(default_factory=dict)  # MIT Media Lab etc.
     anchors: dict[str, set[str]] = field(default_factory=dict)  # scholars.yaml name -> author ids
     preprint_institutions: list[str] = field(default_factory=list)
@@ -47,6 +49,7 @@ def build_followed(cfg: Config, resolved: dict) -> Followed:
             f.institutions[r["id"]] = (sc["name"], sc["topic"])
             continue
         f.authors[r["id"]] = (sc["name"], sc["topic"])
+        f.anchor_ids.add(r["id"])
         f.anchors[sc["name"]] = {r["id"]}
         relation = "coauthor of" if r["type"] == "coauthors" else "lab of"
         surname = sc["name"].split()[-1]
@@ -105,14 +108,17 @@ def tag(a: Article, f: Followed) -> None:
     inst_hits = list(dict.fromkeys(f.institutions[i] for au in a.authors
                                    for i in au.institution_ids if i in f.institutions))
     a.scholar_hit = bool(names)
+    a.anchor_hit = any(au.id in f.anchor_ids for au in a.authors)
     a.scholar_names = list(dict.fromkeys(names))
     journal = f.sources.get(a.venue_id or "")
     a.journal_hit = journal is not None and not a.is_preprint
     if a.journal_hit:
         a.topic = journal["topic"]
-        a.needs_filter = journal.get("filter") == "social-science"
+        a.needs_filter = journal.get("filter") == "social-science" and not a.anchor_hit
     elif a.scholar_hit:
         a.topic = f.authors[next(au.id for au in a.authors if au.followed)][1]
+        # Coauthors and lab members publish on everything; keep only social-science work
+        a.needs_filter = not a.anchor_hit
     else:
         # preprint from a top institution, or work from a followed institution
         a.needs_filter = True

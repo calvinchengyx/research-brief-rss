@@ -54,7 +54,7 @@
     <p style="font-size:15px;line-height:1.55;color:#333333;margin:18px 0 0 0;">
       New research from the journals and scholars you follow, {{ stats.window }}.
       This issue has {{ stats.shown }} article{{ "s" if stats.shown != 1 }}{% if stats.priority %}, including {{ stats.priority }} top priority{% endif %}.
-      {% if stats.cut %}{{ stats.cut }} more are listed at the end.{% endif %}
+      {% if overflow %}Another {{ stats.cut }} passed the filters; the next {{ overflow | length }} are listed at the end.{% endif %}
     </p>
   </td></tr>
 

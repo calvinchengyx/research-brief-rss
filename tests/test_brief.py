@@ -57,6 +57,17 @@ def test_cap_fills_spare_slots_when_css_is_small():
     assert count(selected, "css") == 2
 
 
+def test_scholar_watch_has_its_own_quota():
+    items = ([art(i, "css") for i in range(30)] + [art(100 + i, "comm") for i in range(10)]
+             + [art(200 + i, "cl") for i in range(10)]
+             + [art(300 + i, "cl", preprint=True, scholar=True, journal=False) for i in range(10)])
+    selected, _ = apply_cap(items, {**SETTINGS, "scholar_watch": {"max": 5}})
+    watch = [a for a in selected if a.scholar_hit and not a.journal_hit]
+    assert len(watch) == 5
+    assert count([a for a in selected if a not in watch], "css") == 9
+    assert sum(1 for a in selected if a.topic == "comm") == 3
+
+
 def test_scholar_preprints_rank_before_other_preprints():
     items = [art(i, "cl", preprint=True, relevance=9) for i in range(30)] + \
         [art(99, "cl", preprint=True, scholar=True, relevance=1)] + [art(500 + i, "css") for i in range(19)]
@@ -128,7 +139,10 @@ class StubOpenAlex:
         if key == "authorships.author.id":
             return [work("W5", "Coauthor preprint", "SARX", "repository",
                          authors=[("ACO", "Coauthor Person", None)], field="Computer Science",
-                         abstract="language models")]
+                         abstract="language models and social media"),
+                    work("W7", "Coauthor math paper", "SMATH", "journal",
+                         authors=[("ACO", "Coauthor Person", None)], field="Mathematics",
+                         abstract="tail bounds for convex programs")]
         if key == "authorships.institutions.lineage":
             return [work("W6", "Oxford preprint on online harms", "SARX", "repository",
                          authors=[("AQ", "Q", "IOX")])]
@@ -157,6 +171,7 @@ def test_pipeline_end_to_end(sandbox):
     assert "Erratum" not in html
     assert "Coauthor preprint" in html and "coauthor of Pan" in html  # scholar watch
     assert "Oxford preprint on online harms" in html                  # institution-filtered preprint
+    assert "Coauthor math paper" not in html                          # coauthors' work is topic-filtered
     assert stats["priority"] == 1
     assert "Kate Starbird" in html                                    # quiet scholars listed
     assert not (sandbox / "seen.json").exists()                       # preview never records state

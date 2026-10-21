@@ -30,7 +30,8 @@ class Article:
 
     # Set by the pipeline
     journal_hit: bool = False     # published in a listed journal/conference
-    scholar_hit: bool = False     # written by a followed scholar
+    scholar_hit: bool = False     # written by a followed scholar (or their coauthor/lab member)
+    anchor_hit: bool = False      # written by someone named in scholars.yaml
     scholar_names: list[str] = field(default_factory=list)
     needs_filter: bool = False    # from a `filter: social-science` venue or a preprint
     topic: str | None = None
