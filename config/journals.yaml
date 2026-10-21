@@ -54,8 +54,8 @@ journals:
   - {name: The Web Conference, kind: conference, topic: cl, filter: social-science}                  # WWW
   - {name: EPJ Data Science, topic: cl}
   - {name: Conference on Human Factors in Computing Systems, kind: conference, topic: cl, filter: social-science}  # CHI
-  - {name: Conference on Fairness, Accountability and Transparency, kind: conference, topic: cl, filter: social-science}  # FAccT
-  - {name: AAAI/ACM Conference on AI, Ethics, and Society, kind: conference, topic: cl, filter: social-science}  # AIES
+  - {name: "Conference on Fairness, Accountability and Transparency", kind: conference, topic: cl, filter: social-science}  # FAccT
+  - {name: "AAAI/ACM Conference on AI, Ethics, and Society", kind: conference, topic: cl, filter: social-science}  # AIES
   - {name: ACM Web Science Conference, kind: conference, topic: cl, filter: social-science}
   - {name: Journal of the Association for Information Science and Technology, topic: cl, filter: social-science}
   - {name: Information Processing & Management, topic: cl, filter: social-science}
@@ -69,7 +69,7 @@ journals:
   - {name: Human Communication Research, topic: comm}
   - {name: Political Communication, topic: comm}
   - {name: Journal of Computer-Mediated Communication, topic: comm}
-  - {name: Information, Communication & Society, topic: comm}
+  - {name: "Information, Communication & Society", topic: comm}
   - {name: Digital Journalism, topic: comm}
   - {name: Communication Methods and Measures, topic: comm}
   - {name: The International Journal of Press/Politics, topic: comm}

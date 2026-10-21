@@ -15,6 +15,10 @@ ARCHIVE_DIR = ROOT / "archive"
 TEMPLATE_DIR = ROOT / "templates"
 
 
+JOURNAL_KEYS = {"name", "issn", "topic", "filter", "kind"}
+SCHOLAR_KEYS = {"name", "hint", "topic", "type", "openalex", "min_joint_papers", "max_members"}
+
+
 def _load(name: str) -> dict:
     with open(CONFIG_DIR / name, encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
@@ -42,7 +46,10 @@ def load_config() -> Config:
         settings=_load("settings.yaml"),
         topic_names={t["id"]: t["name"] for t in topics},
     )
-    for entry in cfg.journals + cfg.scholars:
+    for entry, allowed in [(j, JOURNAL_KEYS) for j in cfg.journals] + [(sc, SCHOLAR_KEYS) for sc in cfg.scholars]:
+        stray = set(entry) - allowed
+        if stray:  # usually a name with a comma that needs "quotes"
+            raise ValueError(f"{entry['name']}: unexpected {sorted(stray)}; put names containing commas in quotes")
         if entry.get("topic") not in cfg.topic_names:
             raise ValueError(f"{entry['name']}: unknown topic {entry.get('topic')!r} (see topics.yaml)")
     return cfg
