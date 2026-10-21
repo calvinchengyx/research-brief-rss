@@ -26,50 +26,76 @@ def load_cache() -> dict:
     return {}
 
 
+def _key(entry) -> str:
+    return json.dumps(entry, sort_keys=True, ensure_ascii=False)
+
+
+def _save(cache: dict) -> None:
+    STATE_DIR.mkdir(exist_ok=True)
+    CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False), encoding="utf-8")
+
+
+def _section(cache: dict, section: str, entries: list, lookup) -> None:
+    """Resolve each entry once; reuse earlier answers for unchanged entries.
+
+    Progress is saved as it goes, so a run stopped by OpenAlex rate limits
+    picks up where it left off next time.
+    """
+    old = cache.get(section + "_by_entry", {})
+    new = {}
+    try:
+        for e in entries:
+            k = _key(e)
+            new[k] = old[k] if k in old else lookup(e)
+            if len(new) % 10 == 0:
+                cache[section + "_by_entry"] = {**old, **new}
+                _save(cache)
+    finally:
+        cache[section + "_by_entry"] = {**old, **new}
+        _save(cache)
+    name = (lambda e: e["name"]) if entries and isinstance(entries[0], dict) else (lambda e: e)
+    cache[section] = {name(e): new[_key(e)] for e in entries}
+    cache[section + "_by_entry"] = new  # drop entries no longer in config
+
+
 def resolve_all(cfg: Config, oa: OpenAlex) -> dict:
     cache = load_cache()
     s = cfg.settings
 
-    fp = cfg.fingerprint("journals")
-    if cache.get("journals_fp") != fp:
-        log.info("Resolving %d journals", len(cfg.journals))
-        cache["journals"] = {j["name"]: oa.resolve_source(j) for j in cfg.journals}
-        cache["journals_fp"] = fp
+    log.info("Resolving %d journals", len(cfg.journals))
+    _section(cache, "journals", cfg.journals, oa.resolve_source)
 
-    fp = cfg.fingerprint("institutions") + str(s.get("preprints"))
-    if cache.get("institutions_fp") != fp:
-        names = sum((cfg.institutions.get(k) or [] for k in ("universities", "institutes", "companies")), [])
-        log.info("Resolving %d institutions", len(names))
-        cache["institutions"] = {n: oa.resolve_institution(n) for n in names}
-        servers = (s.get("preprints") or {}).get("servers") or []
-        cache["servers"] = {n: oa.resolve_repository(n) for n in servers}
+    names = sum((cfg.institutions.get(k) or [] for k in ("universities", "institutes", "companies")), [])
+    log.info("Resolving %d institutions", len(names))
+    _section(cache, "institutions", names, oa.resolve_institution)
+    servers = (s.get("preprints") or {}).get("servers") or []
+    _section(cache, "servers", servers, oa.resolve_repository)
+    if not cache.get("preprint_fields"):
         cache["preprint_fields"] = oa.field_ids(PREPRINT_FIELDS)
-        cache["institutions_fp"] = fp
 
-    fp = cfg.fingerprint("scholars")
     expired = cache.get("expanded_on", "") < (date.today() - timedelta(days=s.get("expand_every_days", 30))).isoformat()
-    if cache.get("scholars_fp") != fp or expired:
-        log.info("Resolving %d scholars", len(cfg.scholars))
-        scholars = {}
-        for sc in cfg.scholars:
-            if sc.get("type") == "institution":
-                scholars[sc["name"]] = {**oa.resolve_institution(sc["name"]), "type": "institution"}
-                continue
-            info = oa.resolve_author(sc)
-            info["type"] = sc.get("type", "person")
-            info["members"] = []
-            if info["id"] and info["type"] in ("coauthors", "group"):
-                info["members"] = oa.expand(info["id"], info["type"],
-                                            min_joint=sc.get("min_joint_papers", 2),
-                                            years=s.get("coauthor_years", 5),
-                                            cap=sc.get("max_members", 100 if sc.get("min_joint_papers") == 1 else 60))
-            scholars[sc["name"]] = info
-        cache["scholars"] = scholars
-        cache["scholars_fp"] = fp
+    if expired:
+        cache.pop("scholars_by_entry", None)  # recompute coauthor groups and lab members
+
+    def scholar(sc: dict) -> dict:
+        if sc.get("type") == "institution":
+            return {**oa.resolve_institution(sc["name"]), "type": "institution"}
+        info = oa.resolve_author(sc)
+        info["type"] = sc.get("type", "person")
+        info["members"] = []
+        if info["id"] and info["type"] in ("coauthors", "group"):
+            info["members"] = oa.expand(info["id"], info["type"],
+                                        min_joint=sc.get("min_joint_papers", 2),
+                                        years=s.get("coauthor_years", 5),
+                                        cap=sc.get("max_members", 100 if sc.get("min_joint_papers") == 1 else 60))
+        return info
+
+    log.info("Resolving %d scholars", len(cfg.scholars))
+    _section(cache, "scholars", cfg.scholars, scholar)
+    if expired:
         cache["expanded_on"] = date.today().isoformat()
 
-    STATE_DIR.mkdir(exist_ok=True)
-    CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False), encoding="utf-8")
+    _save(cache)
     (STATE_DIR / "following.md").write_text(following_report(cfg, cache), encoding="utf-8")
     return cache
 

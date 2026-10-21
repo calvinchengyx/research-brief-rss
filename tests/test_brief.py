@@ -172,3 +172,21 @@ def test_send_records_and_never_repeats(sandbox, monkeypatch):
     assert len(seen["sent"]) >= 4
     stats = pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
     assert stats["new"] == 0
+
+
+def test_lookups_resume_after_rate_limit(sandbox):
+    calls = []
+
+    def flaky(name):
+        calls.append(name)
+        if name == "c" and calls.count("c") == 1:
+            raise RuntimeError("429")
+        return {"id": name.upper()}
+
+    cache = {}
+    with pytest.raises(RuntimeError):
+        resolve._section(cache, "institutions", ["a", "b", "c", "d"], flaky)
+    cache = resolve.load_cache()                       # saved progress survives the crash
+    resolve._section(cache, "institutions", ["a", "b", "c", "d"], flaky)
+    assert cache["institutions"] == {"a": {"id": "A"}, "b": {"id": "B"}, "c": {"id": "C"}, "d": {"id": "D"}}
+    assert calls == ["a", "b", "c", "c", "d"]          # a and b were not looked up twice

@@ -38,12 +38,16 @@ class OpenAlex:
             self.calls += 1
             resp = self.session.get(f"{API}{path}", params=params, timeout=60)
             if resp.status_code in (429, 500, 502, 503, 504):
-                wait = 2 ** attempt
+                retry_after = resp.headers.get("Retry-After", "")
+                wait = min(int(retry_after), 120) if retry_after.isdigit() else 2 ** attempt * 2
                 log.warning("OpenAlex %s on %s, retrying in %ss", resp.status_code, path, wait)
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
             return resp.json()
+        if resp.status_code == 429 and "api_key" not in self.params:
+            raise RuntimeError("OpenAlex rate limit reached. Add a free OpenAlex API key as the "
+                               "OPENALEX_API_KEY repository secret (https://openalex.org/settings/api).")
         resp.raise_for_status()
         return {}
 

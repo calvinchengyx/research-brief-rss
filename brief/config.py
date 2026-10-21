@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import hashlib
-import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -31,11 +29,6 @@ class Config:
     recipients: list[str]
     settings: dict
     topic_names: dict[str, str] = field(default_factory=dict)
-
-    def fingerprint(self, *parts: str) -> str:
-        """Hash of the named config sections, so cached lookups refresh when I edit them."""
-        data = {p: getattr(self, p) for p in parts}
-        return hashlib.sha256(json.dumps(data, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:16]
 
 
 def load_config() -> Config:
