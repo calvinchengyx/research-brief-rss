@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-from brief import pipeline, resolve, state
+from brief import pipeline, recipe, resolve, state
 from brief.models import Article, Author
 from brief.render import author_line
 from brief.select import apply_cap
@@ -156,6 +156,7 @@ def sandbox(tmp_path, monkeypatch):
     monkeypatch.setattr(state, "STATE_DIR", tmp_path)
     monkeypatch.setattr(state, "SEEN", tmp_path / "seen.json")
     monkeypatch.setattr(pipeline.cls, "STATE_DIR", tmp_path)
+    monkeypatch.setattr(recipe, "RECIPE", tmp_path / "recipe.html")
     monkeypatch.setattr(pipeline, "PREVIEW_DIR", tmp_path / "preview")
     monkeypatch.setattr(pipeline, "ARCHIVE_DIR", tmp_path / "archive")
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
@@ -177,6 +178,17 @@ def test_pipeline_end_to_end(sandbox):
     assert "Kate Starbird" in html                                    # quiet scholars listed
     assert not (sandbox / "seen.json").exists()                       # preview never records state
     assert "following.md" in {p.name for p in sandbox.iterdir()}
+
+
+def test_recipe_explains_the_run(sandbox):
+    pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
+    page = (sandbox / "recipe.html").read_text()
+    report = json.loads((sandbox / "preview" / "run.json").read_text())
+    assert "What was picked and why" in page
+    assert report["selected"] and all(a["reason"] for a in report["selected"])
+    assert report["sources"]["raw"] >= report["found"]
+    for a in report["selected"]:
+        assert a["title"].replace("&", "&amp;") in page
 
 
 def test_send_records_and_never_repeats(sandbox, monkeypatch):

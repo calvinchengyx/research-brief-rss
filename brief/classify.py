@@ -86,13 +86,14 @@ def _cache_key(a: Article, model: str) -> str:
     return f"{model}|{'F' if a.needs_filter else '-'}|{a.key}"
 
 
-def classify(articles: list[Article], cfg, use_ai: bool) -> None:
+def classify(articles: list[Article], cfg, use_ai: bool) -> dict:
+    """Returns how many papers each method decided, for the run report."""
     s = cfg.settings
     model = (s.get("ai") or {}).get("model", "claude-haiku-5-5")
     has_credentials = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_FEDERATION_RULE_ID")
     if not (use_ai and has_credentials):
         _classify_keywords(articles, cfg, s.get("social_keywords") or [])
-        return
+        return {"model": None, "ai": 0, "cached": 0, "keywords": len(articles)}
 
     cache = _load_cache()
     todo = []
@@ -117,6 +118,8 @@ def classify(articles: list[Article], cfg, use_ai: bool) -> None:
             cache[_cache_key(a, model)] = {"keep": a.keep, "topic": a.topic, "relevance": a.relevance,
                                            "summary": a.summary, "on": today}
         _save_cache(cache)
+    return {"model": model, "ai": len(done), "cached": len(articles) - len(todo),
+            "keywords": len(todo) - len(done)}
 
 
 def _classify_keywords(articles: list[Article], cfg, keywords: list[str]) -> None:
@@ -131,17 +134,13 @@ def _classify_keywords(articles: list[Article], cfg, keywords: list[str]) -> Non
             a.topic = "cl" if a.research_field == "Computer Science" else "css"
 
 
-def _classify_ai(articles: list[Article], cfg, done: list[Article]) -> None:
-    """Classify in batches; append each finished paper to `done` as it completes."""
-    import anthropic
-
+def system_prompt(cfg) -> str:
+    """The instructions Claude gets with every batch (also shown in recipe.html)."""
     s = cfg.settings
-    ai = s.get("ai") or {}
-    client = anthropic.Anthropic()
     topics = "\n".join(f"- {t['id']}: {t['name']}. {t.get('description', '')}" for t in cfg.topics)
     preprint_topics = (s.get("preprints") or {}).get("topics") or ["css", "cl"]
     interests = "\n".join(f"- {i}" for i in s.get("research_interests") or [])
-    system = (
+    return (
         "You screen new research papers for a weekly newsletter read by a computational social "
         "scientist.\n\nTheir research interests:\n" + interests + "\n\nNewsletter topics:\n" + topics +
         "\n\nFor each paper return:\n"
@@ -156,6 +155,17 @@ def _classify_ai(articles: list[Article], cfg, done: list[Article]) -> None:
         "- relevance: 0-10, how close the paper is to the reader's research interests.\n"
         "- summary: one plain sentence (max 25 words) on what the paper finds."
     )
+
+
+def _classify_ai(articles: list[Article], cfg, done: list[Article]) -> None:
+    """Classify in batches; append each finished paper to `done` as it completes."""
+    import anthropic
+
+    s = cfg.settings
+    ai = s.get("ai") or {}
+    client = anthropic.Anthropic()
+    preprint_topics = (s.get("preprints") or {}).get("topics") or ["css", "cl"]
+    system = system_prompt(cfg)
     by_id = {a.id: a for a in articles}
     batch_size = int(ai.get("batch_size", 20))
     for start in range(0, len(articles), batch_size):

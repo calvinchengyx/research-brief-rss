@@ -1,7 +1,8 @@
 {
- "mode": "test",
+ "mode": "preview",
  "since": "2026-10-11",
  "until": "2026-10-21",
+ "generated": "2026-10-21",
  "window": "11 October 2026 to 21 October 2026",
  "shown": 20,
  "priority": 4,
@@ -10,5 +11,488 @@
  "new": 2590,
  "after_prefilter": 1176,
  "kept": 454,
- "openalex_calls": 25
+ "openalex_calls": 25,
+ "sources": {
+  "journals": 1213,
+  "scholars": 34,
+  "institutions": 4,
+  "preprints": 1403,
+  "raw": 2654,
+  "skipped_type": 64,
+  "unmatched": 0
+ },
+ "classified_by": {
+  "model": "claude-haiku-5-5",
+  "ai": 0,
+  "cached": 1176,
+  "keywords": 0
+ },
+ "needs_filter": 2538,
+ "preprints_found": 1431,
+ "kept_by_topic": {
+  "Computational Social Science": 122,
+  "Computational Linguistics": 299,
+  "Communication & Science Communication": 33
+ },
+ "kept_by_section": {
+  "Topic": 433,
+  "Top priority": 4,
+  "Scholar watch": 17
+ },
+ "shown_by_topic": {
+  "Communication & Science Communication": 5,
+  "Computational Social Science": 8,
+  "Computational Linguistics": 7
+ },
+ "shown_by_section": {
+  "Topic": 11,
+  "Top priority": 4,
+  "Scholar watch": 5
+ },
+ "selected": [
+  {
+   "title": "Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest",
+   "url": "https://doi.org/10.1080/1369118x.2026.2737399",
+   "venue": "Information Communication & Society",
+   "date": "2026-10-11",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 9.0,
+   "pick": true,
+   "summary": "German politicians' TikTok climate protest debates are polarized, with far-right actors dominating content and benefiting from antagonistic engagement.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "AI-generated language remains systematically distinguishable from human communication",
+   "url": "https://doi.org/10.1073/pnas.2531748123",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "date": "2026-10-12",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 9.0,
+   "pick": true,
+   "summary": "CHAT framework shows LLM outputs stay distinguishable from human social media text, especially in affective tone, even after calibration.",
+   "reason": "Published in a followed venue, filed under Computational Social Science. Passed the social-science filter."
+  },
+  {
+   "title": "(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups",
+   "url": "https://doi.org/10.1080/1369118x.2026.2743936",
+   "venue": "Information Communication & Society",
+   "date": "2026-10-12",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 9.0,
+   "pick": true,
+   "summary": "Mixed-methods study of Italian social media shows anti-gender and anti-trans actors converge discursively around shared frames, though the alliance is fragile.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "Computational propaganda campaigns by domestic political actors in Pakistan on Facebook",
+   "url": "https://doi.org/10.1007/s42001-026-00502-2",
+   "venue": "Journal of Computational Social Science",
+   "date": "2026-10-14",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 9.0,
+   "pick": true,
+   "summary": "Facebook hashtag campaigns in Pakistan show bots and spam accounts dominate political propaganda, intensifying around elections.",
+   "reason": "Published in a followed venue, filed under Computational Social Science."
+  },
+  {
+   "title": "Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content",
+   "url": "https://doi.org/10.1177/00936502261496144",
+   "venue": "Communication Research",
+   "date": "2026-10-17",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 9.0,
+   "pick": false,
+   "summary": "Statistical versus narrative evidence in Reddit vaccine skepticism debates produces distinct rational and narrative engagement pathways, analysed with LLM assistance.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale",
+   "url": "https://doi.org/10.1609/aies.v9i1.43122",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "LLMs show covert dialect bias via probability distributions, penalizing AAVE and Nigerian Pidgin in housing judgments, with context-dependent patterns for Nigerian Standard English.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  },
+  {
+   "title": "Polarization and echo chambers in Reddit’s political discourse",
+   "url": "https://doi.org/10.1140/epjds/s13688-026-00707-5",
+   "venue": "EPJ Data Science",
+   "date": "2026-10-12",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Reddit's 2016 election discourse shows clear ideological polarization and echo chambers, with election periods intensifying cross-group engagement and reducing linguistic diversity.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics."
+  },
+  {
+   "title": "Petition style changes with AI writing support but outcomes do not improve",
+   "url": "https://doi.org/10.1038/s41562-026-02579-1",
+   "venue": "Nature Human Behaviour",
+   "date": "2026-10-14",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "AI writing support changes petition style, but petition outcomes do not improve, per Nature Human Behaviour study.",
+   "reason": "Published in a followed venue, filed under Computational Social Science."
+  },
+  {
+   "title": "Estimating the threat of AI-agent responding across online survey platforms",
+   "url": "https://doi.org/10.1073/pnas.2606460123",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "date": "2026-10-15",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Finds 6 to 41% of online survey respondents fail AI-agent tests, showing AI contamination of online survey data varies by platform.",
+   "reason": "Published in a followed venue, filed under Computational Social Science. Passed the social-science filter."
+  },
+  {
+   "title": "AI can persuade people to take political actions",
+   "url": "https://doi.org/10.1073/pnas.2611368123",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "date": "2026-10-16",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Top priority",
+   "scholars": [
+    "Kobi Hackenburg",
+    "Christopher Summerfield",
+    "Ben M Tappin (lab of Rand)"
+   ],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Two preregistered experiments find conversational AI sizably persuades people to sign petitions and donate, but behavioural effects don't track attitude effects.",
+   "reason": "Followed scholar (Kobi Hackenburg, Christopher Summerfield, Ben M Tappin (lab of Rand)) in a followed venue."
+  },
+  {
+   "title": "Measuring and Mitigating (Over)reliance to Build Human-Compatible AI",
+   "url": "https://doi.org/10.1609/aies.v9i2.43225",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Top priority",
+   "scholars": [
+    "Lujain Ibrahim",
+    "Diyi Yang"
+   ],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "Argues that measuring and mitigating user overreliance on LLMs is central, consolidating risks and proposing measurement directions and mitigations.",
+   "reason": "Followed scholar (Lujain Ibrahim, Diyi Yang) in a followed venue."
+  },
+  {
+   "title": "An agentic AI system for multi-framework communication coding",
+   "url": "https://doi.org/10.1038/s41746-026-03314-w",
+   "venue": "npj Digital Medicine",
+   "date": "2026-10-11",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "MOSAIC, a multi-agent LLM system with RAG and few-shot prompting, codes clinical patient–provider communication with 95.6% weighted F1 against human coders.",
+   "reason": "Published in a followed venue, filed under Computational Social Science. Passed the social-science filter."
+  },
+  {
+   "title": "When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary",
+   "url": "https://doi.org/10.1609/aies.v9i3.43249",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "Decade-long study of Korean Go YouTube commentary shows AI's source label recedes while winrate talk persists, a domestication of AI mediation.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  },
+  {
+   "title": "Religious information repertoires in Switzerland’s hybrid information environment: asymmetric associations with trust and reputation",
+   "url": "https://doi.org/10.1080/1369118x.2026.2750550",
+   "venue": "Information Communication & Society",
+   "date": "2026-10-17",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Top priority",
+   "scholars": [
+    "Mark Eisenegger (lab of Schäfer)"
+   ],
+   "relevance": 6.0,
+   "pick": false,
+   "summary": "Swiss survey finds six religious information repertoires in hybrid media, linked to distinct trust and reputation patterns across religions.",
+   "reason": "Followed scholar (Mark Eisenegger (lab of Schäfer)) in a followed venue."
+  },
+  {
+   "title": "AI Assistance for Human Review of Default Judgments",
+   "url": "https://doi.org/10.1609/aies.v9i4.43347",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Top priority",
+   "scholars": [
+    "Tatsunori Hashimoto (lab of Yang)"
+   ],
+   "relevance": 3.0,
+   "pick": false,
+   "summary": "Controlled study finds an LLM-based Default Assistant makes law students 6% more accurate and 26% faster at reviewing default judgments.",
+   "reason": "Followed scholar (Tatsunori Hashimoto (lab of Yang)) in a followed venue. Passed the social-science filter."
+  },
+  {
+   "title": "Consensus, Disagreements, and Open Questions in the Psychology of Misinformation",
+   "url": "https://doi.org/10.1146/annurev-psych-031626-100451",
+   "venue": "Annual Review of Psychology",
+   "date": "2026-10-16",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Scholar watch",
+   "scholars": [
+    "Gordon Pennycook (lab of Rand)"
+   ],
+   "relevance": 6.0,
+   "pick": false,
+   "summary": "Review of misinformation psychology finds robust mechanisms like repetition and political identity, evaluates interventions such as prebunking and accuracy prompts, and identifies methodological disagreements.",
+   "reason": "Work by a followed scholar (Gordon Pennycook (lab of Rand)) outside the venue list. Passed the social-science filter."
+  },
+  {
+   "title": "Digitally Enhanced Fitspiration Content on Social Media",
+   "url": "https://doi.org/10.47368/ejhc.2026.205",
+   "venue": "European Journal of Health Communication",
+   "date": "2026-10-16",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Scholar watch",
+   "scholars": [
+    "Thomas N. Friemel (lab of Schäfer)"
+   ],
+   "relevance": 5.0,
+   "pick": false,
+   "summary": "Scoping review of 26 studies finds digitally enhanced fitspiration content on Instagram links to appearance comparison and internalisation of unrealistic body ideals.",
+   "reason": "Work by a followed scholar (Thomas N. Friemel (lab of Schäfer)) outside the venue list. Passed the social-science filter."
+  },
+  {
+   "title": "Stringent policies were associated with greater Covid-19 vaccine uptake including among those who did not trust the vaccine",
+   "url": "https://doi.org/10.1177/00323217261484277",
+   "venue": "Political Studies",
+   "date": "2026-10-19",
+   "topic": "Computational Social Science",
+   "preprint": false,
+   "section": "Scholar watch",
+   "scholars": [
+    "Brendan J Nyhan (coauthor of Pan)"
+   ],
+   "relevance": 3.0,
+   "pick": false,
+   "summary": "Finds high-stringency vaccine policies raised Covid-19 vaccine uptake, including among those who distrusted the vaccine.",
+   "reason": "Work by a followed scholar (Brendan J Nyhan (coauthor of Pan)) outside the venue list. Passed the social-science filter."
+  },
+  {
+   "title": "GENDIS: Gender-Related Discourse and Stance in Multilingual YouTube Comments from India, Kenya, and Nigeria",
+   "url": "https://doi.org/10.48550/arxiv.2610.17778",
+   "venue": "arXiv (Cornell University)",
+   "date": "2026-10-13",
+   "topic": "Computational Linguistics",
+   "preprint": true,
+   "section": "Scholar watch",
+   "scholars": [
+    "Manuel Tonneau"
+   ],
+   "relevance": 9.0,
+   "pick": false,
+   "summary": "Introduces GENDIS, a multilingual annotated YouTube comment dataset showing gender-related discourse is mostly neutral or positive and lightly supervised classifiers rival LLMs.",
+   "reason": "Work by a followed scholar (Manuel Tonneau) outside the venue list."
+  },
+  {
+   "title": "Pushback in a Haystack: Language Models Respond to Factual Errors Ambiguously and Ineffectively",
+   "url": "https://doi.org/10.48550/arxiv.2610.17703",
+   "venue": "arXiv (Cornell University)",
+   "date": "2026-10-13",
+   "topic": "Computational Linguistics",
+   "preprint": true,
+   "section": "Scholar watch",
+   "scholars": [
+    "Myra Cheng (lab of Yang)",
+    "Yulia Tsvetkov (coauthor of Pan)"
+   ],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "LLMs push back on users' false claims indirectly and mix in affirmation, reducing correction effectiveness, with more indirectness in Hindi and Yoruba; a human study confirms users' misconceptions persist.",
+   "reason": "Work by a followed scholar (Myra Cheng (lab of Yang), Yulia Tsvetkov (coauthor of Pan)) outside the venue list. Passed the social-science filter."
+  }
+ ],
+ "cut_top": [
+  {
+   "title": "Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election",
+   "url": "https://doi.org/10.1080/10584609.2026.2745832",
+   "venue": "Political Communication",
+   "date": "2026-10-11",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Tanzania 2025 election study finds AI translation distorted claims and community credibility practices limited fact-check influence.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "How can approaches from physical ecology help research and policy on the information environment?",
+   "url": "https://doi.org/10.37016/mr-2020-212",
+   "venue": "Harvard Kennedy School Misinformation Review",
+   "date": "2026-10-15",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Argues physical ecology frameworks can move information ecosystem metaphors toward concrete models for misinformation research and policy.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "Unleashing menstrual blood: a qualitative study of free-bleeding activism on Instagram",
+   "url": "https://doi.org/10.1080/14680777.2026.2747096",
+   "venue": "Feminist Media Studies",
+   "date": "2026-10-16",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "A qualitative study of free-bleeding activists on Instagram examines how menstrual activism is practiced and framed on social media.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "“ This data is really sensitive ” – the making of non-commercial menstruapps as productive resistance within Femtech",
+   "url": "https://doi.org/10.1080/14680777.2026.2745932",
+   "venue": "Feminist Media Studies",
+   "date": "2026-10-16",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Interviews with nine makers of non-commercial menstruapps frame them as productive resistance to commercial Femtech and its data practices.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "Disinformation in practice: Threats, actors, mechanisms, and constraints according to practitioners",
+   "url": "https://doi.org/10.37016/mr-2020-213",
+   "venue": "Harvard Kennedy School Misinformation Review",
+   "date": "2026-10-16",
+   "topic": "Communication & Science Communication",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 8.0,
+   "pick": false,
+   "summary": "Survey of 106 French disinformation practitioners finds they blame platforms and face coordination, resource, and censorship constraints.",
+   "reason": "Published in a followed venue, filed under Communication & Science Communication."
+  },
+  {
+   "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
+   "url": "https://doi.org/10.1609/aies.v9i3.43247",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "Open-weight LLMs penalize female candidates for agentic job-posting language and non-White candidates for coded-exclusion language, with an explicit demographic label as the main driver.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  },
+  {
+   "title": "AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory",
+   "url": "https://doi.org/10.1609/aies.v9i4.43310",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "Misleading AI-generated video summaries distort participants' later memory of the original event, with summaries frequently omitting central details, showing AI can distort human memory without adversarial intent.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  },
+  {
+   "title": "The Artificial Moral Machine: Do LLMs Mirror Human Moral Diversity or Merely Caricature It?",
+   "url": "https://doi.org/10.1609/aies.v9i3.43257",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "LLM persona-conditioned trolley dilemma judgments show political ideology dominates geography, unlike human Moral Machine data, and demographic effects match humans no better than chance.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  },
+  {
+   "title": "Auditing LLM Portrayals of Neurodivergent People: Quantifying the Asymmetry Between Deficit Framing and Neurodiversity Affirmation",
+   "url": "https://doi.org/10.1609/aies.v9i4.43328",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "Audit finds LLM portrayals of neurodivergent people are easier to steer toward deficit framing than affirmation, and prompt variation drives inconsistency.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  },
+  {
+   "title": "Who Brought Easter Eggs to Eid? Auditing LLM-Generated Cultural Translation of Math Word Problems Across Languages and Regions",
+   "url": "https://doi.org/10.1609/aies.v9i4.43321",
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "date": "2026-10-11",
+   "topic": "Computational Linguistics",
+   "preprint": false,
+   "section": "Topic",
+   "scholars": [],
+   "relevance": 7.0,
+   "pick": false,
+   "summary": "Audit finds LLMs adapting math problems across languages compress cultural diversity, favour surface markers, and misattribute regional context, with models agreeing on substitutions only 33.5% of the time.",
+   "reason": "Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter."
+  }
+ ]
 }
