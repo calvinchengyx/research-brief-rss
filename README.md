@@ -278,7 +278,7 @@ Pipeline each run:
 
 1. **Collect** new works since the last run (by index date, with a 2‑day overlap so nothing falls in a gap).
 2. **Deduplicate** by DOI against `state/seen.json`, so an article is never sent twice even if the window overlaps.
-3. **Filter** venues marked `filter: social-science`: keep a paper only if it is about social media, society, science, psychology, communication or politics. First a keyword pass, then Claude Sonnet 5.5 (low effort) reads the title + abstract and says keep/drop. Keywords alone either miss papers or let noise through.
+3. **Filter** venues marked `filter: social-science`: keep a paper only if it is about social media, society, science, psychology, communication or politics. First a keyword pass, then Claude Haiku 5.5 (low effort) reads the title + abstract and says keep/drop. Answers are cached in `state/classified.json`, so each paper is screened once. Keywords alone either miss papers or let noise through.
 4. **Tag** each article: `journal_hit`, `scholar_hit`, and `top_priority = journal_hit AND scholar_hit`.
 5. **Assign topic** from the journal, or from the scholar's default topic.
 6. **Render** the HTML email, save a copy to `archive/YYYY-MM-DD.html`, and **send**.
@@ -390,10 +390,11 @@ On by default (I approved it). It can be switched off in `settings.yaml`:
 | OpenAlex, Crossref, Semantic Scholar, RSS | Free |
 | GitHub Actions (≈3–5 min per run, private repo has 2,000 free min/month) | Free |
 | Brevo free tier | Free |
-| Social‑science filter for broad journals and CL venues (≈300–800 abstracts/week, more in conference weeks, small Claude model) | ≈ $0.05–0.30 |
-| Social‑science filter for preprints (≈150–300 abstracts/week after the institution filter) | ≈ $0.05–0.15 |
-| Optional AI layer (Editor's picks) | ≈ $0.02–0.10 |
-| **Total** | **$0 with keyword filter only; about $2–3/month with the Claude filter** |
+| Claude Haiku 5.5 filter, summaries and Editor's picks (≈1,000 abstracts in a busy week at $0.10/$0.50 per million tokens) | ≈ $0.05–0.15 |
+| Reruns and previews (answers cached in `state/classified.json`, so a paper is only screened once) | ≈ $0 |
+| **Total** | **$0 with keyword filter only; well under $1/month with the Claude filter** |
+
+To cap spend, set a monthly limit in the Claude Console under Settings → Limits. If the limit is hit, the run falls back to the keyword filter instead of failing.
 
 Building it is a one‑time effort in this project.
 
