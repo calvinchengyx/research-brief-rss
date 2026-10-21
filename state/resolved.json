@@ -1,0 +1,1412 @@
+{
+ "journals_by_entry": {
+  "{\"filter\": \"social-science\", \"issn\": \"0028-0836\", \"name\": \"Nature\", \"topic\": \"css\"}": {
+   "ids": [
+    "S137773608"
+   ],
+   "matched": [
+    "Nature"
+   ],
+   "exact": true
+  },
+  "{\"issn\": \"2397-3374\", \"name\": \"Nature Human Behaviour\", \"topic\": \"css\"}": {
+   "ids": [
+    "S2764866340"
+   ],
+   "matched": [
+    "Nature Human Behaviour"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"issn\": \"2041-1723\", \"name\": \"Nature Communications\", \"topic\": \"css\"}": {
+   "ids": [
+    "S64187185"
+   ],
+   "matched": [
+    "Nature Communications"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Journal of Computational Social Science\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210196583"
+   ],
+   "matched": [
+    "Journal of Computational Social Science"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"issn\": \"0027-8424\", \"name\": \"Proceedings of the National Academy of Sciences\", \"topic\": \"css\"}": {
+   "ids": [
+    "S125754415"
+   ],
+   "matched": [
+    "Proceedings of the National Academy of Sciences"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"PNAS Nexus\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4220651275"
+   ],
+   "matched": [
+    "PNAS Nexus"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"issn\": \"0036-8075\", \"name\": \"Science\", \"topic\": \"css\"}": {
+   "ids": [
+    "S3880285"
+   ],
+   "matched": [
+    "Science"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"issn\": \"2375-2548\", \"name\": \"Science Advances\", \"topic\": \"css\"}": {
+   "ids": [
+    "S2737427234"
+   ],
+   "matched": [
+    "Science Advances"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Aging\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210214063"
+   ],
+   "matched": [
+    "Nature Aging"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Cities\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4390297069"
+   ],
+   "matched": [
+    "Nature Cities"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Climate Change\", \"topic\": \"css\"}": {
+   "ids": [
+    "S183584863"
+   ],
+   "matched": [
+    "Nature Climate Change"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Computational Science\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210228084"
+   ],
+   "matched": [
+    "Nature Computational Science"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Ecology & Evolution\", \"topic\": \"css\"}": {
+   "ids": [
+    "S2764884935"
+   ],
+   "matched": [
+    "Nature Ecology & Evolution"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Energy\", \"topic\": \"css\"}": {
+   "ids": [
+    "S2764528046"
+   ],
+   "matched": [
+    "Nature Energy"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Food\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210207988"
+   ],
+   "matched": [
+    "Nature Food"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Health\", \"topic\": \"css\"}": {
+   "ids": [
+    "S5407053741"
+   ],
+   "matched": [
+    "Nature Health"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Machine Intelligence\", \"topic\": \"css\"}": {
+   "ids": [
+    "S2912241403"
+   ],
+   "matched": [
+    "Nature Machine Intelligence"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Medicine\", \"topic\": \"css\"}": {
+   "ids": [
+    "S203256638"
+   ],
+   "matched": [
+    "Nature Medicine"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Mental Health\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4387286578"
+   ],
+   "matched": [
+    "Nature Mental Health"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Neuroscience\", \"topic\": \"css\"}": {
+   "ids": [
+    "S2298632"
+   ],
+   "matched": [
+    "Nature Neuroscience"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Sustainability\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210188283"
+   ],
+   "matched": [
+    "Nature Sustainability"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Nature Water\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4387286383"
+   ],
+   "matched": [
+    "Nature Water"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Communications Psychology\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4387291379"
+   ],
+   "matched": [
+    "Communications Psychology"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Communications Earth & Environment\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210221880"
+   ],
+   "matched": [
+    "Communications Earth & Environment"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"npj Complexity\", \"topic\": \"css\"}": {
+   "ids": [
+    "S5407025833"
+   ],
+   "matched": [
+    "npj Complexity"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"npj Climate Action\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4387287600"
+   ],
+   "matched": [
+    "npj Climate Action"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"npj Science of Learning\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210220735"
+   ],
+   "matched": [
+    "npj Science of Learning"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"npj Digital Medicine\", \"topic\": \"css\"}": {
+   "ids": [
+    "S4210195431"
+   ],
+   "matched": [
+    "npj Digital Medicine"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Annual Meeting of the Association for Computational Linguistics\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363608652",
+    "S7407086083",
+    "S7407088936"
+   ],
+   "matched": [
+    "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo)",
+    "Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW)"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Conference on Empirical Methods in Natural Language Processing\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363608991",
+    "S7407087688",
+    "S7407088282"
+   ],
+   "matched": [
+    "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP)",
+    "Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Neural Information Processing Systems\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363606243",
+    "S7407089294"
+   ],
+   "matched": [
+    "neural information processing systems",
+    "LatinX in AI at Neural Information Processing Systems Conference (LXAI)"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"North American Chapter of the Association for Computational Linguistics\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363608774",
+    "S4306420633"
+   ],
+   "matched": [
+    "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+    "North American Chapter of the Association for Computational Linguistics"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Findings of the Association for Computational Linguistics\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363605604",
+    "S4363605144",
+    "S7407087051"
+   ],
+   "matched": [
+    "Findings of the Association for Computational Linguistics: NAACL",
+    "Findings of the Association for Computational Linguistics: ACL 2022",
+    "Findings of the Association for Computational Linguistics: EACL"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Transactions of the Association for Computational Linguistics\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S2729999759"
+   ],
+   "matched": [
+    "Transactions of the Association for Computational Linguistics"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Computational Linguistics\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S155526855"
+   ],
+   "matched": [
+    "Computational Linguistics"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Proceedings of the International AAAI Conference on Web and Social Media\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4387284482"
+   ],
+   "matched": [
+    "Proceedings of the International AAAI Conference on Web and Social Media"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Proceedings of the ACM on Human-Computer Interaction\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4210183893"
+   ],
+   "matched": [
+    "Proceedings of the ACM on Human-Computer Interaction"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"The Web Conference\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363608846",
+    "S4306506650"
+   ],
+   "matched": [
+    "The Web Conference (WWW)",
+    "Companion Proceedings of the The Web Conference 2018"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"EPJ Data Science\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S2504380752"
+   ],
+   "matched": [
+    "EPJ Data Science"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Conference on Human Factors in Computing Systems\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S7407086392",
+    "S4363607743",
+    "S7407087610",
+    "S4363607762",
+    "S7407086517"
+   ],
+   "matched": [
+    "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
+    "CHI Conference on Human Factors in Computing Systems",
+    "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)",
+    "CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+    "ACM Conference on Human Factors in Computing Systems (CHI)"
+   ],
+   "exact": true
+  },
+  "{\"Accountability and Transparency\": null, \"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"Conference on Fairness\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4363608463"
+   ],
+   "matched": [
+    "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+   ],
+   "exact": true
+  },
+  "{\"Ethics\": null, \"and Society\": null, \"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"AAAI/ACM Conference on AI\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S5407048695"
+   ],
+   "matched": [
+    "Proceedings of the AAAI/ACM Conference on AI Ethics and Society"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"kind\": \"conference\", \"name\": \"ACM Web Science Conference\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S7407088419"
+   ],
+   "matched": [
+    "ACM Web Science Conference (WebSci)"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Journal of the Association for Information Science and Technology\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S4210197613"
+   ],
+   "matched": [
+    "Journal of the Association for Information Science and Technology"
+   ],
+   "exact": true
+  },
+  "{\"filter\": \"social-science\", \"name\": \"Information Processing & Management\", \"topic\": \"cl\"}": {
+   "ids": [
+    "S174847851"
+   ],
+   "matched": [
+    "Information Processing & Management"
+   ],
+   "exact": true
+  },
+  "{\"issn\": \"0021-9916\", \"name\": \"Journal of Communication\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S107737141"
+   ],
+   "matched": [
+    "Journal of Communication"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"New Media & Society\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S88603889"
+   ],
+   "matched": [
+    "New Media & Society"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Social Media + Society\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S2764570952"
+   ],
+   "matched": [
+    "Social Media + Society"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Big Data & Society\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S2736409588"
+   ],
+   "matched": [
+    "Big Data & Society"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Communication Research\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S28604305"
+   ],
+   "matched": [
+    "Communication Research"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Human Communication Research\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S195553305"
+   ],
+   "matched": [
+    "Human Communication Research"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Political Communication\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S27211427"
+   ],
+   "matched": [
+    "Political Communication"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Journal of Computer-Mediated Communication\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S30594836"
+   ],
+   "matched": [
+    "Journal of Computer-Mediated Communication"
+   ],
+   "exact": true
+  },
+  "{\"Communication & Society\": null, \"name\": \"Information\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S4210219776"
+   ],
+   "matched": [
+    "Information"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Digital Journalism\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S2764497610"
+   ],
+   "matched": [
+    "Digital Journalism"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Communication Methods and Measures\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S193040567"
+   ],
+   "matched": [
+    "Communication Methods and Measures"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"The International Journal of Press/Politics\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S161861253"
+   ],
+   "matched": [
+    "The International Journal of Press/Politics"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Communication Monographs\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S173776643"
+   ],
+   "matched": [
+    "Communication Monographs"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Public Understanding of Science\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S124907306"
+   ],
+   "matched": [
+    "Public Understanding of Science"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Science Communication\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S30803906"
+   ],
+   "matched": [
+    "Science Communication"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Journal of Science Communication\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S4210212669"
+   ],
+   "matched": [
+    "Journal of Science Communication"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Feminist Media Studies\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S26978096"
+   ],
+   "matched": [
+    "Feminist Media Studies"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Chinese Journal of Communication\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S87403961"
+   ],
+   "matched": [
+    "Chinese Journal of Communication"
+   ],
+   "exact": true
+  },
+  "{\"name\": \"Harvard Kennedy School Misinformation Review\", \"topic\": \"comm\"}": {
+   "ids": [
+    "S5407028046"
+   ],
+   "matched": [
+    "Harvard Kennedy School Misinformation Review"
+   ],
+   "exact": true
+  }
+ },
+ "journals": {
+  "Nature": {
+   "ids": [
+    "S137773608"
+   ],
+   "matched": [
+    "Nature"
+   ],
+   "exact": true
+  },
+  "Nature Human Behaviour": {
+   "ids": [
+    "S2764866340"
+   ],
+   "matched": [
+    "Nature Human Behaviour"
+   ],
+   "exact": true
+  },
+  "Nature Communications": {
+   "ids": [
+    "S64187185"
+   ],
+   "matched": [
+    "Nature Communications"
+   ],
+   "exact": true
+  },
+  "Journal of Computational Social Science": {
+   "ids": [
+    "S4210196583"
+   ],
+   "matched": [
+    "Journal of Computational Social Science"
+   ],
+   "exact": true
+  },
+  "Proceedings of the National Academy of Sciences": {
+   "ids": [
+    "S125754415"
+   ],
+   "matched": [
+    "Proceedings of the National Academy of Sciences"
+   ],
+   "exact": true
+  },
+  "PNAS Nexus": {
+   "ids": [
+    "S4220651275"
+   ],
+   "matched": [
+    "PNAS Nexus"
+   ],
+   "exact": true
+  },
+  "Science": {
+   "ids": [
+    "S3880285"
+   ],
+   "matched": [
+    "Science"
+   ],
+   "exact": true
+  },
+  "Science Advances": {
+   "ids": [
+    "S2737427234"
+   ],
+   "matched": [
+    "Science Advances"
+   ],
+   "exact": true
+  },
+  "Nature Aging": {
+   "ids": [
+    "S4210214063"
+   ],
+   "matched": [
+    "Nature Aging"
+   ],
+   "exact": true
+  },
+  "Nature Cities": {
+   "ids": [
+    "S4390297069"
+   ],
+   "matched": [
+    "Nature Cities"
+   ],
+   "exact": true
+  },
+  "Nature Climate Change": {
+   "ids": [
+    "S183584863"
+   ],
+   "matched": [
+    "Nature Climate Change"
+   ],
+   "exact": true
+  },
+  "Nature Computational Science": {
+   "ids": [
+    "S4210228084"
+   ],
+   "matched": [
+    "Nature Computational Science"
+   ],
+   "exact": true
+  },
+  "Nature Ecology & Evolution": {
+   "ids": [
+    "S2764884935"
+   ],
+   "matched": [
+    "Nature Ecology & Evolution"
+   ],
+   "exact": true
+  },
+  "Nature Energy": {
+   "ids": [
+    "S2764528046"
+   ],
+   "matched": [
+    "Nature Energy"
+   ],
+   "exact": true
+  },
+  "Nature Food": {
+   "ids": [
+    "S4210207988"
+   ],
+   "matched": [
+    "Nature Food"
+   ],
+   "exact": true
+  },
+  "Nature Health": {
+   "ids": [
+    "S5407053741"
+   ],
+   "matched": [
+    "Nature Health"
+   ],
+   "exact": true
+  },
+  "Nature Machine Intelligence": {
+   "ids": [
+    "S2912241403"
+   ],
+   "matched": [
+    "Nature Machine Intelligence"
+   ],
+   "exact": true
+  },
+  "Nature Medicine": {
+   "ids": [
+    "S203256638"
+   ],
+   "matched": [
+    "Nature Medicine"
+   ],
+   "exact": true
+  },
+  "Nature Mental Health": {
+   "ids": [
+    "S4387286578"
+   ],
+   "matched": [
+    "Nature Mental Health"
+   ],
+   "exact": true
+  },
+  "Nature Neuroscience": {
+   "ids": [
+    "S2298632"
+   ],
+   "matched": [
+    "Nature Neuroscience"
+   ],
+   "exact": true
+  },
+  "Nature Sustainability": {
+   "ids": [
+    "S4210188283"
+   ],
+   "matched": [
+    "Nature Sustainability"
+   ],
+   "exact": true
+  },
+  "Nature Water": {
+   "ids": [
+    "S4387286383"
+   ],
+   "matched": [
+    "Nature Water"
+   ],
+   "exact": true
+  },
+  "Communications Psychology": {
+   "ids": [
+    "S4387291379"
+   ],
+   "matched": [
+    "Communications Psychology"
+   ],
+   "exact": true
+  },
+  "Communications Earth & Environment": {
+   "ids": [
+    "S4210221880"
+   ],
+   "matched": [
+    "Communications Earth & Environment"
+   ],
+   "exact": true
+  },
+  "npj Complexity": {
+   "ids": [
+    "S5407025833"
+   ],
+   "matched": [
+    "npj Complexity"
+   ],
+   "exact": true
+  },
+  "npj Climate Action": {
+   "ids": [
+    "S4387287600"
+   ],
+   "matched": [
+    "npj Climate Action"
+   ],
+   "exact": true
+  },
+  "npj Science of Learning": {
+   "ids": [
+    "S4210220735"
+   ],
+   "matched": [
+    "npj Science of Learning"
+   ],
+   "exact": true
+  },
+  "npj Digital Medicine": {
+   "ids": [
+    "S4210195431"
+   ],
+   "matched": [
+    "npj Digital Medicine"
+   ],
+   "exact": true
+  },
+  "Annual Meeting of the Association for Computational Linguistics": {
+   "ids": [
+    "S4363608652",
+    "S7407086083",
+    "S7407088936"
+   ],
+   "matched": [
+    "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo)",
+    "Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW)"
+   ],
+   "exact": true
+  },
+  "Conference on Empirical Methods in Natural Language Processing": {
+   "ids": [
+    "S4363608991",
+    "S7407087688",
+    "S7407088282"
+   ],
+   "matched": [
+    "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP)",
+    "Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)"
+   ],
+   "exact": true
+  },
+  "Neural Information Processing Systems": {
+   "ids": [
+    "S4363606243",
+    "S7407089294"
+   ],
+   "matched": [
+    "neural information processing systems",
+    "LatinX in AI at Neural Information Processing Systems Conference (LXAI)"
+   ],
+   "exact": true
+  },
+  "North American Chapter of the Association for Computational Linguistics": {
+   "ids": [
+    "S4363608774",
+    "S4306420633"
+   ],
+   "matched": [
+    "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+    "North American Chapter of the Association for Computational Linguistics"
+   ],
+   "exact": true
+  },
+  "Findings of the Association for Computational Linguistics": {
+   "ids": [
+    "S4363605604",
+    "S4363605144",
+    "S7407087051"
+   ],
+   "matched": [
+    "Findings of the Association for Computational Linguistics: NAACL",
+    "Findings of the Association for Computational Linguistics: ACL 2022",
+    "Findings of the Association for Computational Linguistics: EACL"
+   ],
+   "exact": true
+  },
+  "Transactions of the Association for Computational Linguistics": {
+   "ids": [
+    "S2729999759"
+   ],
+   "matched": [
+    "Transactions of the Association for Computational Linguistics"
+   ],
+   "exact": true
+  },
+  "Computational Linguistics": {
+   "ids": [
+    "S155526855"
+   ],
+   "matched": [
+    "Computational Linguistics"
+   ],
+   "exact": true
+  },
+  "Proceedings of the International AAAI Conference on Web and Social Media": {
+   "ids": [
+    "S4387284482"
+   ],
+   "matched": [
+    "Proceedings of the International AAAI Conference on Web and Social Media"
+   ],
+   "exact": true
+  },
+  "Proceedings of the ACM on Human-Computer Interaction": {
+   "ids": [
+    "S4210183893"
+   ],
+   "matched": [
+    "Proceedings of the ACM on Human-Computer Interaction"
+   ],
+   "exact": true
+  },
+  "The Web Conference": {
+   "ids": [
+    "S4363608846",
+    "S4306506650"
+   ],
+   "matched": [
+    "The Web Conference (WWW)",
+    "Companion Proceedings of the The Web Conference 2018"
+   ],
+   "exact": true
+  },
+  "EPJ Data Science": {
+   "ids": [
+    "S2504380752"
+   ],
+   "matched": [
+    "EPJ Data Science"
+   ],
+   "exact": true
+  },
+  "Conference on Human Factors in Computing Systems": {
+   "ids": [
+    "S7407086392",
+    "S4363607743",
+    "S7407087610",
+    "S4363607762",
+    "S7407086517"
+   ],
+   "matched": [
+    "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
+    "CHI Conference on Human Factors in Computing Systems",
+    "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)",
+    "CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+    "ACM Conference on Human Factors in Computing Systems (CHI)"
+   ],
+   "exact": true
+  },
+  "Conference on Fairness": {
+   "ids": [
+    "S4363608463"
+   ],
+   "matched": [
+    "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+   ],
+   "exact": true
+  },
+  "AAAI/ACM Conference on AI": {
+   "ids": [
+    "S5407048695"
+   ],
+   "matched": [
+    "Proceedings of the AAAI/ACM Conference on AI Ethics and Society"
+   ],
+   "exact": true
+  },
+  "ACM Web Science Conference": {
+   "ids": [
+    "S7407088419"
+   ],
+   "matched": [
+    "ACM Web Science Conference (WebSci)"
+   ],
+   "exact": true
+  },
+  "Journal of the Association for Information Science and Technology": {
+   "ids": [
+    "S4210197613"
+   ],
+   "matched": [
+    "Journal of the Association for Information Science and Technology"
+   ],
+   "exact": true
+  },
+  "Information Processing & Management": {
+   "ids": [
+    "S174847851"
+   ],
+   "matched": [
+    "Information Processing & Management"
+   ],
+   "exact": true
+  },
+  "Journal of Communication": {
+   "ids": [
+    "S107737141"
+   ],
+   "matched": [
+    "Journal of Communication"
+   ],
+   "exact": true
+  },
+  "New Media & Society": {
+   "ids": [
+    "S88603889"
+   ],
+   "matched": [
+    "New Media & Society"
+   ],
+   "exact": true
+  },
+  "Social Media + Society": {
+   "ids": [
+    "S2764570952"
+   ],
+   "matched": [
+    "Social Media + Society"
+   ],
+   "exact": true
+  },
+  "Big Data & Society": {
+   "ids": [
+    "S2736409588"
+   ],
+   "matched": [
+    "Big Data & Society"
+   ],
+   "exact": true
+  },
+  "Communication Research": {
+   "ids": [
+    "S28604305"
+   ],
+   "matched": [
+    "Communication Research"
+   ],
+   "exact": true
+  },
+  "Human Communication Research": {
+   "ids": [
+    "S195553305"
+   ],
+   "matched": [
+    "Human Communication Research"
+   ],
+   "exact": true
+  },
+  "Political Communication": {
+   "ids": [
+    "S27211427"
+   ],
+   "matched": [
+    "Political Communication"
+   ],
+   "exact": true
+  },
+  "Journal of Computer-Mediated Communication": {
+   "ids": [
+    "S30594836"
+   ],
+   "matched": [
+    "Journal of Computer-Mediated Communication"
+   ],
+   "exact": true
+  },
+  "Information": {
+   "ids": [
+    "S4210219776"
+   ],
+   "matched": [
+    "Information"
+   ],
+   "exact": true
+  },
+  "Digital Journalism": {
+   "ids": [
+    "S2764497610"
+   ],
+   "matched": [
+    "Digital Journalism"
+   ],
+   "exact": true
+  },
+  "Communication Methods and Measures": {
+   "ids": [
+    "S193040567"
+   ],
+   "matched": [
+    "Communication Methods and Measures"
+   ],
+   "exact": true
+  },
+  "The International Journal of Press/Politics": {
+   "ids": [
+    "S161861253"
+   ],
+   "matched": [
+    "The International Journal of Press/Politics"
+   ],
+   "exact": true
+  },
+  "Communication Monographs": {
+   "ids": [
+    "S173776643"
+   ],
+   "matched": [
+    "Communication Monographs"
+   ],
+   "exact": true
+  },
+  "Public Understanding of Science": {
+   "ids": [
+    "S124907306"
+   ],
+   "matched": [
+    "Public Understanding of Science"
+   ],
+   "exact": true
+  },
+  "Science Communication": {
+   "ids": [
+    "S30803906"
+   ],
+   "matched": [
+    "Science Communication"
+   ],
+   "exact": true
+  },
+  "Journal of Science Communication": {
+   "ids": [
+    "S4210212669"
+   ],
+   "matched": [
+    "Journal of Science Communication"
+   ],
+   "exact": true
+  },
+  "Feminist Media Studies": {
+   "ids": [
+    "S26978096"
+   ],
+   "matched": [
+    "Feminist Media Studies"
+   ],
+   "exact": true
+  },
+  "Chinese Journal of Communication": {
+   "ids": [
+    "S87403961"
+   ],
+   "matched": [
+    "Chinese Journal of Communication"
+   ],
+   "exact": true
+  },
+  "Harvard Kennedy School Misinformation Review": {
+   "ids": [
+    "S5407028046"
+   ],
+   "matched": [
+    "Harvard Kennedy School Misinformation Review"
+   ],
+   "exact": true
+  }
+ },
+ "institutions_by_entry": {
+  "\"Massachusetts Institute of Technology\"": {
+   "id": "I63966007",
+   "matched": "Massachusetts Institute of Technology",
+   "exact": true
+  },
+  "\"Imperial College London\"": {
+   "id": "I47508984",
+   "matched": "Imperial College London",
+   "exact": true
+  },
+  "\"Stanford University\"": {
+   "id": "I97018004",
+   "matched": "Stanford University",
+   "exact": true
+  },
+  "\"University of Oxford\"": {
+   "id": "I40120149",
+   "matched": "University of Oxford",
+   "exact": true
+  },
+  "\"Harvard University\"": {
+   "id": "I136199984",
+   "matched": "Harvard University",
+   "exact": true
+  },
+  "\"University of Cambridge\"": {
+   "id": "I241749",
+   "matched": "University of Cambridge",
+   "exact": true
+  },
+  "\"ETH Zurich\"": {
+   "id": "I35440088",
+   "matched": "ETH Zurich",
+   "exact": true
+  },
+  "\"National University of Singapore\"": {
+   "id": "I165932596",
+   "matched": "National University of Singapore",
+   "exact": true
+  },
+  "\"University College London\"": {
+   "id": "I45129253",
+   "matched": "University College London",
+   "exact": true
+  },
+  "\"California Institute of Technology\"": {
+   "id": "I122411786",
+   "matched": "California Institute of Technology",
+   "exact": true
+  },
+  "\"University of Hong Kong\"": {
+   "id": "I889458895",
+   "matched": "University of Hong Kong",
+   "exact": true
+  },
+  "\"Nanyang Technological University\"": {
+   "id": "I172675005",
+   "matched": "Nanyang Technological University",
+   "exact": true
+  },
+  "\"University of Chicago\"": {
+   "id": "I40347166",
+   "matched": "University of Chicago",
+   "exact": true
+  },
+  "\"Peking University\"": {
+   "id": "I20231570",
+   "matched": "Peking University",
+   "exact": true
+  },
+  "\"University of Pennsylvania\"": {
+   "id": "I79576946",
+   "matched": "University of Pennsylvania",
+   "exact": true
+  },
+  "\"Cornell University\"": {
+   "id": "I205783295",
+   "matched": "Cornell University",
+   "exact": true
+  },
+  "\"Tsinghua University\"": {
+   "id": "I99065089",
+   "matched": "Tsinghua University",
+   "exact": true
+  },
+  "\"University of California, Berkeley\"": {
+   "id": "I95457486",
+   "matched": "University of California, Berkeley",
+   "exact": true
+  },
+  "\"University of Melbourne\"": {
+   "id": "I165779595",
+   "matched": "The University of Melbourne",
+   "exact": false
+  },
+  "\"UNSW Sydney\"": {
+   "id": "I31746571",
+   "matched": "UNSW Sydney",
+   "exact": true
+  },
+  "\"Yale University\"": {
+   "id": "I32971472",
+   "matched": "Yale University",
+   "exact": true
+  },
+  "\"École Polytechnique Fédérale de Lausanne\"": {
+   "id": "I5124864",
+   "matched": "École Polytechnique Fédérale de Lausanne",
+   "exact": true
+  },
+  "\"Technical University of Munich\"": {
+   "id": "I62916508",
+   "matched": "Technical University of Munich",
+   "exact": true
+  },
+  "\"Johns Hopkins University\"": {
+   "id": "I145311948",
+   "matched": "Johns Hopkins University",
+   "exact": true
+  },
+  "\"Princeton University\"": {
+   "id": "I20089843",
+   "matched": "Princeton University",
+   "exact": true
+  },
+  "\"University of Sydney\"": {
+   "id": "I129604602",
+   "matched": "The University of Sydney",
+   "exact": false
+  },
+  "\"McGill University\"": {
+   "id": "I5023651",
+   "matched": "McGill University",
+   "exact": true
+  },
+  "\"Université PSL\"": {
+   "id": "I2746051580",
+   "matched": "Université Paris Sciences et Lettres",
+   "exact": false
+  },
+  "\"Fudan University\"": {
+   "id": "I24943067",
+   "matched": "Fudan University",
+   "exact": true
+  },
+  "\"King's College London\"": {
+   "id": "I183935753",
+   "matched": "King's College London",
+   "exact": true
+  },
+  "\"Australian National University\"": {
+   "id": "I118347636",
+   "matched": "Australian National University",
+   "exact": true
+  },
+  "\"University of Tokyo\"": {
+   "id": "I74801974",
+   "matched": "The University of Tokyo",
+   "exact": false
+  },
+  "\"Columbia University\"": {
+   "id": "I78577930",
+   "matched": "Columbia University",
+   "exact": true
+  },
+  "\"Chinese University of Hong Kong\"": {
+   "id": "I177725633",
+   "matched": "Chinese University of Hong Kong",
+   "exact": true
+  },
+  "\"University of Toronto\"": {
+   "id": "I185261750",
+   "matched": "University of Toronto",
+   "exact": true
+  },
+  "\"Monash University\"": {
+   "id": "I56590836",
+   "matched": "Monash University",
+   "exact": true
+  },
+  "\"Zhejiang University\"": {
+   "id": "I76130692",
+   "matched": "Zhejiang University",
+   "exact": true
+  },
+  "\"University of California, Los Angeles\"": {
+   "id": "I161318765",
+   "matched": "University of California, Los Angeles",
+   "exact": true
+  },
+  "\"Seoul National University\"": {
+   "id": "I139264467",
+   "matched": "Seoul National University",
+   "exact": true
+  },
+  "\"University of Michigan\"": {
+   "id": "I27837315",
+   "matched": "University of Michigan",
+   "exact": true
+  }
+ }
+}
