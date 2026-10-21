@@ -57,6 +57,11 @@ def build_context(cfg: Config, resolved: dict, report: dict) -> dict:
         ("Shown in the email", report["shown"]),
     ]
     top = max(n for _, n in stages) or 1
+    groups = ["Top priority", "Scholar watch", "Topic"]
+    topics = [t["name"] for t in cfg.topics]
+    report = {**report, "selected": sorted(
+        report["selected"], key=lambda a: (groups.index(a["section"]), topics.index(a["topic"])
+                                           if a["topic"] in topics else 99, -a["relevance"]))}
     return {
         "cfg": cfg, "s": s, "r": report, "ai": ai, "pp": pp, "report": report, "journals": journals, "scholars": scholars,
         "n_journals": len(cfg.journals), "n_scholars": len(cfg.scholars),
