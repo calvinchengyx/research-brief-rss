@@ -5,10 +5,10 @@
  "window": "11 October 2026 to 21 October 2026",
  "shown": 20,
  "priority": 4,
- "cut": 950,
+ "cut": 953,
  "found": 2590,
  "new": 2590,
  "after_prefilter": 1176,
- "kept": 970,
+ "kept": 973,
  "openalex_calls": 25
 }

@@ -26,7 +26,6 @@ https://doi.org/10.1609/aies.v9i4.43347
 AI can persuade people to take political actions
 Kobi Hackenburg*, Luke Hewitt [...] Christopher Summerfield*, Ben M Tappin*
 Proceedings of the National Academy of Sciences · 16 October 2026
-In short: Conversational AI persuades people to sign petitions and donate, but attitude effects don't predict behavioral effects, so attitude-only studies mischaracterize AI persuasion.
 There is substantial concern about the ability of advanced AI to influence people's behavior. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments ([Formula: see text] responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioral outcomes, including signing real petitions and donating …
 https://doi.org/10.1073/pnas.2611368123
 
@@ -36,7 +35,6 @@ https://doi.org/10.1073/pnas.2611368123
 AI-generated language remains systematically distinguishable from human communication
 Nicolò Pagan, Petter Törnberg, Christopher A. Bail, Christopher Barrie
 Proceedings of the National Academy of Sciences · 12 October 2026
-In short: A validation framework shows LLM-generated social media text stays distinguishable from human text, especially in affective tone, even after calibration.
 Large language models (LLMs) are increasingly used in the social sciences to simulate human behavior and communication, yet validation methods for these applications remain limited. Existing evaluations often rely on human judgments of plausibility, a coarse, difficult-to-scale, and often unreliable benchmark for distinguishing AI-generated from human text. As a result, researchers lack robust tools for assessing the realism of LLM-generated language and for calibrating models to real-world data. We address this gap in two ways. First, we introduce the Conversational …
 https://doi.org/10.1073/pnas.2531748123
 
@@ -44,7 +42,6 @@ https://doi.org/10.1073/pnas.2531748123
 A study of diplomatic discourse and network dynamics on Twitter
 Raquel Rodríguez-García, Rajesh Sharma, Roberto Centeno, Álvaro Rodrigo
 Journal of Computational Social Science · 12 October 2026
-In short: Analysis of diplomats' tweets from Russia, China, EU and US shows regionally separated follow networks and propagandistic content during key events.
 Abstract Social media has become a relevant platform to communicate with a vast audience, enabling users to spread information or influence discussions. As such, it has garnered the attention of governments and other organizations, enabling them to engage with their audiences directly and bypass traditional channels that might disrupt their message. Given their influence on shaping public perception, understanding and analyzing how they communicate provides insights into their political strategy and their outward perception. We have conducted a study based …
 https://doi.org/10.1007/s42001-026-00500-4
 
@@ -59,7 +56,6 @@ https://doi.org/10.1038/s44168-026-00410-1
 How inequality became durable before states: Evidence from 6000 years in the Central Plain of China
 Dongdong Li, Suwei Guo, Xingcan Chen
 Science Advances · 14 October 2026
-In short: Mortuary data from 6000 years in China's Central Plain show inequality became durable through social-relational networks before states emerged.
 How did durable inequality emerge before the rise of states? Drawing on a synthesis of previously published mortuary data from more than 2300 burials, together with isotopic, zooarchaeological, and osteological data spanning nearly 6000 years (7000 to 1500 BCE) in the prehistoric Central Plain of China, we reconstruct long-term patterns of relational mortuary inequality. We show that inequality followed a strongly nonlinear trajectory and cannot be explained primarily by agricultural intensification or population scale. Instead, substantial disparities were structured by …
 https://doi.org/10.1126/sciadv.ady6737
 
@@ -83,7 +79,6 @@ https://doi.org/10.1177/00936502261496144
 Too Much or Not Enough? The Decline of the Iconic News Image and the Adaptive Challenges of Visual Digital Journalism
 Ellie Macdonald
 Digital Journalism · 11 October 2026
-In short: Case study of Israel-Palestine coverage finds outlets favor high image volume over iconic single images, while a viral AI-generated image fills the symbolic role.
 Iconic news images have traditionally played a central role in journalistic praxis and public discourse, transcending news cycles and forming shared visual narratives. However, in contemporary digital media ecologies, single images struggle to gain traction amid multimedia storytelling, divergent editorial priorities, and dynamic platform affordances. To investigate the adaptive context of this shift, this article presents a case study of photographic reporting on the Israel-Palestine conflict from October 2023 to March 2024, analysing lead images from Al Jazeera English, The …
 https://doi.org/10.1080/21670811.2026.2744880
 
@@ -100,7 +95,6 @@ https://doi.org/10.37016/mr-2020-213
 [Editor's pick] Polarization and echo chambers in Reddit’s political discourse
 Daniele Cirulli, Antonio Desiderio, Giulio Cimini, Fabio Saracco
 EPJ Data Science · 12 October 2026
-In short: Network validation of Reddit communities during the 2016 US election reveals polarization and echo chambers, with Democratic, Conservative and Banned clusters.
 Abstract Political debate nowadays takes place mainly on online social media, with election periods amplifying ideological engagement. Reddit is generally considered more resistant to polarization and echo chamber effects than platforms like Twitter or Facebook. Here, we challenge this assumption through a case study across the 2016 US presidential election.We use statistical validation techniques to extract ideologically distinct communities of subreddits, in terms of their contributing user base and news consumption, which we use to analyze the dynamics of political …
 https://doi.org/10.1140/epjds/s13688-026-00707-5
 
