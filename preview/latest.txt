@@ -1,169 +1,186 @@
 CALVIN RESEARCH BRIEF
 Weekly updates · 21 October 2026
-(Test send. Articles in this email will appear again in the first real issue.)
+
 New research from the journals and scholars you follow, 11 October 2026 to 21 October 2026. 20 articles, 4 top priority.
 * = scholar you follow
 
 ==== TOP PRIORITY (a scholar you follow, in a journal you follow) ====
-Religious information repertoires in Switzerland’s hybrid information environment: asymmetric associations with trust and reputation
-Rebekka Rieser, Mark Eisenegger*
-Information Communication & Society · 17 October 2026
-In hybrid media environments, public understanding emerges from patterned combinations of legacy news media, digital platforms, and interpersonal communication. Rather than relying on single channels, individuals assemble repertoires of mediated sources, interpersonal encounters, and direct personal experiences that structure how they make sense of public issues and evaluate social groups. Religion provides an instructive case: as a morally charged and contested domain, it circulates across hybrid media environments while also being shaped by biographical and interpersonal experience. Drawing on a …
-https://doi.org/10.1080/1369118x.2026.2750550
+AI can persuade people to take political actions
+Kobi Hackenburg*, Luke Hewitt [...] Christopher Summerfield*, Ben M Tappin*
+Proceedings of the National Academy of Sciences · 16 October 2026
+In short: Two preregistered experiments find conversational AI sizably persuades people to sign petitions and donate, but behavioural effects don't track attitude effects.
+There is substantial concern about the ability of advanced AI to influence people's behavior. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments ([Formula: see text] responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioral outcomes, including signing real petitions and donating …
+https://doi.org/10.1073/pnas.2611368123
 
 Measuring and Mitigating (Over)reliance to Build Human-Compatible AI
 Lujain Ibrahim*, Katherine M. Collins [...] Diyi Yang* [...] Umang Bhatt
 Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
+In short: Argues that measuring and mitigating user overreliance on LLMs is central, consolidating risks and proposing measurement directions and mitigations.
 Large language models (LLMs) differ from previous technologies in functioning as collaborative "thought partners'' that can engage fluidly in natural language across a range of tasks and increasingly act as autonomous agents on users' behalf. As they come to shape consequential decisions from healthcare to personal advice, understanding how users rely on them, and when that reliance becomes miscalibrated, grows more urgent. This paper argues that measuring and mitigating overreliance must become central to LLM research and deployment. First, we …
 https://doi.org/10.1609/aies.v9i2.43225
+
+Religious information repertoires in Switzerland’s hybrid information environment: asymmetric associations with trust and reputation
+Rebekka Rieser, Mark Eisenegger*
+Information Communication & Society · 17 October 2026
+In short: Swiss survey finds six religious information repertoires in hybrid media, linked to distinct trust and reputation patterns across religions.
+In hybrid media environments, public understanding emerges from patterned combinations of legacy news media, digital platforms, and interpersonal communication. Rather than relying on single channels, individuals assemble repertoires of mediated sources, interpersonal encounters, and direct personal experiences that structure how they make sense of public issues and evaluate social groups. Religion provides an instructive case: as a morally charged and contested domain, it circulates across hybrid media environments while also being shaped by biographical and interpersonal experience. Drawing on a …
+https://doi.org/10.1080/1369118x.2026.2750550
 
 AI Assistance for Human Review of Default Judgments
 Theodora Worledge, Othman Bensouda Koraichi [...] Tatsunori Hashimoto* [...] David Freeman Engstrom
 Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
+In short: Controlled study finds an LLM-based Default Assistant makes law students 6% more accurate and 26% faster at reviewing default judgments.
 Overwhelmed courts in the United States review millions of default judgments each year. Unfortunately, such manual reviews are time-consuming and prone to error. In an audit of 188 debt collection cases granted default judgment by the Superior Court of Los Angeles, we find that 4% contained major defects that should have entirely prevented default judgment, 10% contained inconsistencies requiring reduced judgments, and 32% contained errors requiring amendment prior to judgment. To support courthouses in default judgment review, we collaborated with …
 https://doi.org/10.1609/aies.v9i4.43347
-
-AI can persuade people to take political actions
-Kobi Hackenburg*, Luke Hewitt [...] Christopher Summerfield*, Ben M Tappin*
-Proceedings of the National Academy of Sciences · 16 October 2026
-There is substantial concern about the ability of advanced AI to influence people's behavior. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments ([Formula: see text] responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioral outcomes, including signing real petitions and donating …
-https://doi.org/10.1073/pnas.2611368123
 
 
 ==== 1. COMPUTATIONAL SOCIAL SCIENCE ====
 -- Proceedings of the National Academy of Sciences --
-AI-generated language remains systematically distinguishable from human communication
+[Editor's pick] AI-generated language remains systematically distinguishable from human communication
 Nicolò Pagan, Petter Törnberg, Christopher A. Bail, Christopher Barrie
 Proceedings of the National Academy of Sciences · 12 October 2026
+In short: CHAT framework shows LLM outputs stay distinguishable from human social media text, especially in affective tone, even after calibration.
 Large language models (LLMs) are increasingly used in the social sciences to simulate human behavior and communication, yet validation methods for these applications remain limited. Existing evaluations often rely on human judgments of plausibility, a coarse, difficult-to-scale, and often unreliable benchmark for distinguishing AI-generated from human text. As a result, researchers lack robust tools for assessing the realism of LLM-generated language and for calibrating models to real-world data. We address this gap in two ways. First, we introduce the Conversational …
 https://doi.org/10.1073/pnas.2531748123
 
+Estimating the threat of AI-agent responding across online survey platforms
+Grace Zhang, Robert Walatka [...] Craig R. Fox
+Proceedings of the National Academy of Sciences · 15 October 2026
+In short: Finds 6 to 41% of online survey respondents fail AI-agent tests, showing AI contamination of online survey data varies by platform.
+Recent research and advances in LLMs have led to widespread concern that AI agents could pose as human online survey-takers. However, it remains unclear how prevalent AI agents are on survey research platforms and how to effectively detect AI agents. We validated a series of AI detection tests that effectively separated verified-human participants from both prompted commercial and purpose-built AI agents. Using these tests, we collected surveys on seven online platforms and find wide variation in rates of respondents failing …
+https://doi.org/10.1073/pnas.2606460123
+
 -- Journal of Computational Social Science --
-A study of diplomatic discourse and network dynamics on Twitter
-Raquel Rodríguez-García, Rajesh Sharma, Roberto Centeno, Álvaro Rodrigo
-Journal of Computational Social Science · 12 October 2026
-Abstract Social media has become a relevant platform to communicate with a vast audience, enabling users to spread information or influence discussions. As such, it has garnered the attention of governments and other organizations, enabling them to engage with their audiences directly and bypass traditional channels that might disrupt their message. Given their influence on shaping public perception, understanding and analyzing how they communicate provides insights into their political strategy and their outward perception. We have conducted a study based …
-https://doi.org/10.1007/s42001-026-00500-4
+[Editor's pick] Computational propaganda campaigns by domestic political actors in Pakistan on Facebook
+Hassan Mustafa, Markus Luczak–Roesch, David Johnstone
+Journal of Computational Social Science · 14 October 2026
+In short: Facebook hashtag campaigns in Pakistan show bots and spam accounts dominate political propaganda, intensifying around elections.
+Abstract Computational propaganda campaigns came into the limelight after the 2016 US elections and since then the research has predominately focused on foreign influence operations across the US, UK, and EU. Computational propaganda campaigns in the Global South remain understudied. Therefore, we shift our focus towards Pakistan and examine computational propaganda campaigns by domestic political actors. Utilizing Facebook digital trace data, we track 400 hashtag campaigns by domestic political actors to analyze: (1) the dissemination patterns of political information, (2) …
+https://doi.org/10.1007/s42001-026-00502-2
 
--- npj Climate Action --
-From publication to action: connecting science, policy, and public attention for ocean-related climate mitigation
-Devi Veytia, Laurent Bopp [...] Jean‐Pierre Gattuso
-npj Climate Action · 15 October 2026
-Ocean-related options (OROs), including marine renewable energy and ocean-based carbon dioxide removal, are emerging as promising climate mitigation actions. OROs vary widely in technological maturity and risk acceptability, yet as scientific literature exponentially increases, synthesising the current state of evidence is a major challenge. Using causal inference across diverse datasets from scientific publications, policy and legislation documents, social media posts, and deployment metrics, we identify scientific publications and social media attention as direct drivers of action. However, when social media …
-https://doi.org/10.1038/s44168-026-00410-1
+-- Nature Human Behaviour --
+Petition style changes with AI writing support but outcomes do not improve
 
--- Science Advances --
-How inequality became durable before states: Evidence from 6000 years in the Central Plain of China
-Dongdong Li, Suwei Guo, Xingcan Chen
-Science Advances · 14 October 2026
-How did durable inequality emerge before the rise of states? Drawing on a synthesis of previously published mortuary data from more than 2300 burials, together with isotopic, zooarchaeological, and osteological data spanning nearly 6000 years (7000 to 1500 BCE) in the prehistoric Central Plain of China, we reconstruct long-term patterns of relational mortuary inequality. We show that inequality followed a strongly nonlinear trajectory and cannot be explained primarily by agricultural intensification or population scale. Instead, substantial disparities were structured by …
-https://doi.org/10.1126/sciadv.ady6737
+Nature Human Behaviour · 14 October 2026
+In short: AI writing support changes petition style, but petition outcomes do not improve, per Nature Human Behaviour study.
+https://doi.org/10.1038/s41562-026-02579-1
 
--- Nature Communications --
-Terahertz emission by X-ray difference-frequency generation
-N. Kida, Tadashi Togashi [...] K. Sawada
-Nature Communications · 20 October 2026
-Abstract Nonlinear interactions between X-rays and matter represent a new frontier in ultrafast science. However, X-ray difference-frequency generation (DFG)—a fundamental second-order nonlinear optical process—has not been experimentally observed until now. Here, we report the first observation of terahertz emission induced by hard X-ray free-electron laser (XFEL) pulses in solids, providing evidence for X-ray DFG. Using 10-fs, 10-keV XFEL pulses incident on ZnTe, we detected terahertz emission arising from wave mixing between different spectral components within the XFEL bandwidth. The emitted …
-https://doi.org/10.1038/s41467-026-78823-z
+-- npj Digital Medicine --
+An agentic AI system for multi-framework communication coding
+Bohao Yang, Rui Yang [...] Chuan Hong
+npj Digital Medicine · 11 October 2026
+In short: MOSAIC, a multi-agent LLM system with RAG and few-shot prompting, codes clinical patient–provider communication with 95.6% weighted F1 against human coders.
+Abstract Clinical communication is central to patient outcomes, yet large-scale annotation of patient–provider conversations remains labor-intensive, inconsistent, and difficult to scale. Existing large language model (LLM)–based approaches typically rely on single-task systems with limited robustness across communication frameworks and clinical domains. In this study, we developed MOSAIC, a M ulti-framew O rk S tructured Agentic AI system for scalable Clinical C ommunication coding. MOSAIC combines dynamically few-shot prompting, retrieval-augmented generation (RAG), and a LangGraph-based multi-agent workflow for planning, annotation, and …
+https://doi.org/10.1038/s41746-026-03314-w
 
 
 ==== 2. COMMUNICATION & SCIENCE COMMUNICATION ====
+-- Information Communication & Society --
+[Editor's pick] Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest
+Hendrik Meyer
+Information Communication & Society · 11 October 2026
+In short: German politicians' TikTok climate protest debates are polarized, with far-right actors dominating content and benefiting from antagonistic engagement.
+This study investigates degrees of polarization in political climate protest debates on TikTok. Drawing on a dataset of automatically transcribed TikTok videos posted by German politicians between 2022 and 2025 (N ≈ 1,700), alongside associated user comments (N ≈ 53,000), this study compares discussions on general climate activism, reformist activism (Fridays for Future), and disruptive activism (Letzte Generation). Using a mixed-method approach that combines Large Language Model-based frame classification, stance detection, and network analysis, this study operationalizes Discursive Polarization across …
+https://doi.org/10.1080/1369118x.2026.2737399
+
+[Editor's pick] (In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups
+Elena Pavan, Aurora Perego, Matteo Scianna
+Information Communication & Society · 12 October 2026
+In short: Mixed-methods study of Italian social media shows anti-gender and anti-trans actors converge discursively around shared frames, though the alliance is fragile.
+This article investigates increasing alignment between the anti-gender galaxy and anti-trans groups by looking at the symbolic synergies that these two collective endeavors create in and through social media discourse. Building on social movement theory, we examine processes of discursive boundary spanning through which ecclesial and right-wing actors, dedicated anti-gender organizations, and anti-trans groups converge when discussing gender-related issues at large on social media, aligning around similar agendas, objects of interest, priorities, and frames, while setting aside differences that might …
+https://doi.org/10.1080/1369118x.2026.2743936
+
 -- Communication Research --
-[Editor's pick] Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content
+Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content
 Han Zao Li, Inhwan Bae [...] Drew Margolin
 Communication Research · 17 October 2026
+In short: Statistical versus narrative evidence in Reddit vaccine skepticism debates produces distinct rational and narrative engagement pathways, analysed with LLM assistance.
 Statistical and narrative evidence represent two distinct ways of substantiating claims in public reasoning, but does this distinction matter for how people engage with vaccine science skeptical (VSS) content and the discursive spaces surrounding it? This study addresses this question through a large-scale, LLM-assisted observational analysis of online engagement with VSS posts and comments that support or counter such content using statistical versus narrative evidence in the Reddit community r/DebateVaccines . Building on Fisher’s distinction between rational and narrative paradigms …
 https://doi.org/10.1177/00936502261496144
 
--- Digital Journalism --
-Too Much or Not Enough? The Decline of the Iconic News Image and the Adaptive Challenges of Visual Digital Journalism
-Ellie Macdonald
-Digital Journalism · 11 October 2026
-Iconic news images have traditionally played a central role in journalistic praxis and public discourse, transcending news cycles and forming shared visual narratives. However, in contemporary digital media ecologies, single images struggle to gain traction amid multimedia storytelling, divergent editorial priorities, and dynamic platform affordances. To investigate the adaptive context of this shift, this article presents a case study of photographic reporting on the Israel-Palestine conflict from October 2023 to March 2024, analysing lead images from Al Jazeera English, The …
-https://doi.org/10.1080/21670811.2026.2744880
-
--- Harvard Kennedy School Misinformation Review --
-Disinformation in practice: Threats, actors, mechanisms, and constraints according to practitioners
-Grégoire Darcy, Sacha Altay
-Harvard Kennedy School Misinformation Review · 16 October 2026
-How do the practitioners charged with fighting disinformation understand the problem they are meant to solve? We surveyed 106 French practitioners across military, government, regulatory, civil-society, and media organizations. These practitioners converge on an upstream, supply-side diagnosis (platforms and amplification structures, rather than public demand, drive the spread of disinformation) but describe a field blocked by weak coordination, scarce resources, and fear of censorship accusations. Their relationship to science adds to these constraints: while most practitioners trust peer-reviewed research, few …
-https://doi.org/10.37016/mr-2020-213
-
 
 ==== 3. COMPUTATIONAL LINGUISTICS ====
+-- Proceedings of the AAAI/ACM Conference on AI Ethics and Society --
+From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale
+Chowdhury Mohammad Abdullah, Rita Orji
+Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
+In short: LLMs show covert dialect bias via probability distributions, penalizing AAVE and Nigerian Pidgin in housing judgments, with context-dependent patterns for Nigerian Standard English.
+Large language models (LLMs) are increasingly being deployed in services that shape consequential life outcomes, from housing platforms to automated screening workflows. While alignment techniques have reduced the explicit expression of racial bias in model outputs, they leave untouched the attitudinal associations reflected in a model's internal probability distributions. These covert biases are invisible to users and resistant to conventional auditing that inspects generated text alone. In this paper, we build upon the matched-guise sociolinguistic paradigm to examine the covert …
+https://doi.org/10.1609/aies.v9i1.43122
+
+When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary
+Haewoon Kwak
+Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
+In short: Decade-long study of Korean Go YouTube commentary shows AI's source label recedes while winrate talk persists, a domestication of AI mediation.
+When AI systems surpass elite human performance and settle into everyday expert practice, the question that follows is how machine judgment is made publicly intelligible and attributable. We study Korean Go commentary on YouTube, where AI systems such as KataGo became standard analytic tools after AlphaGo. Our corpus spans a decade (2016--2025) and approximately 1,900 hours of footage across institutional broadcasters and creator-led channels, in four phases of AI availability. We document a widening asymmetry between visual and verbal AI …
+https://doi.org/10.1609/aies.v9i3.43249
+
 -- EPJ Data Science --
-[Editor's pick] Polarization and echo chambers in Reddit’s political discourse
+Polarization and echo chambers in Reddit’s political discourse
 Daniele Cirulli, Antonio Desiderio, Giulio Cimini, Fabio Saracco
 EPJ Data Science · 12 October 2026
+In short: Reddit's 2016 election discourse shows clear ideological polarization and echo chambers, with election periods intensifying cross-group engagement and reducing linguistic diversity.
 Abstract Political debate nowadays takes place mainly on online social media, with election periods amplifying ideological engagement. Reddit is generally considered more resistant to polarization and echo chamber effects than platforms like Twitter or Facebook. Here, we challenge this assumption through a case study across the 2016 US presidential election.We use statistical validation techniques to extract ideologically distinct communities of subreddits, in terms of their contributing user base and news consumption, which we use to analyze the dynamics of political …
 https://doi.org/10.1140/epjds/s13688-026-00707-5
 
--- Proceedings of the AAAI/ACM Conference on AI Ethics and Society --
-Is This AI? Longitudinal Analysis of Strategies Used for AI Detection on Two Subreddits
-Christina Yeung, Galen Weld, Jaron Mink, Franziska Roesner
-Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
-As AI-generated content (e.g., “slop”) becomes more prevalent online, people are developing strategies to attempt to identify it (or, conversely, to gain confidence that something is not AI-generated). What strategies are people using, and how are they changing over time as generative AI models themselves change? In this work, we catalog and analyze 2 years and 8 months of the AI detection strategies discussed by users of two popular Reddit communities (r/isthisAI and r/RealOrAI) that use the wisdom of crowds …
-https://doi.org/10.1609/aies.v9i4.43351
-
-Simulation as Alibi---How the Social Order Gets Outsourced to LLM Agents
-Shiyun Tang, Zezheng Lin
-Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 11 October 2026
-LLM agent societies are moving rapidly from academic sandboxes into commercial platforms, military infrastructure, and government operations. Across these domains, the language of emergence—the claim that coordination patterns, norms, and consensus arise spontaneously from local interaction—has become the default vocabulary for describing multi-agent behavior. This paper argues that emergence discourse performs institutional work beyond scientific description: it renders invisible the procedural architecture—interaction topologies, action grammars, sanction architectures, and beneficiary structures—authored by identifiable actors. Drawing on the concept of the alibi …
-https://doi.org/10.1609/aies.v9i4.43326
-
 
 ==== SCHOLAR WATCH ====
--- Thomas N. Friemel (lab of Schäfer) --
-Digitally Enhanced Fitspiration Content on Social Media
-Isa Vos, Thomas N. Friemel*
-European Journal of Health Communication · 16 October 2026
-Fitspiration content on social media refers to a combination of fitness and inspiration and seems to promote a healthy lifestyle. However, some of this content may have negative implications, as the representation of super-fit and attractive individuals may contribute to promoting unrealistic body ideals and behaviours. It can be assumed that this negative relation has amplified due to the use of digital modification of visual content. To inform future research and health interventions, this scoping review summarises existing research across …
-https://doi.org/10.47368/ejhc.2026.205
-
--- Jay Joseph Van Bavel (lab of Linden) --
-Beware the Funhouse Mirror
-Jay Joseph Van Bavel*
-Issues in Science and Technology · 16 October 2026
-Instead of opening debate and reflecting public opinion, social media platforms have amplified a small subset of extreme voices who dominate discussion, poison public discourse, and mislead the public.
-https://doi.org/10.58875/lzev3335
-
 -- Gordon Pennycook (lab of Rand) --
 Consensus, Disagreements, and Open Questions in the Psychology of Misinformation
 Gordon Pennycook*, David G. Rand
 Annual Review of Psychology · 16 October 2026
+In short: Review of misinformation psychology finds robust mechanisms like repetition and political identity, evaluates interventions such as prebunking and accuracy prompts, and identifies methodological disagreements.
 Research on misinformation has expanded rapidly over the past decade. This review examines areas of consensus and contention within the literature on misinformation, with particular attention to conceptual definitions, measurement approaches, and theoretical explanations. We outline views on what it means to be susceptible to misinformation and advocate for assessing susceptibility by focusing on the ability to discern true from false claims. Although exposure to fake news is less common online than many think, we argue that misinformation-more broadly construed-continues …
 https://doi.org/10.1146/annurev-psych-031626-100451
+
+-- Thomas N. Friemel (lab of Schäfer) --
+Digitally Enhanced Fitspiration Content on Social Media
+Isa Vos, Thomas N. Friemel*
+European Journal of Health Communication · 16 October 2026
+In short: Scoping review of 26 studies finds digitally enhanced fitspiration content on Instagram links to appearance comparison and internalisation of unrealistic body ideals.
+Fitspiration content on social media refers to a combination of fitness and inspiration and seems to promote a healthy lifestyle. However, some of this content may have negative implications, as the representation of super-fit and attractive individuals may contribute to promoting unrealistic body ideals and behaviours. It can be assumed that this negative relation has amplified due to the use of digital modification of visual content. To inform future research and health interventions, this scoping review summarises existing research across …
+https://doi.org/10.47368/ejhc.2026.205
 
 -- Brendan J Nyhan (coauthor of Pan) --
 Stringent policies were associated with greater Covid-19 vaccine uptake including among those who did not trust the vaccine
 Manu Manthri Savani, Richard Koenig, Brendan J Nyhan* [...] John McAndrews
 Political Studies · 19 October 2026
+In short: Finds high-stringency vaccine policies raised Covid-19 vaccine uptake, including among those who distrusted the vaccine.
 Are stringent vaccine promotion policies associated with higher vaccine uptake? We argue policy stringency, which changes the costs and benefits of immunisation choices, can affect individual vaccination decisions. In a survey of G-7 countries, 22% of respondents ( n = 42,417) said they did not trust the Covid-19 vaccine, but half of them reported having at least one vaccination. We investigate factors associated with take-up. Our data indicate a high-stringency policy environment (with vaccine mandates and travel restrictions) is associated …
 https://doi.org/10.1177/00323217261484277
 
--- Andreu Casas --
-[Preprint] Little evidence of ideological bias in YouTube suspensions of political content during the 2024 US Election
-Andreu Casas*
-Preprint · 20 October 2026
-Social media play a crucial role in moderating speech. In the United States, conservative elites claim that platforms unfairly sanction conservative voices. Yet systematic, large-scale analysis is lacking. For more than a year leading up to the 2024 Election, we monitored 20,000 YouTube channels posting about US politics, and their millions of videos. By election day, the platform had removed 2.17% of the channels and 3.3% of the videos. Conservative channels and videos were suspended 3-4 times more frequently than …
-https://doi.org/10.31235/osf.io/rwahd_v1
+-- Manuel Tonneau --
+[Preprint] GENDIS: Gender-Related Discourse and Stance in Multilingual YouTube Comments from India, Kenya, and Nigeria
+Luise Koch, Manuel Tonneau* [...] Sharath Chandra Guntuku
+arXiv (Cornell University) · 13 October 2026
+In short: Introduces GENDIS, a multilingual annotated YouTube comment dataset showing gender-related discourse is mostly neutral or positive and lightly supervised classifiers rival LLMs.
+Research on gender-related online content is often operationalized through harm-centered tasks that collapse non-harmful gender-related and unrelated content, while existing datasets remain concentrated in high-resource languages and Global North settings. To bridge these gaps, we introduce GENDIS, a dataset of 9,600 multilingual, human-annotated YouTube comments from India, Kenya, and Nigeria (3,200 per country), annotated using a two-level framework that first identifies whether gender is referenced and then classifies gender-related content as negative, positive, or neutral. This separation provides a denominator …
+https://doi.org/10.48550/arxiv.2610.17778
+
+-- Myra Cheng (lab of Yang), Yulia Tsvetkov (coauthor of Pan) --
+[Preprint] Pushback in a Haystack: Language Models Respond to Factual Errors Ambiguously and Ineffectively
+Li Lucy, Myra Cheng* [...] Yulia Tsvetkov*
+arXiv (Cornell University) · 13 October 2026
+In short: LLMs push back on users' false claims indirectly and mix in affirmation, reducing correction effectiveness, with more indirectness in Hindi and Yoruba; a human study confirms users' misconceptions persist.
+The sycophancy of language models, or their failure to push back against faulty user input, is now widely studied. However, if LMs do push back, is sycophancy solved? We show that LMs vary in how they present pushback, and thus vary in how effectively they correct user beliefs. We introduce a phrase-level, human-validated response labeling framework to uncover fine-grained insights into how LMs push against and/or affirm false inputs. We develop and apply our framework on model responses in five …
+https://doi.org/10.48550/arxiv.2610.17703
 
 
 ==== ALSO THIS WEEK ====
-- Bridging Interpretation and Automation: A Bibliometric Review of AI-Assisted Qualitative Research (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43226
-- Beyond Detection: Governing GenAI in Academic Peer Review as a Sociotechnical Challenge (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43170
-- The Deliberative Deficit: An Empirical Critique of LLMs in Democratic Discourse (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43197
-- Appearing Legitimate is Not Enough: Interrogating Synthetic Agents in Representational Processes through a Participatory Design Lens (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43274
-- The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43141
-- The Disciplinary Language Transfer Problem: How Psychological Vocabulary Produces Governance Failures in AI Agent Deployment (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43253
-- Wanted Dead or Alive: Anticipatory Regulation of Digital Immortality Platforms (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i2.43207
-- Prediction Laundering: The Sociotechnical Production of Truth on Polymarket (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43299
-- Beneficiary-Based Responsibility for AI Training Labour: Lessons from Kenya’s Gig Economy and Beyond (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43262
-- How to Catalyze Policy Guardrails against AI Chatbots' Potential Social-Emotional Harm: Lessons from Analogous Cases (Extended Abstract) (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43177
-- The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43261
-- Epistemic Framing Tilt in LLMs: Auditing Religious Discourse Across Traditions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i1.43164
-- From Forensics to Ecosystems: Rethinking Watermarks for Generative AI Oversight (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43324
+- Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election (Political Communication) https://doi.org/10.1080/10584609.2026.2745832
+- How can approaches from physical ecology help research and policy on the information environment? (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-212
+- Unleashing menstrual blood: a qualitative study of free-bleeding activism on Instagram (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2747096
+- “ This data is really sensitive ” – the making of non-commercial menstruapps as productive resistance within Femtech (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2745932
+- Disinformation in practice: Threats, actors, mechanisms, and constraints according to practitioners (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-213
+- Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43247
+- AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43310
+- The Artificial Moral Machine: Do LLMs Mirror Human Moral Diversity or Merely Caricature It? (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i3.43257
+- Auditing LLM Portrayals of Neurodivergent People: Quantifying the Asymmetry Between Deficit Framing and Neurodiversity Affirmation (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43328
+- Who Brought Easter Eggs to Eid? Auditing LLM-Generated Cultural Translation of Math Word Problems Across Languages and Regions (Proceedings of the AAAI/ACM Conference on AI Ethics and Society) https://doi.org/10.1609/aies.v9i4.43321
+- Simulated responses from large language models are weak proxies for human economic preferences across 74 countries (Nature Human Behaviour) https://doi.org/10.1038/s41562-026-02611-4
 - How Personal Curation Shapes Political Engagement on Social Media? Examining The Politics of Personal Curation Model (The International Journal of Press/Politics) https://doi.org/10.1177/19401612261489041
-- (In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2743936
+- Negotiated Adaptability: How Peripheral Actors’ Perceptions of Generative Artificial Intelligence (GenAI) Shape Journalistic Practice (Digital Journalism) https://doi.org/10.1080/21670811.2026.2746375
+- DIMS: a no-code dashboard linking multimodal dynamic signals to communication practices (Communication Methods and Measures) https://doi.org/10.1080/19312458.2026.2740465
+- How social media users get their news: The informational value of memes, hot takes, call outs, and comment threads during breaking events (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-214
 
-Nothing new this week from: Mohsen Mosleh, Scott A. Hale, Paul Röttger, Hannah Rose Kirk, Kate Starbird, Emma S. Spiro, Jevin D. West, Ryan Calo, Geoffrey Supran, Erik M. Conway, Jennifer Allen, Cameron Martel, William J. Brady, Yingdan Lu.
+Nothing new this week from: Mohsen Mosleh, Scott A. Hale, Paul Röttger, Hannah Rose Kirk, Kate Starbird, Emma S. Spiro, Jevin D. West, Ryan Calo, Geoffrey Supran, Benjamin Franta, Erik M. Conway, Jennifer Allen, Cameron Martel, William J. Brady, Yingdan Lu.

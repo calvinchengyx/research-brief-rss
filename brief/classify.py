@@ -2,6 +2,8 @@
 
 With ANTHROPIC_API_KEY set, Claude reads title + abstract in batches. Without it,
 a keyword filter decides and relevance is a simple keyword overlap score.
+Claude's answers are cached in state/classified.json, so a paper is only ever
+screened once per model, however many previews or reruns there are.
 """
 
 from __future__ import annotations
@@ -9,7 +11,9 @@ from __future__ import annotations
 import json
 import logging
 import os
+from datetime import date, timedelta
 
+from .config import STATE_DIR
 from .models import Article
 
 log = logging.getLogger(__name__)
@@ -57,16 +61,62 @@ def prefilter(articles: list[Article], keywords: list[str]) -> list[Article]:
     return out
 
 
+CACHE_DAYS = 60
+
+
+def _cache_path():
+    return STATE_DIR / "classified.json"
+
+
+def _load_cache() -> dict:
+    try:
+        return json.loads(_cache_path().read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+def _save_cache(cache: dict) -> None:
+    cutoff = (date.today() - timedelta(days=CACHE_DAYS)).isoformat()
+    cache = {k: v for k, v in cache.items() if v.get("on", "") >= cutoff}
+    STATE_DIR.mkdir(exist_ok=True)
+    _cache_path().write_text(json.dumps(cache, indent=0, ensure_ascii=False), encoding="utf-8")
+
+
+def _cache_key(a: Article, model: str) -> str:
+    return f"{model}|{'F' if a.needs_filter else '-'}|{a.key}"
+
+
 def classify(articles: list[Article], cfg, use_ai: bool) -> None:
     s = cfg.settings
+    model = (s.get("ai") or {}).get("model", "claude-haiku-5-5")
     has_credentials = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_FEDERATION_RULE_ID")
-    if use_ai and has_credentials:
-        try:
-            _classify_ai(articles, cfg)
-            return
-        except Exception as e:  # never lose the week's brief to an API problem
-            log.error("AI classification failed, falling back to keywords: %s", e)
-    _classify_keywords(articles, cfg, s.get("social_keywords") or [])
+    if not (use_ai and has_credentials):
+        _classify_keywords(articles, cfg, s.get("social_keywords") or [])
+        return
+
+    cache = _load_cache()
+    todo = []
+    for a in articles:
+        hit = cache.get(_cache_key(a, model))
+        if hit:
+            a.keep, a.topic, a.relevance, a.summary = hit["keep"], a.topic or hit["topic"], hit["relevance"], hit["summary"]
+        else:
+            todo.append(a)
+    log.info("Classifying %d papers (%d cached)", len(todo), len(articles) - len(todo))
+
+    done: list[Article] = []
+    try:
+        _classify_ai(todo, cfg, done)
+    except Exception as e:  # never lose the week's brief to an API problem
+        log.error("AI classification stopped after %d papers, using keywords for the rest: %s", len(done), e)
+        finished = {a.id for a in done}
+        _classify_keywords([a for a in todo if a.id not in finished], cfg, s.get("social_keywords") or [])
+    finally:
+        today = date.today().isoformat()
+        for a in done:
+            cache[_cache_key(a, model)] = {"keep": a.keep, "topic": a.topic, "relevance": a.relevance,
+                                           "summary": a.summary, "on": today}
+        _save_cache(cache)
 
 
 def _classify_keywords(articles: list[Article], cfg, keywords: list[str]) -> None:
@@ -81,7 +131,8 @@ def _classify_keywords(articles: list[Article], cfg, keywords: list[str]) -> Non
             a.topic = "cl" if a.research_field == "Computer Science" else "css"
 
 
-def _classify_ai(articles: list[Article], cfg) -> None:
+def _classify_ai(articles: list[Article], cfg, done: list[Article]) -> None:
+    """Classify in batches; append each finished paper to `done` as it completes."""
     import anthropic
 
     s = cfg.settings
@@ -115,20 +166,23 @@ def _classify_ai(articles: list[Article], cfg) -> None:
             f"Abstract: {a.abstract[:2500] or '(none)'}\n</paper>"
             for a in batch)
         request = dict(
-            model=ai.get("model", "claude-sonnet-5-5"),
+            model=ai.get("model", "claude-haiku-5-5"),
             max_tokens=16000,
             system=system,
             messages=[{"role": "user", "content": papers}],
             output_config={"effort": ai.get("effort", "low"),
                            "format": {"type": "json_schema", "schema": SCHEMA}},
         )
-        try:
-            # Server-side fallback reruns a declined request on another model
-            response = client.beta.messages.create(**request, betas=["server-side-fallback-2026-07-01"],
-                                                   fallbacks="default")
-        except anthropic.BadRequestError as e:
-            log.warning("Request with fallbacks rejected (%s); retrying without", e)
+        if "haiku" in request["model"]:  # Haiku has no server-side fallback
             response = client.messages.create(**request)
+        else:
+            try:
+                # Server-side fallback reruns a declined request on another model
+                response = client.beta.messages.create(**request, betas=["server-side-fallback-2026-07-01"],
+                                                       fallbacks="default")
+            except anthropic.BadRequestError as e:
+                log.warning("Request with fallbacks rejected (%s); retrying without", e)
+                response = client.messages.create(**request)
         if response.stop_reason == "refusal":
             log.warning("Batch at %d declined; using keyword filter for it", start)
             _classify_keywords(batch, cfg, s.get("social_keywords") or [])
@@ -145,6 +199,7 @@ def _classify_ai(articles: list[Article], cfg) -> None:
                 t = r["topic"]
                 allowed = preprint_topics if a.is_preprint else list(cfg.topic_names)
                 a.topic = t if t in allowed else allowed[0]
+            done.append(a)
     for a in articles:  # anything the model skipped
         if not a.topic:
             a.topic = "cl" if a.research_field == "Computer Science" else "css"

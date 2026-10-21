@@ -23,7 +23,7 @@ research_interests:
 # AI layer (README section 7)
 ai:
   enabled: true              # without ANTHROPIC_API_KEY the keyword filter is used instead
-  model: claude-sonnet-5-5   # claude-haiku-5-5 is ~20x cheaper
+  model: claude-haiku-5-5    # claude-sonnet-5-5 filters a little better at ~20x the cost
   effort: low
   batch_size: 20             # papers per request
   editors_picks: 4           # 3-5

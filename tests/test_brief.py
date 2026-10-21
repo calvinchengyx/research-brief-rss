@@ -155,6 +155,7 @@ def sandbox(tmp_path, monkeypatch):
     monkeypatch.setattr(resolve, "CACHE", tmp_path / "resolved.json")
     monkeypatch.setattr(state, "STATE_DIR", tmp_path)
     monkeypatch.setattr(state, "SEEN", tmp_path / "seen.json")
+    monkeypatch.setattr(pipeline.cls, "STATE_DIR", tmp_path)
     monkeypatch.setattr(pipeline, "PREVIEW_DIR", tmp_path / "preview")
     monkeypatch.setattr(pipeline, "ARCHIVE_DIR", tmp_path / "archive")
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
@@ -205,3 +206,25 @@ def test_lookups_resume_after_rate_limit(sandbox):
     resolve._section(cache, "institutions", ["a", "b", "c", "d"], flaky)
     assert cache["institutions"] == {"a": {"id": "A"}, "b": {"id": "B"}, "c": {"id": "C"}, "d": {"id": "D"}}
     assert calls == ["a", "b", "c", "c", "d"]          # a and b were not looked up twice
+
+
+def test_classification_is_cached(sandbox, monkeypatch):
+    from brief import classify as cls
+    from brief.config import load_config
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test")
+    calls = []
+
+    def fake_ai(articles, cfg, done):
+        calls.append(len(articles))
+        for a in articles:
+            a.keep, a.topic, a.relevance, a.summary = True, "css", 7.0, "s"
+            done.append(a)
+
+    monkeypatch.setattr(cls, "_classify_ai", fake_ai)
+    cfg = load_config()
+    papers = [Article(id=f"W{i}", title=f"T{i}", venue="V", venue_id=None, date="2026-10-20", authors=[], abstract="", url="") for i in range(3)]
+    cls.classify(papers, cfg, use_ai=True)
+    again = [Article(id=f"W{i}", title=f"T{i}", venue="V", venue_id=None, date="2026-10-20", authors=[], abstract="", url="") for i in range(3)]
+    cls.classify(again, cfg, use_ai=True)
+    assert calls == [3, 0]
+    assert all(a.keep and a.relevance == 7.0 for a in again)
