@@ -14,9 +14,9 @@ on:
         required: false
   # Every pull request builds a preview issue and commits it to preview/ on the branch.
   pull_request:
-  # Weekly send. Off until the preview and test email are approved.
-  # schedule:
-  #   - cron: "0 6 * * 1"   # Mondays 06:00 UTC = 07:00 CET / 08:00 CEST
+  # Weekly send, every Monday.
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC = 07:00 CET / 08:00 CEST
 
 permissions:
   contents: write
