@@ -1,0 +1,150 @@
+"""Social-science filter, topic assignment and relevance scoring.
+
+With ANTHROPIC_API_KEY set, Claude reads title + abstract in batches. Without it,
+a keyword filter decides and relevance is a simple keyword overlap score.
+"""
+
+from __future__ import annotations
+
+import json
+import logging
+import os
+
+from .models import Article
+
+log = logging.getLogger(__name__)
+
+# Fields that pass straight to Claude; everything else from a filtered venue must
+# first match a social keyword (keeps physics/biology papers out cheaply).
+SOCIAL_FIELDS = {"Social Sciences", "Psychology", "Arts and Humanities", "Economics, Econometrics and Finance",
+                 "Decision Sciences", "Business, Management and Accounting"}
+
+SCHEMA = {
+    "type": "object",
+    "properties": {
+        "papers": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "keep": {"type": "boolean"},
+                    "topic": {"type": "string"},
+                    "relevance": {"type": "integer"},
+                    "summary": {"type": "string"},
+                },
+                "required": ["id", "keep", "topic", "relevance", "summary"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["papers"],
+    "additionalProperties": False,
+}
+
+
+def keyword_match(a: Article, keywords: list[str]) -> bool:
+    text = f"{a.title} {a.abstract}".lower()
+    return any(k.lower() in text for k in keywords)
+
+
+def prefilter(articles: list[Article], keywords: list[str]) -> list[Article]:
+    """Cheap first pass for filtered venues, preprints and coauthors' work."""
+    out = []
+    for a in articles:
+        if not a.needs_filter or a.research_field in SOCIAL_FIELDS or keyword_match(a, keywords):
+            out.append(a)
+    return out
+
+
+def classify(articles: list[Article], cfg, use_ai: bool) -> None:
+    s = cfg.settings
+    has_credentials = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_FEDERATION_RULE_ID")
+    if use_ai and has_credentials:
+        try:
+            _classify_ai(articles, cfg)
+            return
+        except Exception as e:  # never lose the week's brief to an API problem
+            log.error("AI classification failed, falling back to keywords: %s", e)
+    _classify_keywords(articles, cfg, s.get("social_keywords") or [])
+
+
+def _classify_keywords(articles: list[Article], cfg, keywords: list[str]) -> None:
+    interests = " ".join(cfg.settings.get("research_interests") or []).lower().split()
+    interest_words = {w for w in interests if len(w) > 4}
+    for a in articles:
+        if a.needs_filter:
+            a.keep = keyword_match(a, keywords)
+        text = f"{a.title} {a.abstract}".lower()
+        a.relevance = min(10.0, float(sum(w in text for w in interest_words)))
+        if not a.topic:
+            a.topic = "cl" if a.research_field == "Computer Science" else "css"
+
+
+def _classify_ai(articles: list[Article], cfg) -> None:
+    import anthropic
+
+    s = cfg.settings
+    ai = s.get("ai") or {}
+    client = anthropic.Anthropic()
+    topics = "\n".join(f"- {t['id']}: {t['name']}. {t.get('description', '')}" for t in cfg.topics)
+    preprint_topics = (s.get("preprints") or {}).get("topics") or ["css", "cl"]
+    interests = "\n".join(f"- {i}" for i in s.get("research_interests") or [])
+    system = (
+        "You screen new research papers for a weekly newsletter read by a computational social "
+        "scientist.\n\nTheir research interests:\n" + interests + "\n\nNewsletter topics:\n" + topics +
+        "\n\nFor each paper return:\n"
+        "- keep: false if it is not a research article or review (news, editorial, comment, "
+        "correction, dataset, data or code deposit, supplementary material). For papers marked FILTER, "
+        "also false unless it is about society, human behaviour, social media, communication, "
+        "politics, psychology, science and the public, or the social uses and impacts of AI and "
+        "language technology; false for pure natural science, medicine, mathematics, or purely "
+        "technical ML/NLP work with no social-science angle. Otherwise true.\n"
+        f"- topic: one of {', '.join(t['id'] for t in cfg.topics)}. For preprints choose only from "
+        f"{', '.join(preprint_topics)}.\n"
+        "- relevance: 0-10, how close the paper is to the reader's research interests.\n"
+        "- summary: one plain sentence (max 25 words) on what the paper finds."
+    )
+    by_id = {a.id: a for a in articles}
+    batch_size = int(ai.get("batch_size", 20))
+    for start in range(0, len(articles), batch_size):
+        batch = articles[start:start + batch_size]
+        papers = "\n\n".join(
+            f"<paper id=\"{a.id}\"{' FILTER' if a.needs_filter else ''}"
+            f"{' PREPRINT' if a.is_preprint else ''}>\nTitle: {a.title}\nVenue: {a.venue}\n"
+            f"Abstract: {a.abstract[:2500] or '(none)'}\n</paper>"
+            for a in batch)
+        request = dict(
+            model=ai.get("model", "claude-sonnet-5-5"),
+            max_tokens=16000,
+            system=system,
+            messages=[{"role": "user", "content": papers}],
+            output_config={"effort": ai.get("effort", "low"),
+                           "format": {"type": "json_schema", "schema": SCHEMA}},
+        )
+        try:
+            # Server-side fallback reruns a declined request on another model
+            response = client.beta.messages.create(**request, betas=["server-side-fallback-2026-07-01"],
+                                                   fallbacks="default")
+        except anthropic.BadRequestError as e:
+            log.warning("Request with fallbacks rejected (%s); retrying without", e)
+            response = client.messages.create(**request)
+        if response.stop_reason == "refusal":
+            log.warning("Batch at %d declined; using keyword filter for it", start)
+            _classify_keywords(batch, cfg, s.get("social_keywords") or [])
+            continue
+        text = next(b.text for b in response.content if b.type == "text")
+        for r in json.loads(text)["papers"]:
+            a = by_id.get(r["id"])
+            if not a:
+                continue
+            a.keep = bool(r["keep"])
+            a.relevance = float(max(0, min(10, r["relevance"])))
+            a.summary = r["summary"].strip()
+            if not a.topic:
+                t = r["topic"]
+                allowed = preprint_topics if a.is_preprint else list(cfg.topic_names)
+                a.topic = t if t in allowed else allowed[0]
+    for a in articles:  # anything the model skipped
+        if not a.topic:
+            a.topic = "cl" if a.research_field == "Computer Science" else "css"

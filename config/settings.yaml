@@ -1,0 +1,110 @@
+# How far back each run looks. Already-sent articles are never repeated,
+# so a window a bit longer than a week is safe.
+lookback_days: 10
+
+# Size limit (README section 6)
+max_articles: 20
+topic_priority: [css, comm, cl]
+topic_quota:
+  comm: {min: 3, max: 5}
+  cl: {min: 3, max: 5}
+scholar_watch: {max: 5}      # followed scholars' work outside the listed journals
+overflow_footer: true        # "Also this week": cut articles as one-line links
+overflow_max: 15             # longest that footer gets
+
+abstract_words: 80           # abstract length shown in the email
+
+# My research areas: used to rank papers and pick "Editor's picks".
+research_interests:
+  - online feminist discourse on Chinese social media platforms
+  - LLM-based content coding and annotation for social science
+  - gendered disinformation and narrative diffusion
+
+# AI layer (README section 7)
+ai:
+  enabled: true              # without ANTHROPIC_API_KEY the keyword filter is used instead
+  model: claude-sonnet-5-5   # claude-haiku-5-5 is ~20x cheaper
+  effort: low
+  batch_size: 20             # papers per request
+  editors_picks: 4           # 3-5
+
+# Preprints (README "Preprints")
+preprints:
+  enabled: true
+  topics: [css, cl]
+  servers:                   # matched against OpenAlex repository names
+    - arXiv
+    - SSRN
+    - PsyArXiv
+    - SocArXiv
+    - OSF Preprints
+
+# Scholar groups ("coauthors" and "group" entries) are recomputed this often.
+expand_every_days: 30
+coauthor_years: 5
+
+email:
+  provider: brevo            # brevo | smtp
+  sender_name: Calvin Research Brief
+  subject: "Calvin Research Brief: {date}"
+
+# Fallback filter when the AI layer is off: a paper from a `filter: social-science`
+# venue is kept if its title or abstract contains one of these.
+social_keywords:
+  - social media
+  - social network
+  - online
+  - platform
+  - misinformation
+  - disinformation
+  - fake news
+  - conspiracy
+  - propaganda
+  - polariz
+  - polaris
+  - political
+  - politic
+  - election
+  - democra
+  - public opinion
+  - news
+  - journalis
+  - communication
+  - persuasion
+  - narrative
+  - discourse
+  - gender
+  - feminis
+  - women
+  - inequality
+  - society
+  - societal
+  - social science
+  - sociolog
+  - psycholog
+  - survey
+  - human behavio
+  - collective
+  - culture
+  - cultural
+  - trust
+  - science communication
+  - climate change communication
+  - public health
+  - vaccine
+  - moral
+  - toxicity
+  - hate speech
+  - stance
+  - annotation
+  - content analysis
+  - computational social
+  - twitter
+  - weibo
+  - reddit
+  - tiktok
+  - youtube
+  - wechat
+  - douyin
+  - china
+  - chinese
