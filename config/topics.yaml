@@ -1,0 +1,12 @@
+# The three topics of the brief, in display order.
+# `id` is what journals.yaml and scholars.yaml refer to; `name` is shown in the email.
+topics:
+  - id: css
+    name: Computational Social Science
+    description: Interdisciplinary journals and computational social science research.
+  - id: comm
+    name: Communication & Science Communication
+    description: Communication, media, journalism and science communication.
+  - id: cl
+    name: Computational Linguistics
+    description: LLMs, NLP and iSchool / information science venues, social-science topics only.

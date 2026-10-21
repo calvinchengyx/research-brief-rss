@@ -1,0 +1,137 @@
+# Preprint filter: a preprint is kept only if at least one author is affiliated
+# with one of these (or one of their sub-units, e.g. the Oxford Internet Institute
+# counts as Oxford). Preprints by scholars on my list are always kept.
+#
+# Universities: roughly the QS World University Rankings top 100 (2026 edition,
+# from memory; edit freely). state/following.md lists what each name matched.
+
+universities:
+  - Massachusetts Institute of Technology
+  - Imperial College London
+  - Stanford University
+  - University of Oxford
+  - Harvard University
+  - University of Cambridge
+  - ETH Zurich
+  - National University of Singapore
+  - University College London
+  - California Institute of Technology
+  - University of Hong Kong
+  - Nanyang Technological University
+  - University of Chicago
+  - Peking University
+  - University of Pennsylvania
+  - Cornell University
+  - Tsinghua University
+  - University of California, Berkeley
+  - University of Melbourne
+  - UNSW Sydney
+  - Yale University
+  - École Polytechnique Fédérale de Lausanne
+  - Technical University of Munich
+  - Johns Hopkins University
+  - Princeton University
+  - University of Sydney
+  - McGill University
+  - Université PSL
+  - Fudan University
+  - King's College London
+  - Australian National University
+  - University of Tokyo
+  - Columbia University
+  - Chinese University of Hong Kong
+  - University of Toronto
+  - Monash University
+  - Zhejiang University
+  - University of California, Los Angeles
+  - Seoul National University
+  - University of Michigan
+  - Hong Kong University of Science and Technology
+  - Kyoto University
+  - Shanghai Jiao Tong University
+  - New York University
+  - University of Edinburgh
+  - London School of Economics and Political Science
+  - Institut Polytechnique de Paris
+  - University of Queensland
+  - Korea Advanced Institute of Science and Technology
+  - Northwestern University
+  - University of British Columbia
+  - University of Manchester
+  - Sorbonne Université
+  - Delft University of Technology
+  - Carnegie Mellon University
+  - Hong Kong Polytechnic University
+  - Duke University
+  - KU Leuven
+  - Ludwig-Maximilians-Universität München
+  - City University of Hong Kong
+  - Yonsei University
+  - University of California, San Diego
+  - University of Auckland
+  - Korea University
+  - Heidelberg University
+  - University of Bristol
+  - University of Amsterdam
+  - Lund University
+  - The University of Texas at Austin
+  - University of Warwick
+  - National Taiwan University
+  - Université Paris-Saclay
+  - Brown University
+  - Pohang University of Science and Technology
+  - University of Illinois Urbana-Champaign
+  - University of Washington
+  - KTH Royal Institute of Technology
+  - University of Copenhagen
+  - Georgia Institute of Technology
+  - Trinity College Dublin
+  - University of Glasgow
+  - University of Zurich
+  - University of Birmingham
+  - University of Leeds
+  - Durham University
+  - University of Southampton
+  - University of Western Australia
+  - University of Adelaide
+  - Sungkyunkwan University
+  - Institute of Science Tokyo
+  - Osaka University
+  - Tohoku University
+  - Purdue University
+  - University of California, Davis
+  - Boston University
+  - University of Sheffield
+  - University of Nottingham
+  - Universidade de São Paulo
+  - Nanjing University
+  - University of Science and Technology of China
+
+# Research institutes outside the list above that I also trust.
+institutes:
+  - University of Miami
+  - Max Planck Society
+  - GESIS – Leibniz Institute for the Social Sciences
+  - Santa Fe Institute
+
+# Top AI and tech labs.
+companies:
+  - Anthropic
+  - OpenAI
+  - Google DeepMind
+  - Google
+  - Meta
+  - Microsoft Research
+  - DeepSeek
+  - Alibaba Group
+  - Moonshot AI
+  - Zhipu AI
+  - Mistral AI
+  - Allen Institute for Artificial Intelligence
+  - Apple
+  - NVIDIA
+  - IBM Research
+  - Hugging Face
+  - ByteDance
+  - Tencent
+  - Baidu

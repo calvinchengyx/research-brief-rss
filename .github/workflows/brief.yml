@@ -1,0 +1,67 @@
+name: Research brief
+
+on:
+  # Run by hand from the Actions tab: preview (no email), test (email me only) or send.
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "preview = no email, test = email first recipient only, send = email everyone"
+        type: choice
+        options: [preview, test, send]
+        default: preview
+      since:
+        description: "Start date YYYY-MM-DD (optional, default: lookback_days ago)"
+        required: false
+  # Every pull request builds a preview issue and commits it to preview/ on the branch.
+  pull_request:
+  # Weekly send. Off until the preview and test email are approved.
+  # schedule:
+  #   - cron: "0 6 * * 1"   # Mondays 06:00 UTC = 07:00 CET / 08:00 CEST
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brief-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Build the brief
+        env:
+          MODE: ${{ github.event_name == 'schedule' && 'send' || inputs.mode || 'preview' }}
+          SINCE: ${{ inputs.since }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+        run: python -m brief --mode "$MODE" ${SINCE:+--since "$SINCE"}
+
+      - name: Save preview, sent-articles state and archive
+        if: always()
+        run: |
+          git config user.name "research-brief-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for d in preview state archive; do [ -d "$d" ] && git add "$d"; done
+          if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+          git commit -m "Brief run ($MODE, $(date -u +%Y-%m-%d))"
+          git push
+        env:
+          MODE: ${{ github.event_name == 'schedule' && 'send' || inputs.mode || 'preview' }}

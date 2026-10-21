@@ -1,0 +1,82 @@
+# Journal and conference list.
+#
+#   name:   as the venue is called (matched against OpenAlex; add `issn` to pin it exactly)
+#   topic:  css | comm | cl  (see topics.yaml)
+#   filter: social-science   -> keep only papers on social-science topics (for broad venues)
+#   kind:   journal (default) | conference
+#
+# After each run, state/following.md lists what every name was matched to.
+
+journals:
+  # ---------------------------------------------------------------- 1. Computational Social Science
+  - {name: Nature, issn: 0028-0836, topic: css, filter: social-science}
+  - {name: Nature Human Behaviour, issn: 2397-3374, topic: css}
+  - {name: Nature Communications, issn: 2041-1723, topic: css, filter: social-science}
+  - {name: Journal of Computational Social Science, topic: css}
+  - {name: Proceedings of the National Academy of Sciences, issn: 0027-8424, topic: css, filter: social-science}
+  - {name: PNAS Nexus, topic: css, filter: social-science}
+  - {name: Science, issn: 0036-8075, topic: css, filter: social-science}
+  - {name: Science Advances, issn: 2375-2548, topic: css, filter: social-science}
+
+  # Nature Portfolio research journals (excluding Humanities and Social Sciences
+  # Communications and Scientific Reports). All filtered to social-science topics.
+  - {name: Nature Aging, topic: css, filter: social-science}
+  - {name: Nature Cities, topic: css, filter: social-science}
+  - {name: Nature Climate Change, topic: css, filter: social-science}
+  - {name: Nature Computational Science, topic: css, filter: social-science}
+  - {name: Nature Ecology & Evolution, topic: css, filter: social-science}
+  - {name: Nature Energy, topic: css, filter: social-science}
+  - {name: Nature Food, topic: css, filter: social-science}
+  - {name: Nature Health, topic: css, filter: social-science}
+  - {name: Nature Machine Intelligence, topic: css, filter: social-science}
+  - {name: Nature Medicine, topic: css, filter: social-science}
+  - {name: Nature Mental Health, topic: css, filter: social-science}
+  - {name: Nature Neuroscience, topic: css, filter: social-science}
+  - {name: Nature Sustainability, topic: css, filter: social-science}
+  - {name: Nature Water, topic: css, filter: social-science}
+  - {name: Communications Psychology, topic: css, filter: social-science}
+  - {name: Communications Earth & Environment, topic: css, filter: social-science}
+  - {name: npj Complexity, topic: css, filter: social-science}
+  - {name: npj Climate Action, topic: css, filter: social-science}
+  - {name: npj Science of Learning, topic: css, filter: social-science}
+  - {name: npj Digital Medicine, topic: css, filter: social-science}
+
+  # ---------------------------------------------------------------- 2. Computational Linguistics
+  - {name: Annual Meeting of the Association for Computational Linguistics, kind: conference, topic: cl, filter: social-science}
+  - {name: Conference on Empirical Methods in Natural Language Processing, kind: conference, topic: cl, filter: social-science}
+  - {name: Neural Information Processing Systems, kind: conference, topic: cl, filter: social-science}
+  - {name: North American Chapter of the Association for Computational Linguistics, kind: conference, topic: cl, filter: social-science}
+  - {name: Findings of the Association for Computational Linguistics, kind: conference, topic: cl, filter: social-science}
+  - {name: Transactions of the Association for Computational Linguistics, topic: cl, filter: social-science}
+  - {name: Computational Linguistics, topic: cl, filter: social-science}
+  - {name: Proceedings of the International AAAI Conference on Web and Social Media, topic: cl}
+  - {name: Proceedings of the ACM on Human-Computer Interaction, topic: cl, filter: social-science}   # CSCW
+  - {name: The Web Conference, kind: conference, topic: cl, filter: social-science}                  # WWW
+  - {name: EPJ Data Science, topic: cl}
+  - {name: Conference on Human Factors in Computing Systems, kind: conference, topic: cl, filter: social-science}  # CHI
+  - {name: Conference on Fairness, Accountability and Transparency, kind: conference, topic: cl, filter: social-science}  # FAccT
+  - {name: AAAI/ACM Conference on AI, Ethics, and Society, kind: conference, topic: cl, filter: social-science}  # AIES
+  - {name: ACM Web Science Conference, kind: conference, topic: cl, filter: social-science}
+  - {name: Journal of the Association for Information Science and Technology, topic: cl, filter: social-science}
+  - {name: Information Processing & Management, topic: cl, filter: social-science}
+
+  # ---------------------------------------------------------------- 3. Communication & Science Communication
+  - {name: Journal of Communication, issn: 0021-9916, topic: comm}
+  - {name: New Media & Society, topic: comm}
+  - {name: Social Media + Society, topic: comm}
+  - {name: Big Data & Society, topic: comm}
+  - {name: Communication Research, topic: comm}
+  - {name: Human Communication Research, topic: comm}
+  - {name: Political Communication, topic: comm}
+  - {name: Journal of Computer-Mediated Communication, topic: comm}
+  - {name: Information, Communication & Society, topic: comm}
+  - {name: Digital Journalism, topic: comm}
+  - {name: Communication Methods and Measures, topic: comm}
+  - {name: The International Journal of Press/Politics, topic: comm}
+  - {name: Communication Monographs, topic: comm}
+  - {name: Public Understanding of Science, topic: comm}
+  - {name: Science Communication, topic: comm}
+  - {name: Journal of Science Communication, topic: comm}
+  - {name: Feminist Media Studies, topic: comm}
+  - {name: Chinese Journal of Communication, topic: comm}
+  - {name: Harvard Kennedy School Misinformation Review, topic: comm}

@@ -1,0 +1,125 @@
+{%- macro authors(list) -%}
+{%- for a in list -%}
+{%- if a.gap %} [...] {% else -%}
+{%- if not loop.first and not list[loop.index0 - 1].gap %}, {% endif -%}
+{%- if a.bold %}<strong style="color:#111111;">{{ a.name }}</strong>{% else %}{{ a.name }}{% endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro -%}
+{%- macro article(a, show_topic=false) -%}
+<tr><td style="padding:0 0 22px 0;">
+  {% if a.pick or a.preprint or a.now_published or show_topic %}
+  <div style="font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#8a5a00;padding-bottom:4px;">
+    {%- set tags = [] -%}
+    {%- if show_topic %}{% set _ = tags.append(a.topic) %}{% endif -%}
+    {%- if a.pick %}{% set _ = tags.append("Editor's pick") %}{% endif -%}
+    {%- if a.preprint %}{% set _ = tags.append("Preprint") %}{% endif -%}
+    {%- if a.now_published %}{% set _ = tags.append("Now published") %}{% endif -%}
+    {{ tags | join(" · ") }}
+  </div>
+  {% endif %}
+  <a href="{{ a.url }}" style="font-size:17px;line-height:1.35;font-weight:700;color:#0b4f8a;text-decoration:none;">{{ a.title }}</a>
+  <div style="font-size:14px;line-height:1.5;color:#444444;padding-top:6px;">{{ authors(a.authors) }}</div>
+  <div style="font-size:13px;line-height:1.5;color:#666666;padding-top:2px;"><em>{{ a.venue }}</em> · {{ a.date }}</div>
+  {% if a.summary %}
+  <div style="font-size:14px;line-height:1.5;color:#222222;padding-top:8px;"><strong>In short:</strong> {{ a.summary }}</div>
+  {% endif %}
+  {% if a.abstract %}
+  <div style="font-size:14px;line-height:1.55;color:#555555;padding-top:6px;">{{ a.abstract }}</div>
+  {% endif %}
+  <div style="padding-top:6px;"><a href="{{ a.url }}" style="font-size:13px;color:#0b4f8a;text-decoration:none;">Read article ›</a></div>
+</td></tr>
+{%- endmacro -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Calvin Research Brief: {{ date }}</title>
+</head>
+<body style="margin:0;padding:0;background:#f2f2f2;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f2f2;">
+<tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;background:#ffffff;font-family:Helvetica,Arial,sans-serif;">
+
+  <tr><td style="background:#111111;padding:18px 28px;">
+    <div style="font-size:20px;font-weight:700;color:#ffffff;">Calvin Research Brief</div>
+  </td></tr>
+
+  <tr><td style="padding:28px 28px 8px 28px;">
+    {% if test %}<div style="background:#fff4d6;color:#7a5200;font-size:13px;padding:8px 12px;margin-bottom:16px;">Test send. Only you received this.</div>{% endif %}
+    <div style="font-size:26px;font-weight:700;color:#111111;">Weekly updates</div>
+    <div style="font-size:15px;color:#666666;padding-top:4px;">{{ date }}</div>
+    <p style="font-size:15px;line-height:1.55;color:#333333;margin:18px 0 0 0;">
+      New research from the journals and scholars you follow, {{ stats.window }}.
+      This issue has {{ stats.shown }} article{{ "s" if stats.shown != 1 }}{% if stats.priority %}, including {{ stats.priority }} top priority{% endif %}.
+      {% if stats.cut %}{{ stats.cut }} more are listed at the end.{% endif %}
+    </p>
+  </td></tr>
+
+  {% if priority %}
+  <tr><td style="padding:24px 28px 0 28px;">
+    <div style="border-top:3px solid #c8102e;padding-top:12px;font-size:20px;font-weight:700;color:#c8102e;">★ Top priority</div>
+    <div style="font-size:13px;color:#666666;padding:4px 0 16px 0;">A scholar you follow, in a journal you follow.</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    {% for a in priority %}{{ article(a, show_topic=true) }}{% endfor %}
+    </table>
+  </td></tr>
+  {% endif %}
+
+  {% for s in sections %}
+  <tr><td style="padding:24px 28px 0 28px;">
+    <div style="border-top:3px solid #111111;padding-top:12px;font-size:20px;font-weight:700;color:#111111;">{{ loop.index }}. {{ s.name }} ›</div>
+    {% for v in s.venues %}
+    <div style="font-size:14px;font-weight:700;color:#666666;text-transform:uppercase;letter-spacing:.03em;padding:16px 0 10px 0;">{{ v.venue }}</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    {% for a in v.articles %}{{ article(a) }}{% endfor %}
+    </table>
+    {% endfor %}
+    {% if s.preprints %}
+    <div style="font-size:14px;font-weight:700;color:#666666;text-transform:uppercase;letter-spacing:.03em;padding:16px 0 10px 0;">Preprints from top universities and labs</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    {% for a in s.preprints %}{{ article(a) }}{% endfor %}
+    </table>
+    {% endif %}
+  </td></tr>
+  {% endfor %}
+
+  {% if watch %}
+  <tr><td style="padding:24px 28px 0 28px;">
+    <div style="border-top:3px solid #111111;padding-top:12px;font-size:20px;font-weight:700;color:#111111;">Scholar watch ›</div>
+    <div style="font-size:13px;color:#666666;padding:4px 0 6px 0;">New work by scholars you follow, in other venues and preprints.</div>
+    {% for w in watch %}
+    <div style="font-size:14px;font-weight:700;color:#666666;text-transform:uppercase;letter-spacing:.03em;padding:16px 0 10px 0;">{{ w.scholar }}</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    {% for a in w.articles %}{{ article(a, show_topic=true) }}{% endfor %}
+    </table>
+    {% endfor %}
+  </td></tr>
+  {% endif %}
+
+  {% if overflow %}
+  <tr><td style="padding:24px 28px 0 28px;">
+    <div style="border-top:1px solid #dddddd;padding-top:12px;font-size:16px;font-weight:700;color:#111111;">Also this week</div>
+    <ul style="margin:10px 0 0 0;padding-left:18px;">
+    {% for a in overflow %}
+      <li style="font-size:13px;line-height:1.5;color:#555555;padding-bottom:6px;"><a href="{{ a.url }}" style="color:#0b4f8a;text-decoration:none;">{{ a.title }}</a> · <em>{{ a.venue }}</em>{% if a.preprint %} (preprint){% endif %}</li>
+    {% endfor %}
+    </ul>
+  </td></tr>
+  {% endif %}
+
+  <tr><td style="padding:28px;">
+    <div style="border-top:1px solid #dddddd;padding-top:14px;font-size:12px;line-height:1.6;color:#888888;">
+      {% if quiet %}Nothing new this week from: {{ quiet | join(", ") }}.<br><br>{% endif %}
+      Sources: OpenAlex and Semantic Scholar. Lists of journals, scholars, topics and recipients live in the
+      <code>config/</code> folder of the research-brief-rss repository.
+    </div>
+  </td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>

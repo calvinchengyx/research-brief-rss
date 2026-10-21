@@ -1,0 +1,61 @@
+{% macro authors(list) -%}
+{%- for a in list -%}
+{%- if a.gap %} [...] {% else -%}
+{%- if not loop.first and not list[loop.index0 - 1].gap %}, {% endif -%}
+{{ a.name }}{% if a.bold %}*{% endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro %}
+{% macro article(a) %}
+{% if a.pick %}[Editor's pick] {% endif %}{% if a.preprint %}[Preprint] {% endif %}{% if a.now_published %}[Now published] {% endif %}{{ a.title }}
+{{ authors(a.authors) }}
+{{ a.venue }} · {{ a.date }}
+{% if a.summary %}In short: {{ a.summary }}
+{% endif %}
+{% if a.abstract %}{{ a.abstract }}
+{% endif %}
+{{ a.url }}
+
+{% endmacro %}
+CALVIN RESEARCH BRIEF
+Weekly updates · {{ date }}
+{% if test %}(Test send. Only you received this.){% endif %}
+
+New research from the journals and scholars you follow, {{ stats.window }}. {{ stats.shown }} articles{% if stats.priority %}, {{ stats.priority }} top priority{% endif %}.
+* = scholar you follow
+{% if priority %}
+
+==== TOP PRIORITY (a scholar you follow, in a journal you follow) ====
+{% for a in priority %}{{ article(a) }}{% endfor %}
+{% endif %}
+{% for s in sections %}
+
+==== {{ loop.index }}. {{ s.name | upper }} ====
+{% for v in s.venues %}
+-- {{ v.venue }} --
+{% for a in v.articles %}{{ article(a) }}{% endfor %}
+{% endfor %}
+{% if s.preprints %}
+-- Preprints from top universities and labs --
+{% for a in s.preprints %}{{ article(a) }}{% endfor %}
+{% endif %}
+{% endfor %}
+{% if watch %}
+
+==== SCHOLAR WATCH ====
+{% for w in watch %}
+-- {{ w.scholar }} --
+{% for a in w.articles %}{{ article(a) }}{% endfor %}
+{% endfor %}
+{% endif %}
+{% if overflow %}
+
+==== ALSO THIS WEEK ====
+{% for a in overflow %}
+- {{ a.title }} ({{ a.venue }}) {{ a.url }}
+{% endfor %}
+{% endif %}
+{% if quiet %}
+
+Nothing new this week from: {{ quiet | join(", ") }}.
+{% endif %}

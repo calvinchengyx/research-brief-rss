@@ -1,0 +1,57 @@
+# Scholar list.
+#
+#   name:  the scholar's name
+#   hint:  an institution, used to pick the right person when names are shared
+#   topic: css | comm | cl -- where their papers go when not in a listed journal
+#   type:  person (default)
+#          coauthors   -> also follows people with >= min_joint_papers papers with them
+#          group       -> also follows frequent coauthors at the same institution (lab members)
+#          institution -> any paper with an author from `name` (filtered to social-science topics)
+#   openalex: pin the exact OpenAlex author ID (A...) if the automatic match is wrong
+#
+# state/following.md lists who every entry was matched to, and every coauthor/group member.
+
+scholars:
+  # Me and all my coauthors
+  - {name: Calvin Yixiang Cheng, type: coauthors, min_joint_papers: 1, topic: css}
+
+  # Oxford Internet Institute
+  - {name: Mohsen Mosleh, hint: Oxford, topic: css}
+  - {name: Scott A. Hale, hint: Oxford, topic: css}
+  - {name: Andreu Casas, topic: comm}
+  - {name: Kobi Hackenburg, hint: Oxford, topic: css}
+  - {name: Paul Röttger, hint: Oxford, topic: cl}
+  - {name: Manuel Tonneau, hint: Oxford, topic: cl}
+  - {name: Hannah Rose Kirk, hint: Oxford, topic: cl}
+  - {name: Christopher Summerfield, hint: Oxford, topic: css}
+  - {name: Lujain Ibrahim, hint: Oxford, topic: cl}
+
+  # UW Center for an Informed Public and climate-disinformation scholars
+  - {name: Kate Starbird, hint: University of Washington, topic: css}
+  - {name: Emma S. Spiro, hint: University of Washington, topic: css}
+  - {name: Jevin D. West, hint: University of Washington, topic: css}
+  - {name: Ryan Calo, hint: University of Washington, topic: css}
+  - {name: Naomi Oreskes, hint: Harvard, topic: comm}
+  - {name: Geoffrey Supran, hint: Miami, topic: comm}
+  - {name: Benjamin Franta, hint: Oxford, topic: comm}
+  - {name: Erik M. Conway, topic: comm}
+
+  # MIT
+  - {name: MIT Media Lab, type: institution, topic: css}
+  - {name: David G. Rand, hint: Massachusetts Institute of Technology, type: group, topic: css}
+  - {name: Jennifer Allen, hint: Massachusetts Institute of Technology, topic: css}
+  - {name: Cameron Martel, hint: Massachusetts Institute of Technology, topic: css}
+
+  # Stanford
+  - {name: Diyi Yang, hint: Stanford, type: group, topic: cl}
+  - {name: Jennifer Pan, hint: Stanford, type: coauthors, topic: css}
+
+  # Northwestern
+  - {name: William J. Brady, hint: Northwestern, topic: css}
+  - {name: Yingdan Lu, hint: Northwestern, topic: comm}
+
+  # Cambridge
+  - {name: Sander van der Linden, hint: Cambridge, type: group, topic: css}
+
+  # Communication: IKMZ, University of Zurich
+  - {name: Mike S. Schäfer, hint: Zurich, type: group, topic: comm}
