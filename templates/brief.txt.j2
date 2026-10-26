@@ -33,7 +33,13 @@ Research updates · {{ date }}
 
 New research from the journals and scholars you follow, {{ stats.window }}. {{ stats.shown }} articles{% if stats.priority %}, {{ stats.priority }} top priority{% endif %}.
 * = scholar you follow
+{% if announcement %}
+
+** {{ announcement.title }} **
+{{ announcement.text }}
+{% else %}
 Want a deep dive? Reply with the IDs in square brackets, e.g. B2, D1.
+{% endif %}
 {% if dives %}
 
 ==== DEEP DIVES YOU ASKED FOR ====

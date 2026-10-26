@@ -67,10 +67,17 @@
       This issue has {{ stats.shown }} article{{ "s" if stats.shown != 1 }}{% if stats.priority %}, including {{ stats.priority }} top priority{% endif %}.
       {% if overflow %}Another {{ stats.cut }} passed the filters; the next {{ overflow | length }} are listed at the end.{% endif %}
     </p>
+    {% if announcement %}
+    <div style="margin-top:18px;padding:14px 16px;background:#0b4f8a;color:#ffffff;font-size:15px;line-height:1.55;">
+      <div style="font-size:17px;font-weight:700;padding-bottom:6px;">{{ announcement.title }}</div>
+      {{ announcement.text }}
+    </div>
+    {% else %}
     <div style="margin-top:16px;padding:10px 14px;border:1px solid #c9dbea;background:#f5f9fc;font-size:14px;line-height:1.5;color:#333333;">
       <strong>Want a deep dive?</strong> Reply to this email with the IDs of the papers you'd like, for example <em>B2, D1</em>.
       The next issue opens with their research questions, methods and main findings.
     </div>
+    {% endif %}
   </td></tr>
 
   {% if dives %}
