@@ -1,8 +1,8 @@
 # Calvin Research Brief
 
-A weekly email of new research from the journals and scholars I follow, organized by topic, laid out like the Nature Portfolio e‑alert.
+An email every two weeks with new research from the journals and scholars I follow, organized by topic, laid out like the Nature Portfolio e‑alert.
 
-> Status: **live**. Sent every Monday at 06:00 UTC. `recipe.html` describes the sources, model and the latest run.
+> Status: **live**. Sent every other Monday at 06:00 UTC (`send_every_days: 14`). `recipe.html` describes the sources, model and the latest run.
 
 ## Running it
 
@@ -14,7 +14,7 @@ Everything runs on GitHub Actions (`.github/workflows/brief.yml`):
 | Actions tab → *Research brief* → *Run workflow* → `preview` | Same, on the chosen branch. |
 | … → `test` | Builds the issue and emails everyone in `config/recipients.yaml` with a `[TEST]` subject. Its articles count as sent, so they are not repeated in the next issue. |
 | … → `send` | Emails everyone in `config/recipients.yaml`, archives the issue in `archive/`, and records sent articles in `state/seen.json` so they are never repeated. |
-| Monday 06:00 UTC schedule | `send`. |
+| Monday 06:00 UTC schedule | `send`, but only when `send_every_days` (14) have passed since the last issue in `archive/`; otherwise the run stops at once. |
 
 Repository secrets used: `ANTHROPIC_API_KEY`, `BREVO_API_KEY`, `SENDER_EMAIL`, and optionally `OPENALEX_API_KEY`.
 
@@ -405,7 +405,7 @@ Building it is a one‑time effort in this project.
 
 ## 10. Run frequency
 
-**Weekly, Monday morning** is the right rhythm: journal publishing is continuous, indexes lag 1–5 days, and a weekly digest is long enough to be worth reading and short enough to skim in one sitting (about 30–80 articles pass the filters in a normal week, and the cap in §6 trims that to 20). A monthly "scholar watch only" mode is possible if I prefer.
+**Every other Monday** (changed from weekly on 26 Oct 2026). The cron still fires every Monday and skips the off weeks. Each run looks back 17 days (14 plus indexing lag); the no-repeat rule removes the overlap. The 20-article cap is unchanged, so more papers land in "Also this week".
 
 ## 11. Build plan
 

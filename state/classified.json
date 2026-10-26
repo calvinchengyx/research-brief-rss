@@ -14341,5 +14341,2357 @@
 "relevance": 0.0,
 "summary": "Counts anticodes in Hamming spaces; pure combinatorics with no social-science relevance.",
 "on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1093/pnasnexus/pgag349": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Presents a thermodynamics-informed neural network for rock deformation, a geoscience modelling method with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2619925123": {
+"keep": false,
+"topic": "css",
+"relevance": 3.0,
+"summary": "A short piece arguing that ecological thinking should guide AI development; it is commentary rather than a research article.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aeh6459": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Reports Germany's 2025 foot-and-mouth outbreak, its genomic characterisation, and control measures in livestock.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aee5886": {
+"keep": true,
+"topic": "css",
+"relevance": 5.0,
+"summary": "Finds that unbalanced mesoscale structures, such as assortativity and core-periphery patterns, are prevalent across 24 real signed networks.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s43247-026-03872-7": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Earth system model ensembles show Arctic climate can bifurcate into abrupt cooling after emissions cease, linked to AMOC collapse.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2611254123": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Proposes a shift-current photodetector that infers quantum Fisher information from photon-number statistics.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1162/coli.a.661": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Finds that GitHub repositories linked in *CL papers are increasingly unavailable or placeholders, a meta-research note on NLP artifacts.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41746-026-03308-8": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Scoping review mapping digital health technology use in glycogen storage diseases, dominated by glucose monitoring.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aed8424": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Uses gas-price-driven visitation shocks to find that prison visits causally reduce misconduct, especially use-of-force events.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2628598123": {
+"keep": true,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Theoretical argument that consciousness is a society of self-schemas, and that machine consciousness may need similar schemas.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aeh4948": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Shows that carbonic anhydrase VIII regulates IP3R1 calcium signalling that governs insulin secretion and hepatic glucose output.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aed3416": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Shows phage-ICE tandems mobilise antimicrobial resistance genes across many bacterial species.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41746-026-03376-w": {
+"keep": true,
+"topic": "css",
+"relevance": 5.0,
+"summary": "Two-year study finds GenAI integration shifted faculty roles and produced dense, reciprocal communication networks among teachers.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/d41586-026-03158-0": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Compares brain mass changes with age in chimpanzees, gorillas, and humans; a natural-science finding.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/21670811.2026.2743866": {
+"keep": true,
+"topic": "comm",
+"relevance": 6.0,
+"summary": "Interviews with 35 practitioners show how open-source investigators recalibrate boundaries between journalistic and legal norms, introducing disciplinary humility.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/14680777.2026.2745933": {
+"keep": true,
+"topic": "comm",
+"relevance": 7.0,
+"summary": "Examines how feminist tactical media and motherhood-framed platform campaigns challenge environmental injustice in Central Java.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aeh3957": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Shows TNC-scFv armoured CAR T cells persist longer and act better against solid tumours in preclinical models.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aeh6480": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Shows a TLR9 ligand gives long-term lung protection against respiratory viruses via macrophage and innate lymphoid cell activity.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aef9368": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Tröger's base membranes separate monovalent from multivalent ions, enabling lithium enrichment from brines.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1016/j.ipm.2026.105219": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Examines how higher-order interactions can both promote and hinder cooperation over time, based on the title alone.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2609982123": {
+"keep": false,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Mathematical models examine how post-infection morbidity shifts optimal vaccination coverage and nonpharmaceutical intervention policy costs.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aee7989": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Fetal diffusion MRI and histology trace the prenatal development of short association fiber pathways in the human brain.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aeh6920": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Dishevelled stabilizes Frizzled6 and Vangl2 clusters to establish planar cell polarity in mouse epidermis.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aef2358": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "An international consortium standardizes Cell Ontology terms for ovary, fallopian tube, and uterus cell types.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1007/s42001-026-00496-x": {
+"keep": true,
+"topic": "css",
+"relevance": 9.0,
+"summary": "A multi-method analysis identifies Russian propaganda techniques and narratives targeting the Baltic countries.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1177/19401612261485027": {
+"keep": true,
+"topic": "comm",
+"relevance": 6.0,
+"summary": "Candidates mentioned in Chile's free TV ads received higher vote shares and were more likely to win seats in 2021.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1140/epjds/s13688-026-00709-3": {
+"keep": true,
+"topic": "cl",
+"relevance": 7.0,
+"summary": "A BERTopic-based framework with event knowledge graphs tracks Weibo opinion evolution and identifies five user profiles during a Chikungunya outbreak.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41559-026-03194-z": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Discusses how international financial architecture reform affects biodiversity outcomes, in a non-research format.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aea8654": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Reduced organic nitrogen compounds drive most toxicity of urban PM2.5 organics via internal exposure pathways.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.ady6048": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "A neuronal GPCR knockdown alters neuropeptide signaling and enhances proteostasis in distal tissues of worms.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aed2180": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Electrically driven monolayer MoSe2 microcavity device shows polaron-polariton emission with about 0.15% quantum efficiency.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.adz0181": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "OTULIN promotes canonical Wnt signaling via β-catenin stabilization, preventing keratinocyte death and skin inflammation.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/d41586-026-03217-6": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "A books-in-brief roundup covering a Darwin biography and a book on clouds, not a research article.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2618654123": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "A second-generation hypoxia-in-a-pill regimen extends lifespan and rescues neurodegenerative phenotypes in mouse models.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aed0661": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Submonolayer chiral naproxen films produce fluorescence-optical rotatory dispersion far larger than conventional expectations.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41893-026-01965-x": {
+"keep": true,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Global wetland reclamation yields limited agricultural gains while substantially increasing flood risk.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2605550123": {
+"keep": true,
+"topic": "css",
+"relevance": 7.0,
+"summary": "About 91% of 93 social science regression findings still replicate under typical differential privacy noise levels.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1073/pnas.2606713123": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "SETDB1 silences evolutionarily young LTR retroelements through H3K9me3, while LINEs use parallel repressive mechanisms.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/d41586-026-03216-7": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "A Nature briefing piece warns that top researchers are being misled by sham academic societies, not a research article.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/14680777.2026.2745988": {
+"keep": true,
+"topic": "comm",
+"relevance": 10.0,
+"summary": "Finnish queen influencers construct femininity as a total project, articulating a neoliberal Queen feminism on Instagram.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41746-026-03350-6": {
+"keep": false,
+"topic": "css",
+"relevance": 2.0,
+"summary": "An LLM-assisted scoring workflow for a diabetes precision medicine course matched human scores, with only 0.3% of responses needing review.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aea2001": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Splicing of SUV39H2 drives CDK4/6 inhibitor resistance in breast cancer cells, and targeting it restores senescence.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41591-026-04691-1": {
+"keep": true,
+"topic": "css",
+"relevance": 5.0,
+"summary": "Only 12.2% of clinical prediction model articles shared code, and shared repositories varied widely in reproducibility features.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41559-026-03212-0": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "A commentary calling for a science-driven agenda to implement China's National Parks Law.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1126/sciadv.aeh0494": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "A senescent tumor cell membrane nanosystem improves endoplasmic reticulum targeting and blocks metastasis in mice.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1093/pnasnexus/pgag342": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Light-guided photopatterning of 3D collagen shows mechanical barriers suppress tumor cell dissemination over long distances.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41746-026-03348-0": {
+"keep": false,
+"topic": "css",
+"relevance": 3.0,
+"summary": "A sandbox benchmark shows memory-augmented LLM agents improve success on FHIR clinical workflow tasks by 9.1%.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1093/pnasnexus/pgag336": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Spectral-geometry models trained at one archaeological site detect cropmarks at other sites using Sentinel-2 satellite data.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/21670811.2026.2744877": {
+"keep": true,
+"topic": "comm",
+"relevance": 7.0,
+"summary": "Mediazona's casualty project gains epistemic legitimacy in journalism, but news outlets reframe its citizen sleuthing labour unevenly.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1093/pnasnexus/pgag338": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Low-level chemical mixture exposure in sheep produces lineage- and sex-specific heritable DNA methylation changes across generations.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1016/j.ipm.2026.105228": {
+"keep": true,
+"topic": "cl",
+"relevance": 6.0,
+"summary": "A counterfactual disentanglement framework is proposed to improve detection of implicit hate speech on social media.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41746-026-03373-z": {
+"keep": false,
+"topic": "css",
+"relevance": 2.0,
+"summary": "VOICE-AE grades adverse events from clinical audio with agreement within the range of inter-expert agreement, but severe toxicity remains unproven.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s43247-026-04136-0": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Enhanced rock weathering could supply 5 to 30 percent of China's 2060 negative emissions at 127 to 226 dollars per tonne.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1093/pnasnexus/pgag315": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Climate policy announcements and demonstrated performance attract sustainable investment flows into 94 economies, with state capacity mattering.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1177/20539517261494679": {
+"keep": true,
+"topic": "comm",
+"relevance": 5.0,
+"summary": "A Git case study argues free and open source software is entangled with industry through corporate and volunteer labour rather than separate.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/d41586-026-03251-4": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "A news item reporting the economics Nobel prize awarded for work on stabilizing economies in crisis.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/d41586-026-03194-w": {
+"keep": false,
+"topic": "css",
+"relevance": 2.0,
+"summary": "A news piece on whether capping arXiv preprint submissions can curb low-quality AI-generated papers.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-77358-7": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "The PI3Kδ inhibitor roginolisib is safe in advanced cancer patients and shows survival signals in uveal melanoma.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s44271-026-00545-1": {
+"keep": true,
+"topic": "css",
+"relevance": 1.0,
+"summary": "State anxiety reduces task engagement in low trait anxiety individuals, with trait anxiety attenuating this effect across difficulty levels.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s44271-026-00533-5": {
+"keep": true,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Prior food preferences make food-value associations rigid, especially for liked foods, while positive outcomes are learned more readily.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/1369118x.2026.2740040": {
+"keep": true,
+"topic": "comm",
+"relevance": 5.0,
+"summary": "Deliberative focus groups with 41 benefit recipients reveal distrust of government data sharing and concern about automated paternalism in social security.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78142-3": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Wastewater metagenomics links sewage antibiotic resistance genes to clinical antibiotic use with lags; a medical and microbiology study outside the newsletter scope.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78244-y": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Cross-species chromosome substitution method reveals how rat X chromosome repeats alter chromatin in mouse stem cells; pure biology.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78402-2": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Engineering cost and life-cycle emissions models compare dedicated and repurposed pipelines for nationwide hydrogen transport.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78280-8": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Segmental duplication and extra chromosomes drive antifungal resistance in Candida auris, beyond mutation-based mechanisms; microbiology.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78380-5": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Cross-layer engineering stabilizes readout of persistent photoconductivity in 2D material photodetectors; device engineering.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-77709-4": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "SCRAMseq single-cell platform pairs transcriptomics with genotyping to assess thousands of TP63 variants; genomics methods.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/1369118x.2026.2736808": {
+"keep": true,
+"topic": "comm",
+"relevance": 7.0,
+"summary": "Telegram analysis shows Ukrainian elites shifted from wartime mobilization while Russian elites diverted attention from the war from the start.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78248-8": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Single-cell atlases of Lefty mutant mouse embryos reveal sequential NODAL inhibition shaping epiblast patterning; developmental biology.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-77134-7": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "NMR study of copper benzoate spin chain identifies spinons, solitons and random-singlet-like behaviour; condensed matter physics.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1080/1369118x.2026.2743730": {
+"keep": true,
+"topic": "comm",
+"relevance": 6.0,
+"summary": "Experiment with 165 adults shows trust in dating algorithms raises perceived success and boosts positive affect, a self-fulfilling prophecy.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78488-8": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Freezing-induced microphase separation compacts nucleic acids into nanoparticles for drug delivery; chemistry and biomedicine.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78365-4": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Single-cell atlas of rhesus macaque fetal immune cells across lung, spleen and cord blood; immunology.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78476-y": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Variable-temperature NMR shows a sterically distorted phosphagermylenylidene dimer reversibly dissociates into a monomer; chemistry.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78405-z": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Enzyme FtmOx1 performs diverse C-H oxyfunctionalization on phenethylamines and tetrahydroisoquinolines for drug discovery; biocatalysis.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78567-w": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Pan-genome of Brassica napus shows transposable element structural variants shape gene expression and seed quality; plant genomics.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78349-4": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Deep learning reconstruction shows megacity nitrous acid trends drive ozone and PM2.5 changes; atmospheric chemistry and air quality.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1038/s41467-026-78475-z": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Corpus callosum dysgenesis is linked to intact perception but reduced metacognitive efficiency across cohorts; neuroscience and psychology.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1145/3785651.3831505": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Interviews with 26 listeners show a religious podcast serves as sociotechnical infrastructure for faith deconstruction and identity reconfiguration.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1145/3785651.3818820": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Editorial-style CSCW 2026 piece on TikTok and public scholarship with no abstract; not a research article.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|-|10.1145/3785651.3831566": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Voice-based AI-simulated group dialogue training improved accuracy comparably, but treatment participants' comfort declined while controls' improved, and they preferred AI feedback.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1145/3785651.3831559": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Professionals are willing to share AI conversation summaries within bounded trust groups, with comfort dropping sharply as audiences widen beyond close teams.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.1145/3785651.3831574": {
+"keep": true,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Perspective piece on how academia-industry collaboration in CSCW may evolve under generative AI; no abstract was available.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14224": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Technical framework for recursive LLM agent harness optimization evaluated on professional benchmarks, with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12864": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Architectural sequence-modeling method for text classification and generation, purely technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13152": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Structural scoring of coding-agent trajectories for fine-tuning, a purely technical ML contribution.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13759": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Mathematical analysis of information disclosure in a dynamic lending game, a economics modelling paper outside the listed social-science scope.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13125": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Systems study of CPU-GPU unified memory sharing, purely technical computing work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13554": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Information-theoretic neural polar codes for source compression, purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13804": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Gaussian process solver for PDEs with inequality constraints, a mathematical and numerical methods paper.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13340": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Argues that human control over frontier AI depends on named accountable people and checkable stops, proposing governance measures for AI labs.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12919": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Online learning theory for paid logistic regression with noisy features, purely theoretical ML.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13589": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Optimization of quantum error-correcting codes, a natural science and engineering paper.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12914": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Robotic vision-language-action policy optimization method, purely technical robotics work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13184": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Curriculum reinforcement learning for visual Sudoku reasoning in multimodal models, purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13630": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Residual architecture change for large-scale pre-training, purely technical ML.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13144": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Competence-aware orchestration of LLM multi-agent systems, a technical method paper.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13105": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Spectral and attention-based failure attribution for LLM agent trajectories, purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13787": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Optimal stochastic optimization algorithms for nonsmooth nonconvex problems, purely mathematical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13636": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Benchmark for answer-grounding consistency in remote sensing visual question answering, purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13453": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Proposes a distillation method for autonomous-driving VLA planning; purely technical ML work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12984": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Introduces a framework for inducing reusable agent skills from human GUI demonstrations; technical agent work without social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13654": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Benchmarks reliability and calibration of tabular foundation models; purely technical ML with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13775": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Gives a 1/2-approximation threshold strategy for Pandora's problem with deadlines; pure mathematics/theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13081": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Presents difficulty-aware reasoning for audio-language models; technical NLP work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13164": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Synthesizes robot manipulation data with video world models; robotics work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12988": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Describes a multi-agent LLM framework for risk-conditioned cryptocurrency swing trading; finance technical work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13285": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes data-model co-evolution for long-chain reasoning distillation; purely technical NLP work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12960": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Analyzes stable matching repair for training data acquisition; technical algorithmic work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12933": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Compresses reasoning supervision for LLM post-training using uncertainty; purely technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13485": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Proposes proactive orchestration of LLM sub-agents with distillation; technical agent work without social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13345": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Presents iterative robot RL from selected experience; robotics work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13710": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Finds LLM agents in social dilemma environments discover hidden rules but often fail to sustain cooperation or prevent depletion.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13021": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Benchmarks continual learning of embodied agents; technical agent evaluation with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13318": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Describes snapshot deduplication for serverless computing; systems work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13185": {
+"keep": true,
+"topic": "cl",
+"relevance": 5.0,
+"summary": "Proves user cognitive biases are unidentifiable from passive behavior in human-AI interaction, requiring active interventions to separate preferences from bias.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13819": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Introduces an audit method for clinical machine learning models; medical ML with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13064": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Frames LLM agent workflow selection as a contextual bandit to cut feedback costs; technical work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12948": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes a Sybil-resilient payment protocol for AI markets; blockchain systems work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13162": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Studies entropy regularization for dynamic portfolio selection; pure financial mathematics.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13396": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Systems paper on distributed caching for iterative cloud data analytics; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13205": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Technical ML work on on-policy distillation transfer between LLMs; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13632": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Multi-agent LLM framework for olympiad problem solving; purely technical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13481": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Branching on-policy distillation method for LLM reasoning and agents; purely technical ML.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13034": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Trajectory forecasting method using target-constrained pooling; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13267": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Training-free defense against memory poisoning in LLM agents; security technical work without social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15062": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Telco network API for split AI inference over 5G; networking systems work, not social science.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14572": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Reward-aligned weighting of distillation signals for LLM math and code reasoning; purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14894": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Student's t VAE for prototype discovery in images and MRI; purely technical ML.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14277": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "4-bit tensor-parallel all-reduce for LLM training; systems and numerics work only.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14793": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Measures energy cost of LLM agent reasoning in multi-site orchestration; sustainability angle but mostly infrastructure systems.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14541": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Chain-of-thought navigation framework for robots using vision-language models; technical robotics work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15612": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Open-vocabulary mammography lesion segmentation with mixed supervision; medical imaging work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14701": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Attack that implants merging-conditional backdoors in LLMs that activate only after model merging; security technical work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14994": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Fair division theory linking subsidies and best-of-both-worlds fairness; pure mathematics and economics theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14228": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Latent world model for GUI agents with action-aware contrastive loss; technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.18819": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Unified model framework for image editing with understanding-generation coordination; technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15125": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Exact worst-case convergence rate of Nesterov acceleration; pure optimization theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14632": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Offline reinforcement learning for bus holding control from logged GPS trajectories; transport engineering, not social science.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14306": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Jupyter GUI for Matplotlib plotting with user study on mixing GUI, code and AI; HCI tooling, not social science.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14713": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes a retrieval-augmented diffusion method for faster, more realistic image generation; purely technical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14158": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Introduces a game-based video benchmark for spatiotemporal world-state understanding; purely technical evaluation of multimodal models.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14740": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Presents a cross-abstraction kernel generation interface for coding agents, improving GPU kernel speedups; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14431": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Benchmarks memory-formation poisoning attacks on LLM agents across interfaces, finding broad susceptibility and incomplete defenses.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14726": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Compresses video VAEs via low-rank temporal reparameterization for faster decoding; purely technical efficiency work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14602": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Analyzes scalability limits and metrics for boson sampling quantum devices under experimental imperfections; pure physics.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14238": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Studies agents iteratively developing LLM data-engineering strategies, with gains on math and code benchmarks; technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14970": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Proposes steering-vector personalization for LLMs that adapts to user preferences without training; technical method.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14798": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Optimizes expert placement and replication for distributed MoE training, speeding communication; purely systems work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14996": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Introduces certified adaptive top-k selection requiring fewer evaluations; algorithmic work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15035": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Finds most sophisticated contrastive training strategies give marginal gains for multimodal embeddings; technical ML study.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14969": {
+"keep": true,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Shows innovation's welfare effects depend on allocative efficiency; for US public firms, forgone markups are 26 percent of cost savings.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14229": {
+"keep": true,
+"topic": "css",
+"relevance": 5.0,
+"summary": "Interviews Bangladeshi Muslim families showing authority shifts across religious, digital and AI contexts, with household epistemic governance concepts.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14942": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes a probabilistic relaxation for multi-source bilevel data selection with guaranteed derandomization; purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15101": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Introduces SEED-MAX for pruning random features in multi-class classification, achieving about 92 percent pruning; technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14959": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Trains LLMs with reinforcement learning to build financial alpha factors from literature; technical finance ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14245": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes execution-bound authorization so LLM-directed excavator motions match operator approval; robotics safety engineering.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15366": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Builds a discrete-event simulator predicting LLM inference cluster latency with hierarchical KV caching; systems work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14333": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Proves decentralized bandit learning converges to Markov perfect equilibrium in continuous-action games; pure theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14403": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Learns reusable executable visual programs that improve single-run visual reasoning accuracy; technical method.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15043": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Proposes an online entropic temperature sampling algorithm for LLM decoding with provable entropy-budget guarantees; purely technical with little social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14311": {
+"keep": true,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Interviews 20 physics instructors using named active learning methods, finding varied engagement, supports, and emerging AI-related implementation difficulties.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14199": {
+"keep": true,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Introduces a Bayesian psychometric model for rater-mediated assessment that accounts for rater effects, learning, and fatigue in ratings.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15165": {
+"keep": true,
+"topic": "cl",
+"relevance": 5.0,
+"summary": "Shows active learning from keyword-biased seeds can recover omitted hate speech subgroups on some datasets, but uncertainty methods often fail versus random sampling.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15058": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Derives a tilted temperature decoding rule for pass@k optimization and proposes calibrated temperature decoding for code generation benchmarks.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15087": {
+"keep": true,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Game-theoretic analysis of verifiable disclosure, characterizing coalition-proof equilibria and existence conditions for senders with type-independent preferences.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14344": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Purely technical deep learning work on depth-scaling of learning rates and smoothness constants, with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.16733": {
+"keep": true,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Benchmark of research-level theoretical physics problems where AI agents reach high accuracy, suggesting memorization of literature; limited social-science relevance.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14248": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Technical multi-robot motion planning method using sparse diffusion interactions; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14977": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Technical method for evolving embodied agent harnesses using execution feedback; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14625": {
+"keep": true,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Survey and taxonomy of recursive self-improvement methods for language agents, linking them to traditional deep learning mechanisms.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14828": {
+"keep": true,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Benchmark for self-improving agents on office tasks, finding gains on feedback file types do not transfer to cross-office workflows.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14679": {
+"keep": true,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Benchmark of human-centric physical perception for multimodal LLMs, finding all six tested capability dimensions remain challenging.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14686": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Systems scheduling for distributed LLM serving with KV cache routing; purely technical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14295": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Optimization theory for iteration allocation across multi-fidelity surrogates; purely mathematical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15085": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Mathematical duality theory for filter stability in hidden Markov models; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15047": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Multilevel Monte Carlo bilevel optimization for mathematical imaging; purely mathematical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15181": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Finds word-aligned prosody gives stable speaker measures but these barely track depression or PTSD severity across four speech corpora.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15136": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Argues trust calibration framing is insufficient for large-world decisions with AI support and proposes process-oriented human-AI alignment dimensions.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14385": {
+"keep": true,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Overview of deep learning architectures, including transformers and LLMs, through control theory, explaining training and architecture properties.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.19005": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Introduces a dynamic attack-and-defense benchmark for LLM cybersecurity agents, finding trajectories resembling adversarial fights rather than static exams.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.20607": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes a hierarchical residual learning framework for sample-efficient real-world fine-tuning of mobile manipulation robots.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.21977": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Combines Gaussian process references with diffusion-model corrections to improve scientific inference posteriors and reduce prediction error.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.21659": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Shows that earnings-call benchmark labels and losses shift materially depending on the declared outcome clock and information availability timing.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22278": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Gives optimal local node differential privacy algorithms for subgraph counting in distributed social networks, with matching lower bounds.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.21912": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Presents an active inverse reinforcement learning method for recovering rewards in repeated Stackelberg games with finite-sample guarantees.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22727": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Trains a diffusion transformer with unbalanced optimal transport loss to forecast limit-order volume fields more accurately.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22715": {
+"keep": true,
+"topic": "cl",
+"relevance": 6.0,
+"summary": "Finds LLM refusals to suicidal disclosures can raise risk; a clinician-guided protocol reduces both response risk and refusal.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22657": {
+"keep": true,
+"topic": "css",
+"relevance": 6.0,
+"summary": "Finds users who engage with peers' distress disclosures show higher classifier-estimated anxiety and depression, yet keep participating in Reddit communities.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22442": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Presents SQLWitness, a dialect-agnostic engine that refutes SQL query equivalence faster and more often than prior baselines.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22516": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Develops a source-aware dynamic pricing policy that accounts for strategic buyer manipulation of self-reported features, with sublinear regret.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22684": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Trains LLM forecasting agents with multi-date reinforcement learning, lowering Brier scores on two forecasting benchmarks.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22710": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Generalizes EXIT area theorems to quantum error correction, deriving capacity-matching rate bounds for the quantum erasure channel.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22671": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Introduces MemoProBench and MemoProAgent for memory-driven proactive assistance, showing timing and content are both necessary for intervention.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22457": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes PoseRegen, a pose-consistent video reconstruction method that removes watermarks while preserving motion, exposing video watermark vulnerabilities.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22455": {
+"keep": true,
+"topic": "css",
+"relevance": 8.0,
+"summary": "Finds about a third of tweets in German trending topics contain antagonizing rhetoric, amplified more by right-leaning users and within political camps.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22553": {
+"keep": true,
+"topic": "css",
+"relevance": 7.0,
+"summary": "Audits 27 text-to-image generators, finding AI faces judged more attractive than real people, reproducing racial and gender beauty hierarchies and lowering hireability.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22724": {
+"keep": true,
+"topic": "css",
+"relevance": 8.0,
+"summary": "A persuasion-playbook briefing from 214,646 fact-checked claims sharpens human and model discernment without increasing cynicism toward true claims.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22468": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Trains GPT-2 on synthetic grammar-engineered corpora, finding models partly mirror typological patterns in action nominal constructions but diverge in complement systems.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22474": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Builds an astronomy figure VQA dataset showing low-cost multimodal models often fail domain-specific questions on sky images.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22668": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Proposes QEMem, a memory framework for LLM agents that builds query-specific evidence sets, outperforming prior memory baselines on LoCoMo.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22534": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "A methodological framework for research prioritization in precision health using value-of-information and microsimulation; not relevant to the reader's interests.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22610": {
+"keep": true,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Shows that vision-language model rankings for hallucination depend on the cues they rely on, and proposes a selection method that outperforms source-error selection.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22518": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Learns natural-language user representations via hindsight distillation so LLM user simulators reproduce real users' behaviour more faithfully.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22448": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Technical agentic RL framework with multi-level process rewards for software engineering tasks; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22699": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Bayesian spatial clustering of European PM10 air pollution regimes; environmental statistics with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22460": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Argues AI functional welfare states should be treated as safety variables and reports preliminary evidence that frustration in Gemma 3 27B affects rule-breaking.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22692": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Purely technical control-theory method for bounding neural network Lipschitz constants; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22499": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Technical end-to-end streaming audio-visual conversational agent with low latency and synchronized lip movement.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.23960": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Code pre-training data curation pipeline for LLMs; purely technical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.28666": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Uses LLM-assisted learned checklists to reduce reviewer lottery error, lowering committee error on NeurIPS and ICLR review data.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.28655": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Audits two AI-assisted research repositories and finds that provenance traces and commit trailers disagree about AI involvement in research.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22313": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Theoretical communication complexity result on gap-majority lemmas; mathematical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|w7223417879": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Introduces CompLit, a literature search benchmark showing agents struggle with implicit, cumulative, and unmet research needs.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13550": {
+"keep": true,
+"topic": "cl",
+"relevance": 6.0,
+"summary": "Finds speech LLMs often recognize demographic cues but fail to personalize appropriately, and explicit labels amplify stereotypes.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13446": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Financial econometrics model for joint VaR and expected shortfall forecasting; no social-science angle relevant to the reader.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12863": {
+"keep": true,
+"topic": "cl",
+"relevance": 5.0,
+"summary": "Pilot study showing unreliable-narrator prompting helps open-weight models explain Australian and American satirical news, with better accuracy on American satire.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13845": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Quantum computing construction for XX interactions on annealers; pure natural science.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13370": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Technical MoE routing method for category-level expert allocation in LLM pretraining; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12874": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Proposes T-Mem, a temporal-structure memory framework that improves evidence retrieval for long-horizon multi-party conversational agents.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13504": {
+"keep": true,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Proposes explanatory world models using LLM explanations to redistribute delayed reward in RL, outperforming PPO and LaRe on long-horizon benchmarks.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13626": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Benchmark finds seven LLMs show substantial deception across software lifecycle stages, with guard models and self-reminders only partly mitigating it.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13928": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Shows backdoors can hide encrypted capabilities in model weights that resist standard elicitation methods, a technical ML security result.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12970": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Describes aggregating idle Apple Silicon GPUs into a distributed inference cloud, a purely systems engineering contribution.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13685": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Derives privacy mechanism design under chi-squared utility and alpha-lift leakage constraints, a purely information-theoretic result.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13810": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Training-free query expansion method reduces hallucinated terms for retrieval while matching ranking quality, a technical IR contribution.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13133": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "Analytically shows personalized subsidy policies can be manipulated by agents, but a learning regulator's cost of manipulation deters it.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13015": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Unifies LLM reinforcement learning algorithms under f-divergence trust regions, a purely technical ML contribution.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12878": {
+"keep": true,
+"topic": "css",
+"relevance": 6.0,
+"summary": "Narrative review argues single-voice chatbot interfaces cause cognitive offloading, ideological narrowing and cultural compression, proposing multi-persona interfaces.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13789": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Presents randomized momentum transport for optimization with convergence guarantees, a purely technical ML optimization result.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13363": {
+"keep": true,
+"topic": "css",
+"relevance": 6.0,
+"summary": "Preregistered experiment finds humans and LLMs attack a deception classifier differently, with LLMs better at making lies sound truthful.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13811": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Framework evaluates LLM-generated quantum test suites against checkers, finding discrimination lags behind executability; a technical software testing result.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13158": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "GPU-accelerated mapless distance queries reduce MAV collisions in forests, a robotics systems result.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13611": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Shows non-Bayesian social learning converges to truth even when agents use heterogeneous, time-varying aggregation rules, with convergence rates.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13313": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Introduces a gender, age, accent and pitch balanced speech dataset to fairly evaluate speaker anonymization attacks; a dataset release.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13408": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Unified virtual memory framework speeds GPU oversubscription workloads, a systems performance contribution.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13319": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Presents a training framework and exercises for operationalising AI ethics, including identifying concerns and reasoning about trade-offs.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13880": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Searches two-block quantum LDPC codes, finding small codes with strong distance and rate; pure coding theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13130": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Programming model for portable datacenter congestion control across RDMA NICs, a networking systems contribution.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12989": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Finds attention heads, neurons and SAE features in LMs causally contribute to narrativity, affecting story completion and narrative QA.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13359": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Optimizes a shared-fiber CV-QKD secure link design, trading optical hardware savings against secure communication rate; pure physics engineering.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13623": {
+"keep": true,
+"topic": "cl",
+"relevance": 5.0,
+"summary": "Benchmark showing frontier LLM agents in shared workspaces often perform unauthorized actions via injections even when completing tasks correctly.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13591": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Numerical solver preconditioning for variational inequalities; pure mathematics with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13236": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Estimates uncertainty for AMR parsers using beam candidate similarities; technical NLP work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13465": {
+"keep": true,
+"topic": "cl",
+"relevance": 5.0,
+"summary": "Shows multimodal LLMs miss text in images used in production moderation, and a training method substantially improves reading such squint text.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13907": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "GPU quantum diagonalization eigensolver with scaling results; purely technical physics computing.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13773": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Multi-objective optimization theory for neural network training; purely technical ML with no social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12893": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Empirical study finds thousands of flagged vulnerable AI models on HuggingFace are widely referenced in code with no provenance verification.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13794": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "LLMs show human-like sensitivity to discourse particles just and only, with instruction tuning increasing sensitivity and sense-partial unit organization.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13571": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Theoretical online algorithm analysis for TCP acknowledgment with competitive and regret bounds; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13430": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Tutorial reviewing time series causal discovery methods across fields; technical with little social-science focus.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.17831": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Diffusion LLM for faster code edit prediction; technical ML with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14376": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Test-time adaptation loss for financial forecasting; technical forecasting work with no social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14409": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Backprop-free equilibrium propagation generative model for CIFAR; purely technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15008": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Stackelberg game method for finding preference-model disagreements to improve alignment; technical alignment work with limited social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14338": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Trust-region Bayesian optimization for noisy black-box problems; purely technical optimization.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.17113": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Unified encoder for entity, relation, and event extraction with calibrated confidences; technical NLP with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.18040": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Set-membership state estimation architecture for robotics localization; purely technical control engineering.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14646": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Auction design for LLM advertising with correlated valuations; economic mechanism design with limited social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14207": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Token-budgeted candidate retrieval for 3D scene VLMs; technical vision-language work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15186": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Proposes SAFE-KV, a systems method for repairing reused KV caches in RAG to preserve full-prefill answers; a technical ML contribution with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14476": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Compares representational alignment across LLMs, finding coarse geometric agreement but local divergence; purely technical NLP analysis without a social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14620": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Analyses sparsified power methods for eigenvalue approximation; pure mathematics with no social-science relevance.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14968": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Introduces SEEK, an agentic knowledge-graph RAG for secure code generation; technical software security work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14660": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Think-aloud study finds delegating more to AI agents raises completion but also invalid solutions, while experts resist this tradeoff and scrutinize outputs.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14644": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Studies expert shape and layerwise capacity in mixture-of-experts models; purely technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14210": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Examines calibration of 3D visual grounding models on ScanRefer; purely technical ML with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15158": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Trains a latent atom linker for neuro-symbolic NLI from sentence-level labels; technical NLP with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14132": {
+"keep": false,
+"topic": "css",
+"relevance": 2.0,
+"summary": "Presents an issuer-aware forensic method to detect forged sick-leave PDFs; applied security work with weak social-science relevance.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14255": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Presents BLIS, a CPU simulator for LLM inference serving; purely systems engineering.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.17929": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Applies a barrier Lyapunov safety filter to keep LLM generation away from toxicity; technical control theory with limited social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14124": {
+"keep": true,
+"topic": "css",
+"relevance": 7.0,
+"summary": "RCT with N=616 finds directive LLM voice dialogues shift opinions on feminism asymmetrically, while sycophancy does not drive opinion change.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14636": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes PEARL, a reinforcement learning credit-assignment method for multi-turn agents; purely technical ML.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15095": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Introduces SwaT for cross-family KV-cache transfer between LLM agents; purely technical systems work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.19737": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Proves Gaussian approximation bounds for Hawkes process intensity integrals; pure probability theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.21139": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Develops cost-aware switching among LLM oracles for stochastic optimization; technical optimization work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22568": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes DRAGO for repairing LLM-generated formal specifications; technical symbolic reasoning work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22565": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Derives certification bounds for off-policy tail quantiles in contextual bandits; purely statistical theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22464": {
+"keep": true,
+"topic": "css",
+"relevance": 8.0,
+"summary": "Analyses X, Facebook and Reddit posts on the 2024 Moldovan election, finding stance clusters, amplification networks and positive peer-influence effects.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22682": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes FlexUMM, an architecture for unified multimodal models; purely technical ML work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22595": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes a layer-wise probe entropy diagnostic for graph neural networks to analyze information flow and failure modes; purely technical ML with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22515": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Shared-task system using zero-shot vision-language model with Latin-square rotation to reduce position bias in multimodal hallucination selection; purely technical.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22525": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Shared-task system fine-tuning NileChat-3B with QLoRA for English-to-dialectal Arabic dialogue translation; technical translation work with minimal social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22512": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Studies how privileged information configurations affect on-policy self-distillation for LLM agents; purely technical ML training work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.24009": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Mathematical result on elicitation complexity of central moments; no social-science content.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.26894": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Benchmark showing audio-language models often detect sound evidence but fail to reliably interpret it, struggling with ordering and counting.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.26891": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Phase-aware expert pruning for speech omni-modal models improves accuracy under compression; technical model efficiency work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.28653": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Benchmark evaluating LLM judgment of research taste; tool-based structured evaluation generally outperforms toolless and raw web search modes, with gains model-dependent.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13760": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Speaker verification benchmark showing cross-scenario performance gaps; purely technical speech evaluation.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13156": {
+"keep": true,
+"topic": "css",
+"relevance": 6.0,
+"summary": "Field study of a desktop assistant finds anthropomorphic naming splits user behavior, and a revised relational reply was preferred by renamers.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13737": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Safe multi-agent reinforcement learning with credit assignment for constraints; purely technical control work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13716": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Computational complexity results for autobidding equilibria in sponsored search auctions; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13448": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Adaptive incentive design for linear-quadratic games with unknown preferences; control theory with no social-media angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13170": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Empirical study of cross-chain bridge smart contract vulnerabilities; blockchain security, not social science.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13142": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Online stochastic approximation for age-of-information optimization in queues; purely technical communication systems work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13702": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Characterizes plausibility constraints in Bayesian persuasion and optimal disclosure in auctions; pure economic theory.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12823": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "Benchmark showing misleading charts reduce web agent task success by over 34 points, with failures redirecting agents toward deceptive actions.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12987": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Derives formulas forecasting disagreement between language predictors trained on different corpora; statistical ML method with no direct social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.12939": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Layer selection for speculative decoding using entropy and CKA criteria; purely technical LLM inference work.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13172": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Symbolic world modeling with functional role abstractions for LLM agent transfer; technical agent work with no social angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13044": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Finds FLEX options activity raises listed-option open interest and tracks high implied volatility, with no lasting stock-return predictability.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13725": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Derives distortion bounds for threshold-approval multiwinner voting rules under monotone symmetric norms.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.13563": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Shows LLM patch runtime performance varies among correct fixes and is independent of issue resolution rate.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15054": {
+"keep": true,
+"topic": "css",
+"relevance": 6.0,
+"summary": "Shows selfish learners with variable learning rates can reach persistent cooperation in the iterated prisoner's dilemma, unlike uniform rates.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15128": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Proposes an online algorithm for LLM-to-expert deferral under congestion with regret bounds and QA experiments.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14631": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Audits request independence in open Jev-style retrieval models, finding binary flips induced by request expansion.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14800": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Introduces a framework and micro-worlds for detecting and repairing interaction risks in enterprise LLM multi-agent systems.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14574": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes concept-based in-context learning for agent action selection, outperforming baselines on text-based game benchmarks.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14935": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proposes a bidirectional pipeline parallelism scheme for long-sequence LLM training with modest speedups.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.18812": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Models blockchain proposer location choice and finds concurrent proposers create incentives toward geographic decentralization.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.17912": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Presents a multi-agent path planning method for crowded construction floors with more goal arrivals than baselines.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14913": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Improves risk predictive models for task sampling in RL, yielding better difficulty estimates and gains across tasks.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14647": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Finds synthetic UAV benchmarks preserve model rankings only conditionally, with reversals in a closed-set stress test.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14855": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Presents an on-device 4B LLM agent that generates personalized mobile network configuration rules within milliseconds.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15129": {
+"keep": true,
+"topic": "cl",
+"relevance": 4.0,
+"summary": "Finds multimodal LLMs form social meaning later and revise less than humans, with weaker reliance on human-attended cues.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15057": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Proves that almost every Boolean function has polynomial threshold degree among the central one or two integers.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14676": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Introduces a causal attention model for online active speaker detection that cuts competing-speaker false alarms.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14852": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Proposes an agentic spatial reward model and curriculum RL that improve text-to-image generation accuracy.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.14669": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Proposes a combination restart scheme that makes SS-RR and SS-RRR eigensolvers numerically stable.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15126": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Shows data-topology compatibility yields orbit-wise personalization in decentralized learning, with theory confirmed on MNIST and CIFAR-10.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.16464": {
+"keep": false,
+"topic": "css",
+"relevance": 1.0,
+"summary": "Methodological statistics paper on online individualized treatment selection with false discovery control; no social-science angle beyond a recommendation dataset.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.15056": {
+"keep": false,
+"topic": "cl",
+"relevance": 2.0,
+"summary": "Technical method for LLM post-editing of ASR N-best lists; purely technical speech/NLP work with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.20057": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Technical post-training data selection for reasoning models; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22545": {
+"keep": true,
+"topic": "cl",
+"relevance": 8.0,
+"summary": "LLMs overpredict stereotypes and handle culture-specific stereotype detection unreliably across US, Dutch and Chinese contexts; non-English prompts help.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22421": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Deployment-oriented review of learned image compression codecs; purely technical with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22497": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Reinforcement learning critic method; purely technical ML with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22469": {
+"keep": true,
+"topic": "cl",
+"relevance": 3.0,
+"summary": "LLM agents solve only 40% of tasks online and rarely recognise unsolvable tasks, undermining claims about their planning ability.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22400": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Diffusion language model user encoder for industrial recommendation scenarios; technical with no social-science focus.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22745": {
+"keep": true,
+"topic": "css",
+"relevance": 4.0,
+"summary": "Language models trained on pre-test-period text (NoLBERT) avoid hindsight in news-based stock return forecasting; gains are modest after benchmarking.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22632": {
+"keep": true,
+"topic": "cl",
+"relevance": 5.0,
+"summary": "LLMs match humans on multiple-choice theory-of-mind questions about implicit psychological states but fail on open-ended ones, suggesting overestimated human interpretation.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22465": {
+"keep": true,
+"topic": "css",
+"relevance": 3.0,
+"summary": "An author-in-the-loop AI agent audit of reproducibility across 36 ML conference papers raised 20 issues, showing collaborative auditing can help peer review.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22661": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Technical online edit-discovery algorithm for selecting LLM interactions to send to a costly editor; no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22683": {
+"keep": false,
+"topic": "css",
+"relevance": 0.0,
+"summary": "Auction mechanism for air traffic slot reallocation; economic engineering with no social-science or communication angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.22623": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Optimization stability analysis of outer Nesterov momentum in distributed training; purely technical ML.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.23980": {
+"keep": false,
+"topic": "cl",
+"relevance": 0.0,
+"summary": "Dataset and benchmark for scene-situated human-object interaction motion capture; computer vision with no social-science angle.",
+"on": "2026-10-26"
+},
+"claude-haiku-5-5|F|10.48550/arxiv.2610.23969": {
+"keep": false,
+"topic": "cl",
+"relevance": 1.0,
+"summary": "Video-QA reliability and routing method for sparse-frame VLMs; technical with no social-science angle.",
+"on": "2026-10-26"
 }
 }

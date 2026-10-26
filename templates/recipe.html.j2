@@ -106,7 +106,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
 <header>
   <p class="eyebrow">Calvin Research Brief · how it is made</p>
   <h1>Research Brief Recipe</h1>
-  <p class="lede prose">Every Monday at 06:00 UTC a GitHub Action collects new research from the venues and scholars below, screens it with an AI model, picks at most {{ s.max_articles }} papers and emails them to {{ n_recipients }} recipients. This page lists every ingredient and shows what the latest run did with them.</p>
+  <p class="lede prose">Every {{ "other Monday" if s.send_every_days == 14 else s.send_every_days ~ " days" }} at 06:00 UTC a GitHub Action collects new research from the venues and scholars below, screens it with an AI model, picks at most {{ s.max_articles }} papers and emails them to {{ n_recipients }} recipients. This page lists every ingredient and shows what the latest run did with them.</p>
   <p class="small muted">Generated {{ generated }} from the {{ report.mode }} run covering {{ window }}. Rebuilt automatically on every run.</p>
   <div class="facts">
     <div class="fact"><b>{{ n_journals }}</b><span>journals and conferences</span></div>
@@ -226,7 +226,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
         ("5", "AI filter", "Claude Haiku 5.5", "kept " ~ r.kept|num ~ " papers"),
         ("6", "Pick " ~ s.max_articles, "priority, scholar watch,", "then topics 1, 3, 2"),
         ("7", "Render", "Nature e-alert layout", "HTML and plain text"),
-        ("8", "Send", "Brevo, Mondays 06:00 UTC", "sent papers remembered"),
+        ("8", "Send", "Brevo, every " ~ (s.send_every_days or 7) ~ " days", "sent papers remembered"),
       ] %}
       {% for n, title, l1, l2 in steps %}
         {% set row = 0 if loop.index0 < 4 else 1 %}
@@ -251,7 +251,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Topics</dt><dd>The remaining places go to topics in the order {{ s.topic_priority|map('upper')|join(', ') }}. {% for t, q in s.topic_quota.items() %}{{ t|upper }} gets {{ q.min }} to {{ q.max }}{% if not loop.last %} and {% endif %}{% endfor %}, so the first topic cannot take every place.</dd>
     <dt>Order within a group</dt><dd>Papers in followed venues come before preprints; followed scholars' preprints come before other preprints; then higher relevance first.</dd>
     <dt>Never repeated</dt><dd>A paper sent once, in a real issue or a test, is never sent again. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
-    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; next week's issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
+    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; the next issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
     <dt>Also this week</dt><dd>Up to {{ s.overflow_max }} papers that missed the cut appear as one-line links at the end of the email.</dd>
   </dl>
 </section>

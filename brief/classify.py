@@ -141,7 +141,7 @@ def system_prompt(cfg) -> str:
     preprint_topics = (s.get("preprints") or {}).get("topics") or ["css", "cl"]
     interests = "\n".join(f"- {i}" for i in s.get("research_interests") or [])
     return (
-        "You screen new research papers for a weekly newsletter read by a computational social "
+        "You screen new research papers for a newsletter read by a computational social "
         "scientist.\n\nTheir research interests:\n" + interests + "\n\nNewsletter topics:\n" + topics +
         "\n\nFor each paper return:\n"
         "- keep: false if it is not a research article or review (news, editorial, comment, "
