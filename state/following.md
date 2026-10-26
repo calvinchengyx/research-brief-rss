@@ -1,6 +1,6 @@
 # What the brief is following
 
-Generated 2026-10-21 from config/. Fix a wrong match by adding `issn:` (journals) or `openalex:` (scholars) to the entry.
+Generated 2026-10-26 from config/. Fix a wrong match by adding `issn:` (journals) or `openalex:` (scholars) to the entry.
 
 ## Journals and conferences
 
