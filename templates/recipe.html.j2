@@ -250,7 +250,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Scholar watch</dt><dd>Followed scholars' work in other venues, including their preprints. At most {{ s.scholar_watch.max }}.</dd>
     <dt>Topics</dt><dd>The remaining places go to topics in the order {{ s.topic_priority|map('upper')|join(', ') }}. {% for t, q in s.topic_quota.items() %}{{ t|upper }} gets {{ q.min }} to {{ q.max }}{% if not loop.last %} and {% endif %}{% endfor %}, so the first topic cannot take every place.</dd>
     <dt>Order within a group</dt><dd>Papers in followed venues come before preprints; followed scholars' preprints come before other preprints; then higher relevance first.</dd>
-    <dt>Never repeated</dt><dd>A paper sent once, in a real issue or a test, is never sent again. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
+    <dt>Never repeated</dt><dd>A paper sent once in a real issue is never sent again. Test sends go only to the test list and are not counted. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
     <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; the next issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
     <dt>Also this week</dt><dd>Up to {{ s.overflow_max }} papers that missed the cut appear as one-line links at the end of the email.</dd>
   </dl>

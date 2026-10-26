@@ -3,3 +3,9 @@ recipients:
   - owencheng1992930@gmail.com
   - yixiang.cheng@uzh.ch
   - aliya.andrich@uzh.ch
+
+# Test sends go only to these addresses (and record nothing, so the next real
+# issue is unaffected). Leave empty to send tests to everyone above.
+test_recipients:
+  - owencheng1992930@gmail.com
+  - yixiang.cheng@uzh.ch

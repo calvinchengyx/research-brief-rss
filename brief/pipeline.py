@@ -212,13 +212,15 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
     log.info("Stats: %s", stats)
 
     subject = (s.get("email") or {}).get("subject", "Research Brief: {date}").format(date=nice_date(until))
-    if mode in ("test", "send"):
-        # A test goes to the same people, so its papers count as sent too
-        send(cfg.recipients, f"[TEST] {subject}" if mode == "test" else subject, html, text, s)
+    if mode == "test":
+        # Tests go to test_recipients only, so nothing is recorded as sent
+        send(cfg.test_recipients or cfg.recipients, f"[TEST] {subject}", html, text, s)
+        save_issue(until, subject, dives + selected + overflow)  # lets a test reply be checked
+    elif mode == "send":
+        send(cfg.recipients, subject, html, text, s)
         seen.record(selected + overflow, screened)
         seen.save()
         save_issue(until, subject, dives + selected + overflow)
-    if mode == "send":
         mark_processed(reply_files)
         ARCHIVE_DIR.mkdir(exist_ok=True)
         (ARCHIVE_DIR / f"{until}.html").write_text(html, encoding="utf-8")

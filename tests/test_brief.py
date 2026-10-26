@@ -290,11 +290,13 @@ def test_replies_bring_papers_back_with_a_deep_dive(sandbox, monkeypatch):
     assert pipeline.run("preview", "2026-11-09", "2026-11-16", oa=StubOpenAlex())["deep_dives"] == 0
 
 
-def test_test_sends_count_as_sent(sandbox, monkeypatch):
-    monkeypatch.setattr(pipeline, "send", lambda *a, **k: None)
+def test_test_sends_go_to_test_recipients_only(sandbox, monkeypatch):
+    sent = []
+    monkeypatch.setattr(pipeline, "send", lambda to, *a, **k: sent.append(to))
     first = pipeline.run("test", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
-    assert first["shown"] > 0
-    assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == 0
+    cfg = pipeline.load_config()
+    assert sent == [cfg.test_recipients] and "aliya.andrich@uzh.ch" not in sent[0]
+    assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == first["shown"]
 
 
 def test_scheduled_runs_send_every_other_week(sandbox):
