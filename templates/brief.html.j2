@@ -60,7 +60,7 @@
 
   <tr><td style="padding:28px 28px 8px 28px;">
     {% if test %}<div style="background:#fff4d6;color:#7a5200;font-size:13px;padding:8px 12px;margin-bottom:16px;">Test send.</div>{% endif %}
-    <div style="font-size:26px;font-weight:700;color:#111111;">Weekly updates</div>
+    <div style="font-size:26px;font-weight:700;color:#111111;">Research updates</div>
     <div style="font-size:15px;color:#666666;padding-top:4px;">{{ date }}</div>
     <p style="font-size:15px;line-height:1.55;color:#333333;margin:18px 0 0 0;">
       New research from the journals and scholars you follow, {{ stats.window }}.
@@ -69,14 +69,14 @@
     </p>
     <div style="margin-top:16px;padding:10px 14px;border:1px solid #c9dbea;background:#f5f9fc;font-size:14px;line-height:1.5;color:#333333;">
       <strong>Want a deep dive?</strong> Reply to this email with the IDs of the papers you'd like, for example <em>B2, D1</em>.
-      Next week's issue opens with their research questions, methods and main findings.
+      The next issue opens with their research questions, methods and main findings.
     </div>
   </td></tr>
 
   {% if dives %}
   <tr><td style="padding:24px 28px 0 28px;">
     <div style="border-top:3px solid #0b4f8a;padding-top:12px;font-size:20px;font-weight:700;color:#0b4f8a;">Deep dives you asked for</div>
-    <div style="font-size:13px;color:#666666;padding:4px 0 16px 0;">Papers readers replied about last week. Reply with an ID again to keep a paper here next week.</div>
+    <div style="font-size:13px;color:#666666;padding:4px 0 16px 0;">Papers readers replied about after the last issue. Reply with an ID again to keep a paper here next time.</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
     {% for a in dives %}{{ article(a, show_topic=true) }}{% endfor %}
     </table>

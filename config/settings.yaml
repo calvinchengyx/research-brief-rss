@@ -1,6 +1,10 @@
-# How far back each run looks. Already-sent articles are never repeated,
-# so a window a bit longer than a week is safe.
-lookback_days: 10
+# How often the brief goes out. The Monday cron checks every week and sends when
+# this many days have passed since the last issue (14 = every other Monday).
+send_every_days: 14
+
+# How far back each run looks: the gap between issues plus a few days for
+# indexing lag. Already-sent articles are never repeated, so overlap is safe.
+lookback_days: 17
 
 # Size limit (README section 6)
 max_articles: 20

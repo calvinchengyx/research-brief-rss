@@ -14,7 +14,7 @@ on:
         required: false
   # Every pull request builds a preview issue and commits it to preview/ on the branch.
   pull_request:
-  # Weekly send, every Monday.
+  # Checks every Monday; sends when send_every_days (settings.yaml) have passed.
   schedule:
     - cron: "0 6 * * 1"   # Mondays 06:00 UTC = 07:00 CET / 08:00 CEST
 
@@ -48,11 +48,12 @@ jobs:
         env:
           MODE: ${{ github.event_name == 'schedule' && 'send' || inputs.mode || 'preview' }}
           SINCE: ${{ inputs.since }}
+          SCHEDULED: ${{ github.event_name == 'schedule' && '1' || '' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
-        run: python -m brief --mode "$MODE" ${SINCE:+--since "$SINCE"}
+        run: python -m brief --mode "$MODE" ${SINCE:+--since "$SINCE"} ${SCHEDULED:+--scheduled}
 
       - name: Save preview, sent-articles state, archive and handled replies
         if: always()

@@ -295,3 +295,11 @@ def test_test_sends_count_as_sent(sandbox, monkeypatch):
     first = pipeline.run("test", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
     assert first["shown"] > 0
     assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == 0
+
+
+def test_scheduled_runs_send_every_other_week(sandbox):
+    from datetime import date
+    (sandbox / "archive").mkdir()
+    (sandbox / "archive" / "2026-10-26.html").write_text("issue")
+    assert not pipeline.due(date(2026, 11, 2))   # one week later: skip
+    assert pipeline.due(date(2026, 11, 9))       # two weeks later: send

@@ -143,6 +143,20 @@ def tag(a: Article, f: Followed) -> None:
             a.topic = inst_hits[0][1]
 
 
+def due(today: date | None = None) -> bool:
+    """Whether a scheduled send is due: the cron fires weekly, issues go out every send_every_days."""
+    today = today or date.today()
+    every = int(load_config().settings.get("send_every_days", 7))
+    sent = sorted(p.stem for p in ARCHIVE_DIR.glob("*.html")) if ARCHIVE_DIR.exists() else []
+    if not sent:
+        return True
+    days = (today - date.fromisoformat(sent[-1])).days
+    if days < every - 1:  # a day of slack for a late cron
+        log.info("Last issue went out %d days ago; next one is due after %d days. Skipping.", days, every)
+        return False
+    return True
+
+
 def run(mode: str = "preview", since: str | None = None, until: str | None = None,
         oa: OpenAlex | None = None) -> dict:
     cfg = load_config()
