@@ -1,0 +1,130 @@
+# Curated reading feed: sources with RSS feed URLs.
+#
+# Build the page and the OPML file with:   python reading-feed/build.py
+#
+#   quality: 1-5   standing of the venue or person in its field
+#   fit:     1-5   how close it sits to my current work
+#   tags:    F = online feminism and Chinese platforms
+#            L = corpus linguistics and LLM-based content coding
+#            D = (gendered) disinformation, Telegram, narrative diffusion
+#   check:   ok      feed fetched and parsed on 26 Oct 2026
+#            page    URL copied from the publisher's own page for the venue
+#            pattern publisher's standard feed address; the publisher blocks
+#                    automated checks, so test it once in the reader
+#   note:    why it is here, or how to keep it from flooding the reader
+#
+# Sections are listed in the order they appear on the page; within a section
+# sources are ranked by quality + fit (ties go to quality).
+
+sections:
+  - id: css
+    name: Computational social science and general science
+    sources:
+      - {name: Nature Human Behaviour, url: "https://www.nature.com/nathumbehav.rss", site: "https://www.nature.com/nathumbehav/", quality: 5, fit: 4, tags: [D, L], check: ok,
+         note: "Top venue for large-scale behavioural and misinformation studies."}
+      - {name: PNAS, url: "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas", site: "https://www.pnas.org/", quality: 5, fit: 3, tags: [D, L], check: pattern,
+         note: "Busy feed; skim the Social Sciences section only."}
+      - {name: Science Advances, url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv", site: "https://www.science.org/journal/sciadv", quality: 5, fit: 3, tags: [D], check: pattern,
+         note: "Social and interdisciplinary sciences section carries a lot of CSS."}
+      - {name: PNAS Nexus (advance articles), url: "https://academic.oup.com/rss/site_6448/advanceAccess_4114.xml", site: "https://academic.oup.com/pnasnexus", quality: 4, fit: 4, tags: [D, L], check: page,
+         note: "Fast-growing home for misinformation and LLM-for-social-science papers."}
+      - {name: Science, url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science", site: "https://www.science.org/journal/science", quality: 5, fit: 2, tags: [D], check: pattern,
+         note: "Very broad; keep for the few big social-media papers a year."}
+      - {name: Nature, url: "https://www.nature.com/nature.rss", site: "https://www.nature.com/nature/", quality: 5, fit: 2, tags: [D], check: pattern,
+         note: "Very broad; same Nature RSS format as Nature Human Behaviour."}
+      - {name: Nature Communications, url: "https://www.nature.com/ncomms.rss", site: "https://www.nature.com/ncomms/", quality: 4, fit: 2, tags: [D], check: pattern,
+         note: "Huge volume; consider a keyword filter in the reader."}
+      - {name: Nature Computational Science, url: "https://www.nature.com/natcomputsci.rss", site: "https://www.nature.com/natcomputsci/", quality: 4, fit: 2, tags: [L], check: pattern}
+      - {name: Communications Psychology, url: "https://www.nature.com/commspsychol.rss", site: "https://www.nature.com/commspsychol/", quality: 3, fit: 3, tags: [D], check: pattern}
+      - {name: Journal of Computational Social Science, url: "https://link.springer.com/search.rss?facet-journal-id=42001", site: "https://link.springer.com/journal/42001", quality: 3, fit: 4, tags: [L, D], check: pattern}
+      - {name: EPJ Data Science, url: "https://link.springer.com/search.rss?facet-journal-id=13688", site: "https://link.springer.com/journal/13688", quality: 4, fit: 4, tags: [D, L], check: pattern,
+         note: "Network diffusion and platform data studies, including Telegram."}
+
+  - id: comm
+    name: Communication and media
+    sources:
+      - {name: "Information, Communication & Society", url: "https://www.tandfonline.com/feed/rss/rics20", site: "https://www.tandfonline.com/toc/rics20/current", quality: 4, fit: 5, tags: [F, D], check: pattern,
+         note: "Digital feminism, platform politics, disinformation."}
+      - {name: New Media & Society, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=nms&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/nms", quality: 5, fit: 4, tags: [F, D], check: pattern}
+      - {name: Journal of Communication (advance articles), url: "https://academic.oup.com/rss/site_6088/advanceAccess_3963.xml", site: "https://academic.oup.com/joc", quality: 5, fit: 4, tags: [D, L], check: page}
+      - {name: Political Communication, url: "https://www.tandfonline.com/feed/rss/upcp20", site: "https://www.tandfonline.com/toc/upcp20/current", quality: 5, fit: 4, tags: [D], check: pattern}
+      - {name: Journal of Computer-Mediated Communication (advance articles), url: "https://academic.oup.com/rss/site_6096/advanceAccess_3967.xml", site: "https://academic.oup.com/jcmc", quality: 4, fit: 4, tags: [F, D], check: page}
+      - {name: Social Media + Society, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=sms&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/sms", quality: 4, fit: 4, tags: [F, D], check: page}
+      - {name: Communication Methods and Measures, url: "https://www.tandfonline.com/feed/rss/hcms20", site: "https://www.tandfonline.com/toc/hcms20/current", quality: 4, fit: 4, tags: [L], check: pattern,
+         note: "Where validation of automated and LLM coding gets published."}
+      - {name: HKS Misinformation Review, url: "https://misinforeview.hks.harvard.edu/feed/", site: "https://misinforeview.hks.harvard.edu/", quality: 3, fit: 5, tags: [D], check: ok}
+      - {name: Feminist Media Studies, url: "https://www.tandfonline.com/feed/rss/rfms20", site: "https://www.tandfonline.com/toc/rfms20/current", quality: 3, fit: 5, tags: [F], check: pattern}
+      - {name: Big Data & Society, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=bds&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/bds", quality: 4, fit: 3, tags: [L], check: pattern}
+      - {name: "Journal of Quantitative Description: Digital Media", url: "https://journalqd.org/gateway/plugin/WebFeedGatewayPlugin/rss2", site: "https://journalqd.org/", quality: 3, fit: 4, tags: [D, F], check: ok,
+         note: "Descriptive platform studies, often non-Western platforms."}
+      - {name: Digital Journalism, url: "https://www.tandfonline.com/feed/rss/rdij20", site: "https://www.tandfonline.com/toc/rdij20/current", quality: 4, fit: 3, tags: [D], check: pattern}
+      - {name: Communication Research, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=crx&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/crx", quality: 4, fit: 3, tags: [D], check: pattern}
+      - {name: Human Communication Research (advance articles), url: "https://academic.oup.com/rss/site_6092/advanceAccess_3965.xml", site: "https://academic.oup.com/hcr", quality: 4, fit: 3, tags: [D], check: page}
+      - {name: The International Journal of Press/Politics, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=hij&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/hij", quality: 4, fit: 3, tags: [D], check: pattern}
+      - {name: "Media, Culture & Society", url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mcs&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/mcs", quality: 4, fit: 3, tags: [F], check: pattern}
+      - {name: Journal of Online Trust and Safety, url: "https://tsjournal.org/index.php/jots/gateway/plugin/WebFeedGatewayPlugin/rss2", site: "https://tsjournal.org/", quality: 3, fit: 3, tags: [D], check: ok}
+
+  - id: cl
+    name: NLP, computing and information science venues
+    sources:
+      - {name: ACL Anthology (all new papers), url: "https://aclanthology.org/papers/index.xml", site: "https://aclanthology.org/", quality: 5, fit: 4, tags: [L, F], check: ok,
+         note: "Covers ACL, EMNLP, NAACL, Findings, TACL and Computational Linguistics in one feed. High volume when proceedings land; filter on keywords such as social, gender, Chinese, annotation."}
+      - {name: ICWSM proceedings, url: "https://ojs.aaai.org/index.php/ICWSM/gateway/plugin/WebFeedGatewayPlugin/rss2", site: "https://ojs.aaai.org/index.php/ICWSM", quality: 4, fit: 5, tags: [D, F, L], check: ok,
+         note: "The closest single venue to all three strands of my work."}
+      - {name: Proceedings of the ACM on Human-Computer Interaction (CSCW), url: "https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=pacmhci", site: "https://dl.acm.org/journal/pacmhci", quality: 4, fit: 4, tags: [F, D], check: pattern,
+         note: "Also carries CHI-adjacent issues; skim titles."}
+      - {name: Journal of the Association for Information Science and Technology, url: "https://asistdl.onlinelibrary.wiley.com/feed/23301643/most-recent", site: "https://asistdl.onlinelibrary.wiley.com/journal/23301643", quality: 4, fit: 2, tags: [L], check: pattern}
+      - {name: Information Processing & Management, url: "https://rss.sciencedirect.com/publication/science/03064573", site: "https://www.sciencedirect.com/journal/information-processing-and-management", quality: 3, fit: 2, tags: [L], check: pattern}
+
+  - id: area
+    name: Political methodology, China and gender
+    sources:
+      - {name: Political Analysis, url: "https://www.cambridge.org/core/rss/product/id/EEF1D4438BAB8498B2A647F9DBC47AA7", site: "https://www.cambridge.org/core/journals/political-analysis", quality: 5, fit: 4, tags: [L], check: page,
+         note: "Text-as-data methods, including LLM annotation validity."}
+      - {name: Social Science Computer Review, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=ssc&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/ssc", quality: 3, fit: 4, tags: [L, D], check: pattern}
+      - {name: Sociological Methods & Research, url: "https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=smr&type=etoc&feed=rss", site: "https://journals.sagepub.com/home/smr", quality: 4, fit: 3, tags: [L], check: pattern}
+      - {name: The China Quarterly, url: "https://www.cambridge.org/core/rss/product/id/37A7B629381F092FD873F9979093ABFC", site: "https://www.cambridge.org/core/journals/china-quarterly", quality: 5, fit: 3, tags: [F], check: page}
+      - {name: Chinese Journal of Communication, url: "https://www.tandfonline.com/feed/rss/rcjc20", site: "https://www.tandfonline.com/toc/rcjc20/current", quality: 3, fit: 5, tags: [F], check: pattern}
+      - {name: Journal of Contemporary China, url: "https://www.tandfonline.com/feed/rss/cjcc20", site: "https://www.tandfonline.com/toc/cjcc20/current", quality: 4, fit: 3, tags: [F], check: pattern}
+      - {name: Asian Journal of Communication, url: "https://www.tandfonline.com/feed/rss/rajc20", site: "https://www.tandfonline.com/toc/rajc20/current", quality: 3, fit: 3, tags: [F], check: pattern}
+
+  - id: preprints
+    name: Preprint categories
+    sources:
+      - {name: "arXiv cs.SI (Social and Information Networks)", url: "https://rss.arxiv.org/rss/cs.SI", site: "https://arxiv.org/list/cs.SI/recent", quality: 3, fit: 5, tags: [D, F], check: ok,
+         note: "Telegram, diffusion and platform studies appear here first. About 15-30 a day."}
+      - {name: "arXiv cs.CY (Computers and Society)", url: "https://rss.arxiv.org/rss/cs.CY", site: "https://arxiv.org/list/cs.CY/recent", quality: 3, fit: 4, tags: [D, L, F], check: pattern}
+      - {name: "arXiv cs.CL (Computation and Language)", url: "https://rss.arxiv.org/rss/cs.CL", site: "https://arxiv.org/list/cs.CL/recent", quality: 3, fit: 3, tags: [L], check: pattern,
+         note: "100+ papers a day. Keep only with a keyword filter (social, annotation, gender, Chinese, stance)."}
+      - {name: "arXiv physics.soc-ph (Physics and Society)", url: "https://rss.arxiv.org/rss/physics.soc-ph", site: "https://arxiv.org/list/physics.soc-ph/recent", quality: 3, fit: 3, tags: [D], check: pattern,
+         note: "Lead-lag and contagion modelling."}
+
+  - id: people
+    name: Scholars (arXiv author feeds)
+    intro: >-
+      Google Scholar, OpenAlex and Semantic Scholar offer no RSS, so these follow each person's arXiv
+      submissions through arXiv's Atom API. They miss journal-only work, which the weekly brief's
+      scholar watch already covers. Common names can pull in namesakes.
+    sources:
+      - {name: Diyi Yang (Stanford), url: "https://export.arxiv.org/api/query?search_query=au:%22Diyi+Yang%22&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 5, fit: 5, tags: [L, F], check: pattern,
+         note: "Computational social science NLP; already on my scholar list."}
+      - {name: Petter Törnberg (Amsterdam), url: "https://export.arxiv.org/api/query?search_query=au:Tornberg_P&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 5, tags: [L, D], check: pattern,
+         note: "New: LLM annotation of social media text, simulated platforms."}
+      - {name: Fabrizio Gilardi (Zurich), url: "https://export.arxiv.org/api/query?search_query=au:Gilardi_F&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 5, tags: [L], check: pattern,
+         note: "New: \"ChatGPT outperforms crowd workers\" line of LLM coding work."}
+      - {name: Paul Röttger (Oxford / Bocconi), url: "https://export.arxiv.org/api/query?search_query=au:Rottger_P&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 4, tags: [L, F], check: pattern,
+         note: "Hate speech and LLM values; already on my scholar list."}
+      - {name: Kiran Garimella (Rutgers), url: "https://export.arxiv.org/api/query?search_query=au:Garimella_K&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 5, tags: [D], check: pattern,
+         note: "New: messaging-app (WhatsApp, Telegram) misinformation."}
+      - {name: Emilio Ferrara (USC), url: "https://export.arxiv.org/api/query?search_query=au:Ferrara_E&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 4, tags: [D], check: pattern,
+         note: "New: influence operations and coordinated campaigns across platforms."}
+      - {name: Savvas Zannettou (TU Delft), url: "https://export.arxiv.org/api/query?search_query=au:Zannettou_S&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 4, tags: [D], check: pattern,
+         note: "New: fringe communities, cross-platform narrative spread, Telegram."}
+      - {name: Mohsen Mosleh (Oxford), url: "https://export.arxiv.org/api/query?search_query=au:Mosleh_M&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 4, tags: [D], check: pattern}
+      - {name: Scott A. Hale (Oxford), url: "https://export.arxiv.org/api/query?search_query=au:Hale_S_A&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 4, tags: [D, L], check: pattern,
+         note: "Multilingual misinformation and LLMs."}
+      - {name: Hannah Rose Kirk (Oxford), url: "https://export.arxiv.org/api/query?search_query=au:%22Hannah+Rose+Kirk%22&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 4, fit: 3, tags: [L], check: pattern}
+      - {name: Kate Starbird (UW), url: "https://export.arxiv.org/api/query?search_query=au:Starbird_K&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 5, fit: 4, tags: [D], check: pattern,
+         note: "Posts some, not all, of her work to arXiv."}
+      - {name: David G. Rand (MIT), url: "https://export.arxiv.org/api/query?search_query=au:Rand_D_G&sortBy=submittedDate&sortOrder=descending&max_results=30", quality: 5, fit: 3, tags: [D], check: pattern,
+         note: "Most of his work goes to PsyArXiv, so this catches only part of it."}
