@@ -106,14 +106,14 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
 <header>
   <p class="eyebrow">Calvin Research Brief · how it is made</p>
   <h1>Research Brief Recipe</h1>
-  <p class="lede prose">Every Monday at 06:00 UTC a GitHub Action collects new research from the venues and scholars below, screens it with an AI model, picks at most 20 papers and emails them to 3 recipients. This page lists every ingredient and shows what the latest run did with them.</p>
-  <p class="small muted">Generated 26 October 2026 from the preview run covering 16 October 2026 to 26 October 2026. Rebuilt automatically on every run.</p>
+  <p class="lede prose">Every other Monday at 06:00 UTC a GitHub Action collects new research from the venues and scholars below, screens it with an AI model, picks at most 20 papers and emails them to 3 recipients. This page lists every ingredient and shows what the latest run did with them.</p>
+  <p class="small muted">Generated 26 October 2026 from the preview run covering 9 October 2026 to 26 October 2026. Rebuilt automatically on every run.</p>
   <div class="facts">
     <div class="fact"><b>64</b><span>journals and conferences</span></div>
     <div class="fact"><b>28</b><span>scholars, labs and groups</span></div>
     <div class="fact"><b>209</b><span>coauthors and lab members found</span></div>
     <div class="fact"><b>123</b><span>institutions for preprints</span></div>
-    <div class="fact"><b>20 of 2,447</b><span>papers shown, latest run</span></div>
+    <div class="fact"><b>20 of 5,393</b><span>papers shown, latest run</span></div>
   </div>
 </header>
 
@@ -474,7 +474,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Deep dives</dt><dd><code class="mono">claude-sonnet-5-5</code>, effort <code class="mono">medium</code>. It reads the open-access PDF when there is one and the abstract otherwise, and the email says which. About $0.10 a paper.</dd>
   </dl>
   <h3>The exact instructions the model receives</h3>
-  <pre class="prompt">You screen new research papers for a weekly newsletter read by a computational social scientist.
+  <pre class="prompt">You screen new research papers for a newsletter read by a computational social scientist.
 
 Their research interests:
 - online feminist discourse on Chinese social media platforms
@@ -525,25 +525,25 @@ For each paper return:
         <rect x="265" y="110" width="225" height="110" rx="6" fill="var(--surface)" stroke="var(--rule)" stroke-width="1"></rect>
         <text x="281" y="136" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP 2</text>
         <text x="281" y="160" font-family="Newsreader, Georgia, serif" font-size="19" font-weight="600" fill="var(--ink)">Fetch new work</text>
-        <text x="281" y="184" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">2,503 works, 10 days</text>
+        <text x="281" y="184" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">5,504 works, 17 days</text>
         <text x="281" y="203" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">venues, people, preprints</text>
         <path d="M492 165 H508" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
         <rect x="510" y="110" width="225" height="110" rx="6" fill="var(--surface)" stroke="var(--rule)" stroke-width="1"></rect>
         <text x="526" y="136" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP 3</text>
         <text x="526" y="160" font-family="Newsreader, Georgia, serif" font-size="19" font-weight="600" fill="var(--ink)">Clean up</text>
-        <text x="526" y="184" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">drop 56 non-research</text>
+        <text x="526" y="184" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">drop 111 non-research</text>
         <text x="526" y="203" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">2,120 already sent</text>
         <path d="M737 165 H753" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
         <rect x="755" y="110" width="225" height="110" rx="6" fill="var(--surface)" stroke="var(--rule)" stroke-width="1"></rect>
         <text x="771" y="136" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP 4</text>
         <text x="771" y="160" font-family="Newsreader, Georgia, serif" font-size="19" font-weight="600" fill="var(--ink)">Quick check</text>
         <text x="771" y="184" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">field or keyword match</text>
-        <text x="771" y="203" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">130 go to the AI</text>
+        <text x="771" y="203" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">1,454 go to the AI</text>
         <rect x="20" y="280" width="225" height="110" rx="6" fill="var(--surface)" stroke="var(--accent)" stroke-width="2"></rect>
         <text x="36" y="306" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP 5</text>
         <text x="36" y="330" font-family="Newsreader, Georgia, serif" font-size="19" font-weight="600" fill="var(--ink)">AI filter</text>
         <text x="36" y="354" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">Claude Haiku 5.5</text>
-        <text x="36" y="373" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">kept 32 papers</text>
+        <text x="36" y="373" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">kept 519 papers</text>
         <path d="M247 335 H263" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
         <rect x="265" y="280" width="225" height="110" rx="6" fill="var(--surface)" stroke="var(--rule)" stroke-width="1"></rect>
         <text x="281" y="306" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP 6</text>
@@ -560,7 +560,7 @@ For each paper return:
         <rect x="755" y="280" width="225" height="110" rx="6" fill="var(--surface)" stroke="var(--rule)" stroke-width="1"></rect>
         <text x="771" y="306" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="11" fill="var(--muted)">STEP 8</text>
         <text x="771" y="330" font-family="Newsreader, Georgia, serif" font-size="19" font-weight="600" fill="var(--ink)">Send</text>
-        <text x="771" y="354" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">Brevo, Mondays 06:00 UTC</text>
+        <text x="771" y="354" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">Brevo, every 14 days</text>
         <text x="771" y="373" font-family="Public Sans, system-ui, sans-serif" font-size="13" fill="var(--muted)">sent papers remembered</text>
       <path d="M867 220 V250 H132 V274" stroke="var(--muted)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"></path>
     </svg>
@@ -572,7 +572,7 @@ For each paper return:
     <dt>Topics</dt><dd>The remaining places go to topics in the order CSS, COMM, CL. COMM gets 3 to 5 and CL gets 3 to 5, so the first topic cannot take every place.</dd>
     <dt>Order within a group</dt><dd>Papers in followed venues come before preprints; followed scholars' preprints come before other preprints; then higher relevance first.</dd>
     <dt>Never repeated</dt><dd>A paper sent once, in a real issue or a test, is never sent again. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
-    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; next week's issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
+    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; the next issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
     <dt>Also this week</dt><dd>Up to 15 papers that missed the cut appear as one-line links at the end of the email.</dd>
   </dl>
 </section>
@@ -580,36 +580,36 @@ For each paper return:
 <section id="appendix">
   <p class="eyebrow">Appendix</p>
   <h2>The latest run in numbers</h2>
-  <p class="prose">Preview run for 16 October 2026 to 26 October 2026. Each bar is drawn to the same scale.</p>
+  <p class="prose">Preview run for 9 October 2026 to 26 October 2026. Each bar is drawn to the same scale.</p>
   <div class="funnel">
-    <div class="bar"><span>Works fetched from OpenAlex</span><div class="track"><div class="fill" style="width: 100.00%"></div></div><span class="n">2,503</span></div>
-    <div class="bar"><span>Research items matched to a list</span><div class="track"><div class="fill" style="width: 97.76%"></div></div><span class="n">2,447</span></div>
-    <div class="bar"><span>Not sent in an earlier issue</span><div class="track"><div class="fill" style="width: 13.06%"></div></div><span class="n">327</span></div>
-    <div class="bar"><span>Passed the quick keyword and field check</span><div class="track"><div class="fill" style="width: 5.19%"></div></div><span class="n">130</span></div>
-    <div class="bar"><span>Kept by the AI filter</span><div class="track"><div class="fill" style="width: 1.28%"></div></div><span class="n">32</span></div>
-    <div class="bar"><span>Shown in the email</span><div class="track"><div class="fill" style="width: 0.80%"></div></div><span class="n">20</span></div>
+    <div class="bar"><span>Works fetched from OpenAlex</span><div class="track"><div class="fill" style="width: 100.00%"></div></div><span class="n">5,504</span></div>
+    <div class="bar"><span>Research items matched to a list</span><div class="track"><div class="fill" style="width: 97.98%"></div></div><span class="n">5,393</span></div>
+    <div class="bar"><span>Not sent in an earlier issue</span><div class="track"><div class="fill" style="width: 59.47%"></div></div><span class="n">3,273</span></div>
+    <div class="bar"><span>Passed the quick keyword and field check</span><div class="track"><div class="fill" style="width: 26.42%"></div></div><span class="n">1,454</span></div>
+    <div class="bar"><span>Kept by the AI filter</span><div class="track"><div class="fill" style="width: 9.43%"></div></div><span class="n">519</span></div>
+    <div class="bar"><span>Shown in the email</span><div class="track"><div class="fill" style="width: 0.36%"></div></div><span class="n">20</span></div>
   </div>
 
   <div class="two">
     <div class="scroll"><table>
       <thead><tr><th>Where works came from</th><th class="num">Works</th></tr></thead>
       <tbody>
-        <tr><td>Followed venues</td><td class="num">910</td></tr>
-        <tr><td>Followed scholars, other venues</td><td class="num">27</td></tr>
-        <tr><td>Followed institutions (MIT Media Lab)</td><td class="num">5</td></tr>
-        <tr><td>Preprints from listed institutions</td><td class="num">1,561</td></tr>
-        <tr><td>Removed: not research (editorials, errata, datasets…)</td><td class="num">56</td></tr>
+        <tr><td>Followed venues</td><td class="num">1,911</td></tr>
+        <tr><td>Followed scholars, other venues</td><td class="num">53</td></tr>
+        <tr><td>Followed institutions (MIT Media Lab)</td><td class="num">10</td></tr>
+        <tr><td>Preprints from listed institutions</td><td class="num">3,530</td></tr>
+        <tr><td>Removed: not research (editorials, errata, datasets…)</td><td class="num">111</td></tr>
         <tr><td>Removed: matched no list</td><td class="num">0</td></tr>
       </tbody>
     </table></div>
     <div class="scroll"><table>
       <thead><tr><th>How papers were screened</th><th class="num">Papers</th></tr></thead>
       <tbody>
-        <tr><td>Needed the social-science check</td><td class="num">326</td></tr>
-        <tr><td>Screened by claude-haiku-5-5 this run</td><td class="num">129</td></tr>
-        <tr><td>Reused from the cache</td><td class="num">1</td></tr>
+        <tr><td>Needed the social-science check</td><td class="num">3,227</td></tr>
+        <tr><td>Screened by claude-haiku-5-5 this run</td><td class="num">336</td></tr>
+        <tr><td>Reused from the cache</td><td class="num">1,118</td></tr>
         <tr><td>Keyword filter (AI unavailable)</td><td class="num">0</td></tr>
-        <tr><td>Dropped by the AI (off-topic or not research)</td><td class="num">98</td></tr>
+        <tr><td>Dropped by the AI (off-topic or not research)</td><td class="num">935</td></tr>
       </tbody>
     </table></div>
   </div>
@@ -617,11 +617,11 @@ For each paper return:
   <div class="scroll"><table>
     <thead><tr><th>Group</th><th class="num">Kept</th><th class="num">Shown</th></tr></thead>
     <tbody>
-      <tr><td>Top priority</td><td class="num">0</td><td class="num">0</td></tr>
-      <tr><td>Scholar watch</td><td class="num">0</td><td class="num">0</td></tr>
-      <tr><td><span class="topic"><span class="swatch t-css"></span>Computational Social Science, all groups</span></td><td class="num">13</td><td class="num">13 <span class="muted">(13 in its own section)</span></td></tr>
-      <tr><td><span class="topic"><span class="swatch t-comm"></span>Communication &amp; Science Communication, all groups</span></td><td class="num">1</td><td class="num">1 <span class="muted">(1 in its own section)</span></td></tr>
-      <tr><td><span class="topic"><span class="swatch t-cl"></span>Computational Linguistics, all groups</span></td><td class="num">18</td><td class="num">6 <span class="muted">(6 in its own section)</span></td></tr>
+      <tr><td>Top priority</td><td class="num">2</td><td class="num">2</td></tr>
+      <tr><td>Scholar watch</td><td class="num">11</td><td class="num">5</td></tr>
+      <tr><td><span class="topic"><span class="swatch t-css"></span>Computational Social Science, all groups</span></td><td class="num">144</td><td class="num">9 <span class="muted">(7 in its own section)</span></td></tr>
+      <tr><td><span class="topic"><span class="swatch t-comm"></span>Communication &amp; Science Communication, all groups</span></td><td class="num">27</td><td class="num">3 <span class="muted">(3 in its own section)</span></td></tr>
+      <tr><td><span class="topic"><span class="swatch t-cl"></span>Computational Linguistics, all groups</span></td><td class="num">348</td><td class="num">8 <span class="muted">(3 in its own section)</span></td></tr>
     </tbody>
   </table></div>
 
@@ -629,124 +629,124 @@ For each paper return:
   <div class="scroll"><table>
     <thead><tr><th>Paper</th><th>Group</th><th class="num">Relevance</th></tr></thead>
     <tbody>
-      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.48550/arxiv.2610.24387">YouTube Clips and Broad but Shallow Attention to Candidates: Evidence from the 2024 Tokyo Gubernatorial Election</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-17</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. YouTube clip videos gave Tokyo gubernatorial candidates broad but shallow attention, with clips driving views but fewer comments.</div></td>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i2.43225">Measuring and Mitigating (Over)reliance to Build Human-Compatible AI</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span>
+        <div class="why">Followed scholar (Lujain Ibrahim, Diyi Yang) in a followed venue. Argues that measuring and mitigating user overreliance on LLMs is central, consolidating risks and proposing measurement directions and mitigations.</div></td>
+        <td class="small">Top priority</td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i4.43347">AI Assistance for Human Review of Default Judgments</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span>
+        <div class="why">Followed scholar (Tatsunori Hashimoto (lab of Yang)) in a followed venue. Passed the social-science filter. Controlled study finds an LLM-based Default Assistant makes law students 6% more accurate and 26% faster at reviewing default judgments.</div></td>
+        <td class="small">Top priority</td>
+        <td class="num">3</td></tr>
+      <tr><td><a href="https://doi.org/10.17605/osf.io/sx5n4">Dialogues with a pro-climate AI chatbot reduce climate change skepticism and inaction</a><br><span class="small muted">OSF Preprints (OSF Preprints) · 2026-10-12</span>
+        <div class="why">Work by a followed scholar (Reed Orchinik (lab of Rand), Hause Lin (lab of Rand), David G. Rand, Thomas H. Costello (lab of Rand)) outside the venue list. Tests whether AI chatbot dialogues tailored to individuals&#39; concerns reduce climate skepticism and motivate action.</div></td>
+        <td class="small">Scholar watch</td>
+        <td class="num">5</td></tr>
+      <tr><td><a href="https://doi.org/10.1145/3785651.3831505">“I Wasn’t the Only One”: Podcasting as Sociotechnical Infrastructure for Religious Deconstruction, Transition, and Reconfiguration in High-Demand Communities</a><br><span class="small muted">ACM Conference on Computer Supported Cooperative Work (CSCW) · 2026-10-09</span>
+        <div class="why">Work by a followed scholar (Kate Starbird) outside the venue list. Interviews with 26 listeners show a religious podcast serves as sociotechnical infrastructure for faith deconstruction and identity reconfiguration.</div></td>
+        <td class="small">Scholar watch</td>
+        <td class="num">4</td></tr>
+      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.17778">GENDIS: Gender-Related Discourse and Stance in Multilingual YouTube Comments from India, Kenya, and Nigeria</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-13</span>
+        <div class="why">Work by a followed scholar (Manuel Tonneau) outside the venue list. Introduces GENDIS, a multilingual annotated YouTube comment dataset showing gender-related discourse is mostly neutral or positive and lightly supervised classifiers rival LLMs.</div></td>
+        <td class="small">Scholar watch</td>
+        <td class="num">9</td></tr>
+      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.17703">Pushback in a Haystack: Language Models Respond to Factual Errors Ambiguously and Ineffectively</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-13</span>
+        <div class="why">Work by a followed scholar (Myra Cheng (lab of Yang), Yulia Tsvetkov (coauthor of Pan)) outside the venue list. Passed the social-science filter. LLMs push back on users&#39; false claims indirectly and mix in affirmation, reducing correction effectiveness, with more indirectness in Hindi and Yoruba; a human study confirms users&#39; misconceptions persist.</div></td>
+        <td class="small">Scholar watch</td>
+        <td class="num">8</td></tr>
+      <tr><td><a href="https://doi.org/10.1145/3785651.3831566">FaciliTrain: Practicing Facilitation Skills through AI-Simulated Group Dialogue</a><br><span class="small muted">ACM Conference on Computer Supported Cooperative Work (CSCW) · 2026-10-09</span>
+        <div class="why">Work by a followed scholar (Diyi Yang) outside the venue list. Voice-based AI-simulated group dialogue training improved accuracy comparably, but treatment participants&#39; comfort declined while controls&#39; improved, and they preferred AI feedback.</div></td>
+        <td class="small">Scholar watch</td>
+        <td class="num">4</td></tr>
+      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.1007/s42001-026-00496-x">A comprehensive multi-method study of russian propaganda techniques and narratives in the Baltic countries</a><br><span class="small muted">Journal of Computational Social Science · 2026-10-09</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. A multi-method analysis identifies Russian propaganda techniques and narratives targeting the Baltic countries.</div></td>
+        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
+        <td class="num">9</td></tr>
+      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.1073/pnas.2531748123">AI-generated language remains systematically distinguishable from human communication</a><br><span class="small muted">PNAS · 2026-10-12</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. Passed the social-science filter. CHAT framework shows LLM outputs stay distinguishable from human social media text, especially in affective tone, even after calibration.</div></td>
+        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
+        <td class="num">9</td></tr>
+      <tr><td><a href="https://doi.org/10.1007/s42001-026-00502-2">Computational propaganda campaigns by domestic political actors in Pakistan on Facebook</a><br><span class="small muted">Journal of Computational Social Science · 2026-10-14</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. Facebook hashtag campaigns in Pakistan show bots and spam accounts dominate political propaganda, intensifying around elections.</div></td>
+        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
+        <td class="num">9</td></tr>
+      <tr><td><a href="https://doi.org/10.1038/s41562-026-02579-1">Petition style changes with AI writing support but outcomes do not improve</a><br><span class="small muted">Nature Human Behaviour · 2026-10-14</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. AI writing support changes petition style, but petition outcomes do not improve, per Nature Human Behaviour study.</div></td>
         <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
         <td class="num">8</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30413">X-pressing Intimacy: Mental Health Disclosure After Twitter Acquisition</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-21</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Mental health self-disclosure on Twitter shifted in linguistic style and intimacy after Musk&#39;s acquisition, with condition-specific patterns.</div></td>
+      <tr><td><a href="https://doi.org/10.1073/pnas.2606460123">Estimating the threat of AI-agent responding across online survey platforms</a><br><span class="small muted">PNAS · 2026-10-15</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. Passed the social-science filter. Finds 6 to 41% of online survey respondents fail AI-agent tests, showing AI contamination of online survey data varies by platform.</div></td>
+        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
+        <td class="num">8</td></tr>
+      <tr><td><a href="https://doi.org/10.1073/pnas.2605550123">Reproducibility of social science research using aggregate statistics with noise infused for differential privacy</a><br><span class="small muted">PNAS · 2026-10-09</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. Passed the social-science filter. About 91% of 93 social science regression findings still replicate under typical differential privacy noise levels.</div></td>
         <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
         <td class="num">7</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30568">Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Human-AI scientific ideation shows no quality advantage for AI collaboration, AI judges disagree with humans, and firsthand AI use shifts perceptions.</div></td>
+      <tr><td><a href="https://doi.org/10.1038/s41746-026-03314-w">An agentic AI system for multi-framework communication coding</a><br><span class="small muted">npj Digital Medicine · 2026-10-11</span>
+        <div class="why">Published in a followed venue, filed under Computational Social Science. Passed the social-science filter. MOSAIC, a multi-agent LLM system with RAG and few-shot prompting, codes clinical patient–provider communication with 95.6% weighted F1 against human coders.</div></td>
         <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30549">AI-Native Academia Should Build a Community Verification Layer</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Argues for a community verification layer that makes researchers&#39; routine checking of published work reusable and credited.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31414">Major Revision, Minor Accountability: LLMs as Reviewers of Published Articles in Top-Tier Journals</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. LLM peer reviewers of top-journal articles recommend revision or rejection for most papers, with inconsistent verdicts across models and weak flaw detection.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30178">Association between Player Perception and AI Disclosure on Steam: An Exploratory Study</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-19</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Steam reviews show games disclosing generative AI receive more AI-related criticism in negative reviews.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">4</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.27746">S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-20</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Builds a society-scale LLM agent simulation of 500 million household personas to model consumption, debt and credit responses to financial choices.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">4</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30999">Truthful by Omission: Click Thinning for LLM-Native Advertising</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Proposes a truthful, efficient auction mechanism for sponsored ads embedded in generative AI answers, using random click thinning.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">4</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31030">What Does AI Success Look Like? A Mixed-Methods Analysis of Supranational AI Governance Instruments</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Mixed-methods analysis of supranational AI governance documents finds diffuse notions of AI success and calls for coordinated governance approaches.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">4</td></tr>
-      <tr><td><a href="https://doi.org/10.5281/zenodo.23551228">Replication Package for &#34;What Ethereum Developers Ask For, and Whether They Get It: Ten Years of Ethereum Stack Exchange&#34;</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Ten years of Ethereum Stack Exchange show declining answer and acceptance rates, largely driven by newer askers rather than topic mix.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">3</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31335">What the submission does not show: Complexifying cognitive offloading in students&#39; mathematical work with LLMs</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Study of 23 students finds LLM-aided submissions are not reliable markers of cognitive offloading in math homework.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">3</td></tr>
-      <tr><td><a href="https://doi.org/10.5281/zenodo.23413687">How CO2 emissions and material flows vary with economic recession: Implications for achieving the Sustainable Development Goal 13</a><br><span class="small muted">Communications Earth &amp; Environment · 2026-10-16</span>
-        <div class="why">Published in a followed venue, filed under Computational Social Science. Passed the social-science filter. Across 154 countries, recessions show CO2 and material use declines that may or may not persist through recovery, affecting SDG 13 progress.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">2</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31116">A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Social Science. Passed the social-science filter. Releases a dataset of French Court of Cassation rulings paired with grounds and reasons, revealing how civil appeal outcomes evolve over a decade.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Social Science</span></td>
-        <td class="num">2</td></tr>
-      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.1080/14680777.2026.2752212">Trapped in the simulation: Tradwife culture, fake allyship, and the exhaustion of the domestic dystopia in Don’t Worry Darling (2022)</a><br><span class="small muted">Feminist Media Studies · 2026-10-24</span>
-        <div class="why">Published in a followed venue, filed under Communication &amp; Science Communication. Argues Don&#39;t Worry Darling&#39;s Stepford critique collapses into seduction, mirroring tradwife aesthetics and fake male allyship discourse around the film&#39;s production and reception.</div></td>
+        <td class="num">7</td></tr>
+      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.1080/14680777.2026.2745988">Level up, ladies: Femininity as a total project and the rise of Queen feminism</a><br><span class="small muted">Feminist Media Studies · 2026-10-09</span>
+        <div class="why">Published in a followed venue, filed under Communication &amp; Science Communication. Finnish queen influencers construct femininity as a total project, articulating a neoliberal Queen feminism on Instagram.</div></td>
         <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
-        <td class="num">8</td></tr>
-      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.48550/arxiv.2610.30365">Data-Void Exploits in Web-Searching LLMs</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-21</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Linguistics. Passed the social-science filter. Shows disinformers can exploit data voids to get a single planted page cited in web-searching LLM answers 31% of the time, with user prompt tone offering limited protection.</div></td>
+        <td class="num">10</td></tr>
+      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.1080/1369118x.2026.2737399">Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest</a><br><span class="small muted">Information Communication &amp; Society · 2026-10-11</span>
+        <div class="why">Published in a followed venue, filed under Communication &amp; Science Communication. German politicians&#39; TikTok climate protest debates are polarized, with far-right actors dominating content and benefiting from antagonistic engagement.</div></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">9</td></tr>
+      <tr><td><a href="https://doi.org/10.1080/1369118x.2026.2743936">(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups</a><br><span class="small muted">Information Communication &amp; Society · 2026-10-12</span>
+        <div class="why">Published in a followed venue, filed under Communication &amp; Science Communication. Mixed-methods study of Italian social media shows anti-gender and anti-trans actors converge discursively around shared frames, though the alliance is fragile.</div></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">9</td></tr>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i1.43122">From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span>
+        <div class="why">Published in a followed venue, filed under Computational Linguistics. Passed the social-science filter. LLMs show covert dialect bias via probability distributions, penalizing AAVE and Nigerian Pidgin in housing judgments, with context-dependent patterns for Nigerian Standard English.</div></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
         <td class="num">8</td></tr>
-      <tr><td><span class="pick">Editor's pick</span><br><a href="https://doi.org/10.48550/arxiv.2610.31357">In-Browser Human-AI Co-Writing for Counterspeech: An Exploratory User Study of Agency, Perceived Response Quality, and Time</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Linguistics. Passed the social-science filter. An LLM co-writing tool helped users write counterspeech with higher peer-rated empathy and persuasiveness, but took longer and conflicted with users&#39; desire to express anger.</div></td>
+      <tr><td><a href="https://doi.org/10.1140/epjds/s13688-026-00707-5">Polarization and echo chambers in Reddit’s political discourse</a><br><span class="small muted">EPJ Data Science · 2026-10-12</span>
+        <div class="why">Published in a followed venue, filed under Computational Linguistics. Reddit&#39;s 2016 election discourse shows clear ideological polarization and echo chambers, with election periods intensifying cross-group engagement and reducing linguistic diversity.</div></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
         <td class="num">8</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30785">Invisibilization as a Source of Probability Bias in Language Models</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Linguistics. Passed the social-science filter. LLMs decline to assess reporters described as Black far more often than white reporters, creating a racial probability bias in trust judgments that standard audits miss.</div></td>
+      <tr><td><a href="https://doi.org/10.1140/epjds/s13688-026-00709-3">Quantifying public opinion evolution and information behavior dynamics: a framework coupling event knowledge graphs with centroid-aligned topic modeling</a><br><span class="small muted">EPJ Data Science · 2026-10-09</span>
+        <div class="why">Published in a followed venue, filed under Computational Linguistics. A BERTopic-based framework with event knowledge graphs tracks Weibo opinion evolution and identifies five user profiles during a Chikungunya outbreak.</div></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">8</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30677">WikiOriginQA: Automated Construction of a QA Dataset with Knowledge Origins for Analyzing Cultural Bias</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Linguistics. Passed the social-science filter. Automatically builds a QA dataset using Wikipedia edition creation dates, finding LLMs biased toward Anglophone cultural knowledge.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">6</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31199">Investigating Multi-Cultural Value Selection Biases in LLMs</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Linguistics. Passed the social-science filter. LLMs shift cultural value answers under country and language cues, with language cues moving answers away from the associated country&#39;s distribution.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">6</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.26474">AfriGuard: Safety and Robust Refusal For African Languages</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-19</span>
-        <div class="why">Preprint from a listed institution, filed under Computational Linguistics. Passed the social-science filter. AfriGuard dataset shows guardrail models underperform on safety intent and refusal across ten African languages, revealing cultural gaps in LLM safety.</div></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">5</td></tr>
+        <td class="num">7</td></tr>
     </tbody>
   </table></div>
 
   <h3>Closest misses</h3>
-  <p class="prose small muted">The first 10 of 12 kept papers that did not fit in the 20 places, in ranking order.</p>
+  <p class="prose small muted">The first 10 of 499 kept papers that did not fit in the 20 places, in ranking order.</p>
   <div class="scroll"><table>
     <thead><tr><th>Paper</th><th>Group</th><th class="num">Relevance</th></tr></thead>
     <tbody>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.29304">Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-21</span></td>
+      <tr><td><a href="https://doi.org/10.1080/10584609.2026.2745832">Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election</a><br><span class="small muted">Political Communication · 2026-10-11</span></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">8</td></tr>
+      <tr><td><a href="https://doi.org/10.37016/mr-2020-212">How can approaches from physical ecology help research and policy on the information environment?</a><br><span class="small muted">Harvard Kennedy School Misinformation Review · 2026-10-15</span></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">8</td></tr>
+      <tr><td><a href="https://doi.org/10.1080/14680777.2026.2752212">Trapped in the simulation: Tradwife culture, fake allyship, and the exhaustion of the domestic dystopia in Don’t Worry Darling (2022)</a><br><span class="small muted">Feminist Media Studies · 2026-10-24</span></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">8</td></tr>
+      <tr><td><a href="https://doi.org/10.1080/14680777.2026.2745933">Mobilising motherhood: feminist tactical media and platform struggles against environmental injustice in Central Java</a><br><span class="small muted">Feminist Media Studies · 2026-10-09</span></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1080/1369118x.2026.2736808">From mobilization to diversion: a comparative study of wartime communication tactics of Ukrainian and Russian political elites on Telegram</a><br><span class="small muted">Information Communication &amp; Society · 2026-10-09</span></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1080/21670811.2026.2744877">From Grassroots Sleuthing to Global Uptake: Epistemic Legitimation of Open-Source Investigations in Journalism Through Mediazona’s War Casualty Project in Russia’s War on Ukraine</a><br><span class="small muted">Digital Journalism · 2026-10-10</span></td>
+        <td class="small">Topic<br><span class="muted">Communication &amp; Science Communication</span></td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i3.43249">When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30504">Rethinking the Evaluation of LLM Fact-Checkers</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-21</span></td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i3.43247">Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30778">Where meanings converge and diverge: Revisiting linguistic relativity across 81 languages</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span></td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i4.43310">AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.30765">Scaling Laws for Generative Reward Models</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span></td>
+        <td class="num">7</td></tr>
+      <tr><td><a href="https://doi.org/10.1609/aies.v9i3.43257">The Artificial Moral Machine: Do LLMs Mirror Human Moral Diversity or Merely Caricature It?</a><br><span class="small muted">Proceedings of the AAAI/ACM Conference on AI Ethics and Society · 2026-10-11</span></td>
         <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">5</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.29929">Privacy Preference Controls for Agentic Systems</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-21</span></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">4</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31459">How Different, or Different How? Stance Granularity in Viewpoint Selection for Dialog Systems that Engage Users with Alternative Views</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">4</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.25032">Don&#39;t Judge an Agent by Its Messages: Private-State Leakage under Passive Monitoring of Agent Communication</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-18</span></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">3</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.25127">MemBubble: Benchmarking How Agent Memory Shapes LLM Response Diversity</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-18</span></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">3</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31380">AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">3</td></tr>
-      <tr><td><a href="https://doi.org/10.48550/arxiv.2610.31404">AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack</a><br><span class="small muted">arXiv (Cornell University) · 2026-10-22</span></td>
-        <td class="small">Topic<br><span class="muted">Computational Linguistics</span></td>
-        <td class="num">3</td></tr>
+        <td class="num">7</td></tr>
     </tbody>
   </table></div>
 
@@ -757,7 +757,7 @@ For each paper return:
     <li>The university list is roughly the QS top 100, typed from memory rather than copied from the official ranking.</li>
     <li>Haiku is more lenient than Sonnet. For the same 10 days, Haiku kept 454 of 1,176 papers; Sonnet, run a few hours earlier, kept 335 of 1,132. A longer list of kept papers mostly lengthens the closest misses, since only 20 are shown.</li>
     <li>Some papers have no abstract in OpenAlex or Semantic Scholar, so the model judges them on the title and venue alone.</li>
-    <li>OpenAlex indexes papers 1 to 5 days after publication. The 10-day window and the no-repeat rule cover that lag.</li>
+    <li>OpenAlex indexes papers 1 to 5 days after publication. The 17-day window and the no-repeat rule cover that lag.</li>
     <li>Relevance scores come from the model and are not calibrated; they decide order within a group, not whether a group gets places.</li>
   </ul>
 </section>
