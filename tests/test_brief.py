@@ -303,6 +303,13 @@ def test_replies_get_a_next_day_deep_dive_and_come_back(sandbox, monkeypatch):
     assert not list((sandbox / "inbox").glob("*.json"))                  # handled once
     assert pipeline.run_dives("send")["dives"] == 0                      # and not again
 
+    # Replies to a [TEST] email count in test runs only
+    (sandbox / "inbox" / "t1.json").write_text(json.dumps({
+        "id": "t1", "sender": "r3", "date": "2026-10-22T10:00:00Z",
+        "subject": f"Re: [TEST] {issue['subject']}", "body": ref}))
+    assert pipeline.run_dives("test")["dives"] == 1
+    assert pipeline.run_dives("send")["dives"] == 0 and not (sandbox / "inbox" / "t1.json").exists()
+
     # The next regular issue re-sends every requested paper at the top
     stats = pipeline.run("send", "2026-10-26", "2026-11-02", oa=StubOpenAlex())
     html = (sandbox / "preview" / "latest.html").read_text()
@@ -319,6 +326,15 @@ def test_test_sends_go_to_test_recipients_only(sandbox, monkeypatch):
     cfg = pipeline.load_config()
     assert sent == [cfg.test_recipients] and "aliya.andrich@uzh.ch" not in sent[0]
     assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == first["shown"]
+
+
+def test_resend_latest_sends_the_same_email_and_records_it(sandbox, monkeypatch):
+    sent = []
+    monkeypatch.setattr(pipeline, "send", lambda to, subject, html, *a, **k: sent.append((to, subject, html)))
+    pipeline.run("test", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
+    pipeline.resend_latest(["new.reader@example.org"])
+    assert sent[1][0] == ["new.reader@example.org"] and sent[1][1] == sent[0][1] and sent[1][2] == sent[0][2]
+    assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == 0
 
 
 def test_scheduled_runs_send_every_other_week(sandbox):

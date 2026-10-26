@@ -92,11 +92,12 @@ def reply_refs(body: str, limit: int | None = None) -> list[str]:
 
 # ------------------------------------------------------------------ requests
 
-def collect_votes(per_reply: int = 3) -> tuple[list[Article], list[str]]:
+def collect_votes(per_reply: int = 3, include_tests: bool = False) -> tuple[list[Article], list[str]]:
     """Papers asked for in unprocessed replies, with their votes, and the reply files read.
 
     a.requested is the number of readers who asked for it; a.owner_pick is set when
-    one of them is Calvin (the Gmail script flags his replies as "owner").
+    one of them is Calvin (the Gmail script flags his replies as "owner"). Replies to
+    [TEST] emails only count when include_tests is set (test runs); real runs drop them.
     """
     if not INBOX.exists():
         return [], []
@@ -110,6 +111,9 @@ def collect_votes(per_reply: int = 3) -> tuple[list[Article], list[str]]:
         if reply.get("id") in done:
             continue
         files.append(path.name)
+        if "[TEST]" in reply.get("subject", "") and not include_tests:
+            log.info("Reply %s answers a test email: not counted", reply.get("id"))
+            continue
         issue = _issue_for(reply, issues)
         refs = reply_refs(reply.get("body", ""), per_reply)
         if not issue or not refs:

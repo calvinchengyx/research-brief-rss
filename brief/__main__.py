@@ -3,7 +3,7 @@
 import argparse
 import logging
 
-from .pipeline import due, run, run_dives
+from .pipeline import due, resend_latest, run, run_dives
 
 
 def main() -> None:
@@ -18,8 +18,13 @@ def main() -> None:
                         "(skipped when there are none); both: dives first, then the brief")
     p.add_argument("--scheduled", action="store_true",
                    help="daily cron run: the brief is skipped unless send_every_days have passed since the last issue")
+    p.add_argument("--resend-to", help="comma-separated addresses: send the last built email (preview/latest) "
+                   "to them as it is and record its papers as sent; nothing else runs")
     args = p.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+    if args.resend_to:
+        resend_latest([x.strip() for x in args.resend_to.split(",") if x.strip()])
+        return
     if args.kind in ("dives", "both"):
         run_dives(args.mode)
     if args.kind in ("brief", "both") and not (args.scheduled and not due()):
