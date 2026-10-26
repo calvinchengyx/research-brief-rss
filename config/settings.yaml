@@ -38,14 +38,17 @@ announcement:
   title: "New: shape your own brief"
   text: >-
     Every paper in this issue now has a short ID, such as A1 or C3. If a paper catches
-    your eye, reply to this email with its ID; several are fine, for example "A1, C3".
-    The next issue, two weeks from now, opens with those papers and a deep dive on each:
-    the research questions, the methods and the main findings, based on the full text
-    when it is open access. Keep replying with the same ID and the paper stays at the top.
-    Requests are anonymous: everyone sees the deep dives, but not who asked for them.
+    your eye, reply to this email with its ID, up to three per reply (for example "A1, C3").
+    The next morning you'll get a short email with a deep dive on the most requested papers,
+    up to five: the research questions, the methods and the main findings, based on the full
+    text when it is open access. Every paper you ask for also comes back in the next issue.
+    Requests are anonymous: everyone gets the same deep dives, and nobody sees who asked for what.
 
-# Deep dives on papers readers ask for by replying with their IDs
+# Deep dives on papers readers ask for by replying with their IDs. Each morning with new
+# replies, the most voted papers get a deep-dive email (ties: Calvin's picks, then random).
 deep_dive:
+  max_per_reply: 3           # IDs counted per reply; one vote each
+  max_papers: 5              # papers in a deep-dive email
   model: claude-sonnet-5-5   # reads the open-access PDF when there is one; about $0.10 a paper
   effort: medium
 
@@ -68,6 +71,7 @@ email:
   provider: brevo            # brevo | smtp
   sender_name: Calvin Research Brief
   subject: "Calvin Research Brief: {date}"
+  dives_subject: "Calvin Research Brief: deep dives, {date}"   # keep "Calvin Research Brief" for the Gmail script
   # reply_to: someone@example.org   # where reader replies go (default: the sender address)
 
 # Fallback filter when the AI layer is off: a paper from a `filter: social-science`

@@ -43,6 +43,8 @@ class Article:
     now_published: bool = False   # an earlier preprint of this article was already sent
     ref: str = ""                 # ID shown in the email (A1, B2 ...) that readers reply with
     requested: int = 0            # readers who asked for a deep dive
+    owner_pick: bool = False      # Calvin was one of them (wins ties)
+    dive_sent: str | None = None  # date the deep-dive email covered it
     deep_dive: dict | None = None
 
     @property

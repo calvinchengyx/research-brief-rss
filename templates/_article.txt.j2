@@ -1,0 +1,31 @@
+{% macro authors(list) -%}
+{%- for a in list -%}
+{%- if a.gap %} [...] {% else -%}
+{%- if not loop.first and not list[loop.index0 - 1].gap %}, {% endif -%}
+{{ a.name }}{% if a.bold %}*{% endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro %}
+{% macro article(a) %}
+{% if a.ref %}[{{ a.ref }}] {% endif %}{% if a.pick %}[Editor's pick] {% endif %}{% if a.preprint %}[Preprint] {% endif %}{% if a.now_published %}[Now published] {% endif %}{{ a.title }}
+{{ authors(a.authors) }}
+{{ a.venue }} · {{ a.date }}
+{% if a.summary %}In short: {{ a.summary }}
+{% endif %}
+{% if a.abstract %}{{ a.abstract }}
+{% endif %}
+{% if a.dive %}
+Research questions:
+{% for q in a.dive.research_questions %}  - {{ q }}
+{% endfor %}
+Methods: {{ a.dive.methods }}
+Main findings:
+{% for f in a.dive.findings %}  - {{ f }}
+{% endfor %}
+(Based on {{ "the full text" if a.dive.based_on == "full text" else "the abstract only" }}.)
+{% endif %}
+{% if a.requested %}Asked for by {{ a.requested }} reader{{ "s" if a.requested != 1 }}{% if a.dive_sent %}; deep dive sent on {{ a.dive_sent }}{% endif %}.
+{% endif %}
+{{ a.url }}
+
+{% endmacro %}

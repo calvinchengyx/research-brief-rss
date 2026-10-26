@@ -39,10 +39,21 @@ def nice_date(iso: str) -> str:
     return f"{d.day} {d.strftime('%B %Y')}"
 
 
+def article_view(a: Article, cfg: Config) -> dict:
+    return {
+        "ref": a.ref, "title": a.title, "url": a.url, "venue": a.venue or ("Preprint" if a.is_preprint else ""),
+        "date": nice_date(a.date),
+        "authors": author_line(a), "abstract": short_abstract(a.abstract, int(cfg.settings.get("abstract_words", 0))),
+        "summary": a.summary, "preprint": a.is_preprint, "pick": a.editors_pick,
+        "now_published": a.now_published, "scholars": a.scholar_names,
+        "topic": cfg.topic_names.get(a.topic, ""), "dive": a.deep_dive, "requested": a.requested,
+        "dive_sent": nice_date(a.dive_sent) if a.dive_sent else None,
+    }
+
+
 def build_context(cfg: Config, selected: list[Article], overflow: list[Article], scholars_quiet: list[str],
                   stats: dict, today: date, test: bool = False, dives: list[Article] | None = None) -> dict:
     """Group articles as the email shows them and give each an ID (A1, A2, B1 ...) in that order."""
-    words = int(cfg.settings.get("abstract_words", 0))
     dives = dives or []
     overflow = overflow[:int(cfg.settings.get("overflow_max", 15))] if cfg.settings.get("overflow_footer", True) else []
 
@@ -73,14 +84,7 @@ def build_context(cfg: Config, selected: list[Article], overflow: list[Article],
                 a.ref = f"{letter}{i}"
 
     def view(a: Article) -> dict:
-        return {
-            "ref": a.ref, "title": a.title, "url": a.url, "venue": a.venue or ("Preprint" if a.is_preprint else ""),
-            "date": nice_date(a.date),
-            "authors": author_line(a), "abstract": short_abstract(a.abstract, words),
-            "summary": a.summary, "preprint": a.is_preprint, "pick": a.editors_pick,
-            "now_published": a.now_published, "scholars": a.scholar_names,
-            "topic": cfg.topic_names.get(a.topic, ""), "dive": a.deep_dive, "requested": a.requested,
-        }
+        return article_view(a, cfg)
 
     note = cfg.settings.get("announcement") or {}
     show = note.get("text") and today.isoformat() <= str(note.get("show_until", "9999"))
@@ -99,7 +103,16 @@ def build_context(cfg: Config, selected: list[Article], overflow: list[Article],
     }
 
 
-def render(context: dict) -> tuple[str, str]:
+def render(context: dict, name: str = "brief") -> tuple[str, str]:
     env = Environment(loader=FileSystemLoader(TEMPLATE_DIR), autoescape=select_autoescape(["html"]),
                       trim_blocks=True, lstrip_blocks=True)
-    return env.get_template("brief.html.j2").render(**context), env.get_template("brief.txt.j2").render(**context)
+    return env.get_template(f"{name}.html.j2").render(**context), env.get_template(f"{name}.txt.j2").render(**context)
+
+
+def render_dives(cfg: Config, dives: list[Article], votes: int, papers: int, today: date,
+                 test: bool = False) -> tuple[str, str]:
+    """The deep-dive email sent the morning after readers reply."""
+    context = {"date": nice_date(today.isoformat()), "test": test, "dives": [article_view(a, cfg) for a in dives],
+               "votes": votes, "papers": papers,
+               "model": (cfg.settings.get("deep_dive") or {}).get("model", "Claude")}
+    return render(context, "dives")

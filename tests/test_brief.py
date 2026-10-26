@@ -250,20 +250,38 @@ def test_reply_refs_ignore_quoted_text():
     body = "Please send a deep dive on b2 and A1, thanks!\n\nOn Mon, 2 Nov 2026 Calvin wrote:\n> A3 Some title"
     assert deepdive.reply_refs(body) == ["B2", "A1"]
     assert deepdive.reply_refs("a 1-year study") == []
+    assert deepdive.reply_refs("A1 A2 A3 A4 B1", limit=3) == ["A1", "A2", "A3"]
 
 
-def test_replies_bring_papers_back_with_a_deep_dive(sandbox, monkeypatch):
-    monkeypatch.setattr(pipeline, "send", lambda *a, **k: None)
+def _art(key, votes, owner=False):
+    a = Article(id=key, title=key, venue="V", venue_id=None, date="2026-10-20", authors=[], abstract="", url="")
+    a.requested, a.owner_pick = votes, owner
+    return a
+
+
+def test_top_picks_break_ties_for_calvin_then_at_random():
+    papers = [_art("W1", 1), _art("W2", 3), _art("W3", 1, owner=True), _art("W4", 1), _art("W5", 1),
+              _art("W6", 1, owner=True), _art("W7", 1), _art("W8", 1, owner=True)]
+    picks = [a.id for a in deepdive.top_picks(papers, 5, seed="2026-11-10")]
+    assert picks[0] == "W2"                                   # most votes first
+    assert set(picks[1:4]) == {"W3", "W6", "W8"}              # then Calvin's tied picks
+    assert len(set(picks[4:]) & {"W1", "W4", "W5", "W7"}) == 1
+    assert picks == [a.id for a in deepdive.top_picks(papers, 5, seed="2026-11-10")]  # same draw on rerun
+
+
+def test_replies_get_a_next_day_deep_dive_and_come_back(sandbox, monkeypatch):
+    sent = []
+    monkeypatch.setattr(pipeline, "send", lambda to, subject, *a, **k: sent.append(subject))
     pipeline.run("send", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
     issue = json.loads((sandbox / "issues" / "2026-10-21.json").read_text())
     ref = next(r for r, a in issue["articles"].items() if a["title"] == "Plain J Comm paper")
     html = (sandbox / "preview" / "latest.html").read_text()
     assert f">{ref}<" in html and "reply to this email" in html.lower()
 
-    def reply(n, refs):
+    def reply(n, refs, sender="r1", owner=False):
         (sandbox / "inbox").mkdir(exist_ok=True)
         (sandbox / "inbox" / f"m{n}.json").write_text(json.dumps({
-            "id": f"m{n}", "from": "reader@example.org", "date": "2026-10-22T09:00:00Z",
+            "id": f"m{n}", "sender": sender, "owner": owner, "date": "2026-10-22T09:00:00Z",
             "subject": f"Re: {issue['subject']}", "body": f"{refs}\n\n> quoted"}))
 
     def fake_dive(articles, cfg):
@@ -272,22 +290,26 @@ def test_replies_bring_papers_back_with_a_deep_dive(sandbox, monkeypatch):
                            "based_on": "abstract"}
     monkeypatch.setattr(pipeline, "write_deep_dives", fake_dive)
 
-    reply(1, ref)
+    assert pipeline.run_dives("send")["dives"] == 0 and len(sent) == 1   # no replies: no email
+
+    others = [r for r in issue["articles"] if r != ref]
+    reply(1, f"{ref}, {others[0]}, {others[1]}, {others[2]}")           # fourth ID is ignored
+    reply(2, ref, sender="r1")                                            # same reader again: no extra vote
+    reply(3, ref, sender="r2")
+    stats = pipeline.run_dives("send")
+    assert stats == {"requested": 3, "dives": 3, "votes": 4} and "deep dives" in sent[-1]
+    dives = (sandbox / "preview" / "dives.html").read_text()
+    assert "Plain J Comm paper" in dives and "Research questions" in dives and f">{ref}<" in dives
+    assert not list((sandbox / "inbox").glob("*.json"))                  # handled once
+    assert pipeline.run_dives("send")["dives"] == 0                      # and not again
+
+    # The next regular issue re-sends every requested paper at the top
     stats = pipeline.run("send", "2026-10-26", "2026-11-02", oa=StubOpenAlex())
     html = (sandbox / "preview" / "latest.html").read_text()
-    assert stats["deep_dives"] == 1 and "Deep dives you asked for" in html and "Plain J Comm paper" in html
-    assert not (sandbox / "inbox" / "m1.json").exists()                # handled once
-    assert "m1" in json.loads((sandbox / "requests.json").read_text())["processed"]
-
-    # Asked again from the new issue (where it is A1): it keeps coming back
-    reply(2, "A1")
+    assert stats["requested"] == 3 and "You asked for these" in html and "Asked for by 2 readers" in html
     later = json.loads((sandbox / "issues" / "2026-11-02.json").read_text())
     assert later["articles"]["A1"]["title"] == "Plain J Comm paper"
-    stats = pipeline.run("send", "2026-11-02", "2026-11-09", oa=StubOpenAlex())
-    assert stats["deep_dives"] == 1
-
-    # No new replies: nothing is re-sent
-    assert pipeline.run("preview", "2026-11-09", "2026-11-16", oa=StubOpenAlex())["deep_dives"] == 0
+    assert pipeline.run("preview", "2026-11-02", "2026-11-09", oa=StubOpenAlex())["requested"] == 0
 
 
 def test_test_sends_go_to_test_recipients_only(sandbox, monkeypatch):

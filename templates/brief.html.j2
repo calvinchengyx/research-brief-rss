@@ -1,46 +1,4 @@
-{%- macro authors(list) -%}
-{%- for a in list -%}
-{%- if a.gap %} [...] {% else -%}
-{%- if not loop.first and not list[loop.index0 - 1].gap %}, {% endif -%}
-{%- if a.bold %}<strong style="color:#111111;">{{ a.name }}</strong>{% else %}{{ a.name }}{% endif -%}
-{%- endif -%}
-{%- endfor -%}
-{%- endmacro -%}
-{%- macro article(a, show_topic=false) -%}
-<tr><td style="padding:0 0 22px 0;">
-  {% if a.pick or a.preprint or a.now_published or show_topic %}
-  <div style="font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#8a5a00;padding-bottom:4px;">
-    {%- set tags = [] -%}
-    {%- if show_topic %}{% set _ = tags.append(a.topic) %}{% endif -%}
-    {%- if a.pick %}{% set _ = tags.append("Editor's pick") %}{% endif -%}
-    {%- if a.preprint %}{% set _ = tags.append("Preprint") %}{% endif -%}
-    {%- if a.now_published %}{% set _ = tags.append("Now published") %}{% endif -%}
-    {{ tags | join(" · ") }}
-  </div>
-  {% endif %}
-  {% if a.ref %}<span style="display:inline-block;font-family:Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:#ffffff;background:#0b4f8a;border-radius:3px;padding:1px 6px;margin-right:6px;vertical-align:2px;">{{ a.ref }}</span>{% endif %}<a href="{{ a.url }}" style="font-size:17px;line-height:1.35;font-weight:700;color:#0b4f8a;text-decoration:none;">{{ a.title }}</a>
-  <div style="font-size:14px;line-height:1.5;color:#444444;padding-top:6px;">{{ authors(a.authors) }}</div>
-  <div style="font-size:13px;line-height:1.5;color:#666666;padding-top:2px;"><em>{{ a.venue }}</em> · {{ a.date }}</div>
-  {% if a.summary %}
-  <div style="font-size:14px;line-height:1.5;color:#222222;padding-top:8px;"><strong>In short:</strong> {{ a.summary }}</div>
-  {% endif %}
-  {% if a.abstract %}
-  <div style="font-size:14px;line-height:1.55;color:#555555;padding-top:6px;">{{ a.abstract }}</div>
-  {% endif %}
-  {% if a.dive %}
-  <div style="margin-top:10px;padding:12px 14px;background:#eef4f9;border-left:3px solid #0b4f8a;font-size:14px;line-height:1.55;color:#222222;">
-    <div style="font-weight:700;padding-bottom:2px;">Research questions</div>
-    <ul style="margin:0 0 8px 0;padding-left:18px;">{% for q in a.dive.research_questions %}<li>{{ q }}</li>{% endfor %}</ul>
-    <div style="font-weight:700;padding-bottom:2px;">Methods</div>
-    <div style="padding-bottom:8px;">{{ a.dive.methods }}</div>
-    <div style="font-weight:700;padding-bottom:2px;">Main findings</div>
-    <ul style="margin:0;padding-left:18px;">{% for f in a.dive.findings %}<li>{{ f }}</li>{% endfor %}</ul>
-    <div style="font-size:12px;color:#666666;padding-top:8px;">Based on {{ "the full text" if a.dive.based_on == "full text" else "the abstract only (no open-access full text)" }}.</div>
-  </div>
-  {% endif %}
-  <div style="padding-top:6px;"><a href="{{ a.url }}" style="font-size:13px;color:#0b4f8a;text-decoration:none;">Read article ›</a></div>
-</td></tr>
-{%- endmacro -%}
+{%- from "_article.html.j2" import authors, article -%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -74,15 +32,15 @@
     </div>
     {% else %}
     <div style="margin-top:16px;padding:10px 14px;border:1px solid #c9dbea;background:#f5f9fc;font-size:14px;line-height:1.5;color:#333333;">
-      <strong>Want a deep dive?</strong> Reply to this email with the IDs of the papers you'd like, for example <em>B2, D1</em>.
-      The next issue opens with their research questions, methods and main findings.
+      <strong>Want a deep dive?</strong> Reply to this email with up to three paper IDs, for example <em>B2, D1</em>.
+      The next morning you get a short email on the most requested papers: their research questions, methods and main findings.
     </div>
     {% endif %}
   </td></tr>
 
   {% if dives %}
   <tr><td style="padding:24px 28px 0 28px;">
-    <div style="border-top:3px solid #0b4f8a;padding-top:12px;font-size:20px;font-weight:700;color:#0b4f8a;">Deep dives you asked for</div>
+    <div style="border-top:3px solid #0b4f8a;padding-top:12px;font-size:20px;font-weight:700;color:#0b4f8a;">You asked for these</div>
     <div style="font-size:13px;color:#666666;padding:4px 0 16px 0;">Papers readers replied about after the last issue. Reply with an ID again to keep a paper here next time.</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
     {% for a in dives %}{{ article(a, show_topic=true) }}{% endfor %}
@@ -144,7 +102,7 @@
 
   <tr><td style="padding:28px;">
     <div style="border-top:1px solid #dddddd;padding-top:14px;font-size:12px;line-height:1.6;color:#888888;">
-      To ask for a deep dive, reply with the paper IDs (the blue labels, e.g. B2).<br><br>
+      To ask for a deep dive, reply with up to three paper IDs (the blue labels, e.g. B2).<br><br>
       {% if quiet %}Nothing new this week from: {{ quiet | join(", ") }}.<br><br>{% endif %}
       Sources: OpenAlex and Semantic Scholar. Lists of journals, scholars, topics and recipients live in the
       <code>config/</code> folder of the research-brief-rss repository.

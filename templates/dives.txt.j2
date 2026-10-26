@@ -1,0 +1,9 @@
+{% from "_article.txt.j2" import authors, article %}
+CALVIN RESEARCH BRIEF
+Deep dives · {{ date }}
+{% if test %}(Test send.){% endif %}
+
+The {{ dives | length }} paper{{ "s" if dives | length != 1 }} readers asked about most since the last email, from {{ votes }} vote{{ "s" if votes != 1 }} on {{ papers }} paper{{ "s" if papers != 1 }}. Every requested paper comes back in the next regular issue. Requests are anonymous.
+
+{% for a in dives %}{{ article(a) }}{% endfor %}
+Deep dives are written by {{ model }} from the open-access full text when there is one, otherwise from the abstract.

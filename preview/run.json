@@ -12,7 +12,7 @@
  "after_prefilter": 1454,
  "kept": 519,
  "openalex_calls": 41,
- "deep_dives": 0,
+ "requested": 0,
  "sources": {
   "journals": 1911,
   "scholars": 53,

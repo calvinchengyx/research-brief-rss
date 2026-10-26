@@ -1,0 +1,46 @@
+{%- from "_article.html.j2" import authors, article -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Calvin Research Brief: deep dives, {{ date }}</title>
+</head>
+<body style="margin:0;padding:0;background:#f2f2f2;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f2f2;">
+<tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;background:#ffffff;font-family:Helvetica,Arial,sans-serif;">
+
+  <tr><td style="background:#111111;padding:18px 28px;">
+    <div style="font-size:20px;font-weight:700;color:#ffffff;">Calvin Research Brief</div>
+  </td></tr>
+
+  <tr><td style="padding:28px 28px 8px 28px;">
+    {% if test %}<div style="background:#fff4d6;color:#7a5200;font-size:13px;padding:8px 12px;margin-bottom:16px;">Test send.</div>{% endif %}
+    <div style="font-size:26px;font-weight:700;color:#0b4f8a;">Deep dives</div>
+    <div style="font-size:15px;color:#666666;padding-top:4px;">{{ date }}</div>
+    <p style="font-size:15px;line-height:1.55;color:#333333;margin:18px 0 0 0;">
+      The {{ dives | length }} paper{{ "s" if dives | length != 1 }} readers asked about most since the last email,
+      from {{ votes }} vote{{ "s" if votes != 1 }} on {{ papers }} paper{{ "s" if papers != 1 }}.
+      Every requested paper comes back in the next regular issue. Requests are anonymous.
+    </p>
+  </td></tr>
+
+  <tr><td style="padding:16px 28px 0 28px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    {% for a in dives %}{{ article(a, show_topic=true) }}{% endfor %}
+    </table>
+  </td></tr>
+
+  <tr><td style="padding:28px;">
+    <div style="border-top:1px solid #dddddd;padding-top:14px;font-size:12px;line-height:1.6;color:#888888;">
+      Each paper keeps the ID it had in the brief. Deep dives are written by {{ model }} from the open-access full text when there is one, otherwise from the abstract.
+    </div>
+  </td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>

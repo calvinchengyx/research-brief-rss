@@ -3,7 +3,7 @@
 import argparse
 import logging
 
-from .pipeline import due, run
+from .pipeline import due, run, run_dives
 
 
 def main() -> None:
@@ -13,13 +13,17 @@ def main() -> None:
                         "and record nothing; send: email everyone and remember what was sent")
     p.add_argument("--since", help="start date YYYY-MM-DD (default: today minus lookback_days)")
     p.add_argument("--until", help="end date YYYY-MM-DD (default: today)")
+    p.add_argument("--kind", choices=["brief", "dives", "both"], default="brief",
+                   help="brief: the regular issue; dives: the deep-dive email on new reader requests "
+                        "(skipped when there are none); both: dives first, then the brief")
     p.add_argument("--scheduled", action="store_true",
-                   help="weekly cron run: skip unless send_every_days have passed since the last issue")
+                   help="daily cron run: the brief is skipped unless send_every_days have passed since the last issue")
     args = p.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-    if args.scheduled and not due():
-        return
-    run(args.mode, args.since, args.until)
+    if args.kind in ("dives", "both"):
+        run_dives(args.mode)
+    if args.kind in ("brief", "both") and not (args.scheduled and not due()):
+        run(args.mode, args.since, args.until)
 
 
 if __name__ == "__main__":
