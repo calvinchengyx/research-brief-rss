@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-from brief import pipeline, recipe, resolve, state
+from brief import deepdive, pipeline, recipe, resolve, state
 from brief.models import Article, Author
 from brief.render import author_line
 from brief.select import apply_cap
@@ -157,6 +157,10 @@ def sandbox(tmp_path, monkeypatch):
     monkeypatch.setattr(state, "SEEN", tmp_path / "seen.json")
     monkeypatch.setattr(pipeline.cls, "STATE_DIR", tmp_path)
     monkeypatch.setattr(recipe, "RECIPE", tmp_path / "recipe.html")
+    monkeypatch.setattr(deepdive, "INBOX", tmp_path / "inbox")
+    monkeypatch.setattr(deepdive, "ISSUES", tmp_path / "issues")
+    monkeypatch.setattr(deepdive, "REQUESTS", tmp_path / "requests.json")
+    monkeypatch.setattr(deepdive, "DIVES", tmp_path / "deep_dives.json")
     monkeypatch.setattr(pipeline, "PREVIEW_DIR", tmp_path / "preview")
     monkeypatch.setattr(pipeline, "ARCHIVE_DIR", tmp_path / "archive")
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
@@ -240,3 +244,54 @@ def test_classification_is_cached(sandbox, monkeypatch):
     cls.classify(again, cfg, use_ai=True)
     assert calls == [3, 0]
     assert all(a.keep and a.relevance == 7.0 for a in again)
+
+
+def test_reply_refs_ignore_quoted_text():
+    body = "Please send a deep dive on b2 and A1, thanks!\n\nOn Mon, 2 Nov 2026 Calvin wrote:\n> A3 Some title"
+    assert deepdive.reply_refs(body) == ["B2", "A1"]
+    assert deepdive.reply_refs("a 1-year study") == []
+
+
+def test_replies_bring_papers_back_with_a_deep_dive(sandbox, monkeypatch):
+    monkeypatch.setattr(pipeline, "send", lambda *a, **k: None)
+    pipeline.run("send", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
+    issue = json.loads((sandbox / "issues" / "2026-10-21.json").read_text())
+    ref = next(r for r, a in issue["articles"].items() if a["title"] == "Plain J Comm paper")
+    html = (sandbox / "preview" / "latest.html").read_text()
+    assert f">{ref}<" in html and "Reply to this email" in html
+
+    def reply(n, refs):
+        (sandbox / "inbox").mkdir(exist_ok=True)
+        (sandbox / "inbox" / f"m{n}.json").write_text(json.dumps({
+            "id": f"m{n}", "from": "reader@example.org", "date": "2026-10-22T09:00:00Z",
+            "subject": f"Re: {issue['subject']}", "body": f"{refs}\n\n> quoted"}))
+
+    def fake_dive(articles, cfg):
+        for a in articles:
+            a.deep_dive = {"research_questions": ["Q?"], "methods": "Survey.", "findings": ["F."],
+                           "based_on": "abstract"}
+    monkeypatch.setattr(pipeline, "write_deep_dives", fake_dive)
+
+    reply(1, ref)
+    stats = pipeline.run("send", "2026-10-26", "2026-11-02", oa=StubOpenAlex())
+    html = (sandbox / "preview" / "latest.html").read_text()
+    assert stats["deep_dives"] == 1 and "Deep dives you asked for" in html and "Plain J Comm paper" in html
+    assert not (sandbox / "inbox" / "m1.json").exists()                # handled once
+    assert "m1" in json.loads((sandbox / "requests.json").read_text())["processed"]
+
+    # Asked again from the new issue (where it is A1): it keeps coming back
+    reply(2, "A1")
+    later = json.loads((sandbox / "issues" / "2026-11-02.json").read_text())
+    assert later["articles"]["A1"]["title"] == "Plain J Comm paper"
+    stats = pipeline.run("send", "2026-11-02", "2026-11-09", oa=StubOpenAlex())
+    assert stats["deep_dives"] == 1
+
+    # No new replies: nothing is re-sent
+    assert pipeline.run("preview", "2026-11-09", "2026-11-16", oa=StubOpenAlex())["deep_dives"] == 0
+
+
+def test_test_sends_count_as_sent(sandbox, monkeypatch):
+    monkeypatch.setattr(pipeline, "send", lambda *a, **k: None)
+    first = pipeline.run("test", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
+    assert first["shown"] > 0
+    assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == 0

@@ -157,6 +157,21 @@ def system_prompt(cfg) -> str:
     )
 
 
+def call_claude(client, request: dict):
+    """One Messages API call; non-Haiku models get server-side refusal fallbacks."""
+    import anthropic
+
+    if "haiku" in request["model"]:  # Haiku has no server-side fallback
+        return client.messages.create(**request)
+    try:
+        # Server-side fallback reruns a declined request on another model
+        return client.beta.messages.create(**request, betas=["server-side-fallback-2026-07-01"],
+                                           fallbacks="default")
+    except anthropic.BadRequestError as e:
+        log.warning("Request with fallbacks rejected (%s); retrying without", e)
+        return client.messages.create(**request)
+
+
 def _classify_ai(articles: list[Article], cfg, done: list[Article]) -> None:
     """Classify in batches; append each finished paper to `done` as it completes."""
     import anthropic
@@ -183,16 +198,7 @@ def _classify_ai(articles: list[Article], cfg, done: list[Article]) -> None:
             output_config={"effort": ai.get("effort", "low"),
                            "format": {"type": "json_schema", "schema": SCHEMA}},
         )
-        if "haiku" in request["model"]:  # Haiku has no server-side fallback
-            response = client.messages.create(**request)
-        else:
-            try:
-                # Server-side fallback reruns a declined request on another model
-                response = client.beta.messages.create(**request, betas=["server-side-fallback-2026-07-01"],
-                                                       fallbacks="default")
-            except anthropic.BadRequestError as e:
-                log.warning("Request with fallbacks rejected (%s); retrying without", e)
-                response = client.messages.create(**request)
+        response = call_claude(client, request)
         if response.stop_reason == "refusal":
             log.warning("Batch at %d declined; using keyword filter for it", start)
             _classify_keywords(batch, cfg, s.get("social_keywords") or [])

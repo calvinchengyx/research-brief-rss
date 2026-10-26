@@ -9,6 +9,7 @@ from datetime import date, timedelta
 
 from . import classify as cls
 from .config import ARCHIVE_DIR, PREVIEW_DIR, Config, load_config
+from .deepdive import collect_requests, mark_processed, save_issue, write_deep_dives
 from .models import Article
 from .openalex import OpenAlex, fill_abstracts, to_article
 from .recipe import write_recipe
@@ -125,6 +126,8 @@ def tag(a: Article, f: Followed) -> None:
     a.anchor_hit = any(au.id in f.anchor_ids for au in a.authors)
     a.scholar_names = list(dict.fromkeys(names))
     journal = f.sources.get(a.venue_id or "")
+    if journal and journal.get("short"):
+        a.venue = journal["short"]
     a.journal_hit = journal is not None and not a.is_preprint
     if a.journal_hit:
         a.topic = journal["topic"]
@@ -165,7 +168,13 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
     kept = [a for a in passed if a.keep]
     screened += [a for a in passed if not a.keep]
 
-    selected, overflow = apply_cap(kept, s)
+    # Papers readers asked to deep dive go back in at the top, whatever week they came from
+    dives, reply_files = collect_requests()
+    write_deep_dives(dives, cfg)
+    dive_keys = {a.key for a in dives}
+    kept_new = [a for a in kept if a.key not in dive_keys]
+
+    selected, overflow = apply_cap(kept_new, s)
     mark_editors_picks(selected, int((s.get("ai") or {}).get("editors_picks", 4)))
 
     kept_authors = {au.id for a in kept for au in a.authors if au.followed}
@@ -175,9 +184,9 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
         "window": f"{nice_date(since)} to {nice_date(until)}",
         "shown": len(selected), "priority": sum(a.top_priority for a in selected), "cut": len(overflow),
         "found": len(found), "new": len(fresh), "after_prefilter": len(passed), "kept": len(kept),
-        "openalex_calls": oa.calls,
+        "openalex_calls": oa.calls, "deep_dives": len(dives),
     }
-    context = build_context(cfg, selected, overflow, quiet, stats, today, test=(mode == "test"))
+    context = build_context(cfg, selected, overflow, quiet, stats, today, test=(mode == "test"), dives=dives)
     html, text = render(context)
 
     report = run_report(cfg, mode, since, until, stats, counts, methods, fresh, passed, kept, selected, overflow)
@@ -189,12 +198,14 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
     log.info("Stats: %s", stats)
 
     subject = (s.get("email") or {}).get("subject", "Research Brief: {date}").format(date=nice_date(until))
-    if mode == "test":
-        send(cfg.recipients, f"[TEST] {subject}", html, text, s)
-    elif mode == "send":
-        send(cfg.recipients, subject, html, text, s)
+    if mode in ("test", "send"):
+        # A test goes to the same people, so its papers count as sent too
+        send(cfg.recipients, f"[TEST] {subject}" if mode == "test" else subject, html, text, s)
         seen.record(selected + overflow, screened)
         seen.save()
+        save_issue(until, subject, dives + selected + overflow)
+    if mode == "send":
+        mark_processed(reply_files)
         ARCHIVE_DIR.mkdir(exist_ok=True)
         (ARCHIVE_DIR / f"{until}.html").write_text(html, encoding="utf-8")
     return stats

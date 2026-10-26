@@ -7,22 +7,38 @@
 {%- endfor -%}
 {%- endmacro %}
 {% macro article(a) %}
-{% if a.pick %}[Editor's pick] {% endif %}{% if a.preprint %}[Preprint] {% endif %}{% if a.now_published %}[Now published] {% endif %}{{ a.title }}
+{% if a.ref %}[{{ a.ref }}] {% endif %}{% if a.pick %}[Editor's pick] {% endif %}{% if a.preprint %}[Preprint] {% endif %}{% if a.now_published %}[Now published] {% endif %}{{ a.title }}
 {{ authors(a.authors) }}
 {{ a.venue }} · {{ a.date }}
 {% if a.summary %}In short: {{ a.summary }}
 {% endif %}
 {% if a.abstract %}{{ a.abstract }}
 {% endif %}
+{% if a.dive %}
+Research questions:
+{% for q in a.dive.research_questions %}  - {{ q }}
+{% endfor %}
+Methods: {{ a.dive.methods }}
+Main findings:
+{% for f in a.dive.findings %}  - {{ f }}
+{% endfor %}
+(Based on {{ "the full text" if a.dive.based_on == "full text" else "the abstract only" }}.)
+{% endif %}
 {{ a.url }}
 
 {% endmacro %}
 CALVIN RESEARCH BRIEF
 Weekly updates · {{ date }}
-{% if test %}(Test send. Articles in this email will appear again in the first real issue.){% endif %}
+{% if test %}(Test send.){% endif %}
 
 New research from the journals and scholars you follow, {{ stats.window }}. {{ stats.shown }} articles{% if stats.priority %}, {{ stats.priority }} top priority{% endif %}.
 * = scholar you follow
+Want a deep dive? Reply with the IDs in square brackets, e.g. B2, D1.
+{% if dives %}
+
+==== DEEP DIVES YOU ASKED FOR ====
+{% for a in dives %}{{ article(a) }}{% endfor %}
+{% endif %}
 {% if priority %}
 
 ==== TOP PRIORITY (a scholar you follow, in a journal you follow) ====
@@ -52,7 +68,7 @@ New research from the journals and scholars you follow, {{ stats.window }}. {{ s
 
 ==== ALSO THIS WEEK ====
 {% for a in overflow %}
-- {{ a.title }} ({{ a.venue }}) {{ a.url }}
+- [{{ a.ref }}] {{ a.title }} ({{ a.venue }}) {{ a.url }}
 {% endfor %}
 {% endif %}
 {% if quiet %}

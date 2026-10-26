@@ -18,7 +18,7 @@
     {{ tags | join(" · ") }}
   </div>
   {% endif %}
-  <a href="{{ a.url }}" style="font-size:17px;line-height:1.35;font-weight:700;color:#0b4f8a;text-decoration:none;">{{ a.title }}</a>
+  {% if a.ref %}<span style="display:inline-block;font-family:Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:#ffffff;background:#0b4f8a;border-radius:3px;padding:1px 6px;margin-right:6px;vertical-align:2px;">{{ a.ref }}</span>{% endif %}<a href="{{ a.url }}" style="font-size:17px;line-height:1.35;font-weight:700;color:#0b4f8a;text-decoration:none;">{{ a.title }}</a>
   <div style="font-size:14px;line-height:1.5;color:#444444;padding-top:6px;">{{ authors(a.authors) }}</div>
   <div style="font-size:13px;line-height:1.5;color:#666666;padding-top:2px;"><em>{{ a.venue }}</em> · {{ a.date }}</div>
   {% if a.summary %}
@@ -26,6 +26,17 @@
   {% endif %}
   {% if a.abstract %}
   <div style="font-size:14px;line-height:1.55;color:#555555;padding-top:6px;">{{ a.abstract }}</div>
+  {% endif %}
+  {% if a.dive %}
+  <div style="margin-top:10px;padding:12px 14px;background:#eef4f9;border-left:3px solid #0b4f8a;font-size:14px;line-height:1.55;color:#222222;">
+    <div style="font-weight:700;padding-bottom:2px;">Research questions</div>
+    <ul style="margin:0 0 8px 0;padding-left:18px;">{% for q in a.dive.research_questions %}<li>{{ q }}</li>{% endfor %}</ul>
+    <div style="font-weight:700;padding-bottom:2px;">Methods</div>
+    <div style="padding-bottom:8px;">{{ a.dive.methods }}</div>
+    <div style="font-weight:700;padding-bottom:2px;">Main findings</div>
+    <ul style="margin:0;padding-left:18px;">{% for f in a.dive.findings %}<li>{{ f }}</li>{% endfor %}</ul>
+    <div style="font-size:12px;color:#666666;padding-top:8px;">Based on {{ "the full text" if a.dive.based_on == "full text" else "the abstract only (no open-access full text)" }}.</div>
+  </div>
   {% endif %}
   <div style="padding-top:6px;"><a href="{{ a.url }}" style="font-size:13px;color:#0b4f8a;text-decoration:none;">Read article ›</a></div>
 </td></tr>
@@ -48,7 +59,7 @@
   </td></tr>
 
   <tr><td style="padding:28px 28px 8px 28px;">
-    {% if test %}<div style="background:#fff4d6;color:#7a5200;font-size:13px;padding:8px 12px;margin-bottom:16px;">Test send. Articles in this email will appear again in the first real issue.</div>{% endif %}
+    {% if test %}<div style="background:#fff4d6;color:#7a5200;font-size:13px;padding:8px 12px;margin-bottom:16px;">Test send.</div>{% endif %}
     <div style="font-size:26px;font-weight:700;color:#111111;">Weekly updates</div>
     <div style="font-size:15px;color:#666666;padding-top:4px;">{{ date }}</div>
     <p style="font-size:15px;line-height:1.55;color:#333333;margin:18px 0 0 0;">
@@ -56,7 +67,21 @@
       This issue has {{ stats.shown }} article{{ "s" if stats.shown != 1 }}{% if stats.priority %}, including {{ stats.priority }} top priority{% endif %}.
       {% if overflow %}Another {{ stats.cut }} passed the filters; the next {{ overflow | length }} are listed at the end.{% endif %}
     </p>
+    <div style="margin-top:16px;padding:10px 14px;border:1px solid #c9dbea;background:#f5f9fc;font-size:14px;line-height:1.5;color:#333333;">
+      <strong>Want a deep dive?</strong> Reply to this email with the IDs of the papers you'd like, for example <em>B2, D1</em>.
+      Next week's issue opens with their research questions, methods and main findings.
+    </div>
   </td></tr>
+
+  {% if dives %}
+  <tr><td style="padding:24px 28px 0 28px;">
+    <div style="border-top:3px solid #0b4f8a;padding-top:12px;font-size:20px;font-weight:700;color:#0b4f8a;">Deep dives you asked for</div>
+    <div style="font-size:13px;color:#666666;padding:4px 0 16px 0;">Papers readers replied about last week. Reply with an ID again to keep a paper here next week.</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    {% for a in dives %}{{ article(a, show_topic=true) }}{% endfor %}
+    </table>
+  </td></tr>
+  {% endif %}
 
   {% if priority %}
   <tr><td style="padding:24px 28px 0 28px;">
@@ -104,7 +129,7 @@
     <div style="border-top:1px solid #dddddd;padding-top:12px;font-size:16px;font-weight:700;color:#111111;">Also this week</div>
     <ul style="margin:10px 0 0 0;padding-left:18px;">
     {% for a in overflow %}
-      <li style="font-size:13px;line-height:1.5;color:#555555;padding-bottom:6px;"><a href="{{ a.url }}" style="color:#0b4f8a;text-decoration:none;">{{ a.title }}</a> · <em>{{ a.venue }}</em>{% if a.preprint %} (preprint){% endif %}</li>
+      <li style="font-size:13px;line-height:1.5;color:#555555;padding-bottom:6px;"><strong style="font-family:Menlo,Consolas,monospace;color:#0b4f8a;">{{ a.ref }}</strong> <a href="{{ a.url }}" style="color:#0b4f8a;text-decoration:none;">{{ a.title }}</a> · <em>{{ a.venue }}</em>{% if a.preprint %} (preprint){% endif %}</li>
     {% endfor %}
     </ul>
   </td></tr>
@@ -112,6 +137,7 @@
 
   <tr><td style="padding:28px;">
     <div style="border-top:1px solid #dddddd;padding-top:14px;font-size:12px;line-height:1.6;color:#888888;">
+      To ask for a deep dive, reply with the paper IDs (the blue labels, e.g. B2).<br><br>
       {% if quiet %}Nothing new this week from: {{ quiet | join(", ") }}.<br><br>{% endif %}
       Sources: OpenAlex and Semantic Scholar. Lists of journals, scholars, topics and recipients live in the
       <code>config/</code> folder of the research-brief-rss repository.
