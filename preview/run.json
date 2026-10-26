@@ -24,8 +24,8 @@
  },
  "classified_by": {
   "model": "claude-haiku-5-5",
-  "ai": 336,
-  "cached": 1118,
+  "ai": 0,
+  "cached": 1454,
   "keywords": 0
  },
  "needs_filter": 3227,

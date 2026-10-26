@@ -31,6 +31,7 @@ class Config:
     scholars: list[dict]
     institutions: dict
     recipients: list[str]
+    test_recipients: list[str]
     settings: dict
     topic_names: dict[str, str] = field(default_factory=dict)
 
@@ -43,6 +44,7 @@ def load_config() -> Config:
         scholars=_load("scholars.yaml")["scholars"],
         institutions=_load("institutions.yaml"),
         recipients=[r for r in _load("recipients.yaml").get("recipients", []) if r],
+        test_recipients=[r for r in _load("recipients.yaml").get("test_recipients", []) if r],
         settings=_load("settings.yaml"),
         topic_names={t["id"]: t["name"] for t in topics},
     )
