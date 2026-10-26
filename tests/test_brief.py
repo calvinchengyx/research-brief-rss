@@ -328,6 +328,15 @@ def test_test_sends_go_to_test_recipients_only(sandbox, monkeypatch):
     assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == first["shown"]
 
 
+def test_resend_latest_sends_the_same_email_and_records_it(sandbox, monkeypatch):
+    sent = []
+    monkeypatch.setattr(pipeline, "send", lambda to, subject, html, *a, **k: sent.append((to, subject, html)))
+    pipeline.run("test", "2026-10-11", "2026-10-21", oa=StubOpenAlex())
+    pipeline.resend_latest(["new.reader@example.org"])
+    assert sent[1][0] == ["new.reader@example.org"] and sent[1][1] == sent[0][1] and sent[1][2] == sent[0][2]
+    assert pipeline.run("preview", "2026-10-11", "2026-10-21", oa=StubOpenAlex())["shown"] == 0
+
+
 def test_scheduled_runs_send_every_other_week(sandbox):
     from datetime import date
     (sandbox / "archive").mkdir()

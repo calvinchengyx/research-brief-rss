@@ -8,10 +8,11 @@ from dataclasses import dataclass, field
 from datetime import date, timedelta
 
 from . import classify as cls
+from . import deepdive
 from .config import ARCHIVE_DIR, PREVIEW_DIR, Config, load_config
 from .deepdive import (clear_resend, collect_votes, mark_processed, queue_resend, resend_queue, save_issue,
                        top_picks, write_deep_dives)
-from .models import Article
+from .models import Article, article_from_dict
 from .openalex import OpenAlex, fill_abstracts, to_article
 from .recipe import write_recipe
 from .render import build_context, nice_date, render, render_dives
@@ -261,6 +262,23 @@ def run_dives(mode: str = "preview") -> dict:
         (ARCHIVE_DIR / "dives" / f"{today.isoformat()}.html").write_text(html, encoding="utf-8")
     log.info("Deep dives: %s", stats)
     return stats
+
+
+def resend_latest(to: list[str]) -> None:
+    """Send the last built email (preview/latest.*) as it is to more people, e.g. a test to a new
+    reader, and record its papers as sent so the next issue does not repeat them."""
+    cfg = load_config()
+    html = (PREVIEW_DIR / "latest.html").read_text(encoding="utf-8")
+    text = (PREVIEW_DIR / "latest.txt").read_text(encoding="utf-8")
+    issues = deepdive.ISSUES
+    issue = json.loads(sorted(issues.glob("*.json"))[-1].read_text(encoding="utf-8"))  # the email's own record
+    subject = f"[TEST] {issue['subject']}" if "Test send." in html else issue["subject"]
+    send(to, subject, html, text, cfg.settings)
+    articles = [article_from_dict(a) for a in issue["articles"].values()]
+    seen = Seen()
+    seen.record(articles, [])
+    seen.save()
+    log.info("Recorded %d papers from the %s issue as sent", len(articles), issue["date"])
 
 
 def section_of(a: Article) -> str:

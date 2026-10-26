@@ -17,6 +17,9 @@ on:
       since:
         description: "Start date YYYY-MM-DD (optional, default: lookback_days ago)"
         required: false
+      resend_to:
+        description: "Optional: addresses to send the last built email to as it is (the other inputs are ignored)"
+        required: false
   # Every pull request builds a preview issue and commits it to preview/ on the branch.
   pull_request:
   # Every morning: a deep-dive email if readers replied since the last one, and the
@@ -54,13 +57,14 @@ jobs:
         env:
           MODE: ${{ github.event_name == 'schedule' && 'send' || inputs.mode || 'preview' }}
           SINCE: ${{ inputs.since }}
+          RESEND_TO: ${{ inputs.resend_to }}
           KIND: ${{ github.event_name == 'schedule' && 'both' || inputs.kind || 'brief' }}
           SCHEDULED: ${{ github.event_name == 'schedule' && '1' || '' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
-        run: python -m brief --mode "$MODE" --kind "$KIND" ${SINCE:+--since "$SINCE"} ${SCHEDULED:+--scheduled}
+        run: python -m brief --mode "$MODE" --kind "$KIND" ${SINCE:+--since "$SINCE"} ${SCHEDULED:+--scheduled} ${RESEND_TO:+--resend-to "$RESEND_TO"}
 
       - name: Save preview, sent-articles state, archive and handled replies
         if: always()
