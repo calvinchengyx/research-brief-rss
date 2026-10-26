@@ -82,8 +82,11 @@ def build_context(cfg: Config, selected: list[Article], overflow: list[Article],
             "topic": cfg.topic_names.get(a.topic, ""), "dive": a.deep_dive, "requested": a.requested,
         }
 
+    note = cfg.settings.get("announcement") or {}
+    show = note.get("text") and today.isoformat() <= str(note.get("show_until", "9999"))
     return {
         "date": nice_date(today.isoformat()), "test": test, "stats": stats,
+        "announcement": note if show else None,
         "dives": [view(a) for a in dives],
         "priority": [view(a) for a in priority],
         "sections": [{"name": name, "venues": [{"venue": v, "articles": [view(a) for a in its]}

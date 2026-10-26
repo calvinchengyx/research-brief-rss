@@ -32,6 +32,18 @@ ai:
   batch_size: 20             # papers per request
   editors_picks: 4           # 3-5
 
+# A note shown at the top of every issue sent on or before show_until (YYYY-MM-DD).
+announcement:
+  show_until: 2026-11-09
+  title: "New: shape your own brief"
+  text: >-
+    Every paper in this issue now has a short ID, such as A1 or C3. If a paper catches
+    your eye, reply to this email with its ID; several are fine, for example "A1, C3".
+    The next issue, two weeks from now, opens with those papers and a deep dive on each:
+    the research questions, the methods and the main findings, based on the full text
+    when it is open access. Keep replying with the same ID and the paper stays at the top.
+    Requests are anonymous: everyone sees the deep dives, but not who asked for them.
+
 # Deep dives on papers readers ask for by replying with their IDs
 deep_dive:
   model: claude-sonnet-5-5   # reads the open-access PDF when there is one; about $0.10 a paper

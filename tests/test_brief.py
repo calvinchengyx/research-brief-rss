@@ -258,7 +258,7 @@ def test_replies_bring_papers_back_with_a_deep_dive(sandbox, monkeypatch):
     issue = json.loads((sandbox / "issues" / "2026-10-21.json").read_text())
     ref = next(r for r, a in issue["articles"].items() if a["title"] == "Plain J Comm paper")
     html = (sandbox / "preview" / "latest.html").read_text()
-    assert f">{ref}<" in html and "Reply to this email" in html
+    assert f">{ref}<" in html and "reply to this email" in html.lower()
 
     def reply(n, refs):
         (sandbox / "inbox").mkdir(exist_ok=True)
