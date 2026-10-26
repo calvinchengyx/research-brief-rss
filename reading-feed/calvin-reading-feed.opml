@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Calvin reading feed</title>
+    <dateCreated>2026-10-26</dateCreated>
+  </head>
+  <body>
+    <outline text="Computational social science and general science" title="Computational social science and general science">
+      <outline type="rss" text="Nature Human Behaviour" title="Nature Human Behaviour" xmlUrl="https://www.nature.com/nathumbehav.rss" htmlUrl="https://www.nature.com/nathumbehav/"/>
+      <outline type="rss" text="PNAS" title="PNAS" xmlUrl="https://www.pnas.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=pnas" htmlUrl="https://www.pnas.org/"/>
+      <outline type="rss" text="Science Advances" title="Science Advances" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=sciadv" htmlUrl="https://www.science.org/journal/sciadv"/>
+      <outline type="rss" text="PNAS Nexus (advance articles)" title="PNAS Nexus (advance articles)" xmlUrl="https://academic.oup.com/rss/site_6448/advanceAccess_4114.xml" htmlUrl="https://academic.oup.com/pnasnexus"/>
+      <outline type="rss" text="EPJ Data Science" title="EPJ Data Science" xmlUrl="https://link.springer.com/search.rss?facet-journal-id=13688" htmlUrl="https://link.springer.com/journal/13688"/>
+      <outline type="rss" text="Science" title="Science" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/journal/science"/>
+      <outline type="rss" text="Nature" title="Nature" xmlUrl="https://www.nature.com/nature.rss" htmlUrl="https://www.nature.com/nature/"/>
+      <outline type="rss" text="Journal of Computational Social Science" title="Journal of Computational Social Science" xmlUrl="https://link.springer.com/search.rss?facet-journal-id=42001" htmlUrl="https://link.springer.com/journal/42001"/>
+      <outline type="rss" text="Nature Communications" title="Nature Communications" xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="https://www.nature.com/ncomms/"/>
+      <outline type="rss" text="Nature Computational Science" title="Nature Computational Science" xmlUrl="https://www.nature.com/natcomputsci.rss" htmlUrl="https://www.nature.com/natcomputsci/"/>
+      <outline type="rss" text="Communications Psychology" title="Communications Psychology" xmlUrl="https://www.nature.com/commspsychol.rss" htmlUrl="https://www.nature.com/commspsychol/"/>
+    </outline>
+    <outline text="Communication and media" title="Communication and media">
+      <outline type="rss" text="New Media &amp; Society" title="New Media &amp; Society" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=nms&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/nms"/>
+      <outline type="rss" text="Journal of Communication (advance articles)" title="Journal of Communication (advance articles)" xmlUrl="https://academic.oup.com/rss/site_6088/advanceAccess_3963.xml" htmlUrl="https://academic.oup.com/joc"/>
+      <outline type="rss" text="Political Communication" title="Political Communication" xmlUrl="https://www.tandfonline.com/feed/rss/upcp20" htmlUrl="https://www.tandfonline.com/toc/upcp20/current"/>
+      <outline type="rss" text="Information, Communication &amp; Society" title="Information, Communication &amp; Society" xmlUrl="https://www.tandfonline.com/feed/rss/rics20" htmlUrl="https://www.tandfonline.com/toc/rics20/current"/>
+      <outline type="rss" text="Journal of Computer-Mediated Communication (advance articles)" title="Journal of Computer-Mediated Communication (advance articles)" xmlUrl="https://academic.oup.com/rss/site_6096/advanceAccess_3967.xml" htmlUrl="https://academic.oup.com/jcmc"/>
+      <outline type="rss" text="Social Media + Society" title="Social Media + Society" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=sms&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/sms"/>
+      <outline type="rss" text="Communication Methods and Measures" title="Communication Methods and Measures" xmlUrl="https://www.tandfonline.com/feed/rss/hcms20" htmlUrl="https://www.tandfonline.com/toc/hcms20/current"/>
+      <outline type="rss" text="HKS Misinformation Review" title="HKS Misinformation Review" xmlUrl="https://misinforeview.hks.harvard.edu/feed/" htmlUrl="https://misinforeview.hks.harvard.edu/"/>
+      <outline type="rss" text="Feminist Media Studies" title="Feminist Media Studies" xmlUrl="https://www.tandfonline.com/feed/rss/rfms20" htmlUrl="https://www.tandfonline.com/toc/rfms20/current"/>
+      <outline type="rss" text="Big Data &amp; Society" title="Big Data &amp; Society" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=bds&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/bds"/>
+      <outline type="rss" text="Digital Journalism" title="Digital Journalism" xmlUrl="https://www.tandfonline.com/feed/rss/rdij20" htmlUrl="https://www.tandfonline.com/toc/rdij20/current"/>
+      <outline type="rss" text="Communication Research" title="Communication Research" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=crx&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/crx"/>
+      <outline type="rss" text="Human Communication Research (advance articles)" title="Human Communication Research (advance articles)" xmlUrl="https://academic.oup.com/rss/site_6092/advanceAccess_3965.xml" htmlUrl="https://academic.oup.com/hcr"/>
+      <outline type="rss" text="The International Journal of Press/Politics" title="The International Journal of Press/Politics" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=hij&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/hij"/>
+      <outline type="rss" text="Media, Culture &amp; Society" title="Media, Culture &amp; Society" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=mcs&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/mcs"/>
+      <outline type="rss" text="Journal of Quantitative Description: Digital Media" title="Journal of Quantitative Description: Digital Media" xmlUrl="https://journalqd.org/gateway/plugin/WebFeedGatewayPlugin/rss2" htmlUrl="https://journalqd.org/"/>
+      <outline type="rss" text="Journal of Online Trust and Safety" title="Journal of Online Trust and Safety" xmlUrl="https://tsjournal.org/index.php/jots/gateway/plugin/WebFeedGatewayPlugin/rss2" htmlUrl="https://tsjournal.org/"/>
+    </outline>
+    <outline text="NLP, computing and information science venues" title="NLP, computing and information science venues">
+      <outline type="rss" text="ACL Anthology (all new papers)" title="ACL Anthology (all new papers)" xmlUrl="https://aclanthology.org/papers/index.xml" htmlUrl="https://aclanthology.org/"/>
+      <outline type="rss" text="ICWSM proceedings" title="ICWSM proceedings" xmlUrl="https://ojs.aaai.org/index.php/ICWSM/gateway/plugin/WebFeedGatewayPlugin/rss2" htmlUrl="https://ojs.aaai.org/index.php/ICWSM"/>
+      <outline type="rss" text="Proceedings of the ACM on Human-Computer Interaction (CSCW)" title="Proceedings of the ACM on Human-Computer Interaction (CSCW)" xmlUrl="https://dl.acm.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=pacmhci" htmlUrl="https://dl.acm.org/journal/pacmhci"/>
+      <outline type="rss" text="Journal of the Association for Information Science and Technology" title="Journal of the Association for Information Science and Technology" xmlUrl="https://asistdl.onlinelibrary.wiley.com/feed/23301643/most-recent" htmlUrl="https://asistdl.onlinelibrary.wiley.com/journal/23301643"/>
+      <outline type="rss" text="Information Processing &amp; Management" title="Information Processing &amp; Management" xmlUrl="https://rss.sciencedirect.com/publication/science/03064573" htmlUrl="https://www.sciencedirect.com/journal/information-processing-and-management"/>
+    </outline>
+    <outline text="Political methodology, China and gender" title="Political methodology, China and gender">
+      <outline type="rss" text="Political Analysis" title="Political Analysis" xmlUrl="https://www.cambridge.org/core/rss/product/id/EEF1D4438BAB8498B2A647F9DBC47AA7" htmlUrl="https://www.cambridge.org/core/journals/political-analysis"/>
+      <outline type="rss" text="The China Quarterly" title="The China Quarterly" xmlUrl="https://www.cambridge.org/core/rss/product/id/37A7B629381F092FD873F9979093ABFC" htmlUrl="https://www.cambridge.org/core/journals/china-quarterly"/>
+      <outline type="rss" text="Chinese Journal of Communication" title="Chinese Journal of Communication" xmlUrl="https://www.tandfonline.com/feed/rss/rcjc20" htmlUrl="https://www.tandfonline.com/toc/rcjc20/current"/>
+      <outline type="rss" text="Sociological Methods &amp; Research" title="Sociological Methods &amp; Research" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=smr&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/smr"/>
+      <outline type="rss" text="Journal of Contemporary China" title="Journal of Contemporary China" xmlUrl="https://www.tandfonline.com/feed/rss/cjcc20" htmlUrl="https://www.tandfonline.com/toc/cjcc20/current"/>
+      <outline type="rss" text="Social Science Computer Review" title="Social Science Computer Review" xmlUrl="https://journals.sagepub.com/action/showFeed?ui=0&amp;mi=ehikzz&amp;ai=2b4&amp;jc=ssc&amp;type=etoc&amp;feed=rss" htmlUrl="https://journals.sagepub.com/home/ssc"/>
+      <outline type="rss" text="Asian Journal of Communication" title="Asian Journal of Communication" xmlUrl="https://www.tandfonline.com/feed/rss/rajc20" htmlUrl="https://www.tandfonline.com/toc/rajc20/current"/>
+    </outline>
+    <outline text="Preprint categories" title="Preprint categories">
+      <outline type="rss" text="arXiv cs.SI (Social and Information Networks)" title="arXiv cs.SI (Social and Information Networks)" xmlUrl="https://rss.arxiv.org/rss/cs.SI" htmlUrl="https://arxiv.org/list/cs.SI/recent"/>
+      <outline type="rss" text="arXiv cs.CY (Computers and Society)" title="arXiv cs.CY (Computers and Society)" xmlUrl="https://rss.arxiv.org/rss/cs.CY" htmlUrl="https://arxiv.org/list/cs.CY/recent"/>
+      <outline type="rss" text="arXiv cs.CL (Computation and Language)" title="arXiv cs.CL (Computation and Language)" xmlUrl="https://rss.arxiv.org/rss/cs.CL" htmlUrl="https://arxiv.org/list/cs.CL/recent"/>
+      <outline type="rss" text="arXiv physics.soc-ph (Physics and Society)" title="arXiv physics.soc-ph (Physics and Society)" xmlUrl="https://rss.arxiv.org/rss/physics.soc-ph" htmlUrl="https://arxiv.org/list/physics.soc-ph/recent"/>
+    </outline>
+    <outline text="Scholars (arXiv author feeds)" title="Scholars (arXiv author feeds)">
+      <outline type="rss" text="Diyi Yang (Stanford)" title="Diyi Yang (Stanford)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:%22Diyi+Yang%22&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Kate Starbird (UW)" title="Kate Starbird (UW)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Starbird_K&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Petter Törnberg (Amsterdam)" title="Petter Törnberg (Amsterdam)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Tornberg_P&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Fabrizio Gilardi (Zurich)" title="Fabrizio Gilardi (Zurich)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Gilardi_F&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Kiran Garimella (Rutgers)" title="Kiran Garimella (Rutgers)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Garimella_K&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="David G. Rand (MIT)" title="David G. Rand (MIT)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Rand_D_G&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Paul Röttger (Oxford / Bocconi)" title="Paul Röttger (Oxford / Bocconi)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Rottger_P&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Emilio Ferrara (USC)" title="Emilio Ferrara (USC)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Ferrara_E&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Savvas Zannettou (TU Delft)" title="Savvas Zannettou (TU Delft)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Zannettou_S&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Mohsen Mosleh (Oxford)" title="Mohsen Mosleh (Oxford)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Mosleh_M&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Scott A. Hale (Oxford)" title="Scott A. Hale (Oxford)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Hale_S_A&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+      <outline type="rss" text="Hannah Rose Kirk (Oxford)" title="Hannah Rose Kirk (Oxford)" xmlUrl="https://export.arxiv.org/api/query?search_query=au:%22Hannah+Rose+Kirk%22&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=30"/>
+    </outline>
+  </body>
+</opml>
