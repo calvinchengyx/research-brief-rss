@@ -1,186 +1,173 @@
 CALVIN RESEARCH BRIEF
 Weekly updates · 26 October 2026
 
-New research from the journals and scholars you follow, 16 October 2026 to 26 October 2026. 20 articles, 2 top priority.
+New research from the journals and scholars you follow, 16 October 2026 to 26 October 2026. 20 articles.
 * = scholar you follow
 
-==== TOP PRIORITY (a scholar you follow, in a journal you follow) ====
-[Editor's pick] AI can persuade people to take political actions
-Kobi Hackenburg*, Luke Hewitt [...] Christopher Summerfield*, Ben M Tappin*
-Proceedings of the National Academy of Sciences · 16 October 2026
-In short: Two preregistered experiments find conversational AI sizably persuades people to sign petitions and donate, but behavioural effects don't track attitude effects.
-There is substantial concern about the ability of advanced AI to influence people's behavior. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments ([Formula: see text] responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioral outcomes, including signing real petitions and donating …
-https://doi.org/10.1073/pnas.2611368123
-
-Religious information repertoires in Switzerland’s hybrid information environment: asymmetric associations with trust and reputation
-Rebekka Rieser, Mark Eisenegger*
-Information Communication & Society · 17 October 2026
-In short: Swiss survey finds six religious information repertoires in hybrid media, linked to distinct trust and reputation patterns across religions.
-In hybrid media environments, public understanding emerges from patterned combinations of legacy news media, digital platforms, and interpersonal communication. Rather than relying on single channels, individuals assemble repertoires of mediated sources, interpersonal encounters, and direct personal experiences that structure how they make sense of public issues and evaluate social groups. Religion provides an instructive case: as a morally charged and contested domain, it circulates across hybrid media environments while also being shaped by biographical and interpersonal experience. Drawing on a …
-https://doi.org/10.1080/1369118x.2026.2750550
-
-
 ==== 1. COMPUTATIONAL SOCIAL SCIENCE ====
--- npj Climate Action --
-News reporting on arrests and trials of climate activists in the U.S., U.K., and Sweden
-Hanna E. Morris, Kjell Vowles, Sylvia Hayes, Tristan J. B. Cann
-npj Climate Action · 21 October 2026
-In short: Multimodal critical discourse analysis finds news coverage of climate activist arrests privileges police and prosecutors across US, UK, Sweden.
-Abstract This paper examines how news media textually and visually represented the protests, arrests, and criminal trials of climate activists in the U.S., U.K., and Sweden during the early-2020s—a period of heightened anti-climate reactionary backlash in response to the progressive and transnational climate movement of the 2010s. This study’s cross-national, comparative, and multimodal critical discourse analysis reveals a privileging of police and prosecutors’ accounts as the primary—and oftentimes final— definers, with little room given to protesters to contest their criminalization. …
-https://doi.org/10.1038/s44168-026-00440-9
+-- Communications Earth & Environment --
+How CO2 emissions and material flows vary with economic recession: Implications for achieving the Sustainable Development Goal 13
+Qinglong Shao, Junjie Guo, He Li
+Communications Earth & Environment · 16 October 2026
+In short: Across 154 countries, recessions show CO2 and material use declines that may or may not persist through recovery, affecting SDG 13 progress.
+Whether environmental gains during economic downturns persist through recovery remains important for sustained climate mitigation. This study examines recession-associated absolute decarbonization and dematerialization across 154 countries worldwide, using annual CO2 emissions data for 1960-2024 and domestic material consumption (DMC) data for 1970-2024.
+https://doi.org/10.5281/zenodo.23413687
 
--- Nature Communications --
-Illusory disagreement over socialism and capitalism in the United States and Brazil
-Lucas Woodley, Joshua D. Greene
-Nature Communications · 22 October 2026
-In short: Five experiments find Americans and Brazilians largely share hybrid economic views, with partisan divides driven by labeling rather than values.
-Capitalism and socialism offer starkly contrasting visions of how wealth and power should be acquired within society. For Americans today, this appears to be a fundamental ideological conflict, as most self-identified Democrats report positive views of socialism, while most self-identified Republicans report negative views. Across five studies (N = 1753), including four pre-registered experiments (N = 1640), we provide evidence that this divide is overestimated. In Studies 1-4, we find that Americans broadly support a hybrid economic system that combines …
-https://doi.org/10.1038/s41467-026-78853-7
+-- Preprints from top universities and labs --
+[Editor's pick] [Preprint] YouTube Clips and Broad but Shallow Attention to Candidates: Evidence from the 2024 Tokyo Gubernatorial Election
+義人 三輪, Kazutoshi Sasahara
+arXiv (Cornell University) · 17 October 2026
+In short: YouTube clip videos broadened but did not deepen attention to Tokyo gubernatorial candidates, with Ishimaru drawing fewer engagements per view.
+Video-sharing platforms and social media have gained influence in election campaigns, and third-party edited videos (called kirinuki in Japanese; hereafter, "clip videos") in particular have attracted attention. In Japan, Shinji Ishimaru, previously unknown nationally, finished second in the 2024 Tokyo gubernatorial election, a result widely attributed to his popularity on YouTube. Focusing on this case, we analyzed 44,331 YouTube videos relating to the nine leading candidates, posted between July 5, 2020, and July 7, 2024. Using cumulative views and engagement …
+https://doi.org/10.48550/arxiv.2610.24387
 
-Long-term electoral participation among Swedish survivors of the 2004 Indian Ocean tsunami
-Kalle Ekholm, Lina Eriksson, Kåre Vernby
-Nature Communications · 22 October 2026
-In short: Swedish tsunami survivors show persistently higher turnout and shifted partisan sympathies, linking disaster response to electoral participation.
-Natural disasters can spark demands for democratic accountability yet impose losses and displacement that depress participation. We study approximately 16,000 Swedish tourists exposed to the 2004 Indian Ocean tsunami who returned home to intact communities. Unlike most people exposed to natural disasters, they faced no increase in the cost of voting, so the case is well suited to studying motivational responses to disaster exposure. We link a survivor registry to population-wide administrative data (N up to 7 million) and use …
-https://doi.org/10.1038/s41467-026-78593-8
+[Editor's pick] [Preprint] X-pressing Intimacy: Mental Health Disclosure After Twitter Acquisition
+Olivia Pal, Yunhao Yuan [...] Koustuv Saha
+arXiv (Cornell University) · 21 October 2026
+In short: Twitter's acquisition by Musk shifted mental health self-disclosure, with declines in affective language and mixed changes in intimacy by condition.
+Social media platforms provide spaces for individuals to disclose mental health experiences and seek support, yet how these disclosures evolve during major shifts in platform governance remains unclear. We examine mental health self-disclosure surrounding Elon Musk's October 2022 acquisition of Twitter, analyzing approximately 824K tweets across anxiety, depression, bipolar disorder (BD), borderline personality disorder (BPD), and suicidal ideation (SI) or related experiences, alongside 266K comparison tweets. Using Linguistic Inquiry and Word Count (LIWC) and an LLM-based intimacy classifier, we characterize …
+https://doi.org/10.48550/arxiv.2610.30413
 
--- npj Digital Medicine --
-Large language models for depression assessment from brief daily diaries
-Whitney R. Ringwald, Aman Taxali [...] Aidan G.C. Wright
-npj Digital Medicine · 17 October 2026
-In short: LLM ratings of depression from daily video diary transcripts converge with self-reports and clinical interviews, capturing information self-reports miss.
-Abstract Closely tracking changes in depression is important for clinical research and practice. However, intensive longitudinal depression assessment relies on self-report surveys that have major limitations. Scoring depression from natural language with large language models (LLMs) could resolve these shortcomings. This study tested the validity of depression rated by LLMs from daily video diaries. We studied 108 participants selected for mental health treatment status (45% in treatment). Participants completed a clinical interview and 14-21 days of depression surveys and video …
-https://doi.org/10.1038/s41746-026-03388-6
+[Preprint] S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents
+Yang Li, Di Wan [...] Ye Luo
+arXiv (Cornell University) · 20 October 2026
+In short: Simulates household financial decisions with 500 million synthetic personas, finding credit limits increase consumption varying by demographic group.
+Simulating economic responses at society scale requires agents whose decisions reflect household circumstances and the effects of earlier actions. We introduce S$^2$-MAS, a society-scale multi-agent simulation framework built on 500 million synthetic household personas grounded in real-survey data. Its Genese engine separates decisions from state updates, while reusable financial scenarios and application ledgers track consumption, cash, debt and payments. Trained with SFT + RLCD on 2.93 million examples, sharp-421m-mlx achieves 74.55% accuracy and 38.37% question-macro F1 on one-shot consumer financial-choice …
+https://doi.org/10.48550/arxiv.2610.27746
 
-Silent evaluation reveals context-dependent validity of automated metrics for AI-generated clinical messages
-Gavin Hui, Laura Prichard [...] Paul J. Lukac
-npj Digital Medicine · 21 October 2026
-In short: Automated metrics like BERTScore matched physician ratings only in some contexts, so their validity for AI-generated patient messages depends on use context.
-Abstract Evaluation of AI-generated patient communication lacks standardized frameworks, and automated metrics may not reflect clinical utility. We leveraged a staged rollout of GPT-generated draft responses (GDRs) to patient portal messages. Thirty primary care physicians received drafts from September 2023 to August 2024 under two conditions: an intervention group where AI drafts were displayed and edited ( n = 21,073), and a non-displayed group where drafts were generated but never shown to physicians, who composed responses independently ( n = …
-https://doi.org/10.1038/s41746-026-03211-2
+[Preprint] How Different, or Different How? Stance Granularity in Viewpoint Selection for Dialog Systems that Engage Users with Alternative Views
+Morita Tarvirdians, Reeve Lorena, Catharine Oertel
+arXiv (Cornell University) · 22 October 2026
+In short: Concept-level stance encoding in a dialog system broadens viewpoint exposure but does not change user justification or reconstruction accuracy.
+Systems that aim to help a user engage with viewpoints other than their own have to decide how different those viewpoints should be. Viewpoints are mainly represented on a scalar scale, too coarse to distinguish viewpoints that disagree with the user about different things. We introduce a selection policy in which a bandit sets how far viewpoints may sit from the user, and the policy selects the most novel viewpoint within that bound. We vary only its stance encoder, comparing …
+https://doi.org/10.48550/arxiv.2610.31459
 
--- Proceedings of the National Academy of Sciences --
-Linguistic intervention unlocks the economic gains of diversity
-Sheen S. Levine, Simon Siegenthaler, Bart J. Wilson
-Proceedings of the National Academy of Sciences · 21 October 2026
-In short: Experiments show cross-race trade collapses in diverse economies, and a brief linguistic intervention restores cross-race exchange and welfare.
-Gains from trade generate prosperity, yet interpersonal exchange can falter along racial lines. We study incentivized experimental economies where participants must spontaneously initiate and sustain trading relationships with others whose race is visible. When the highest gains from trade require cross-race exchange, diverse economies underperform: welfare and specialization suffer as many retreat to autarky. This underperformance reflects not segregation into racial trading blocs, but a collapse in exchange. Opportunities for contact alone do not close the performance gap, which persists …
-https://doi.org/10.1073/pnas.2534825123
+[Preprint] Association between Player Perception and AI Disclosure on Steam: An Exploratory Study
+Fabian Wiesinger, Johanna Pirker, Denis Helić
+arXiv (Cornell University) · 19 October 2026
+In short: Steam games with AI disclosure receive more AI-related criticism in negative reviews, showing player concern about generative AI.
+The use of generative AI in game development is growing rapidly and is the subject of intense debate in which player reactions play a central role. This paper contributes to this discussion by analyzing Steam reviews to examine whether games with AI disclosure are associated with different review patterns. Using a dataset across multiple disclosure groups, we apply linguistic analysis including keyword-based, word frequency, and characteristic word analysis to investigate the AI-related discussion on Steam. Our results show that AI-disclosed …
+https://doi.org/10.48550/arxiv.2610.30178
 
-From authenticity ecosystems to human–AI hybrid societies
-Ofer Tchernichovski, Nori Jacoby
-Proceedings of the National Academy of Sciences · 22 October 2026
-In short: Perspective on authenticity ecosystems and human-AI hybrid societies in PNAS, a social-science-adjacent AI paper.
-https://doi.org/10.1073/pnas.2631482123
+[Preprint] Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions
+Qian Chen, Saatvik Pradhan [...] Wenpeng Yin
+arXiv (Cornell University) · 22 October 2026
+In short: Finds AI collaboration gives no quality advantage in human evaluation, AI judges favor AI-assisted ideas, and firsthand AI use shifts perceived usefulness.
+As AI increasingly becomes a collaborator in scientific research, its impact may extend beyond improving ideas to reshaping how they are evaluated, attributed, and perceived by humans. Yet existing research has largely examined these dimensions in isolation. We present a unified empirical study of Human-AI scientific ideation, investigating two complementary perspectives: i) how AI collaboration shapes scientific ideas and their evaluation, and ii) how firsthand collaboration reshapes human perceptions of AI. Through a shared experimental setting involving Human-AI and Human-Human …
+https://doi.org/10.48550/arxiv.2610.30568
+
+[Preprint] Where meanings converge and diverge: Revisiting linguistic relativity across 81 languages
+Weiran Wang, Wenjuan Qin, 刘海涛
+arXiv (Cornell University) · 22 October 2026
+In short: Across 81 languages, sociocultural concepts align more across languages than nature and motion concepts, with differences growing with language distance.
+Do people who speak different languages organize concepts in similar ways? This question lies at the heart of the Sapir--Whorf hypothesis and debates about linguistic relativity. Shared basic meanings, however, need not imply shared relations among them. We compared relations among 196 basic concepts across 81 languages, using word embeddings from two multilingual models to quantify conceptual structure expressed in language. Cross-language correspondence was greater for sociocultural meanings than for meanings concerning nature and motion, a contrast recurring across models …
+https://doi.org/10.48550/arxiv.2610.30778
+
+[Preprint] Major Revision, Minor Accountability: LLMs as Reviewers of Published Articles in Top-Tier Journals
+Bastien Le Guellec, Su Hwan Kim, Raphaël Bentegeac, Aghilès Hamroun
+arXiv (Cornell University) · 22 October 2026
+In short: LLM reviewers of 200 top-journal papers recommended major revision or rejection in 75.6% of cases, with inconsistent verdicts across models and weak flaw detection.
+With the growth of scientific output, the peer review system is approaching a breaking point: reviewers are increasingly hard to secure, and turnaround times lengthen accordingly. LLM-assisted or LLM-generated peer review has been proposed as a remedy, but how such models would treat manuscripts already published in top-tier journals, the closest thing the current system has to a gold standard of scientific validity, is not known. Here we assembled a corpus of 200 articles, each released under a CC BY …
+https://doi.org/10.48550/arxiv.2610.31414
+
+[Preprint] What the submission does not show: Complexifying cognitive offloading in students' mathematical work with LLMs
+Igor’ Kontorovich, Miriam N Wallach
+arXiv (Cornell University) · 22 October 2026
+In short: Students' LLM prompts show five structures, and final submissions mostly mirror LLM output, so submissions don't reveal offloading.
+A common concern is that using large language models (LLMs) lets students offload mathematical work that tasks are designed to elicit. Yet such claims often rest on outcomes (e.g., submitted solutions), rather than on evidence of students' work with LLMs. We followed 23 first-year linear algebra students as they solved three differently designed homework tasks with LLMs. Drawing on self-regulated learning and choice-affluent environments, we interpreted each of 429 prompts as a trace of a regulatory event and compared 59 …
+https://doi.org/10.48550/arxiv.2610.31335
+
+[Preprint] Truthful by Omission: Click Thinning for LLM-Native Advertising
+Junhua Liu, Zhicheng Liang [...] Feng Qian
+arXiv (Cornell University) · 22 October 2026
+In short: Proposes a truthful, near-optimal auction for ads embedded in generative AI answers, where earlier ads take clicks from later ones.
+Generative AI assistants are becoming an advertising medium, embedding sponsored content in their answers. This setting departs from classical position auctions in two ways: an ad's click-through rate depends on the passage that hosts it, and because users stop at their first click, earlier ads take clicks from later ones. This competition for clicks makes truthfulness delicate: a higher bid can reshape the allocation and put a competitor ahead of the bidder, reducing the bidder's clicks. Existing mechanisms either attain …
+https://doi.org/10.48550/arxiv.2610.30999
+
+[Preprint] AI-Native Academia Should Build a Community Verification Layer
+Haotian Zong, Luhao Zhang
+arXiv (Cornell University) · 22 October 2026
+In short: Argues for a community verification layer that makes researchers' routine checking of published work persistent, reusable and creditable.
+This paper argues that AI-native academia should build a Community Verification Layer: interoperable, policy-governed infrastructure that converts researchers' routine reading and checking into persistent, claim- and version-linked evidence, while routing scarce deeper verification toward uncertain, consequential, and neglected research. AI is lowering the cost of producing plausible research artifacts faster than the cost of accountable evaluation, yet much of the evaluation researchers already perform while reading, citing, implementing, or extending work is never made reusable. We propose a tiered ladder …
+https://doi.org/10.48550/arxiv.2610.30549
+
+[Preprint] What Does AI Success Look Like? A Mixed-Methods Analysis of Supranational AI Governance Instruments
+Delaram Golpayegani, Marta Lasek‐Markey [...] Dave Lewis
+arXiv (Cornell University) · 22 October 2026
+In short: Mixed-methods analysis of 13 supranational AI governance documents finds a new categorisation of what AI success means, urging concrete coordination.
+In the last decade and in particular since 2018, supranational institutions have published policies, guidelines, and most recently regulations to govern development and use of Artificial Intelligence (AI). This paper aims to investigate the themes and dimensions of ``AI success'' set forth by instruments of AI governance issued by supranational bodies. To this end, we use a mixed-methods approach, combining manual thematic analysis and automated topic modelling approaches, to analyse a curated corpus of 13 documents issued by supranational bodies …
+https://doi.org/10.48550/arxiv.2610.31030
+
+[Preprint] A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool
+Avrile Floro, Tamara Dhorasoo [...] Maria Boritchev
+arXiv (Cornell University) · 22 October 2026
+In short: Releases a dataset pairing grounds of appeal with court reasons from 86,464 French civil cassation rulings, revealing which grounds succeed over a decade.
+This paper presents a dataset of 121,536 ground-reasons pairs across 86,464 rulings of the five civil chambers of the French Court of Cassation (2016-2025). An appeal on points of law cannot itself be appealed and often decides a case for good. Understanding how the Court rules is thus crucial and can help lawyers who draft those appeals. Inside a ruling, every ground of appeal (a distinct legal complaint against the appealed decision) has its own answer from the Court. This …
+https://doi.org/10.48550/arxiv.2610.31116
+
+[Preprint] Testing for peer effects in short panels without identifying the network structure
+Tom Boot, Artūras Juodis
+arXiv (Cornell University) · 22 October 2026
+In short: Proposes an instrument-based statistical test for peer effects in short panels that does not require knowing the network structure.
+We propose an instrument-based test for peer effects in short-T panels when the underlying network is unknown. The test avoids estimating the network by aggregating pairwise comparisons between covariate-projected outcomes of potential peers and residualized own outcomes. The statistic is designed for fixed-T, large-N settings with individual fixed effects, heterogeneous slopes, heteroskedasticity, and serial dependence within units. We also develop a weighted extension that accounts for additive common time effects. The limiting distribution is standard Gaussian when the norm of …
+https://doi.org/10.48550/arxiv.2610.31106
 
 
 ==== 2. COMMUNICATION & SCIENCE COMMUNICATION ====
--- Communication Research --
-[Editor's pick] Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content
-Han Zao Li, Inhwan Bae [...] Drew Margolin
-Communication Research · 17 October 2026
-In short: Statistical versus narrative evidence in Reddit vaccine skepticism debates produces distinct rational and narrative engagement pathways, analysed with LLM assistance.
-Statistical and narrative evidence represent two distinct ways of substantiating claims in public reasoning, but does this distinction matter for how people engage with vaccine science skeptical (VSS) content and the discursive spaces surrounding it? This study addresses this question through a large-scale, LLM-assisted observational analysis of online engagement with VSS posts and comments that support or counter such content using statistical versus narrative evidence in the Reddit community r/DebateVaccines . Building on Fisher’s distinction between rational and narrative paradigms …
-https://doi.org/10.1177/00936502261496144
-
--- New Media & Society --
-[Editor's pick] The managed sisterhood: Gendered labor and intimacy in Chinese fashion influencer industry
-Qiheng Lin, Chenyu Dong
-New Media & Society · 22 October 2026
-In short: Ethnography shows Chinese fashion influencer MCN uses managed sisterhood to intensify gendered emotional labor and precarity on platforms.
-As China’s leading multi-channel network (MCN) institutions become increasingly industrialized and bureaucratic, their operations are paradoxically characterized by intensified emotional dynamics. Drawing on ethnographic research within a women-dominated fashion influencer team, this study identifies a sisterhood-based production model that embeds sisterly ties within hierarchical organizational structures. It traces the formation and collapse of this managed sisterhood. By cultivating an illusion of unity and belonging, intimacy makes labor more governable, obscuring coercion while facilitating the mobilization of emotional, aesthetic, and physical …
-https://doi.org/10.1177/14614448261493399
-
 -- Feminist Media Studies --
-[Editor's pick] Unleashing menstrual blood: a qualitative study of free-bleeding activism on Instagram
-Estefanía Reyes
-Feminist Media Studies · 16 October 2026
-In short: A qualitative study of free-bleeding activists on Instagram examines how menstrual activism is practiced and framed on social media.
-Free-bleeding practices gained visibility on Instagram during the 2010s, when a series of posts became emblematic moments of digital menstrual activism. Yet little scholarship has examined how menstrual blood operates as a site of power and resistance in everyday digital contexts. Through a critical discourse and semiotic analysis of six high-profile Instagram posts published between March 2015 and September 2019, this study explores how menstrual blood is visually and discursively represented on the platform and how these representations challenge and …
-https://doi.org/10.1080/14680777.2026.2747096
+[Editor's pick] Trapped in the simulation: Tradwife culture, fake allyship, and the exhaustion of the domestic dystopia in Don’t Worry Darling (2022)
+Rodrigo Fernández-Schütz
+Feminist Media Studies · 24 October 2026
+In short: Argues Don't Worry Darling reveals limits of recycling Stepford tropes as tradwife culture resells domesticity as aspirational, converting critique into seduction.
+This article examines Olivia Wilde’s Don’t Worry Darling (2022) as a critical impasse in popular feminist cinema’s deployment of the domestic dystopia. Rather than offering another comparative reading with Bryan Forbes’s The Stepford Wives (1975) or its 2004 remake (dir. Frank Oz), the article situates Wilde’s film within three interconnected contemporary contexts: the tradwife movement’s appropriation of Stepford aesthetics; post-#MeToo discourse around fake male allyship; and the exhaustion of the ‘fiftiesness’ that the nostalgia film recycles as a substitute for …
+https://doi.org/10.1080/14680777.2026.2752212
 
 
 ==== 3. COMPUTATIONAL LINGUISTICS ====
 -- Preprints from top universities and labs --
-[Preprint] Can This LLM Annotate My Data? Estimating Zero-Shot LLM Performance
-Tong Lin, Grant Robert Schoenebeck, Sabina Tomkins
-arXiv (Cornell University) · 16 October 2026
-In short: Across 461 classification datasets, LLM zero-shot annotation performance is partly predictable, with internal log-probabilities the strongest signal.
-Large language models (LLMs) are increasingly used in annotation tasks with varying success. While several studies have demonstrated the opportunities and shortcomings of LLMs for annotation, a critical question remains unanswered: is it possible to predict how well they will perform on a new dataset? To answer this and related questions, we construct two task families which induce 461 text classification datasets. We find that it is possible to predict LLM performance - to a certain degree - and that …
-https://doi.org/10.48550/arxiv.2610.24250
+[Editor's pick] [Preprint] Data-Void Exploits in Web-Searching LLMs
+Michele Guerra, Wuyeh Jobe [...] Azza Abouzied
+arXiv (Cornell University) · 21 October 2026
+In short: Shows disinformers can exploit data voids to get attacker content cited in web-searching LLM answers 31% of the time, with user prompt tone offering limited protection.
+Web-searching Large Language Models (LLMs) have changed how users seek online information: instead of sifting through ranked lists of links, users read synthesized answers. This shift creates a new LLM vulnerability: a data-void exploit. Disinformers publish their narratives in search spaces where relevant and reliable content is scarce, i.e. data voids, then rely on the LLM's web-search to retrieve and then use, cite, or list those pages in its responses to data-void seeking prompts. Unlike classical search, where users see …
+https://doi.org/10.48550/arxiv.2610.30365
 
-[Preprint] Analyzing Occupational Gender Bias across the LLM Training Lifecycle
-Manthan Gadhia, Alexander Hoyle, Karolina Stańczak
-arXiv (Cornell University) · 16 October 2026
-In short: Finds post-training shifts occupational gender narratives in OLMo 3, with monotonically increasing female-label attribution and a female-preferential skew.
-Post-training is widely assumed to reduce the social biases language models inherit from pretraining, yet direct evidence for this assumption remains mixed. In this paper, we examine how gender disparities evolve across the language modeling pipeline. In particular, we study occupational gender bias in OLMo 3, a fully open language model family, across its post-training stages by prompting each checkpoint to generate open-ended narratives about synthetic personas given their occupation and education. We consider two settings, a gender-given setting in …
-https://doi.org/10.48550/arxiv.2610.23587
+[Preprint] In-Browser Human-AI Co-Writing for Counterspeech: An Exploratory User Study of Agency, Perceived Response Quality, and Time
+Tammy Schmidt, Luise Koch
+arXiv (Cornell University) · 22 October 2026
+In short: An LLM co-writing tool helped users write counterspeech with higher empathy and persuasiveness ratings, though composition took longer and users wanted to express anger.
+Writing counterspeech that challenges online hate speech can be cognitively and emotionally demanding, whereas fully automated generation may weaken users' sense of voice and responsibility. We present an in-browser AI-assisted co-writing tool that enables users to contribute their own ideas and offers three editable suggestions generated by a large language model using dynamically retrieved hate speech-counterspeech examples from the Multitarget CONAN dataset. We evaluated the tool in an exploratory within-subject study with ten participants, complemented by think-aloud observations and semi-structured …
+https://doi.org/10.48550/arxiv.2610.31357
 
-[Preprint] Beyond Behavioral Accuracy: Evaluating Individual-Level Fidelity in LLM Investor Simulation
-Jiajie He, Yuanhong Jiang [...] Wenjin Liu
-arXiv (Cornell University) · 19 October 2026
-In short: Longitudinal study finds LLM investor simulators fail to reproduce individual trading decisions beyond simple persistence baselines.
-Large language models (LLMs) are increasingly used as user simulators, but can they faithfully reproduce an individual's behavior and decision logic over time? We investigate this question in a longitudinal paper-trading study with 80 participants. Using rolling next-day predictions, we evaluate trading activity, buy-sell structure, asset selection, and portfolio outcomes, complemented by controlled input ablations and participant-rated explanation alignment. No evaluated LLM reliably outperforms a simple recent-activity persistence baseline for predicting trade occurrence, while buy-sell structure and asset selection remain …
-https://doi.org/10.48550/arxiv.2610.26524
+[Preprint] WikiOriginQA: Automated Construction of a QA Dataset with Knowledge Origins for Analyzing Cultural Bias
+Kento Haneda, Yosuke Kishinami [...] Makoto Morishita
+arXiv (Cornell University) · 22 October 2026
+In short: Automatically builds a QA dataset from Wikipedia edition creation dates, finding LLMs are biased toward Anglophone cultural knowledge.
+Existing datasets on cultural knowledge have been typically created by human annotators familiar with each culture. However, the process requires considerable human effort, presenting a significant challenge to scalability. To address this challenge, we introduce WikiOriginQA, a QA dataset automatically constructed by objectively representing the origins of knowledge through the creation dates of different Wikipedia language editions. Experimental results with the created dataset confirm that LLM performance tends to be biased toward Anglophone cultures. Furthermore, the results suggest the importance …
+https://doi.org/10.48550/arxiv.2610.30677
 
-
-==== SCHOLAR WATCH ====
--- Gordon Pennycook (lab of Rand) --
-Consensus, Disagreements, and Open Questions in the Psychology of Misinformation
-Gordon Pennycook*, David G. Rand
-Annual Review of Psychology · 16 October 2026
-In short: Review of misinformation psychology finds robust mechanisms like repetition and political identity, evaluates interventions such as prebunking and accuracy prompts, and identifies methodological disagreements.
-Research on misinformation has expanded rapidly over the past decade. This review examines areas of consensus and contention within the literature on misinformation, with particular attention to conceptual definitions, measurement approaches, and theoretical explanations. We outline views on what it means to be susceptible to misinformation and advocate for assessing susceptibility by focusing on the ability to discern true from false claims. Although exposure to fake news is less common online than many think, we argue that misinformation-more broadly construed-continues …
-https://doi.org/10.1146/annurev-psych-031626-100451
-
--- Thomas N. Friemel (lab of Schäfer) --
-Digitally Enhanced Fitspiration Content on Social Media
-Isa Vos, Thomas N. Friemel*
-European Journal of Health Communication · 16 October 2026
-In short: Scoping review of 26 studies finds digitally enhanced fitspiration content on Instagram links to appearance comparison and internalisation of unrealistic body ideals.
-Fitspiration content on social media refers to a combination of fitness and inspiration and seems to promote a healthy lifestyle. However, some of this content may have negative implications, as the representation of super-fit and attractive individuals may contribute to promoting unrealistic body ideals and behaviours. It can be assumed that this negative relation has amplified due to the use of digital modification of visual content. To inform future research and health interventions, this scoping review summarises existing research across …
-https://doi.org/10.47368/ejhc.2026.205
-
--- Yamil Ricardo Velez (coauthor of Pan) --
-Political psychology in an era of personalization: Misinformation research, generative AI, and the promise of tailored experiments
-Yamil Ricardo Velez*
-Political Psychology · 21 October 2026
-In short: Argues political psychology and misinformation research should adopt tailored, individual-level designs enabled by generative AI.
-Abstract Voters increasingly inhabit personalized information environments, where content, algorithms, and social cues vary across people. Yet popular approaches to studying and addressing features of information environments such as misinformation exposure often flatten this heterogeneity: Measures and interventions are developed for populations rather than individuals. Using misinformation as an illustrative case, I argue that population‐based methods for measuring and intervening on beliefs can obscure why some beliefs matter politically while others do not. I advocate for tailored approaches that adapt …
-https://doi.org/10.1111/pops.70206
-
--- Michael S. Bernstein (lab of Yang) --
-Evaluating the Quality of LLM Alt-Text for Wikipedia: Insights from Editors, Blind and Low-Vision Users, and Crowdworkers
-Tracy Wei, Tiziano Piccardi, Мириам Реди, Michael S. Bernstein*
-International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS) · 23 October 2026
-In short: Evaluation with editors, BLV users, and crowdworkers finds GPT-4o alt-text drafts improve with guidelines and context but still need human oversight.
-Most images on Wikipedia are inaccessible to Blind and Low-Vision (BLV) users: over 90% lack the alt-text that screen readers require. Multimodal language models could help editors close this gap by drafting descriptions, but whether they can meet Wikipedia’s encyclopedic standards is unclear. We present a formative evaluation of whether supplying a model (GPT-4o) with Wikipedia’s alt-text guidelines and an image’s surrounding article context improves its suggestions. Crossing these two resources yields four prompting strategies, which we evaluate with expert …
-https://doi.org/10.1145/3797867.3841219
-
--- Brendan J Nyhan (coauthor of Pan) --
-Stringent policies were associated with greater Covid-19 vaccine uptake including among those who did not trust the vaccine
-Manu Manthri Savani, Richard Koenig, Brendan J Nyhan* [...] John McAndrews
-Political Studies · 19 October 2026
-In short: Finds high-stringency vaccine policies raised Covid-19 vaccine uptake, including among those who distrusted the vaccine.
-Are stringent vaccine promotion policies associated with higher vaccine uptake? We argue policy stringency, which changes the costs and benefits of immunisation choices, can affect individual vaccination decisions. In a survey of G-7 countries, 22% of respondents ( n = 42,417) said they did not trust the Covid-19 vaccine, but half of them reported having at least one vaccination. We investigate factors associated with take-up. Our data indicate a high-stringency policy environment (with vaccine mandates and travel restrictions) is associated …
-https://doi.org/10.1177/00323217261484277
+[Preprint] Investigating Multi-Cultural Value Selection Biases in LLMs
+Siddhesh Pawar, Arnav Arora [...] Isabelle Augenstein
+arXiv (Cornell University) · 22 October 2026
+In short: Finds LLM value answers shift with language and country cues, often away from the named country's survey distribution.
+Large language models (LLMs) serve users whose cultural identities are multi-layered, yet cultural evaluations commonly reduce identity to one label. In this work, we study LLMs under simultaneous identity cues, with a country persona in the system prompt and a second identity signaled in the user turn, either by naming a country (explicit cue) or through the query language (implicit cue). We test World Values Survey (WVS) multiple-choice probing and open-ended sociopolitical generation. In multiple-choice probing, language cues shift answers …
+https://doi.org/10.48550/arxiv.2610.31199
 
 
 ==== ALSO THIS WEEK ====
-- “ This data is really sensitive ” – the making of non-commercial menstruapps as productive resistance within Femtech (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2745932
-- Disinformation in practice: Threats, actors, mechanisms, and constraints according to practitioners (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-213
-- Guardians of the cyberverse: Dispositional, attitudinal, and autobiographical correlates of user engagement against misogynist digital hate (New Media & Society) https://doi.org/10.1177/14614448261492098
-- From friction to alignment: Algorithmic imaginaries and the Trump autocomplete controversy on Reddit (Big Data & Society) https://doi.org/10.1177/20539517261500661
-- Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models (Political Communication) https://doi.org/10.1080/10584609.2026.2749531
-- When it’s your own child: effects of media narratives on U.S. parents’ support for their LGBTQ+ teen (Journal of Communication) https://doi.org/10.1093/joc/jqag021
-- DIMS: a no-code dashboard linking multimodal dynamic signals to communication practices (Communication Methods and Measures) https://doi.org/10.1080/19312458.2026.2740465
-- How social media users get their news: The informational value of memes, hot takes, call outs, and comment threads during breaking events (Harvard Kennedy School Misinformation Review) https://doi.org/10.37016/mr-2020-214
-- Calls to action and voter engagement on Facebook: a comparative study of eight European election campaigns (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2743973
-- Cultivating digital citizenship in a datafied age: Survey and experimental evidence from Hong Kong (Big Data & Society) https://doi.org/10.1177/20539517261500664
-- Negotiating Infrastructural Integration: Cloud Services and the Evolution of News Website Ecosystems in France and the Netherlands (Digital Journalism) https://doi.org/10.1080/21670811.2026.2751081
-- Black technofeminism as critique of biological essentialism in AI anthropomorphization (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2752104
-- Lover’s (Dis)comfort: considering the feminist potentials of romance in the digital game (Feminist Media Studies) https://doi.org/10.1080/14680777.2026.2745931
-- Navigating GenAI in the workplace: skills transformation & tension (Information Communication & Society) https://doi.org/10.1080/1369118x.2026.2736814
-- Shaping science and society through law: Governance logic and public roles in the revised Law of the People’s Republic of China on the Popularization of Science and Technology (Public Understanding of Science) https://doi.org/10.1177/09636625261486280
+- Invisibilization as a Source of Probability Bias in Language Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.30785
+- AfriGuard: Safety and Robust Refusal For African Languages (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.26474
+- Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.29304
+- Rethinking the Evaluation of LLM Fact-Checkers (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.30504
+- Privacy Preference Controls for Agentic Systems (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.29929
+- Scaling Laws for Generative Reward Models (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.30765
+- MemBubble: Benchmarking How Agent Memory Shapes LLM Response Diversity (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.25127
+- Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.26241
+- StochIKM: Automated High-Fidelity Reconstruction of Individual Patient Data from Published Kaplan-Meier Curves (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.29122
+- AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.31380
+- AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.31404
+- The Delayed Countdown Method for Validating Review-Oriented AI Workflows in eDiscovery (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.31311
+- Direct cueing of word identity through word duration: evidence from Mandarin homophones (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.30682
+- SkillBrowser: Selective Skill Exposure for Scalable Skill-Using Agents (arXiv (Cornell University)) https://doi.org/10.48550/arxiv.2610.23554
 
-Nothing new this week from: Mohsen Mosleh, Scott A. Hale, Paul Röttger, Manuel Tonneau, Hannah Rose Kirk, Lujain Ibrahim, Kate Starbird, Emma S. Spiro, Jevin D. West, Ryan Calo, Naomi Oreskes, Geoffrey Supran, Benjamin Franta, Erik M. Conway, Jennifer Allen, Cameron Martel, William J. Brady, Yingdan Lu.
+Nothing new this week from: Calvin Yixiang Cheng, Mohsen Mosleh, Scott A. Hale, Andreu Casas, Kobi Hackenburg, Paul Röttger, Manuel Tonneau, Hannah Rose Kirk, Christopher Summerfield, Lujain Ibrahim, Kate Starbird, Emma S. Spiro, Jevin D. West, Ryan Calo, Naomi Oreskes, Geoffrey Supran, Benjamin Franta, Erik M. Conway, David G. Rand, Jennifer Allen, Cameron Martel, Diyi Yang, Jennifer Pan, William J. Brady, Yingdan Lu, Sander van der Linden, Mike S. Schäfer.
