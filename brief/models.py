@@ -27,6 +27,7 @@ class Article:
     doi: str | None = None
     is_preprint: bool = False
     research_field: str | None = None  # OpenAlex primary_topic field, e.g. "Social Sciences"
+    pdf_url: str | None = None    # open-access PDF, used for deep dives
 
     # Set by the pipeline
     journal_hit: bool = False     # published in a listed journal/conference
@@ -40,6 +41,9 @@ class Article:
     summary: str = ""             # one-line AI summary
     editors_pick: bool = False
     now_published: bool = False   # an earlier preprint of this article was already sent
+    ref: str = ""                 # ID shown in the email (A1, B2 ...) that readers reply with
+    requested: int = 0            # readers who asked for a deep dive
+    deep_dive: dict | None = None
 
     @property
     def top_priority(self) -> bool:
@@ -52,6 +56,14 @@ class Article:
     @property
     def title_key(self) -> str:
         return normalize_title(self.title)
+
+
+def article_from_dict(d: dict) -> Article:
+    """Rebuild an Article saved with dataclasses.asdict (state/issues/*.json)."""
+    d = dict(d)
+    d["authors"] = [Author(**a) for a in d.get("authors", [])]
+    known = Article.__dataclass_fields__
+    return Article(**{k: v for k, v in d.items() if k in known})
 
 
 def normalize_title(title: str) -> str:

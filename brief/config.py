@@ -15,7 +15,7 @@ ARCHIVE_DIR = ROOT / "archive"
 TEMPLATE_DIR = ROOT / "templates"
 
 
-JOURNAL_KEYS = {"name", "issn", "topic", "filter", "kind"}
+JOURNAL_KEYS = {"name", "issn", "topic", "filter", "kind", "short"}
 SCHOLAR_KEYS = {"name", "hint", "topic", "type", "openalex", "min_joint_papers", "max_members"}
 
 

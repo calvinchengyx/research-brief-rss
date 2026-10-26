@@ -4,6 +4,7 @@
 #   topic:  css | comm | cl  (see topics.yaml)
 #   filter: social-science   -> keep only papers on social-science topics (for broad venues)
 #   kind:   journal (default) | conference
+#   short:  shorter name shown in the email (e.g. PNAS)
 #
 # After each run, state/following.md lists what every name was matched to.
 
@@ -13,7 +14,7 @@ journals:
   - {name: Nature Human Behaviour, issn: 2397-3374, topic: css}
   - {name: Nature Communications, issn: 2041-1723, topic: css, filter: social-science}
   - {name: Journal of Computational Social Science, topic: css}
-  - {name: Proceedings of the National Academy of Sciences, issn: 0027-8424, topic: css, filter: social-science}
+  - {name: Proceedings of the National Academy of Sciences, short: PNAS, issn: 0027-8424, topic: css, filter: social-science}
   - {name: PNAS Nexus, topic: css, filter: social-science}
   - {name: Science, issn: 0036-8075, topic: css, filter: social-science}
   - {name: Science Advances, issn: 2375-2548, topic: css, filter: social-science}

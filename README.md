@@ -2,7 +2,7 @@
 
 A weekly email of new research from the journals and scholars I follow, organized by topic, laid out like the Nature Portfolio e‑alert.
 
-> Status: **built, preview stage**. The weekly schedule is off until the preview issue and a test email are approved.
+> Status: **live**. Sent every Monday at 06:00 UTC. `recipe.html` describes the sources, model and the latest run.
 
 ## Running it
 
@@ -12,9 +12,9 @@ Everything runs on GitHub Actions (`.github/workflows/brief.yml`):
 |-----|--------------|
 | Any pull request | Builds a preview issue and commits it to `preview/latest.html` on that branch. No email. |
 | Actions tab → *Research brief* → *Run workflow* → `preview` | Same, on the chosen branch. |
-| … → `test` | Builds the issue and emails everyone in `config/recipients.yaml` with a `[TEST]` subject. Nothing is recorded, so the articles appear again in the first real issue. |
+| … → `test` | Builds the issue and emails everyone in `config/recipients.yaml` with a `[TEST]` subject. Its articles count as sent, so they are not repeated in the next issue. |
 | … → `send` | Emails everyone in `config/recipients.yaml`, archives the issue in `archive/`, and records sent articles in `state/seen.json` so they are never repeated. |
-| Monday 06:00 UTC schedule | `send`. Commented out in the workflow until approved. |
+| Monday 06:00 UTC schedule | `send`. |
 
 Repository secrets used: `ANTHROPIC_API_KEY`, `BREVO_API_KEY`, `SENDER_EMAIL`, and optionally `OPENALEX_API_KEY`.
 
@@ -22,7 +22,9 @@ Locally: `pip install -r requirements.txt` then `python -m brief --mode preview`
 
 After every run, `state/following.md` lists what each journal, scholar, coauthor group and institution name was matched to in OpenAlex. Fix a wrong match by adding `issn:` (journals) or `openalex:` (scholars) to the entry.
 
-**Code:** `brief/openalex.py` (lookups and fetching), `brief/resolve.py` (names → IDs, coauthor groups), `brief/classify.py` (social‑science filter, topics, relevance), `brief/select.py` (20‑article cap), `brief/render.py` + `templates/` (email), `brief/send.py` (Brevo/SMTP), `brief/pipeline.py` (one run end to end).
+**Deep dives by reply.** Every paper in the email has an ID (A1, B2 …; one letter per section in reading order). Readers reply with the IDs they want. A Google Apps Script in the receiving Gmail account (`docs/gmail-replies.gs`, setup steps at the top of the file) saves the top of each reply to `inbox/` every hour. The next run matches the IDs to the issue they answer (`state/issues/<date>.json`), writes a deep dive for each paper (research questions, methods, main findings; full text when open access, otherwise the abstract; cached in `state/deep_dives.json`) and puts those papers at the top of the issue. Handled replies are logged in `state/requests.json` and removed from `inbox/`. A paper comes back for as long as someone keeps asking for it.
+
+**Code:** `brief/openalex.py` (lookups and fetching), `brief/resolve.py` (names → IDs, coauthor groups), `brief/classify.py` (social‑science filter, topics, relevance), `brief/select.py` (20‑article cap), `brief/render.py` + `templates/` (email), `brief/send.py` (Brevo/SMTP), `brief/deepdive.py` (reply IDs and deep dives), `brief/recipe.py` (recipe.html), `brief/pipeline.py` (one run end to end).
 
 **v1 scope:** all fetching goes through OpenAlex (journals, conferences, scholars, and preprints from arXiv, SSRN, PsyArXiv, SocArXiv and OSF, all indexed there), with Semantic Scholar filling missing abstracts. Direct RSS and ACL Anthology feeds from §4 are not used yet.
 
@@ -392,6 +394,7 @@ On by default (I approved it). It can be switched off in `settings.yaml`:
 | Brevo free tier | Free |
 | Claude filter, summaries and Editor's picks. A 10‑day window had about 1,100 papers after the prefilter, which is about 57 requests of 20 papers, roughly 750k input and 150k output tokens (thinking included) | Haiku 5.5: ≈ $0.15–0.25 per run. Sonnet 5.5: ≈ $3–4 per run |
 | Reruns and previews (answers cached in `state/classified.json`, so a paper is only screened once) | ≈ $0 |
+| Deep dives (Sonnet 5.5 reading the open-access PDF, cached per paper) | ≈ $0.10 per requested paper |
 | **Total** | **$0 with keyword filter only; about $1/month with Haiku 5.5; about $12–16/month with Sonnet 5.5** |
 
 The first estimate here ($2–3/month) was too low: it assumed 300–800 papers a week and left out thinking tokens and repeated preview runs, which had no cache at the time.

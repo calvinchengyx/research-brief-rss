@@ -18,7 +18,7 @@ API = "https://api.openalex.org"
 CHUNK = 50  # OpenAlex allows up to 100 OR-values per filter; stay well under
 WORK_FIELDS = ",".join([
     "id", "doi", "display_name", "publication_date", "type", "primary_location",
-    "authorships", "abstract_inverted_index", "primary_topic",
+    "authorships", "abstract_inverted_index", "primary_topic", "best_oa_location",
 ])
 
 
@@ -227,6 +227,7 @@ def to_article(w: dict) -> Article:
         doi=doi.replace("https://doi.org/", "") if doi else None,
         is_preprint=src.get("type") == "repository" or w.get("type") == "preprint",
         research_field=(topic.get("field") or {}).get("display_name"),
+        pdf_url=(w.get("best_oa_location") or {}).get("pdf_url"),
     )
 
 

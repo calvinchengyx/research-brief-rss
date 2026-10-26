@@ -12,7 +12,7 @@ scholar_watch: {max: 5}      # followed scholars' work outside the listed journa
 overflow_footer: true        # "Also this week": cut articles as one-line links
 overflow_max: 15             # longest that footer gets
 
-abstract_words: 80           # abstract length shown in the email
+abstract_words: 0            # words of abstract shown in the email; 0 = full abstract
 
 # My research areas: used to rank papers and pick "Editor's picks".
 research_interests:
@@ -27,6 +27,11 @@ ai:
   effort: low
   batch_size: 20             # papers per request
   editors_picks: 4           # 3-5
+
+# Deep dives on papers readers ask for by replying with their IDs
+deep_dive:
+  model: claude-sonnet-5-5   # reads the open-access PDF when there is one; about $0.10 a paper
+  effort: medium
 
 # Preprints (README "Preprints")
 preprints:
@@ -47,6 +52,7 @@ email:
   provider: brevo            # brevo | smtp
   sender_name: Calvin Research Brief
   subject: "Calvin Research Brief: {date}"
+  # reply_to: someone@example.org   # where reader replies go (default: the sender address)
 
 # Fallback filter when the AI layer is off: a paper from a `filter: social-science`
 # venue is kept if its title or abstract contains one of these.

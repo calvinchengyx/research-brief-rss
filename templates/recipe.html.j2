@@ -177,6 +177,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Semantic Scholar</dt><dd>Fills in abstracts that OpenAlex lacks, best effort.</dd>
     <dt>Anthropic API</dt><dd>Runs the AI filter and writes the one-line summaries.</dd>
     <dt>Brevo</dt><dd>Sends the email, one message per recipient.</dd>
+    <dt>Gmail script</dt><dd>A Google Apps Script in the receiving Gmail account saves the top of each reply (not the sender's address) to <code class="mono">inbox/</code> every hour, for the deep dives.</dd>
     <dt>GitHub Actions</dt><dd>Runs everything on a schedule and saves the issue, this page and the list of papers already sent back to the repository.</dd>
     <dt>Editable files</dt><dd><code class="mono">config/journals.yaml</code>, <code class="mono">scholars.yaml</code>, <code class="mono">institutions.yaml</code>, <code class="mono">topics.yaml</code>, <code class="mono">recipients.yaml</code> and <code class="mono">settings.yaml</code>.</dd>
   </dl>
@@ -192,6 +193,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Editor's picks</dt><dd>The {{ ai.editors_picks }} shown papers with the highest relevance, if it is at least 6.</dd>
     <dt>If the API fails</dt><dd>A keyword filter takes over and the email still goes out, without summaries.</dd>
     <dt>Cost</dt><dd>About $0.15 to $0.25 per run.</dd>
+    <dt>Deep dives</dt><dd><code class="mono">{{ s.deep_dive.model if s.deep_dive else "claude-sonnet-5-5" }}</code>, effort <code class="mono">{{ s.deep_dive.effort if s.deep_dive else "medium" }}</code>. It reads the open-access PDF when there is one and the abstract otherwise, and the email says which. About $0.10 a paper.</dd>
   </dl>
   <h3>The exact instructions the model receives</h3>
   <pre class="prompt">{{ prompt }}</pre>
@@ -248,7 +250,8 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Scholar watch</dt><dd>Followed scholars' work in other venues, including their preprints. At most {{ s.scholar_watch.max }}.</dd>
     <dt>Topics</dt><dd>The remaining places go to topics in the order {{ s.topic_priority|map('upper')|join(', ') }}. {% for t, q in s.topic_quota.items() %}{{ t|upper }} gets {{ q.min }} to {{ q.max }}{% if not loop.last %} and {% endif %}{% endfor %}, so the first topic cannot take every place.</dd>
     <dt>Order within a group</dt><dd>Papers in followed venues come before preprints; followed scholars' preprints come before other preprints; then higher relevance first.</dd>
-    <dt>Never repeated</dt><dd>A paper sent once is never sent again. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
+    <dt>Never repeated</dt><dd>A paper sent once, in a real issue or a test, is never sent again. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
+    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; next week's issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
     <dt>Also this week</dt><dd>Up to {{ s.overflow_max }} papers that missed the cut appear as one-line links at the end of the email.</dd>
   </dl>
 </section>
