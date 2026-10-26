@@ -36,7 +36,7 @@
    ],
    "exact": true
   },
-  "{\"filter\": \"social-science\", \"issn\": \"0027-8424\", \"name\": \"Proceedings of the National Academy of Sciences\", \"topic\": \"css\"}": {
+  "{\"filter\": \"social-science\", \"issn\": \"0027-8424\", \"name\": \"Proceedings of the National Academy of Sciences\", \"short\": \"PNAS\", \"topic\": \"css\"}": {
    "ids": [
     "S125754415"
    ],
