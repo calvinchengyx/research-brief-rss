@@ -1,0 +1,2338 @@
+{
+"date": "2026-10-26",
+"subject": "Calvin Research Brief: 26 October 2026",
+"articles": {
+"C1": {
+"id": "W7221183807",
+"title": "Level up, ladies: Femininity as a total project and the rise of Queen feminism",
+"venue": "Feminist Media Studies",
+"venue_id": "S26978096",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Heini Salminen",
+"id": "A5141203635",
+"institution_ids": [
+"I133731052"
+],
+"followed": false
+},
+{
+"name": "Juulia Heikkinen",
+"id": "A5111315044",
+"institution_ids": [
+"I133731052"
+],
+"followed": false
+}
+],
+"abstract": "Critiques of liberal feminisms are increasingly emerging from the women-led “femosphere,” calling for a revised understanding of feminism through a revaluation of femininity. This article examines one such voice: a group of social media influencers who cultivate and commercialize “queen” femininity as a lifestyle, advising women on how to “level up” their lives and attract provider-minded men. We follow 14 Finnish “queen” influencer–entrepreneurs and ask how they define and practice femininity. Drawing on digital fieldwork and content analysis of 303 Instagram captions, we show how femininity is constructed as a total and infinite project—one that extends across all fronts of life. The study further demonstrates that the cultivation of a “feminine lifestyle” is not merely a set of personal preferences but also implies a broader vision of social order. We term this ideological project “Queen feminism”: an essentialized, spiritualized, and platformed articulation of neoliberal feminism, in which the entrepreneurial ethos is (re)located in the total, perpetual, and crucially impossible project of the feminine self. Beyond analyzing a (counter)movement within feminism, this paper contributes to discussions on influencer politics by showing how the entanglement of ideological work and influencer economics may hamper collective feminist projects yet contribute to wider ideological shifts.",
+"url": "https://doi.org/10.1080/14680777.2026.2745988",
+"doi": "10.1080/14680777.2026.2745988",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14680777.2026.2745988?needAccess=true",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 10.0,
+"summary": "Finnish queen influencers construct femininity as a total project, articulating a neoliberal Queen feminism on Instagram.",
+"editors_pick": true,
+"now_published": false,
+"ref": "C1",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B1": {
+"id": "W7221135535",
+"title": "A comprehensive multi-method study of russian propaganda techniques and narratives in the Baltic countries",
+"venue": "Journal of Computational Social Science",
+"venue_id": "S4210196583",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Darius Plikynas",
+"id": "A5002107296",
+"institution_ids": [
+"I173212132"
+],
+"followed": false
+},
+{
+"name": "Ģirts Dimdiņš",
+"id": "A5015698783",
+"institution_ids": [
+"I91123046"
+],
+"followed": false
+},
+{
+"name": "Uku Kangur",
+"id": "A5099282489",
+"institution_ids": [
+"I56085075"
+],
+"followed": false
+},
+{
+"name": "Ieva Rizgelienė",
+"id": "A5099381197",
+"institution_ids": [
+"I173212132"
+],
+"followed": false
+}
+],
+"abstract": "",
+"url": "https://doi.org/10.1007/s42001-026-00496-x",
+"doi": "10.1007/s42001-026-00496-x",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "css",
+"keep": true,
+"relevance": 9.0,
+"summary": "A multi-method analysis identifies Russian propaganda techniques and narratives targeting the Baltic countries.",
+"editors_pick": true,
+"now_published": false,
+"ref": "B1",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"C2": {
+"id": "W7221468189",
+"title": "Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest",
+"venue": "Information Communication & Society",
+"venue_id": "S70010600",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Hendrik Meyer",
+"id": "A5082572648",
+"institution_ids": [
+"I159176309"
+],
+"followed": false
+}
+],
+"abstract": "This study investigates degrees of polarization in political climate protest debates on TikTok. Drawing on a dataset of automatically transcribed TikTok videos posted by German politicians between 2022 and 2025 (N ≈ 1,700), alongside associated user comments (N ≈ 53,000), this study compares discussions on general climate activism, reformist activism (Fridays for Future), and disruptive activism (Letzte Generation). Using a mixed-method approach that combines Large Language Model-based frame classification, stance detection, and network analysis, this study operationalizes Discursive Polarization across ideological, affective, and interactional dimensions. Findings reveal that while all protest debates on TikTok are polarized, disruptive protests are associated with particularly intense attacks and less attention to policy-oriented climate discussions. However, conservative and far-right politicians consistently frame all activist groups as extremists, criminals, or threats to public order, with far-right accounts dominating content production and audience support. Network analyses demonstrate that far-right politicians and their supporters form highly connected clusters in which both emotionally positive and hostile user engagement amplifies elite-level antagonism. Even moderate posts by center-left or progressive politicians attract disproportionate backlash, suggesting asymmetric polarization dynamics linked to partisan user networks. Overall, the study shows that political TikTok debates around climate protest are consistently polarized along ideological lines, but that greater disruptiveness coincides with more intense antagonistic engagement and weaker Connective Action among supporters. Most crucially, far-right politicians emerge as the clear beneficiaries of this polarization, occupying central positions in antagonist networks of Connective Counteraction and dominating the debate through disruption.",
+"url": "https://doi.org/10.1080/1369118x.2026.2737399",
+"doi": "10.1080/1369118x.2026.2737399",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369118X.2026.2737399?needAccess=true",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 9.0,
+"summary": "German politicians' TikTok climate protest debates are polarized, with far-right actors dominating content and benefiting from antagonistic engagement.",
+"editors_pick": true,
+"now_published": false,
+"ref": "C2",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B3": {
+"id": "W7221519620",
+"title": "AI-generated language remains systematically distinguishable from human communication",
+"venue": "PNAS",
+"venue_id": "S125754415",
+"date": "2026-10-12",
+"authors": [
+{
+"name": "Nicolò Pagan",
+"id": "A5027406251",
+"institution_ids": [
+"I202697423"
+],
+"followed": false
+},
+{
+"name": "Petter Törnberg",
+"id": "A5047808749",
+"institution_ids": [
+"I887064364"
+],
+"followed": false
+},
+{
+"name": "Christopher A. Bail",
+"id": "A5023997241",
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+},
+{
+"name": "Christopher Barrie",
+"id": "A5031713577",
+"institution_ids": [
+"I40120149",
+"I57206974"
+],
+"followed": false
+}
+],
+"abstract": "Large language models (LLMs) are increasingly used in the social sciences to simulate human behavior and communication, yet validation methods for these applications remain limited. Existing evaluations often rely on human judgments of plausibility, a coarse, difficult-to-scale, and often unreliable benchmark for distinguishing AI-generated from human text. As a result, researchers lack robust tools for assessing the realism of LLM-generated language and for calibrating models to real-world data. We address this gap in two ways. First, we introduce the Conversational Human Authenticity Test (CHAT), a validation framework that combines aggregate metrics of detectability and semantic similarity with interpretable linguistic features, including stylistic markers and topical patterns, to assess how closely LLMs approximate human language in a given dataset. Second, we benchmark nine open-weight LLMs across five calibration strategies, including fine-tuning, stylistic prompting, and context retrieval, on user interactions from X, Bluesky, and Reddit. We find that even after calibration, LLM outputs remain clearly distinguishable from human text, especially in affective tone and emotional expression. Instruction-tuned models generally underperform base models, and larger models do not obviously improve human-likeness. We also identify a trade-off between realism and semantic fidelity: methods that make outputs seem more human often move them further from the content of human responses. Together, these results provide a scalable framework for validation and calibration in LLM-based social simulation while underscoring current limits in reproducing human communication.",
+"url": "https://doi.org/10.1073/pnas.2531748123",
+"doi": "10.1073/pnas.2531748123",
+"is_preprint": false,
+"research_field": "Computer Science",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "css",
+"keep": true,
+"relevance": 9.0,
+"summary": "CHAT framework shows LLM outputs stay distinguishable from human social media text, especially in affective tone, even after calibration.",
+"editors_pick": true,
+"now_published": false,
+"ref": "B3",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"C3": {
+"id": "W7221555706",
+"title": "(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups",
+"venue": "Information Communication & Society",
+"venue_id": "S70010600",
+"date": "2026-10-12",
+"authors": [
+{
+"name": "Elena Pavan",
+"id": "A5047155955",
+"institution_ids": [
+"I193223587"
+],
+"followed": false
+},
+{
+"name": "Aurora Perego",
+"id": "A5018541365",
+"institution_ids": [
+"I187531555"
+],
+"followed": false
+},
+{
+"name": "Matteo Scianna",
+"id": "A5117014323",
+"institution_ids": [
+"I193223587"
+],
+"followed": false
+}
+],
+"abstract": "This article investigates increasing alignment between the anti-gender galaxy and anti-trans groups by looking at the symbolic synergies that these two collective endeavors create in and through social media discourse. Building on social movement theory, we examine processes of discursive boundary spanning through which ecclesial and right-wing actors, dedicated anti-gender organizations, and anti-trans groups converge when discussing gender-related issues at large on social media, aligning around similar agendas, objects of interest, priorities, and frames, while setting aside differences that might hinder their collaboration. Empirically, the study relies on a mixed-method analysis of Facebook and Instagram posts published between 2021 and 2023 by twenty-two prominent actors mobilizing around anti-gender and anti-trans claims in Italy. Combining topic modeling with a computational adaptation of frame semantic grammar and qualitative frame analysis, we examine patterns of discursive convergence across the four sectors as well as the ideological differences that are bracketed to sustain it. Our findings reveal the existence of a transversal and yet fragile cross-sectoral discursive convergence. While all four sectors align around a limited set of shared interests and priorities, stronger discursive commonalities are found between anti-trans actors, dedicated anti-gender organizations and right-wing actors. Moreover, although common diagnostic frames emphasize the protection of women and children from gender ideology, divergent prognostic frames and long-term horizons persist within and across sectors.",
+"url": "https://doi.org/10.1080/1369118x.2026.2743936",
+"doi": "10.1080/1369118x.2026.2743936",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369118X.2026.2743936?needAccess=true",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 9.0,
+"summary": "Mixed-methods study of Italian social media shows anti-gender and anti-trans actors converge discursively around shared frames, though the alliance is fragile.",
+"editors_pick": false,
+"now_published": false,
+"ref": "C3",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B2": {
+"id": "W7221804749",
+"title": "Computational propaganda campaigns by domestic political actors in Pakistan on Facebook",
+"venue": "Journal of Computational Social Science",
+"venue_id": "S4210196583",
+"date": "2026-10-14",
+"authors": [
+{
+"name": "Hassan Mustafa",
+"id": "A5148450903",
+"institution_ids": [
+"I41156924"
+],
+"followed": false
+},
+{
+"name": "Markus Luczak–Roesch",
+"id": "A5036834185",
+"institution_ids": [
+"I41156924"
+],
+"followed": false
+},
+{
+"name": "David Johnstone",
+"id": "A5034732655",
+"institution_ids": [
+"I41156924"
+],
+"followed": false
+}
+],
+"abstract": "Abstract Computational propaganda campaigns came into the limelight after the 2016 US elections and since then the research has predominately focused on foreign influence operations across the US, UK, and EU. Computational propaganda campaigns in the Global South remain understudied. Therefore, we shift our focus towards Pakistan and examine computational propaganda campaigns by domestic political actors. Utilizing Facebook digital trace data, we track 400 hashtag campaigns by domestic political actors to analyze: (1) the dissemination patterns of political information, (2) the role bot and spam accounts play in the dissemination of political information, (3) the nature of hashtag campaigns, and (4) the key initiators and amplifiers during the hashtag campaigns. Our research contributions include: (1) we validate the findings in the previous literature regarding presence of bots and increased coordinated activity during the emergence of political events and show that the most central bridging positions within these campaigns are held by organized spam accounts. (2) Our analysis of multi-lingual hashtag campaigns uncovers that language and political context play a pivot role in dissemination of political information. (3) Tracing campaigns across several years, we find that automated and inauthentic activity intensifies around electoral contests, rising to roughly two-fifths of monthly posts by the 2024 general election, when spam accounts came to outnumber verified institutional actors. Together, these findings characterize computational propaganda in Pakistan as a domestically driven, linguistically stratified, and as an issue/event-driven phenomenon.",
+"url": "https://doi.org/10.1007/s42001-026-00502-2",
+"doi": "10.1007/s42001-026-00502-2",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://link.springer.com/content/pdf/10.1007/s42001-026-00502-2.pdf",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "css",
+"keep": true,
+"relevance": 9.0,
+"summary": "Facebook hashtag campaigns in Pakistan show bots and spam accounts dominate political propaganda, intensifying around elections.",
+"editors_pick": false,
+"now_published": false,
+"ref": "B2",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"D1": {
+"id": "W7213519679",
+"title": "From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Chowdhury Mohammad Abdullah",
+"id": "A5071467402",
+"institution_ids": [
+"I129902397"
+],
+"followed": false
+},
+{
+"name": "Rita Orji",
+"id": "A5152029344",
+"institution_ids": [
+"I129902397"
+],
+"followed": false
+}
+],
+"abstract": "Large language models (LLMs) are increasingly being deployed in services that shape consequential life outcomes, from housing platforms to automated screening workflows. While alignment techniques have reduced the explicit expression of racial bias in model outputs, they leave untouched the attitudinal associations reflected in a model's internal probability distributions. These covert biases are invisible to users and resistant to conventional auditing that inspects generated text alone. In this paper, we build upon the matched-guise sociolinguistic paradigm to examine the covert dialect bias of LLMs in housing-related social judgments across four English varieties: Standard American English (SAE), African American Vernacular English (AAVE), Nigerian Standard English (NSE), and Nigerian Pidgin (NP). AAVE reflects the racialized dialect examined in prior covert-bias evaluations, while NSE and NP represent Black African, postcolonial varieties absent from this line of research. Using 260 meaning-matched sentence quadruples and log-probability scoring over housing-relevant adjectives, we probe ten open-weight LLMs across three evaluation contexts that gradually vary in social proximity: tenant screening, neighbor acceptance, and roommate selection. Our results show that AAVE and NP are consistently associated with more negative housing-relevant adjectives than SAE across all ten models, with NP receiving the most severe penalization overall, and that each dialect is penalized through a distinct stereotype cluster rather than as a generic non-standard category. NSE, which shares the Nigerian identity of NP but carries institutional prestige, exhibits a context-dependent pattern that diverges sharply from both: favored over SAE in formal tenant evaluation but penalized as social proximity increases. Together, these results show that LLMs inherit covert dialect bias along two distinct dimensions, racial identity and prestige, echoing housing discrimination long documented among humans and extending its reach beyond the African American community to racialized postcolonial English varieties.",
+"url": "https://doi.org/10.1609/aies.v9i1.43122",
+"doi": "10.1609/aies.v9i1.43122",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43122/50682",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 8.0,
+"summary": "LLMs show covert dialect bias via probability distributions, penalizing AAVE and Nigerian Pidgin in housing judgments, with context-dependent patterns for Nigerian Standard English.",
+"editors_pick": false,
+"now_published": false,
+"ref": "D1",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"D2": {
+"id": "W7164591110",
+"title": "Polarization and echo chambers in Reddit’s political discourse",
+"venue": "EPJ Data Science",
+"venue_id": "S2504380752",
+"date": "2026-10-12",
+"authors": [
+{
+"name": "Daniele Cirulli",
+"id": "A5120403814",
+"institution_ids": [
+"I116067653",
+"I4210108754"
+],
+"followed": false
+},
+{
+"name": "Antonio Desiderio",
+"id": "A5045033500",
+"institution_ids": [
+"I116067653",
+"I134940468",
+"I4210108754"
+],
+"followed": false
+},
+{
+"name": "Giulio Cimini",
+"id": "A5048344653",
+"institution_ids": [
+"I116067653",
+"I4210108754"
+],
+"followed": false
+},
+{
+"name": "Fabio Saracco",
+"id": "A5020247420",
+"institution_ids": [
+"I127077003",
+"I4210106125",
+"I4210155236",
+"I4210108754",
+"I4210155236"
+],
+"followed": false
+}
+],
+"abstract": "Abstract Political debate nowadays takes place mainly on online social media, with election periods amplifying ideological engagement. Reddit is generally considered more resistant to polarization and echo chamber effects than platforms like Twitter or Facebook. Here, we challenge this assumption through a case study across the 2016 US presidential election.We use statistical validation techniques to extract ideologically distinct communities of subreddits, in terms of their contributing user base and news consumption, which we use to analyze the dynamics of political debate. We thus reveal clear polarization in both interaction-based and topic-based communities, with clusters of Democratic, Conservative, and Banned subreddits. Election periods intensify cross-group engagement, align Banned and Conservative content, and reduce linguistic diversity within groups. Overall we characterize Reddit as a polarized environment marked by the presence of echo chambers, highlighting network validation as a key method for identifying behavioral and interaction patterns on online social media.",
+"url": "https://doi.org/10.1140/epjds/s13688-026-00707-5",
+"doi": "10.1140/epjds/s13688-026-00707-5",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "cl",
+"keep": true,
+"relevance": 8.0,
+"summary": "Reddit's 2016 election discourse shows clear ideological polarization and echo chambers, with election periods intensifying cross-group engagement and reducing linguistic diversity.",
+"editors_pick": false,
+"now_published": false,
+"ref": "D2",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B6": {
+"id": "W7221820655",
+"title": "Petition style changes with AI writing support but outcomes do not improve",
+"venue": "Nature Human Behaviour",
+"venue_id": "S2764866340",
+"date": "2026-10-14",
+"authors": [],
+"abstract": "",
+"url": "https://doi.org/10.1038/s41562-026-02579-1",
+"doi": "10.1038/s41562-026-02579-1",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "css",
+"keep": true,
+"relevance": 8.0,
+"summary": "AI writing support changes petition style, but petition outcomes do not improve, per Nature Human Behaviour study.",
+"editors_pick": false,
+"now_published": false,
+"ref": "B6",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B4": {
+"id": "W7221956486",
+"title": "Estimating the threat of AI-agent responding across online survey platforms",
+"venue": "PNAS",
+"venue_id": "S125754415",
+"date": "2026-10-15",
+"authors": [
+{
+"name": "Grace Zhang",
+"id": "A5158801433",
+"institution_ids": [
+"I40347166"
+],
+"followed": false
+},
+{
+"name": "Robert Walatka",
+"id": "A5116216068",
+"institution_ids": [
+"I40347166"
+],
+"followed": false
+},
+{
+"name": "Stephanie Y. Chen",
+"id": "A5100753357",
+"institution_ids": [
+"I124357947",
+"I61544103"
+],
+"followed": false
+},
+{
+"name": "Alexander Kentaro Moore",
+"id": "A5101782451",
+"institution_ids": [
+"I39422238"
+],
+"followed": false
+},
+{
+"name": "Oleg Urminsky",
+"id": "A5058051316",
+"institution_ids": [
+"I40347166"
+],
+"followed": false
+},
+{
+"name": "Kianté A. Fernandez",
+"id": "A5089676647",
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Andrea Löw",
+"id": "A5128208515",
+"institution_ids": [
+"I2803209242"
+],
+"followed": false
+},
+{
+"name": "Jonathan Elliot Bogard",
+"id": "A5086050740",
+"institution_ids": [
+"I204465549"
+],
+"followed": false
+},
+{
+"name": "Craig R. Fox",
+"id": "A5064153354",
+"institution_ids": [
+"I2803209242"
+],
+"followed": false
+}
+],
+"abstract": "Recent research and advances in LLMs have led to widespread concern that AI agents could pose as human online survey-takers. However, it remains unclear how prevalent AI agents are on survey research platforms and how to effectively detect AI agents. We validated a series of AI detection tests that effectively separated verified-human participants from both prompted commercial and purpose-built AI agents. Using these tests, we collected surveys on seven online platforms and find wide variation in rates of respondents failing AI tests, ranging from 6 to 41% across platforms (compared to a 2.4% false-positive rate for in-person human participants). We further demonstrate that undetected AI agents can impact the results of online surveys. Our findings suggest that while there is an urgent need for AI detection tests and consistent, systematic monitoring of data quality on online platforms, some platforms currently appear to provide data with a low rate of AI agents.",
+"url": "https://doi.org/10.1073/pnas.2606460123",
+"doi": "10.1073/pnas.2606460123",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "css",
+"keep": true,
+"relevance": 8.0,
+"summary": "Finds 6 to 41% of online survey respondents fail AI-agent tests, showing AI contamination of online survey data varies by platform.",
+"editors_pick": false,
+"now_published": false,
+"ref": "B4",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B5": {
+"id": "W7221170157",
+"title": "Reproducibility of social science research using aggregate statistics with noise infused for differential privacy",
+"venue": "PNAS",
+"venue_id": "S125754415",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Ryan Steed",
+"id": "A5073331047",
+"institution_ids": [
+"I74973139"
+],
+"followed": false
+},
+{
+"name": "Eduardo Schnadower Mustri",
+"id": "A5098279306",
+"institution_ids": [
+"I74973139"
+],
+"followed": false
+},
+{
+"name": "Alessandro Acquisti",
+"id": "A5086228116",
+"institution_ids": [
+"I63966007"
+],
+"followed": false
+}
+],
+"abstract": "Privacy-preserving analytics such as differential privacy are designed to allow the analysis of sensitive datasets while protecting individuals' privacy. Their deployment, however, has been controversial. Critics maintain that statistical noise injected to preserve privacy can degrade the quality and feasibility of social science research. We select a benchmark of empirical findings from 93 published social science studies involving regression analyses over aggregate statistics. We evaluate whether their findings replicate on privacy noise-infused data. Under privacy budgets typical in industry, around 91% of simulated findings still support the original claims at significance level [Formula: see text]. Claims based on weaker original effect sizes are more likely to be nullified or sometimes reversed. We compare distortions caused by privacy noise to those due to measurement errors and other kinds of nonsampling errors common in social statistics, and we find that the marginal impacts of privacy protection are smaller. Moreover, discrepancies due to privacy noise are often much smaller than discrepancies observed in traditional replication and robustness studies.",
+"url": "https://doi.org/10.1073/pnas.2605550123",
+"doi": "10.1073/pnas.2605550123",
+"is_preprint": false,
+"research_field": "Computer Science",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "css",
+"keep": true,
+"relevance": 7.0,
+"summary": "About 91% of 93 social science regression findings still replicate under typical differential privacy noise levels.",
+"editors_pick": false,
+"now_published": false,
+"ref": "B5",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"D3": {
+"id": "W7221139364",
+"title": "Quantifying public opinion evolution and information behavior dynamics: a framework coupling event knowledge graphs with centroid-aligned topic modeling",
+"venue": "EPJ Data Science",
+"venue_id": "S2504380752",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Juan Wang",
+"id": "A5158143481",
+"institution_ids": [
+"I108688024",
+"I83776822"
+],
+"followed": false
+},
+{
+"name": "Xianghui Kong",
+"id": "A5158021370",
+"institution_ids": [
+"I83776822"
+],
+"followed": false
+},
+{
+"name": "Xiaojing Zhang",
+"id": "A5100432832",
+"institution_ids": [
+"I83776822"
+],
+"followed": false
+}
+],
+"abstract": "Public health emergency monitoring on social media is crucial for proactive risk mitigation. However, this process remains constrained by short-text semantic noise and the fragmented integration of discourse structures and behavioral heterogeneity. To bridge this gap, this paper introduces a dual-level framework integrating Event Knowledge Graphs (EKG) and user behavior profiling, built on a Centroid-Alignment Factor (C-AF) embedding-enhanced BERTopic model. Applied to 22,744 Weibo posts related to the Chikungunya fever outbreak, the C-AF model optimizes Topic Diversity (TD) from 0.5725 to 0.6480, enabling the construction of a high-precision EKG that reveals core discourse evolutionary pathways. For user behavior segmentation, the framework achieves a peak Silhouette Coefficient of 0.909 (outperforming the 0.670 baseline by 35.7%), further validated by an external semantic indicator (TC improving from 0.550 to 0.783). This dual-validation successfully identifies five distinct user profiles: Early Cognitive, Knowledge Dissemination, Risk-Attention, Prevention-Focused, and Preventive Alert types. This framework offers a scalable, data-driven tool for precise public health crisis monitoring and targeted digital governance intervention.",
+"url": "https://doi.org/10.1140/epjds/s13688-026-00709-3",
+"doi": "10.1140/epjds/s13688-026-00709-3",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "A BERTopic-based framework with event knowledge graphs tracks Weibo opinion evolution and identifies five user profiles during a Chikungunya outbreak.",
+"editors_pick": false,
+"now_published": false,
+"ref": "D3",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"A1": {
+"id": "W4417063441",
+"title": "Measuring and Mitigating (Over)reliance to Build Human-Compatible AI",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Lujain Ibrahim",
+"id": "A5088109643",
+"institution_ids": [
+"I40120149"
+],
+"followed": true
+},
+{
+"name": "Katherine M. Collins",
+"id": "A5024828997",
+"institution_ids": [
+"I63966007"
+],
+"followed": false
+},
+{
+"name": "Sunnie S. Y. Kim",
+"id": "A5061843649",
+"institution_ids": [
+"I1290206253"
+],
+"followed": false
+},
+{
+"name": "Anka Reuel",
+"id": "A5059838123",
+"institution_ids": [
+"I136199984",
+"I97018004"
+],
+"followed": false
+},
+{
+"name": "Max Lamparth",
+"id": "A5090231346",
+"institution_ids": [
+"I97018004"
+],
+"followed": false
+},
+{
+"name": "Kevin Feng",
+"id": null,
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Lama Ahmad",
+"id": "A5061889846",
+"institution_ids": [
+"I4210161460"
+],
+"followed": false
+},
+{
+"name": "Prajna Soni",
+"id": null,
+"institution_ids": [
+"I63966007"
+],
+"followed": false
+},
+{
+"name": "Alia El Kattan",
+"id": "A5120691510",
+"institution_ids": [
+"I57206974"
+],
+"followed": false
+},
+{
+"name": "Merlin Stein",
+"id": null,
+"institution_ids": [
+"I40120149"
+],
+"followed": false
+},
+{
+"name": "S Swaroop",
+"id": "A5079331058",
+"institution_ids": [
+"I136199984"
+],
+"followed": false
+},
+{
+"name": "Vishakh Padmakumar",
+"id": null,
+"institution_ids": [
+"I97018004"
+],
+"followed": false
+},
+{
+"name": "Ilia Sucholutsky",
+"id": "A5053200092",
+"institution_ids": [
+"I57206974"
+],
+"followed": false
+},
+{
+"name": "Andrew Strait",
+"id": "A5115904422",
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Diyi Yang",
+"id": "A5089413311",
+"institution_ids": [
+"I97018004"
+],
+"followed": true
+},
+{
+"name": "Q. Vera Liao",
+"id": "A5024320659",
+"institution_ids": [
+"I27837315"
+],
+"followed": false
+},
+{
+"name": "Umang Bhatt",
+"id": "A5016469734",
+"institution_ids": [
+"I241749"
+],
+"followed": false
+}
+],
+"abstract": "Large language models (LLMs) differ from previous technologies in functioning as collaborative \"thought partners'' that can engage fluidly in natural language across a range of tasks and increasingly act as autonomous agents on users' behalf. As they come to shape consequential decisions from healthcare to personal advice, understanding how users rely on them, and when that reliance becomes miscalibrated, grows more urgent. This paper argues that measuring and mitigating overreliance must become central to LLM research and deployment. First, we consolidate risks from overreliance at both the individual and societal levels, including high-stakes errors, governance challenges, and long-term impacts on skill development and autonomy. Then, we explore LLM characteristics, system design features, and user cognitive biases that together raise serious and unique concerns about overreliance on LLMs in practice. We also examine historical approaches for measuring reliance, identifying three gaps and proposing three directions to improve measurement. Finally, we discuss mitigation strategies that can be pursued to ensure LLMs augment rather than diminish human capabilities.",
+"url": "https://doi.org/10.1609/aies.v9i2.43225",
+"doi": "10.1609/aies.v9i2.43225",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43225/50785",
+"journal_hit": true,
+"scholar_hit": true,
+"anchor_hit": true,
+"scholar_names": [
+"Lujain Ibrahim",
+"Diyi Yang"
+],
+"needs_filter": false,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "Argues that measuring and mitigating user overreliance on LLMs is central, consolidating risks and proposing measurement directions and mitigations.",
+"editors_pick": false,
+"now_published": false,
+"ref": "A1",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"B7": {
+"id": "W7114796852",
+"title": "An agentic AI system for multi-framework communication coding",
+"venue": "npj Digital Medicine",
+"venue_id": "S4210195431",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Bohao Yang",
+"id": null,
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+},
+{
+"name": "Rui Yang",
+"id": null,
+"institution_ids": [
+"I205783295",
+"I205783295",
+"I4387153466"
+],
+"followed": false
+},
+{
+"name": "Joshua M. Biro",
+"id": null,
+"institution_ids": [
+"I86755215"
+],
+"followed": false
+},
+{
+"name": "Haoyuan Wang",
+"id": null,
+"institution_ids": [
+"I79576946"
+],
+"followed": false
+},
+{
+"name": "Jessica L. Handley",
+"id": null,
+"institution_ids": [
+"I86755215"
+],
+"followed": false
+},
+{
+"name": "Brianna N. Richardson",
+"id": null,
+"institution_ids": [
+"I4210126298",
+"I4210144876",
+"I4390039326"
+],
+"followed": false
+},
+{
+"name": "Sophia Bessias",
+"id": null,
+"institution_ids": [
+"I4210144876"
+],
+"followed": false
+},
+{
+"name": "Nicoleta Economou-Zavlanos",
+"id": null,
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+},
+{
+"name": "Armando D. Bedoya",
+"id": null,
+"institution_ids": [
+"I170897317",
+"I4210126298",
+"I4210144876"
+],
+"followed": false
+},
+{
+"name": "Monica Agrawal",
+"id": "A5088961661",
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+},
+{
+"name": "Michael M. Zavlanos",
+"id": null,
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+},
+{
+"name": "Anand Chowdhury",
+"id": null,
+"institution_ids": [
+"I170897317",
+"I4210126298",
+"I4210144876"
+],
+"followed": false
+},
+{
+"name": "Raj M. Ratwani",
+"id": null,
+"institution_ids": [
+"I184565670",
+"I86755215"
+],
+"followed": false
+},
+{
+"name": "Kai Sun",
+"id": null,
+"institution_ids": [
+"I170897317",
+"I4210126298",
+"I4210144876"
+],
+"followed": false
+},
+{
+"name": "Kathryn I. Pollak",
+"id": null,
+"institution_ids": [
+"I170897317",
+"I4210126298",
+"I4210144876",
+"I4390039326"
+],
+"followed": false
+},
+{
+"name": "Michael J. Pencina",
+"id": "A5064002558",
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+},
+{
+"name": "Chuan Hong",
+"id": null,
+"institution_ids": [
+"I170897317"
+],
+"followed": false
+}
+],
+"abstract": "Abstract Clinical communication is central to patient outcomes, yet large-scale annotation of patient–provider conversations remains labor-intensive, inconsistent, and difficult to scale. Existing large language model (LLM)–based approaches typically rely on single-task systems with limited robustness across communication frameworks and clinical domains. In this study, we developed MOSAIC, a M ulti-framew O rk S tructured Agentic AI system for scalable Clinical C ommunication coding. MOSAIC combines dynamically few-shot prompting, retrieval-augmented generation (RAG), and a LangGraph-based multi-agent workflow for planning, annotation, and verification. Performance was evaluated against gold-standard annotations produced by trained human coders. MOSAIC was developed on 54 annotated transcripts and evaluated on 120 transcripts spanning rheumatology and obstetrics/gynecology (OB/GYN). On the evaluation set, MOSAIC achieved an overall weighted F1 score of 95.6%. Performance was highest in rheumatology (F1 = 95.9%) and strongest for bias and patient behaviors categories (F1 = 96.4% and 96.1%, respectively). These results demonstrate the potential of multi-framework AI systems for reliable clinical communication analysis.",
+"url": "https://doi.org/10.1038/s41746-026-03314-w",
+"doi": "10.1038/s41746-026-03314-w",
+"is_preprint": false,
+"research_field": "Medicine",
+"pdf_url": "https://www.nature.com/articles/s41746-026-03314-w_reference.pdf",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "css",
+"keep": true,
+"relevance": 7.0,
+"summary": "MOSAIC, a multi-agent LLM system with RAG and few-shot prompting, codes clinical patient–provider communication with 95.6% weighted F1 against human coders.",
+"editors_pick": false,
+"now_published": false,
+"ref": "B7",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"A2": {
+"id": "W7167236937",
+"title": "AI Assistance for Human Review of Default Judgments",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Theodora Worledge",
+"id": "A5030616310",
+"institution_ids": [
+"I97018004"
+],
+"followed": false
+},
+{
+"name": "Othman Bensouda Koraichi",
+"id": "A5140010334",
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Daniel Bernal",
+"id": "A5119594782",
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Aviv Caspi",
+"id": "A5009295927",
+"institution_ids": [
+"I40347166"
+],
+"followed": false
+},
+{
+"name": "Tatsunori Hashimoto",
+"id": "A5015518638",
+"institution_ids": [
+"I97018004"
+],
+"followed": true
+},
+{
+"name": "Carlos Guestrin",
+"id": "A5138547954",
+"institution_ids": [
+"I97018004"
+],
+"followed": false
+},
+{
+"name": "David Freeman Engstrom",
+"id": "A5102963043",
+"institution_ids": [
+"I97018004"
+],
+"followed": false
+}
+],
+"abstract": "Overwhelmed courts in the United States review millions of default judgments each year. Unfortunately, such manual reviews are time-consuming and prone to error. In an audit of 188 debt collection cases granted default judgment by the Superior Court of Los Angeles, we find that 4% contained major defects that should have entirely prevented default judgment, 10% contained inconsistencies requiring reduced judgments, and 32% contained errors requiring amendment prior to judgment. To support courthouses in default judgment review, we collaborated with courthouse attorneys and judges in designing a Default Assistant. The Default Assistant employs large language models to evaluate a case with respect to predetermined legal requirements and provide cited recommendations for an expert user's review. We equip users to verify these recommendations by grounding the assistant's explanations in cited quotes and tables from the original case filings. We conduct a controlled study with 66 law students that conservatively simulates court review, with more time and resources than court staff. We nevertheless find users aided by the Default Assistant were 6.0% more accurate on the average requirement than unaided reviewers (p < 1.0e-4). Simultaneously, users were 25.9% faster in reviewing the average requirement than unaided reviewers (p < 2.5e-10). Statutory requirements demanding extensive document search realized the largest gains, with error reductions and time savings from AI assistance up to 62% and 34%, respectively, relative to unassisted user performance and with differences statistically significant (p < 0.05). Our work provides a proof-of-concept that AI assistants with citations have the potential to help resource-constrained courts conduct default judgment review more accurately and efficiently.",
+"url": "https://doi.org/10.1609/aies.v9i4.43347",
+"doi": "10.1609/aies.v9i4.43347",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43347/50907",
+"journal_hit": true,
+"scholar_hit": true,
+"anchor_hit": false,
+"scholar_names": [
+"Tatsunori Hashimoto (lab of Yang)"
+],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 3.0,
+"summary": "Controlled study finds an LLM-based Default Assistant makes law students 6% more accurate and 26% faster at reviewing default judgments.",
+"editors_pick": false,
+"now_published": false,
+"ref": "A2",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"E1": {
+"id": "W7221113557",
+"title": "“I Wasn’t the Only One”: Podcasting as Sociotechnical Infrastructure for Religious Deconstruction, Transition, and Reconfiguration in High-Demand Communities",
+"venue": "ACM Conference on Computer Supported Cooperative Work (CSCW)",
+"venue_id": "S7407086087",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Jaden Cowley",
+"id": "A5158167487",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Nina Lutz",
+"id": "A5107619449",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Gary Hsieh",
+"id": "A5060931546",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Kate Starbird",
+"id": "A5045494255",
+"institution_ids": [
+"I201448701"
+],
+"followed": true
+}
+],
+"abstract": "Via an interview study of 26 listeners of Mormon Stories Podcast (MSP), we examine how podcasting supports sensemaking and identity work during faith deconstruction and transition. In high-demand communities such as the Church of Jesus Christ of Latter-day Saints (LDS), often called Mormonism, questioning official teachings can carry spiritual, familial, and social consequences, making doubt difficult to explore openly. Participants often turned to MSP after encountering conflicts between church teachings and personal experience. Listeners used the podcast within a broader media ecosystem to navigate epistemic disruption, private inquiry, emotional recognition, and identity reconfiguration. We conceptualize MSP as transitional sociotechnical infrastructure. This framing positions podcasting and storytelling as part of an ecosystem that supports identity work and reconfigured relationships to institutional authority during high-demand religious transition. In doing so, we surface implications for designing systems to facilitate identity reconfiguration in other contexts.",
+"url": "https://doi.org/10.1145/3785651.3831505",
+"doi": "10.1145/3785651.3831505",
+"is_preprint": false,
+"research_field": "Arts and Humanities",
+"pdf_url": null,
+"journal_hit": false,
+"scholar_hit": true,
+"anchor_hit": true,
+"scholar_names": [
+"Kate Starbird"
+],
+"needs_filter": false,
+"topic": "css",
+"keep": true,
+"relevance": 4.0,
+"summary": "Interviews with 26 listeners show a religious podcast serves as sociotechnical infrastructure for faith deconstruction and identity reconfiguration.",
+"editors_pick": false,
+"now_published": false,
+"ref": "E1",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"E2": {
+"id": "W7168259339",
+"title": "FaciliTrain: Practicing Facilitation Skills through AI-Simulated Group Dialogue",
+"venue": "ACM Conference on Computer Supported Cooperative Work (CSCW)",
+"venue_id": "S7407086087",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Hang Jiang",
+"id": "A5140660564",
+"institution_ids": [
+"I12912129",
+"I63966007"
+],
+"followed": false
+},
+{
+"name": "Yuanxin Zhu",
+"id": "A5140707269",
+"institution_ids": [
+"I205783295"
+],
+"followed": false
+},
+{
+"name": "Diyi Yang",
+"id": "A5089413311",
+"institution_ids": [
+"I97018004"
+],
+"followed": true
+},
+{
+"name": "Yoon Kim",
+"id": "A5140734112",
+"institution_ids": [
+"I63966007"
+],
+"followed": false
+},
+{
+"name": "Deb Kumar Roy",
+"id": "A5004281470",
+"institution_ids": [
+"I63966007"
+],
+"followed": false
+},
+{
+"name": "Jad Kabbara",
+"id": "A5026429870",
+"institution_ids": [
+"I63966007"
+],
+"followed": false
+}
+],
+"abstract": "Skilled facilitation supports inclusive small-group dialogue, but deliberate practice is hard to scale: it depends on expert coaches, live practice partners, and iterative feedback. We present FaciliTrain, a voice-based training system in which learners step into the facilitator role of an AI-simulated multi-participant conversation, apply five evidence-based techniques, and receive structured AI feedback to support reflection. We report findings from a mixed-methods study with 24 participants, conducted as a formative study (N = 12) and a controlled pilot (N = 12; 6 treatment, 6 control). Both conditions achieved comparable accuracy on a live evaluation task, though treatment participants' self-rated comfort declined significantly while control participants' comfort improved (p = .018). Reflexive thematic analysis identifies four themes: the taxonomy externalizes implicit facilitation intuitions; Making Connections is the most cognitively demanding technique; voice acts as a deliberate-response forcing function; and participants overwhelmingly preferred AI feedback over self-practice. We discuss design implications for voice-based, AI-supported interpersonal skill training at scale.",
+"url": "https://doi.org/10.1145/3785651.3831566",
+"doi": "10.1145/3785651.3831566",
+"is_preprint": false,
+"research_field": "Computer Science",
+"pdf_url": null,
+"journal_hit": false,
+"scholar_hit": true,
+"anchor_hit": true,
+"scholar_names": [
+"Diyi Yang"
+],
+"needs_filter": false,
+"topic": "cl",
+"keep": true,
+"relevance": 4.0,
+"summary": "Voice-based AI-simulated group dialogue training improved accuracy comparably, but treatment participants' comfort declined while controls' improved, and they preferred AI feedback.",
+"editors_pick": false,
+"now_published": false,
+"ref": "E2",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"E3": {
+"id": "W7221782141",
+"title": "GENDIS: Gender-Related Discourse and Stance in Multilingual YouTube Comments from India, Kenya, and Nigeria",
+"venue": "arXiv (Cornell University)",
+"venue_id": "S4306400194",
+"date": "2026-10-13",
+"authors": [
+{
+"name": "Luise Koch",
+"id": "A5105103033",
+"institution_ids": [
+"I1334329717",
+"I55633929",
+"I62916508"
+],
+"followed": false
+},
+{
+"name": "Manuel Tonneau",
+"id": "A5003730904",
+"institution_ids": [],
+"followed": true
+},
+{
+"name": "Niyati Malhotra",
+"id": "A5058532580",
+"institution_ids": [
+"I1334329717",
+"I55633929"
+],
+"followed": false
+},
+{
+"name": "Sunny Rai",
+"id": "A5014435955",
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Ana Maria Munoz Boudet",
+"id": "A5158744598",
+"institution_ids": [
+"I1334329717",
+"I55633929"
+],
+"followed": false
+},
+{
+"name": "Víctor Orozco-Olvera",
+"id": "A5091677618",
+"institution_ids": [
+"I1334329717",
+"I55633929"
+],
+"followed": false
+},
+{
+"name": "Samuel P. Fraiberger",
+"id": "A5158756708",
+"institution_ids": [
+"I1334329717",
+"I55633929",
+"I57206974"
+],
+"followed": false
+},
+{
+"name": "Sharath Chandra Guntuku",
+"id": "A5010646067",
+"institution_ids": [],
+"followed": false
+}
+],
+"abstract": "Research on gender-related online content is often operationalized through harm-centered tasks that collapse non-harmful gender-related and unrelated content, while existing datasets remain concentrated in high-resource languages and Global North settings. To bridge these gaps, we introduce GENDIS, a dataset of 9,600 multilingual, human-annotated YouTube comments from India, Kenya, and Nigeria (3,200 per country), annotated using a two-level framework that first identifies whether gender is referenced and then classifies gender-related content as negative, positive, or neutral. This separation provides a denominator for gender-related discourse independent of harm, enabling both prevalence estimation and characterization of its evaluative range. In the uniform random stratum, 23.8-35.0% of comments are gender-related, and among those with a resolved stance, 82% are neutral or positive. Across models, gender-reference detection is substantially easier than stance classification, especially for positive and neutral speech. Lightly supervised classifiers match frontier zero-shot large language models at substantially lower cost and outperform generic toxicity detection, while cross-country transfer remains limited. GENDIS provides a locally grounded resource for measuring when gender is invoked online and how that reference is framed.",
+"url": "https://doi.org/10.48550/arxiv.2610.17778",
+"doi": "10.48550/arxiv.2610.17778",
+"is_preprint": true,
+"research_field": "Computer Science",
+"pdf_url": "https://arxiv.org/pdf/2610.17778",
+"journal_hit": false,
+"scholar_hit": true,
+"anchor_hit": true,
+"scholar_names": [
+"Manuel Tonneau"
+],
+"needs_filter": false,
+"topic": "cl",
+"keep": true,
+"relevance": 9.0,
+"summary": "Introduces GENDIS, a multilingual annotated YouTube comment dataset showing gender-related discourse is mostly neutral or positive and lightly supervised classifiers rival LLMs.",
+"editors_pick": false,
+"now_published": false,
+"ref": "E3",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"E4": {
+"id": "W7221835036",
+"title": "Pushback in a Haystack: Language Models Respond to Factual Errors Ambiguously and Ineffectively",
+"venue": "arXiv (Cornell University)",
+"venue_id": "S4306400194",
+"date": "2026-10-13",
+"authors": [
+{
+"name": "Li Lucy",
+"id": "A5072860546",
+"institution_ids": [
+"I135310074",
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Myra Cheng",
+"id": "A5012939002",
+"institution_ids": [
+"I97018004"
+],
+"followed": true
+},
+{
+"name": "Svenja Guhr",
+"id": "A5049995330",
+"institution_ids": [
+"I95457486"
+],
+"followed": false
+},
+{
+"name": "Kabir Ahuja",
+"id": "A5088355901",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Orevaoghene Ahia",
+"id": "A5045507345",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Sameep Chattopadhyay",
+"id": "A5101227395",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Yike Wang",
+"id": "A5158695878",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Valentin Hofmann",
+"id": "A5014923355",
+"institution_ids": [
+"I4210156221",
+"I8204097"
+],
+"followed": false
+},
+{
+"name": "Noah A. Smith",
+"id": "A5088517824",
+"institution_ids": [
+"I201448701",
+"I4210156221"
+],
+"followed": false
+},
+{
+"name": "Yulia Tsvetkov",
+"id": "A5062910836",
+"institution_ids": [
+"I201448701"
+],
+"followed": true
+}
+],
+"abstract": "The sycophancy of language models, or their failure to push back against faulty user input, is now widely studied. However, if LMs do push back, is sycophancy solved? We show that LMs vary in how they present pushback, and thus vary in how effectively they correct user beliefs. We introduce a phrase-level, human-validated response labeling framework to uncover fine-grained insights into how LMs push against and/or affirm false inputs. We develop and apply our framework on model responses in five languages: English, German, Chinese, Hindi, and Yoruba. We find that when models do push back against users' false assertions, they tend to use indirect phrasing and mix in affirmation, with more indirectness in Hindi and Yoruba than in other languages considered. In a large-scale human study (n = 300), we find that the pushback ambiguity we identified may fail to correct and prevent users' factual misconceptions.",
+"url": "https://doi.org/10.48550/arxiv.2610.17703",
+"doi": "10.48550/arxiv.2610.17703",
+"is_preprint": true,
+"research_field": "Computer Science",
+"pdf_url": "https://arxiv.org/pdf/2610.17703",
+"journal_hit": false,
+"scholar_hit": true,
+"anchor_hit": false,
+"scholar_names": [
+"Myra Cheng (lab of Yang)",
+"Yulia Tsvetkov (coauthor of Pan)"
+],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 8.0,
+"summary": "LLMs push back on users' false claims indirectly and mix in affirmation, reducing correction effectiveness, with more indirectness in Hindi and Yoruba; a human study confirms users' misconceptions persist.",
+"editors_pick": false,
+"now_published": false,
+"ref": "E4",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"E5": {
+"id": "W7111614174",
+"title": "Dialogues with a pro-climate AI chatbot reduce climate change skepticism and inaction",
+"venue": "OSF Preprints (OSF Preprints)",
+"venue_id": "S4306401127",
+"date": "2026-10-12",
+"authors": [
+{
+"name": "Gordon Pennycook",
+"id": null,
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Reed Orchinik",
+"id": "A5015843011",
+"institution_ids": [],
+"followed": true
+},
+{
+"name": "Gabriela Czarnek",
+"id": null,
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Hause Lin",
+"id": "A5022754313",
+"institution_ids": [],
+"followed": true
+},
+{
+"name": "David Gertler Rand",
+"id": "A5056499434",
+"institution_ids": [],
+"followed": true
+},
+{
+"name": "Thomas H. Costello",
+"id": "A5055631608",
+"institution_ids": [],
+"followed": true
+},
+{
+"name": "Henry George Xu",
+"id": null,
+"institution_ids": [],
+"followed": false
+}
+],
+"abstract": "We ask whether facts and evidence - tailored to address each person’s specific concerns by an AI model - can address climate skepticism and motivate climate action.",
+"url": "https://doi.org/10.17605/osf.io/sx5n4",
+"doi": "10.17605/osf.io/sx5n4",
+"is_preprint": true,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": false,
+"scholar_hit": true,
+"anchor_hit": true,
+"scholar_names": [
+"Reed Orchinik (lab of Rand)",
+"Hause Lin (lab of Rand)",
+"David G. Rand",
+"Thomas H. Costello (lab of Rand)"
+],
+"needs_filter": false,
+"topic": "css",
+"keep": true,
+"relevance": 5.0,
+"summary": "Tests whether AI chatbot dialogues tailored to individuals' concerns reduce climate skepticism and motivate action.",
+"editors_pick": false,
+"now_published": false,
+"ref": "E5",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F1": {
+"id": "W7221433076",
+"title": "Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election",
+"venue": "Political Communication",
+"venue_id": "S27211427",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Gregory Gondwe",
+"id": "A5080877527",
+"institution_ids": [
+"I136199984",
+"I17301866",
+"I43369023"
+],
+"followed": false
+}
+],
+"abstract": "This study examines how Factchecking AI tools and community-based credibility practices interacted during Tanzania’s 2025 presidential election. Using data from five regions, we analyzed 342 media materials, 87 interviews, field observations, and 22 distinct contested election events. The findings identify three forms of verification disjuncture. First, AI-assisted translation and transcription sometimes changed the meaning of politically important statements before journalists could verify them. Second, fact-checks and disputed claims often moved through different communication channels, which limited the chances that people would see the correction. Third, some communities trusted personal experience, familiar sources, and collective discussion more than professional fact-checkers. Participants judged credibility through relationships, lived experience, group discussion, humor and satire, and social accountability. These practices sometimes supported the same conclusions as institutional verification and sometimes produced different judgments. We argue that fact-checking becomes politically effective when the meaning of a claim is preserved, the correction reaches the people discussing it, and the source of the correction is recognized as credible. This explains why an accurate fact-check can still have limited public influence.",
+"url": "https://doi.org/10.1080/10584609.2026.2745832",
+"doi": "10.1080/10584609.2026.2745832",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 8.0,
+"summary": "Tanzania 2025 election study finds AI translation distorted claims and community credibility practices limited fact-check influence.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F1",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F2": {
+"id": "W7222149745",
+"title": "How can approaches from physical ecology help research and policy on the information environment?",
+"venue": "Harvard Kennedy School Misinformation Review",
+"venue_id": "S5407028046",
+"date": "2026-10-15",
+"authors": [
+{
+"name": "Alicia Wanless",
+"id": "A5122329586",
+"institution_ids": [
+"I1304508199"
+],
+"followed": false
+},
+{
+"name": "Claire Wardle",
+"id": "A5083936373",
+"institution_ids": [
+"I205783295"
+],
+"followed": false
+},
+{
+"name": "David A. Scales",
+"id": "A5076667802",
+"institution_ids": [
+"I205783295",
+"I4387153466"
+],
+"followed": false
+}
+],
+"abstract": "Scholars and policymakers increasingly use ecological metaphors such as “information environment” and “information ecosystem” to describe contemporary informational spaces. Ecology offers more than loanwords. Its concepts and frameworks can help researchers understand relationships among people, technology, content, and society. We leverage natural science definitions and Pickett and Cadenasso’s six parameters of physical ecosystems to develop concrete models for studying complex informational systems. By moving beyond amorphous ecological analogies, we show how ecological frameworks can clarify key concepts, structure research across disciplines, and inform policy. We also propose research questions to facilitate transdisciplinary collaboration and advance the study of information ecosystems.",
+"url": "https://doi.org/10.37016/mr-2020-212",
+"doi": "10.37016/mr-2020-212",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://misinforeview.hks.harvard.edu/wp-content/uploads/2026/10/wanless_physical_ecology_information_environment_20261019.pdf",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 8.0,
+"summary": "Argues physical ecology frameworks can move information ecosystem metaphors toward concrete models for misinformation research and policy.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F2",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F3": {
+"id": "W7223552850",
+"title": "Trapped in the simulation: Tradwife culture, fake allyship, and the exhaustion of the domestic dystopia in Don’t Worry Darling (2022)",
+"venue": "Feminist Media Studies",
+"venue_id": "S26978096",
+"date": "2026-10-24",
+"authors": [
+{
+"name": "Rodrigo Fernández-Schütz",
+"id": "A5059502118",
+"institution_ids": [
+"I69737025"
+],
+"followed": false
+}
+],
+"abstract": "This article examines Olivia Wilde’s Don’t Worry Darling (2022) as a critical impasse in popular feminist cinema’s deployment of the domestic dystopia. Rather than offering another comparative reading with Bryan Forbes’s The Stepford Wives (1975) or its 2004 remake (dir. Frank Oz), the article situates Wilde’s film within three interconnected contemporary contexts: the tradwife movement’s appropriation of Stepford aesthetics; post-#MeToo discourse around fake male allyship; and the exhaustion of the ‘fiftiesness’ that the nostalgia film recycles as a substitute for historical engagement with the postwar period. Drawing on scholarship on postfeminist domesticity, popular feminism and the female fantastic, I argue that Don’t Worry Darling inadvertently reveals the limits of recycling the Stepford trope at a moment when tradwife creators already deploy identical aesthetics to resell domesticity as aspirational choice. Distinguishing period drama, pastiche and simulation as different modes of ‘fiftiesness,’ the article shows that the film’s simulated suburb converts critique into seduction. It further examines how the film’s troubled production and reception, including Florence Pugh’s public distancing and the casting of Harry Styles, symptomatically reproduce the contradictions the film ostensibly critiques. The article concludes by asking whether popular feminist cinema can move beyond these structural limitations.",
+"url": "https://doi.org/10.1080/14680777.2026.2752212",
+"doi": "10.1080/14680777.2026.2752212",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 8.0,
+"summary": "Argues Don't Worry Darling's Stepford critique collapses into seduction, mirroring tradwife aesthetics and fake male allyship discourse around the film's production and reception.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F3",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F4": {
+"id": "W7221085642",
+"title": "Mobilising motherhood: feminist tactical media and platform struggles against environmental injustice in Central Java",
+"venue": "Feminist Media Studies",
+"venue_id": "S26978096",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Dewi Candraningrum",
+"id": "A5001390038",
+"institution_ids": [
+"I3131389504"
+],
+"followed": false
+}
+],
+"abstract": "",
+"url": "https://doi.org/10.1080/14680777.2026.2745933",
+"doi": "10.1080/14680777.2026.2745933",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 7.0,
+"summary": "Examines how feminist tactical media and motherhood-framed platform campaigns challenge environmental injustice in Central Java.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F4",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F5": {
+"id": "W7221119162",
+"title": "From mobilization to diversion: a comparative study of wartime communication tactics of Ukrainian and Russian political elites on Telegram",
+"venue": "Information Communication & Society",
+"venue_id": "S70010600",
+"date": "2026-10-09",
+"authors": [
+{
+"name": "Mykola Makhortykh",
+"id": "A5087601816",
+"institution_ids": [
+"I118564535"
+],
+"followed": false
+},
+{
+"name": "Aytalina Kulichkina",
+"id": "A5058289932",
+"institution_ids": [
+"I129774422"
+],
+"followed": false
+},
+{
+"name": "Kateryna Maikovska",
+"id": "A5115031810",
+"institution_ids": [
+"I129774422"
+],
+"followed": false
+}
+],
+"abstract": "This study examines how Ukrainian and Russian political elites communicate on Telegram during the ongoing Russo-Ukrainian war. Using a dataset of Telegram public posts from 2019 to 2024, we analyze changes in communication volume, thematic content, and actor engagement before and after Russia’s 2022 full-scale invasion. While the invasion triggered a massive spike in elites’ activity on Telegram in both countries—most notably among actors associated with Russia’s ruling pro-regime party—the focus of this communication diverged sharply. While Ukrainian elites initially prioritized war-related mobilization, this emphasis has declined over time. By contrast, Russian elites from the start adopted a tactic of strategic diversion, avoiding discussion of the war and shifting public attention to unrelated issues, such as crises in the West. Finally, we show that communication patterns are stratified by party size, with smaller parties specializing in narrow policy niches. These findings shed light on how political elites adapt their communication strategies in online environments during wartime.",
+"url": "https://doi.org/10.1080/1369118x.2026.2736808",
+"doi": "10.1080/1369118x.2026.2736808",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 7.0,
+"summary": "Telegram analysis shows Ukrainian elites shifted from wartime mobilization while Russian elites diverted attention from the war from the start.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F5",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F6": {
+"id": "W7221326395",
+"title": "From Grassroots Sleuthing to Global Uptake: Epistemic Legitimation of Open-Source Investigations in Journalism Through Mediazona’s War Casualty Project in Russia’s War on Ukraine",
+"venue": "Digital Journalism",
+"venue_id": "S2764497610",
+"date": "2026-10-10",
+"authors": [
+{
+"name": "Volha Kananovich",
+"id": "A5006599464",
+"institution_ids": [
+"I430192"
+],
+"followed": false
+}
+],
+"abstract": "This study examines how open-source investigation (OSINV) is legitimized within journalism through an analysis of a casualty-counting project by Mediazona, an exiled independent Russian newsroom documenting Russian military deaths in Ukraine. Drawing on Mediazona’s public-facing project materials and coverage by seven international news organizations, the analysis traces how epistemic authority is established and re-anchored as the project circulates across journalistic institutions. The findings show that Mediazona constructs epistemic authority through a rich epistemic repertoire grounded in procedural rigor, radical transparency, and aesthetic sense-making. As the project gains global uptake, however, these articulations do not circulate intact. Instead, news organizations selectively mobilize elements of Mediazona’s epistemic repertoire in ways that reflect their editorial routines, epistemological commitments, audience expectations, and culturally resonant interpretive frames. In this process, Mediazona’s epistemic labor—and that of its citizen contributors, whom news organizations consistently avoid labeling “sleuths”—receives varying degrees of recognition: elevated as that of an independent outlet, absorbed into the institutional authority of international collaborators, or folded into professional routines that recast the project through a data-journalistic vocabulary and original field reporting. Taken together, the findings show that OSINV legitimation is uneven and context-dependent, shifting away from amateurist connotations toward more methodologically disciplined epistemic labor.",
+"url": "https://doi.org/10.1080/21670811.2026.2744877",
+"doi": "10.1080/21670811.2026.2744877",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 7.0,
+"summary": "Mediazona's casualty project gains epistemic legitimacy in journalism, but news outlets reframe its citizen sleuthing labour unevenly.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F6",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F7": {
+"id": "W7172034275",
+"title": "When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Haewoon Kwak",
+"id": "A5061923992",
+"institution_ids": [
+"I4210119109",
+"I592451"
+],
+"followed": false
+}
+],
+"abstract": "When AI systems surpass elite human performance and settle into everyday expert practice, the question that follows is how machine judgment is made publicly intelligible and attributable. We study Korean Go commentary on YouTube, where AI systems such as KataGo became standard analytic tools after AlphaGo. Our corpus spans a decade (2016--2025) and approximately 1,900 hours of footage across institutional broadcasters and creator-led channels, in four phases of AI availability. We document a widening asymmetry between visual and verbal AI presence: AI winrate graphs are visible for about 98% of late-period institutional broadcast time, yet AI-salient talk accounts for only 2.63% of sentences. What recedes is the source label, not the metric: winrate and point-gap talk persists while ``AI'' itself goes unsaid. We read this recession as the communicative signature of domestication. Our strongest evidence is a compositional shift in verbal mediation: explicit naming gives way to interface rendering, and creator-led commentary leans further toward it than institutional commentary. We develop a typology distinguishing source-foregrounding from source-receding mediation, and argue that the two preserve different hooks of contestability: discursive anchors through which audiences can recognize and question the machine source. The stakes of that difference rise in domains where AI is less reliable than in Go.",
+"url": "https://doi.org/10.1609/aies.v9i3.43249",
+"doi": "10.1609/aies.v9i3.43249",
+"is_preprint": false,
+"research_field": "Arts and Humanities",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43249/50809",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "Decade-long study of Korean Go YouTube commentary shows AI's source label recedes while winrate talk persists, a domestication of AI mediation.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F7",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F8": {
+"id": "W7213506178",
+"title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Kosuke Kitahara",
+"id": "A5082813914",
+"institution_ids": [],
+"followed": false
+},
+{
+"name": "Nobuhiro Yamaguchi",
+"id": "A5152015123",
+"institution_ids": [],
+"followed": false
+}
+],
+"abstract": "Open-weight large language models are rapidly entering hiring pipelines, yet their discriminatory failure modes—and the regulatory exposure these create under the EU AI Act high-risk classification (Annex III) and U.S. EEOC adverse-impact analysis—remain poorly understood. We present the first systematic, multi-model audit of open-weight LLMs that treats job-posting language as the primary experimental variable, evaluating six models (Llama 3.2, Mistral, Gemma 3, Qwen 3, Phi 3, DeepSeek-R1) across four controlled experiments that jointly probe recruiter-simulation and job-seeker-simulation tasks. We find that (1) agentic posting language depresses recruiter recommendation scores for female candidates (r_rb = 0.309, p_Bonf = 7x10^-5; model-fixed-effects r_rb = 0.448), while communal language partially reverses the penalty; and (2) coded-exclusion language suppresses non-White recruiter scores at large effect sizes (r_rb = 0.646-0.758) and, on the job-seeker side, selectively deters non-White personas from expressing interest—operationalizing a chilling-effect mechanism at scale. A label-ablation experiment isolates the explicit demographic persona label as the primary causal driver, and Word Embedding Association Tests corroborate these findings at the representational level (d = 1.01-1.45 under Caliskan et al.'s multi-word gender attribute lists). We translate these results into a concrete pre-deployment audit protocol—posting-vocabulary scoring, persona-conditioned LLM probing, and adverse-impact flagging against the four-fifths threshold—that operationalizes the documentation and risk-management obligations Annex III imposes on high-risk AI in recruitment.",
+"url": "https://doi.org/10.1609/aies.v9i3.43247",
+"doi": "10.1609/aies.v9i3.43247",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43247/50807",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "Open-weight LLMs penalize female candidates for agentic job-posting language and non-White candidates for coded-exclusion language, with an explicit demographic label as the main driver.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F8",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F9": {
+"id": "W7214327602",
+"title": "AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Mattea Sim",
+"id": "A5058555356",
+"institution_ids": [
+"I184565670"
+],
+"followed": false
+},
+{
+"name": "Yael Eiger",
+"id": "A5091951892",
+"institution_ids": [
+"I201448701"
+],
+"followed": false
+},
+{
+"name": "Tadayoshi Kohno",
+"id": "A5026130910",
+"institution_ids": [
+"I184565670"
+],
+"followed": false
+}
+],
+"abstract": "AI-generated summaries and reports are increasingly used in high-stakes settings, like policing, despite considerable evidence that AI often generates misleading or inaccurate information. This research asked: do errors in AI-generated summaries distort human memory? To answer this question, we adopted two methodological approaches. First, we conducted an analysis of AI summary output, prompting popular large language models to generate summaries of videos. This analysis quantified how often AI summaries contain errors and the categories of these errors (e.g., omission of critical details; hallucinations), providing insight into the kinds of misleading information that may distort human memory. Second, we conducted a human-subjects experiment to empirically test the impact of misleading information in AI-generated summaries on human memory. Participants were first exposed to an event via watching a video of a car-pedestrian accident, and later read an AI-generated summary describing the video that either contained misleading or accurate information. Participants' memory for the original event was assessed in a memory recognition test. This work contributes several novel findings. In the AI analysis, we found a high frequency of mistakes in AI summaries, and particularly frequent omissions of critical details. For instance, the majority of summaries omitted the most central event of the video, a critical error which is likely to be impactful in high-stakes settings. We also observed a strong effect of AI misinformation on human memory. People who read a misleading AI summary were significantly less likely to accurately recall the original event, compared to people who read an accurate AI summary. These findings have implications for how AI should be used in critical settings. Though \"humans-in-the-loop\" are often expected to correct for AI's mistakes, our work suggests human memory can instead be distorted by these mistakes. AI has the potential to generate misinformation, even absent any adversarial intent, which can meaningfully impact human memory.",
+"url": "https://doi.org/10.1609/aies.v9i4.43310",
+"doi": "10.1609/aies.v9i4.43310",
+"is_preprint": false,
+"research_field": "Neuroscience",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43310/50870",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "Misleading AI-generated video summaries distort participants' later memory of the original event, with summaries frequently omitting central details, showing AI can distort human memory without adversarial intent.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F9",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F10": {
+"id": "W7219156135",
+"title": "The Artificial Moral Machine: Do LLMs Mirror Human Moral Diversity or Merely Caricature It?",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Davide Liga",
+"id": "A5093659276",
+"institution_ids": [
+"I186903577"
+],
+"followed": false
+},
+{
+"name": "Yu Liuwen",
+"id": "A5018898877",
+"institution_ids": [
+"I4210112527"
+],
+"followed": false
+},
+{
+"name": "Marija Slavkovik",
+"id": "A5031805291",
+"institution_ids": [
+"I4432739"
+],
+"followed": false
+},
+{
+"name": "Samia Touileb",
+"id": "A5057619458",
+"institution_ids": [
+"I4432739"
+],
+"followed": false
+},
+{
+"name": " Liao Beishui",
+"id": "A5156822127",
+"institution_ids": [
+"I76130692"
+],
+"followed": false
+},
+{
+"name": "Leendert van der Torre",
+"id": "A5015670661",
+"institution_ids": [
+"I186903577"
+],
+"followed": false
+}
+],
+"abstract": "Persona conditioning is the practice of prompting LLMs to adopt specific demographic identities. Although it is increasingly used to simulate human perspectives, its fidelity in the moral domain is untested at scale. We address this gap by testing moral fidelity on three LLMs of different sizes: gpt-4.1-nano (the smallest in OpenAI's GPT-4.1 family), DeepSeek V3.1 (671B-MoE), and Llama 3.3 70B. Each model answers the same 576 cohorts of 5,356 trolley-style dilemmas, with 20 prompt variants per dilemma on nano (61M+ judgments) and one on each larger model (~3M each). Each cohort combines 7 demographic features (age, gender, education, income, politics, religion, geography); each dilemma tests 5 moral dimensions (sparing the young, women, humans, the high-status, the lawful). We compare the answers against the Moral Machine human dataset. All three tested models show a political master switch: political ideology explains 7.3 to 8.0 times more variance in moral preferences than geography. This is in contrast to the human pattern observed in the Moral Machine, where cultural clusters drive more variation than political views. The LLMs match human demographic effects no better than chance across all three models. Grouping the geographic labels of our tests into the same three cultural clusters used in the human Moral Machine does not reproduce the differences Moral Machine reported. Moreover, the 5 moral dimensions collapse onto a single axis in nano (meaning that across cohorts the dimensions move together in a single block), while in the two larger models they remain more separable. We further test robustness with a no-persona baseline and by removing intensifier wording (\"strongly\", \"deeply\") from the persona descriptions. We release the full dataset and analysis framework for replication.",
+"url": "https://doi.org/10.1609/aies.v9i3.43257",
+"doi": "10.1609/aies.v9i3.43257",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43257/50817",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "LLM persona-conditioned trolley dilemma judgments show political ideology dominates geography, unlike human Moral Machine data, and demographic effects match humans no better than chance.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F10",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F11": {
+"id": "W7221437243",
+"title": "Auditing LLM Portrayals of Neurodivergent People: Quantifying the Asymmetry Between Deficit Framing and Neurodiversity Affirmation",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Carlos Toxtli",
+"id": "A5052527043",
+"institution_ids": [
+"I8078737"
+],
+"followed": false
+},
+{
+"name": "Manuel Delaflor",
+"id": "A5158383739",
+"institution_ids": [],
+"followed": false
+}
+],
+"abstract": "Open-weight large language models are increasingly used in education, hiring, and information-seeking contexts that touch neurodivergent people, yet we lack a clear empirical map of how their portrayals of neurodiversity shift under everyday prompt variation. We present a multi-condition, multi-model audit of LLM portrayals of eight neurodivergent identities (autism, ADHD, dyslexia, dyspraxia, dyscalculia, Tourette syndrome, OCD, and sensory-processing differences) plus a non-stigmatized medical control. Six open-weight models answer a pre-registered prompt bank that crosses seed items with seven perturbation families, including paraphrase, identity-first versus person-first language, system personas, plausible versus obviously fictional authority citations, multi-turn social pushback, leading questions, and two mitigation arms. Held-out LLM judges score each generation on three ordinal axes. Baseline portrayals are remarkably homogeneous across models, so the inconsistency observed under prompt variation is prompt-driven, not model-driven. Steering toward deficit framing is several times easier than steering toward neurodiversity affirmation. Emotional pushback shifts outputs more than evidence-laden pushback. Plausible-sounding fake citations slip past safety filters while obviously fictional ones do not. A single-line system-prompt mitigation recovers a meaningful share of the steering range at near-zero refusal cost on neutral prompts, though refusal rises sharply under adversarial pressure. The governance question for disability-relevant LLM deployment is therefore not whether the model is biased but who controls the steering, and with what accountability.",
+"url": "https://doi.org/10.1609/aies.v9i4.43328",
+"doi": "10.1609/aies.v9i4.43328",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43328/50888",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "Audit finds LLM portrayals of neurodivergent people are easier to steer toward deficit framing than affirmation, and prompt variation drives inconsistency.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F11",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F12": {
+"id": "W7221457394",
+"title": "Who Brought Easter Eggs to Eid? Auditing LLM-Generated Cultural Translation of Math Word Problems Across Languages and Regions",
+"venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+"venue_id": "S5407048695",
+"date": "2026-10-11",
+"authors": [
+{
+"name": "Parisa Suchdev",
+"id": "A5016813671",
+"institution_ids": [
+"I111236770"
+],
+"followed": false
+},
+{
+"name": "Juniper Lovato",
+"id": "A5138290384",
+"institution_ids": [
+"I111236770"
+],
+"followed": false
+}
+],
+"abstract": "Large language models are increasingly used to adapt math word problems for personalized learning at scale, but it remains an open question whether those adaptations are consistent across models, preserve cultural diversity at scale, and reveal which cultural entities models treat as most salient. We analyze how Claude Opus 4, GPT 4.1, and Gemini 2.5 Pro adapt 60 English math word problems into Bengali, Hindi, Punjabi (India), Urdu, Sindhi (Pakistan), Italian, and Sicilian (Italy), a language set spanning the full resource spectrum, from high-resource Italian and Hindi to under-studied Sindhi, Sicilian, and Punjabi. We annotate 6,489 entity transformations, coding whether models preserve, localize, generalize, omit, or change entities such as names, foods, and places. Models agree on transformation type in 62.5% of cases and on specific substitutions in only 33.5%, meaning model choice directly shapes which cultural world students encounter. All 21 language-model combinations show entropy collapse, with adaptation compressing rather than expanding cultural diversity. Models prioritize surface markers such as names, foods, and currencies while preserving deeper structural features such as grade-level systems that embed culturally specific assumptions. Despite prompts specifying target countries, models misattribute regional context by using Bangladeshi taka for Indian Bengali students and produce cross-cultural contamination, such as adapting egg hunts as Eid activities. Some failures are visible in individual translations. Others, including diversity collapse, systematic preference for surface markers, and consistent regional misattribution, emerge only through corpus-level analysis. The surface plausibility that makes adapted problems look correct is precisely what makes deeper failures easy to overlook.",
+"url": "https://doi.org/10.1609/aies.v9i4.43321",
+"doi": "10.1609/aies.v9i4.43321",
+"is_preprint": false,
+"research_field": "Computer Science",
+"pdf_url": "https://ojs.aaai.org/index.php/AIES/article/download/43321/50881",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": true,
+"topic": "cl",
+"keep": true,
+"relevance": 7.0,
+"summary": "Audit finds LLMs adapting math problems across languages compress cultural diversity, favour surface markers, and misattribute regional context, with models agreeing on substitutions only 33.5% of the time.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F12",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F13": {
+"id": "W7221503926",
+"title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+"venue": "Nature Human Behaviour",
+"venue_id": "S2764866340",
+"date": "2026-10-12",
+"authors": [
+{
+"name": "Fadong Chen",
+"id": "A5075538509",
+"institution_ids": [
+"I76130692"
+],
+"followed": false
+},
+{
+"name": "Qijun Wang",
+"id": "A5126143616",
+"institution_ids": [
+"I205092303",
+"I205092303",
+"I4405256168",
+"I76130692",
+"I79576946"
+],
+"followed": false
+},
+{
+"name": "Lei Wang",
+"id": "A5011332734",
+"institution_ids": [
+"I76130692"
+],
+"followed": false
+},
+{
+"name": "Sudeep Bhatia",
+"id": "A5065751582",
+"institution_ids": [
+"I79576946"
+],
+"followed": false
+}
+],
+"abstract": "Large-scale surveys are central to investigating economic preferences but are costly and slow. Can large language model (LLM)-simulated responses substitute for human survey data? We conducted a virtual Global Preference Survey, simulating six experimentally validated economic preferences for 67,201 matched human respondents across 74 countries. Across 20 LLM configurations with diverse prompts and robustness checks, we found systematic but modest individual-level alignment (87.5% of Spearman correlations have 95% confidence intervals (CIs) above zero), with LLMs recovering the direction of associations in 77.8% (95% CI, (71.6%, 83.1%); CI-based consistency ratio) of gender, age and cognitive-ability dimensions, but only 48.1% (95% CI, (45.1%, 51.2%)) of cultural dimensions. Ablation and error decompositions suggest weaker alignment when removing demographic information than when removing country labels, and in many models alignment is weaker in economically undeveloped and less digitally connected countries. LLM-simulated responses may recover some individual- and group-level patterns but are not yet reliable proxies for cross-national representative surveys in macro-level inference or policy evaluation. Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
+"url": "https://doi.org/10.1038/s41562-026-02611-4",
+"doi": "10.1038/s41562-026-02611-4",
+"is_preprint": false,
+"research_field": "Decision Sciences",
+"pdf_url": "https://www.nature.com/articles/s41562-026-02611-4.pdf",
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "css",
+"keep": true,
+"relevance": 7.0,
+"summary": "Virtual global survey finds LLM-simulated economic preferences weakly align with humans across 74 countries, failing on cultural differences.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F13",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F14": {
+"id": "W7221567766",
+"title": "How Personal Curation Shapes Political Engagement on Social Media? Examining The Politics of Personal Curation Model",
+"venue": "The International Journal of Press/Politics",
+"venue_id": "S161861253",
+"date": "2026-10-12",
+"authors": [
+{
+"name": "Biying Wu-Ouyang",
+"id": "A5046519792",
+"institution_ids": [
+"I4210086892"
+],
+"followed": false
+}
+],
+"abstract": "Although individuals today have a wide range of media choices to engage in politics, recent investigations have revealed that many are increasingly avoiding news and disengaging from politics, especially in social media. From a user-centered perspective, few effective strategies on social media have been systematically examined to enhance political engagement. Established through the curated flows framework, this study proposes the Politics of Personal Curation (PPC) model, which offers a fresh perspective by examining how everyday mundane personal curation in social media (platform expansiveness, content heterogeneity, news attentiveness, and source belongingness curation) have significantly influences on political engagement. A preregistered study from a nationally representative panel in the United States ( N = 1,270) generally indicates that expansiveness, heterogeneity, and news attentiveness curation yield higher political engagement, whereas belongingness curation is linked to lower engagement. This study further supports that these media effects on political engagement are channeled through enhanced cognitive elaboration and moderated by cross-cutting discussion.",
+"url": "https://doi.org/10.1177/19401612261489041",
+"doi": "10.1177/19401612261489041",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 7.0,
+"summary": "Survey of US panel finds personal social media curation shapes political engagement, with belongingness curation lowering it.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F14",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+},
+"F15": {
+"id": "W7221653888",
+"title": "Negotiated Adaptability: How Peripheral Actors’ Perceptions of Generative Artificial Intelligence (GenAI) Shape Journalistic Practice",
+"venue": "Digital Journalism",
+"venue_id": "S2764497610",
+"date": "2026-10-13",
+"authors": [
+{
+"name": "Kevin C. Mudavadi",
+"id": "A5082670998",
+"institution_ids": [
+"I181565077"
+],
+"followed": false
+},
+{
+"name": "Bingbing Zhang",
+"id": "A5100658654",
+"institution_ids": [
+"I126307644"
+],
+"followed": false
+},
+{
+"name": "Melissa Tully",
+"id": "A5004078345",
+"institution_ids": [
+"I126307644"
+],
+"followed": false
+},
+{
+"name": "Brian Ekdale",
+"id": "A5069228581",
+"institution_ids": [
+"I126307644"
+],
+"followed": false
+},
+{
+"name": "Jonas Nyabor",
+"id": "A5137497190",
+"institution_ids": [
+"I126307644"
+],
+"followed": false
+},
+{
+"name": "Nur Hossain",
+"id": "A5119584344",
+"institution_ids": [
+"I126307644"
+],
+"followed": false
+},
+{
+"name": "Shitemi Khamadi",
+"id": "A5094261211",
+"institution_ids": [
+"I4210119109",
+"I592451",
+"I592451"
+],
+"followed": false
+}
+],
+"abstract": "While Generative Artificial Intelligence (GenAI) is rapidly transforming newsroom practices globally, studies often examine journalists and peripheral actors in isolation, overlooking the reciprocal influence these actors exert on journalism. This study addresses this gap by drawing on 94 semi-structured, in-depth interviews with journalists and peripheral actors in Kenya’s urban and rural areas. Specifically, we examine how Kenyan journalists and peripheral actors engage with GenAI, how they believe it should be used in newsrooms, and how their practices and perspectives shape journalistic adaptation. Our findings show that the adoption of and resistance to GenAI by Kenyan journalists illustrate “negotiated adaptability”—a form of technological adaptation in which journalists’ decisions about whether, where, and how to use GenAI are shaped through ongoing negotiations, including with actors located at the periphery of the newsroom ecosystem.",
+"url": "https://doi.org/10.1080/21670811.2026.2746375",
+"doi": "10.1080/21670811.2026.2746375",
+"is_preprint": false,
+"research_field": "Social Sciences",
+"pdf_url": null,
+"journal_hit": true,
+"scholar_hit": false,
+"anchor_hit": false,
+"scholar_names": [],
+"needs_filter": false,
+"topic": "comm",
+"keep": true,
+"relevance": 7.0,
+"summary": "Kenyan journalists and peripheral actors negotiate whether and how to use GenAI in newsrooms, producing a pattern of negotiated adaptability.",
+"editors_pick": false,
+"now_published": false,
+"ref": "F15",
+"requested": 0,
+"owner_pick": false,
+"dive_sent": null,
+"deep_dive": null
+}
+}
+}
