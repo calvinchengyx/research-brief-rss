@@ -232,8 +232,10 @@ def run_dives(mode: str = "preview") -> dict:
     cfg = load_config()
     dd = cfg.settings.get("deep_dive") or {}
     today = date.today()
-    requested, reply_files = collect_votes(int(dd.get("max_per_reply", 3)))
+    requested, reply_files = collect_votes(int(dd.get("max_per_reply", 3)), include_tests=(mode != "send"))
     if not requested:
+        if mode == "send":
+            mark_processed(reply_files)  # replies with no usable IDs, or to test emails
         log.info("No new requests: no deep-dive email")
         return {"requested": 0, "dives": 0}
     picks = top_picks(requested, int(dd.get("max_papers", 5)), seed=today.isoformat())
