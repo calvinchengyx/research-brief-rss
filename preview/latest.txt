@@ -3,7 +3,9 @@ Research updates · 26 October 2026
 
 New research from the journals and scholars you follow, 9 October 2026 to 26 October 2026. 20 articles, 2 top priority.
 * = scholar you follow
-Want a deep dive? Reply with the IDs in square brackets, e.g. B2, D1.
+
+** New: shape your own brief **
+Every paper in this issue now has a short ID, such as A1 or C3. If a paper catches your eye, reply to this email with its ID; several are fine, for example "A1, C3". The next issue, two weeks from now, opens with those papers and a deep dive on each: the research questions, the methods and the main findings, based on the full text when it is open access. Keep replying with the same ID and the paper stays at the top. Requests are anonymous: everyone sees the deep dives, but not who asked for them.
 
 ==== TOP PRIORITY (a scholar you follow, in a journal you follow) ====
 [A1] Measuring and Mitigating (Over)reliance to Build Human-Compatible AI
