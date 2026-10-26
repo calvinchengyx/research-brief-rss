@@ -455,7 +455,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 0.85re
     <dt>Semantic Scholar</dt><dd>Fills in abstracts that OpenAlex lacks, best effort.</dd>
     <dt>Anthropic API</dt><dd>Runs the AI filter and writes the one-line summaries.</dd>
     <dt>Brevo</dt><dd>Sends the email, one message per recipient.</dd>
-    <dt>Gmail script</dt><dd>A Google Apps Script in the receiving Gmail account saves the top of each reply (not the sender's address) to <code class="mono">inbox/</code> every hour, for the deep dives.</dd>
+    <dt>Gmail script</dt><dd>A Google Apps Script in the receiving Gmail account saves the top of each reply to <code class="mono">inbox/</code> every hour, for the deep dives. Instead of the sender's address it stores an anonymous code (so each reader votes once per paper) and a flag on Calvin's own replies.</dd>
     <dt>GitHub Actions</dt><dd>Runs everything on a schedule and saves the issue, this page and the list of papers already sent back to the repository.</dd>
     <dt>Editable files</dt><dd><code class="mono">config/journals.yaml</code>, <code class="mono">scholars.yaml</code>, <code class="mono">institutions.yaml</code>, <code class="mono">topics.yaml</code>, <code class="mono">recipients.yaml</code> and <code class="mono">settings.yaml</code>.</dd>
   </dl>
@@ -572,7 +572,7 @@ For each paper return:
     <dt>Topics</dt><dd>The remaining places go to topics in the order CSS, COMM, CL. COMM gets 3 to 5 and CL gets 3 to 5, so the first topic cannot take every place.</dd>
     <dt>Order within a group</dt><dd>Papers in followed venues come before preprints; followed scholars' preprints come before other preprints; then higher relevance first.</dd>
     <dt>Never repeated</dt><dd>A paper sent once in a real issue is never sent again. Test sends go only to the test list and are not counted. A preprint that later appears in a journal is shown again, labelled as now published.</dd>
-    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with the IDs they want; the next issue opens with those papers again, each with its research questions, methods and main findings. A paper comes back for as long as someone keeps asking for it.</dd>
+    <dt>Deep dives</dt><dd>Every paper in the email has an ID (A1, B2 …). Readers reply with up to 3 IDs; each counts as one vote. Every morning with new replies, the 5 most voted papers get a deep-dive email (research questions, methods, main findings). On equal votes Calvin's picks go first, then a random draw. No replies, no email. Every requested paper is also re-sent at the top of the next regular issue, for as long as someone keeps asking for it.</dd>
     <dt>Also this week</dt><dd>Up to 15 papers that missed the cut appear as one-line links at the end of the email.</dd>
   </dl>
 </section>
