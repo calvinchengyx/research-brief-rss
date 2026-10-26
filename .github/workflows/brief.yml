@@ -5,18 +5,24 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "preview = no email, test = email everyone with a [TEST] subject, send = real issue"
+        description: "preview = no email, test = email Calvin only with a [TEST] subject, send = real email"
         type: choice
         options: [preview, test, send]
         default: preview
+      kind:
+        description: "brief = regular issue, dives = deep-dive email on new replies, both"
+        type: choice
+        options: [brief, dives, both]
+        default: brief
       since:
         description: "Start date YYYY-MM-DD (optional, default: lookback_days ago)"
         required: false
   # Every pull request builds a preview issue and commits it to preview/ on the branch.
   pull_request:
-  # Checks every Monday; sends when send_every_days (settings.yaml) have passed.
+  # Every morning: a deep-dive email if readers replied since the last one, and the
+  # regular issue when send_every_days (settings.yaml) have passed.
   schedule:
-    - cron: "0 6 * * 1"   # Mondays 06:00 UTC = 07:00 CET / 08:00 CEST
+    - cron: "0 6 * * *"   # 06:00 UTC = 07:00 CET / 08:00 CEST
 
 permissions:
   contents: write
@@ -48,12 +54,13 @@ jobs:
         env:
           MODE: ${{ github.event_name == 'schedule' && 'send' || inputs.mode || 'preview' }}
           SINCE: ${{ inputs.since }}
+          KIND: ${{ github.event_name == 'schedule' && 'both' || inputs.kind || 'brief' }}
           SCHEDULED: ${{ github.event_name == 'schedule' && '1' || '' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
-        run: python -m brief --mode "$MODE" ${SINCE:+--since "$SINCE"} ${SCHEDULED:+--scheduled}
+        run: python -m brief --mode "$MODE" --kind "$KIND" ${SINCE:+--since "$SINCE"} ${SCHEDULED:+--scheduled}
 
       - name: Save preview, sent-articles state, archive and handled replies
         if: always()

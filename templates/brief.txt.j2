@@ -1,32 +1,4 @@
-{% macro authors(list) -%}
-{%- for a in list -%}
-{%- if a.gap %} [...] {% else -%}
-{%- if not loop.first and not list[loop.index0 - 1].gap %}, {% endif -%}
-{{ a.name }}{% if a.bold %}*{% endif -%}
-{%- endif -%}
-{%- endfor -%}
-{%- endmacro %}
-{% macro article(a) %}
-{% if a.ref %}[{{ a.ref }}] {% endif %}{% if a.pick %}[Editor's pick] {% endif %}{% if a.preprint %}[Preprint] {% endif %}{% if a.now_published %}[Now published] {% endif %}{{ a.title }}
-{{ authors(a.authors) }}
-{{ a.venue }} · {{ a.date }}
-{% if a.summary %}In short: {{ a.summary }}
-{% endif %}
-{% if a.abstract %}{{ a.abstract }}
-{% endif %}
-{% if a.dive %}
-Research questions:
-{% for q in a.dive.research_questions %}  - {{ q }}
-{% endfor %}
-Methods: {{ a.dive.methods }}
-Main findings:
-{% for f in a.dive.findings %}  - {{ f }}
-{% endfor %}
-(Based on {{ "the full text" if a.dive.based_on == "full text" else "the abstract only" }}.)
-{% endif %}
-{{ a.url }}
-
-{% endmacro %}
+{% from "_article.txt.j2" import authors, article %}
 CALVIN RESEARCH BRIEF
 Research updates · {{ date }}
 {% if test %}(Test send.){% endif %}
@@ -38,11 +10,11 @@ New research from the journals and scholars you follow, {{ stats.window }}. {{ s
 ** {{ announcement.title }} **
 {{ announcement.text }}
 {% else %}
-Want a deep dive? Reply with the IDs in square brackets, e.g. B2, D1.
+Want a deep dive? Reply with up to three IDs in square brackets, e.g. B2, D1. The most requested papers get a deep-dive email the next morning.
 {% endif %}
 {% if dives %}
 
-==== DEEP DIVES YOU ASKED FOR ====
+==== YOU ASKED FOR THESE ====
 {% for a in dives %}{{ article(a) }}{% endfor %}
 {% endif %}
 {% if priority %}

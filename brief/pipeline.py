@@ -9,11 +9,12 @@ from datetime import date, timedelta
 
 from . import classify as cls
 from .config import ARCHIVE_DIR, PREVIEW_DIR, Config, load_config
-from .deepdive import collect_requests, mark_processed, save_issue, write_deep_dives
+from .deepdive import (clear_resend, collect_votes, mark_processed, queue_resend, resend_queue, save_issue,
+                       top_picks, write_deep_dives)
 from .models import Article
 from .openalex import OpenAlex, fill_abstracts, to_article
 from .recipe import write_recipe
-from .render import build_context, nice_date, render
+from .render import build_context, nice_date, render, render_dives
 from .resolve import resolve_all
 from .select import apply_cap, is_watch, mark_editors_picks
 from .send import send
@@ -182,9 +183,8 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
     kept = [a for a in passed if a.keep]
     screened += [a for a in passed if not a.keep]
 
-    # Papers readers asked to deep dive go back in at the top, whatever week they came from
-    dives, reply_files = collect_requests()
-    write_deep_dives(dives, cfg)
+    # Papers readers asked for since the last issue go back in at the top
+    dives = resend_queue()
     dive_keys = {a.key for a in dives}
     kept_new = [a for a in kept if a.key not in dive_keys]
 
@@ -198,7 +198,7 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
         "window": f"{nice_date(since)} to {nice_date(until)}",
         "shown": len(selected), "priority": sum(a.top_priority for a in selected), "cut": len(overflow),
         "found": len(found), "new": len(fresh), "after_prefilter": len(passed), "kept": len(kept),
-        "openalex_calls": oa.calls, "deep_dives": len(dives),
+        "openalex_calls": oa.calls, "requested": len(dives),
     }
     context = build_context(cfg, selected, overflow, quiet, stats, today, test=(mode == "test"), dives=dives)
     html, text = render(context)
@@ -221,9 +221,43 @@ def run(mode: str = "preview", since: str | None = None, until: str | None = Non
         seen.record(selected + overflow, screened)
         seen.save()
         save_issue(until, subject, dives + selected + overflow)
-        mark_processed(reply_files)
+        clear_resend()
         ARCHIVE_DIR.mkdir(exist_ok=True)
         (ARCHIVE_DIR / f"{until}.html").write_text(html, encoding="utf-8")
+    return stats
+
+
+def run_dives(mode: str = "preview") -> dict:
+    """The deep-dive email: the top-voted papers from replies since the last one. Skipped without replies."""
+    cfg = load_config()
+    dd = cfg.settings.get("deep_dive") or {}
+    today = date.today()
+    requested, reply_files = collect_votes(int(dd.get("max_per_reply", 3)))
+    if not requested:
+        log.info("No new requests: no deep-dive email")
+        return {"requested": 0, "dives": 0}
+    picks = top_picks(requested, int(dd.get("max_papers", 5)), seed=today.isoformat())
+    write_deep_dives(picks, cfg)
+    picks = [a for a in picks if a.deep_dive]
+    stats = {"requested": len(requested), "dives": len(picks), "votes": sum(a.requested for a in requested)}
+    if not picks:
+        log.warning("Deep dives could not be written; the replies stay in inbox/ for the next run")
+        return stats
+    html, text = render_dives(cfg, picks, stats["votes"], len(requested), today, test=(mode == "test"))
+    PREVIEW_DIR.mkdir(exist_ok=True)
+    (PREVIEW_DIR / "dives.html").write_text(html, encoding="utf-8")
+    (PREVIEW_DIR / "dives.txt").write_text(text, encoding="utf-8")
+    subject = (cfg.settings.get("email") or {}).get("dives_subject", "Research Brief deep dives: {date}") \
+        .format(date=nice_date(today.isoformat()))
+    if mode == "test":
+        send(cfg.test_recipients or cfg.recipients, f"[TEST] {subject}", html, text, cfg.settings)
+    elif mode == "send":
+        send(cfg.recipients, subject, html, text, cfg.settings)
+        queue_resend(requested, picks)
+        mark_processed(reply_files)
+        (ARCHIVE_DIR / "dives").mkdir(parents=True, exist_ok=True)
+        (ARCHIVE_DIR / "dives" / f"{today.isoformat()}.html").write_text(html, encoding="utf-8")
+    log.info("Deep dives: %s", stats)
     return stats
 
 
